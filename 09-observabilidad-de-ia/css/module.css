@@ -1,0 +1,2 @@
+:root{--module:#ffb21a}.mc:hover{border-color:#ffb21a}
+.mc{display:block}.mc em{display:block;margin-top:12px;color:var(--module);font-size:11px;font-style:normal;font-weight:700}.mc:hover{border-color:var(--module)}
