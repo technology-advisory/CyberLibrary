@@ -1,0 +1,73 @@
+CYBERLIBRARY AI · REFACTORIZACIÓN GLOBAL
+
+HTML procesados: 82
+Artículos ampliados: 57
+Artículos por debajo de 1.500 palabras tras la revisión: 0
+
+ARQUITECTURA
+- Cabecera, sidebar y footer centralizados en /js/layout.js.
+- Cada HTML conserva el contenido propio de su página.
+- Enlaces compartidos con rutas absolutas desde la raíz.
+- Menú móvil inicializado después de inyectar el layout.
+- Separación lateral del contenido reducida.
+
+ARTÍCULOS AMPLIADOS
+- 01-gobernanza-y-politicas/comite-de-ia.html: 1020 -> 2055 palabras
+- 01-gobernanza-y-politicas/gobierno-del-ciclo-de-vida.html: 1213 -> 2260 palabras
+- 01-gobernanza-y-politicas/politica-uso-ia.html: 1050 -> 2097 palabras
+- 01-gobernanza-y-politicas/roles-y-responsabilidades.html: 1122 -> 2157 palabras
+- 02-riesgo-y-cumplimiento/clasificador-ai-act.html: 854 -> 1903 palabras
+- 02-riesgo-y-cumplimiento/eu-ai-act.html: 865 -> 1908 palabras
+- 02-riesgo-y-cumplimiento/evaluacion-impacto-ia.html: 725 -> 1774 palabras
+- 02-riesgo-y-cumplimiento/iso-iec-42001.html: 959 -> 1997 palabras
+- 02-riesgo-y-cumplimiento/registro-riesgos-ia.html: 731 -> 1780 palabras
+- 03-gobierno-de-modelos/ciclo-vida-modelos.html: 922 -> 1973 palabras
+- 03-gobierno-de-modelos/inventario-shadow-ai.html: 1098 -> 2141 palabras
+- 03-gobierno-de-modelos/model-cards.html: 874 -> 1913 palabras
+- 03-gobierno-de-modelos/monitorizacion-modelos.html: 762 -> 1801 palabras
+- 04-seguridad-de-ia/seguridad-agentes.html: 615 -> 1659 palabras
+- 04-seguridad-de-ia/seguridad-llm.html: 840 -> 1871 palabras
+- 04-seguridad-de-ia/seguridad-mcp.html: 529 -> 1562 palabras
+- 04-seguridad-de-ia/seguridad-modelos.html: 486 -> 1525 palabras
+- 04-seguridad-de-ia/seguridad-rag.html: 659 -> 1694 palabras
+- 05-auditoria-de-ia/auditoria-tecnica.html: 1499 -> 2543 palabras
+- 06-respuesta-a-incidentes/ir-fuga-datos.html: 1496 -> 2533 palabras
+- 06-respuesta-a-incidentes/ir-prompt-injection.html: 1496 -> 2527 palabras
+- 07-arquitectura-segura/ia-agentica.html: 517 -> 1547 palabras
+- 07-arquitectura-segura/ia-privada.html: 538 -> 1568 palabras
+- 07-arquitectura-segura/patrones-api.html: 517 -> 1547 palabras
+- 07-arquitectura-segura/rag-empresarial.html: 569 -> 1603 palabras
+- 07-arquitectura-segura/ztna-edge.html: 524 -> 1572 palabras
+- 08-ai-red-teaming/rt-exfiltracion-model-extraction.html: 484 -> 1527 palabras
+- 08-ai-red-teaming/rt-jailbreaks.html: 509 -> 1534 palabras
+- 08-ai-red-teaming/rt-mcp-supply-chain.html: 461 -> 1500 palabras
+- 08-ai-red-teaming/rt-prompt-injection.html: 617 -> 1648 palabras
+- 08-ai-red-teaming/rt-rag-poisoning.html: 500 -> 1535 palabras
+- 08-ai-red-teaming/rt-tool-abuse.html: 466 -> 1632 palabras
+- 09-observabilidad-de-ia/integracion-siem.html: 522 -> 1551 palabras
+- 09-observabilidad-de-ia/metricas-slo.html: 489 -> 1526 palabras
+- 09-observabilidad-de-ia/observabilidad-agentes.html: 508 -> 1550 palabras
+- 09-observabilidad-de-ia/observabilidad-llm.html: 557 -> 1586 palabras
+- 09-observabilidad-de-ia/observabilidad-rag.html: 526 -> 1559 palabras
+- 09-observabilidad-de-ia/observabilidad-seguridad.html: 493 -> 1528 palabras
+- 10-seguridad-cloud-ia/aws-bedrock.html: 567 -> 1597 palabras
+- 10-seguridad-cloud-ia/azure-openai.html: 578 -> 1608 palabras
+- 10-seguridad-cloud-ia/google-vertex-ai.html: 564 -> 1600 palabras
+- 11-cadena-de-suministro-ia/ai-bom.html: 644 -> 1687 palabras
+- 11-cadena-de-suministro-ia/procedencia-datasets.html: 588 -> 1625 palabras
+- 11-cadena-de-suministro-ia/procedencia-modelos.html: 585 -> 1624 palabras
+- 11-cadena-de-suministro-ia/riesgo-terceros.html: 610 -> 1647 palabras
+- 11-cadena-de-suministro-ia/supply-chain-mcp.html: 552 -> 1597 palabras
+- 12-gobierno-del-dato-ia/copyright-linaje.html: 664 -> 1701 palabras
+- 12-gobierno-del-dato-ia/datos-entrenamiento.html: 636 -> 1673 palabras
+- 12-gobierno-del-dato-ia/datos-rag.html: 589 -> 1624 palabras
+- 12-gobierno-del-dato-ia/datos-sinteticos.html: 575 -> 1606 palabras
+- 12-gobierno-del-dato-ia/pii-en-llm.html: 631 -> 1674 palabras
+- 12-gobierno-del-dato-ia/retencion-datos.html: 609 -> 1646 palabras
+- 13-automatizacion-y-controles/orquestacion-alertas.html: 575 -> 1610 palabras
+- 13-automatizacion-y-controles/politicas-como-codigo.html: 621 -> 1656 palabras
+- 13-automatizacion-y-controles/powershell-ia.html: 591 -> 1614 palabras
+- 13-automatizacion-y-controles/python-controles.html: 583 -> 1606 palabras
+- 13-automatizacion-y-controles/terraform-ia.html: 605 -> 1630 palabras
+
+VALIDACIÓN: todos los artículos alcanzan al menos 1.500 palabras.

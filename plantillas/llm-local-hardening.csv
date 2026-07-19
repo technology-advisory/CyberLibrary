@@ -1,0 +1,15 @@
+﻿Control;Estado;Evidencia;Responsable;Fecha
+Runtime y versión;;;;
+Bind / interfaz de escucha;;;;
+Parches aplicados;;;;
+Firewall;;;;
+Proxy inverso y autenticación;;;;
+TLS;;;;
+Aislamiento de red;;;;
+Permisos del servicio;;;;
+Procedencia de modelos;;;;
+Cifrado y secretos;;;;
+Logging;;;;
+Backup y recuperación;;;;
+Prueba de exposición;;;;
+Responsable y fecha;;;;

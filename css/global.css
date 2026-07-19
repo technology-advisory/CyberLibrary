@@ -137,3 +137,324 @@ body.menu-open{overflow:hidden}
   .top .brand img{width:36px}
   .top .brand small{display:none}
 }
+
+
+/* ===== V7 · CAPAS DE VALOR (opinión · artefactos · interactivo · buscador) ===== */
+
+/* Buscador de la biblioteca */
+.search-wrap{max-width:640px;margin:22px 0 6px;position:relative}
+.search-wrap input{width:100%;padding:14px 16px 14px 42px;border-radius:11px;border:1px solid #22405c;background:#07131f;color:#f4f8fc;font-size:14px;outline:none}
+.search-wrap input:focus{border-color:#18d8ff}
+.search-wrap .si{position:absolute;left:15px;top:13px;color:#5f7790;font-size:15px}
+.search-results{margin-top:10px;display:grid;gap:8px}
+.sr-item{display:block;border:1px solid #14283b;border-radius:9px;padding:12px 14px;background:#06111c}
+.sr-item:hover{border-color:#2a506e;background:#08182a}
+.sr-item b{color:#eaf4ff;font-size:13.5px}
+.sr-item span{display:block;color:#8ea0b4;font-size:12px;margin-top:3px}
+.sr-item em{color:#18d8ff;font-style:normal;font-size:11px}
+.sr-empty{color:#7f91a5;font-size:13px;padding:8px 2px}
+
+/* Escalera de niveles: píldora → guía → artefacto */
+.tier-ladder{display:grid;gap:10px;margin:6px 0}
+.tier{display:flex;align-items:center;gap:14px;border:1px solid #14283b;border-left-width:4px;border-radius:10px;padding:14px 16px;background:#06111c}
+.tier .tk{font-size:12px;font-weight:800;letter-spacing:.05em;min-width:92px}
+.tier p{margin:0;font-size:12.5px;color:#9cabbc}
+.tier .go{margin-left:auto;color:inherit;font-weight:800}
+
+/* Bloque de opinión en primera persona */
+.opinion{display:flex;gap:16px;align-items:flex-start;border:1px solid #2a2140;border-left:4px solid #a563ff;background:linear-gradient(120deg,#140b22,#0a0713);border-radius:0 12px 12px 0;padding:20px 22px;margin:18px 0}
+.opinion .av{flex:none;width:44px;height:44px;border-radius:50%;background:#a563ff22;border:1px solid #a563ff;display:flex;align-items:center;justify-content:center;font-weight:800;color:#e9dcff}
+.opinion .ok{color:#c69bff;font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px}
+.opinion p{margin:0;color:#e7ecf3;font-size:14.5px;line-height:1.6}
+.opinion.warn{border-left-color:#ff9d19}.opinion.warn .ok{color:#ffbe63}.opinion.warn .av{background:#ff9d1922;border-color:#ff9d19;color:#ffdca8}
+
+/* Artefactos descargables */
+.dl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin:8px 0}
+.dl-card{border:1px solid #14283b;border-top:4px solid var(--module,#18d8ff);border-radius:11px;padding:16px 18px;background:#07131f}
+.dl-card .ext{display:inline-block;font-size:10.5px;font-weight:800;color:var(--module,#18d8ff);border:1px solid;border-radius:6px;padding:2px 8px;opacity:.9}
+.dl-card h4{margin:12px 0 4px;font-size:15px;color:#eef6ff}
+.dl-card p{margin:0 0 12px;font-size:11.5px;color:#8ea0b4;line-height:1.45}
+.dl-btn{display:inline-flex;gap:7px;align-items:center;font-size:12px;font-weight:700;color:var(--module,#18d8ff);border:1px solid;border-radius:8px;padding:8px 14px;background:transparent}
+.dl-btn:hover{background:var(--module,#18d8ff);color:#04121c}
+
+/* Herramienta interactiva (autodiagnóstico / clasificador) */
+.tool{border:1px solid #1d3a54;border-radius:14px;background:linear-gradient(160deg,#08182a,#050e18);padding:22px;margin:16px 0}
+.tool-head{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.tool-head h3{margin:0;font-size:17px;color:#eef6ff}
+.tool-head small{color:#7f96ac;font-size:11.5px}
+.tool-grid{display:grid;grid-template-columns:1fr 300px;gap:22px}
+.tool-rows{display:grid;gap:12px}
+.tool-row label{display:flex;justify-content:space-between;font-size:12.5px;color:#c2cfdc;margin-bottom:5px}
+.tool-row label b{color:#18d8ff;font-weight:800}
+.tool-row input[type=range]{width:100%;accent-color:#18d8ff}
+.tool-aside{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:6px}
+.tool-score{font-size:44px;font-weight:800;color:#18d8ff;line-height:1}
+.tool-level{font-size:13px;color:#c2cfdc}
+.tool-note{font-size:11px;color:#7f96ac;text-align:center;margin-top:4px}
+.opt-btn{cursor:pointer}
+.opt-btn.sel{background:#ff525d22;border-color:#ff525d;color:#ffb3b8}
+@media(max-width:760px){.tool-grid{grid-template-columns:1fr}}
+
+/* Badge "nuevo/actualizado" */
+.badge-new{display:inline-block;font-size:9.5px;font-weight:800;letter-spacing:.05em;color:#22d36b;border:1px solid #22d36b66;border-radius:5px;padding:1px 6px;margin-left:8px;vertical-align:middle}
+.reviewed{font-size:11px;color:#6f8195;margin-top:6px}
+
+/* V7b · bloques de código en guías */
+pre.code{background:#050d16;border:1px solid #14283b;border-left:3px solid var(--module,#18d8ff);border-radius:8px;padding:14px 16px;overflow-x:auto;margin:12px 0;font-family:"JetBrains Mono",Consolas,Menlo,monospace;font-size:12.5px;line-height:1.6;color:#cfe0ef}
+pre.code .c{color:#6f8195}
+code.inl{background:#0a1826;border:1px solid #16304a;border-radius:5px;padding:1px 6px;font-family:Consolas,Menlo,monospace;font-size:12.5px;color:#9fe0ff}
+
+/* V8 · botón "Volver a" arriba, cuadro sólido y letra blanca */
+.back-top{display:inline-flex;align-items:center;gap:8px;background:var(--module,#18d8ff);color:#fff;font-weight:700;font-size:13px;padding:10px 18px;border-radius:9px;margin:0 0 20px;text-decoration:none;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+.back-top:hover{filter:brightness(1.12);color:#fff}
+
+
+/* ============================================================
+   V9 · TEMA CLARO  (fondo blanco + sidebar azul oscuro)
+   Capa de tema única. En el futuro generador se fusiona con la base.
+   ============================================================ */
+body{background:#ffffff;color:#16202e}
+
+/* Cabecera */
+.top{background:#fffffff2;border-bottom:1px solid #e4e9f0}
+.brand{color:#16202e}
+.brand b{color:#1f6fe0}
+.brand small{color:#6b7a8d}
+.top nav{color:#5a6a7d}
+.top nav a:hover{color:#1f6fe0}
+
+/* Sidebar: panel claro (gris muy suave) con pastilla azul en el activo */
+.side{background:#f6f8fb;border-right:1px solid #e6ebf1}
+.st{color:#98a5b4}
+.sl,.ps{color:#41505f}
+.sl b{color:#9aa8b7;font-weight:400}
+.sl:hover,.ps:hover{background:#eef2f7}
+.sep{background:#e6ebf1}
+.side .ps.active,.side .sl.active{background:#1f6fe0;color:#fff;font-weight:700}
+.side .ps.active b,.side .sl.active b{color:#fff}
+
+/* Hero de la home */
+.hero{background:#f4f7fb;border:1px solid #e4e9f0}
+.hc h1{color:#16202e}
+.hc h1 span{color:#1f6fe0}
+.hc p{color:#46586c}
+.badges{color:#46586c}
+.badges span:before{color:#1f6fe0}
+.hi{background:#eef2f7;border-left:1px solid #e4e9f0}
+.hi div{color:#46586c}
+.hi div:before{color:#1f6fe0}
+
+/* Cabeceras de sección y tarjetas */
+.head h2{color:#16202e}.head p{color:#6b7a8d}
+.pillar{background:#ffffff;border:1px solid #e4e9f0}
+.pillar:hover{border-color:#1f6fe0;background:#f7f9fc}
+.pillar h3{color:#16202e}.pillar p{color:#6b7a8d}
+.mc{background:#ffffff;border:1px solid #e4e9f0}
+.mc:hover{background:#f4f7fb;border-color:#1f6fe0}
+.mc h2{color:#16202e}.mc p{color:#6b7a8d}
+.sgia{background:#f4f7fb;border:1px solid #e4e9f0}.sgia p{color:#46586c}
+
+/* Cabecera de índice de pilar */
+.mh{border-bottom:1px solid #e4e9f0}.mh h1{color:#16202e}.mh p{color:#46586c}
+
+/* Footer claro */
+.footer{background:#f4f7fb;border-top:1px solid #e4e9f0}
+.footer h4{color:#16202e}
+.footer p,.footer a{color:#6b7a8d}
+.footer .brand{color:#16202e}
+.linkedin{border:1px solid #d7dee8;color:#1f6fe0}
+.fb{border-top:1px solid #e4e9f0;color:#8394a5}.fb b{color:#46586c}
+.site-domain{color:#1f6fe0!important}.site-domain:hover{color:#1a5bc0!important}
+
+/* Buscador */
+.search-wrap input{background:#ffffff;border:1px solid #d7dee8;color:#16202e}
+.search-wrap input:focus{border-color:#1f6fe0}
+.search-wrap .si{color:#98a7b8}
+.sr-item{background:#ffffff;border:1px solid #e4e9f0}
+.sr-item:hover{background:#f4f7fb;border-color:#1f6fe0}
+.sr-item b{color:#16202e}.sr-item span{color:#6b7a8d}.sr-item em{color:#1f6fe0}
+.sr-empty{color:#6b7a8d}
+
+/* Tiers */
+.tier{background:#ffffff;border:1px solid #e4e9f0;border-left-width:4px}.tier p{color:#6b7a8d}
+
+/* Opinión en claro */
+.opinion{background:#f5f1ff;border:1px solid #e2d8f5;border-left:4px solid #a563ff}
+.opinion .av{background:#a563ff1f;border:1px solid #a563ff;color:#6a3fb0}
+.opinion .ok{color:#7b4fd0}
+.opinion p{color:#2a3342}
+.opinion.warn{background:#fff6e9;border-color:#f3ddba;border-left-color:#e08a12}
+.opinion.warn .ok{color:#b9701a}
+.opinion.warn .av{background:#ff9d191f;border-color:#e08a12;color:#a9670f}
+
+/* Descargas */
+.dl-card{background:#ffffff;border:1px solid #e4e9f0;border-top:4px solid var(--module,#1f6fe0)}
+.dl-card h4{color:#16202e}.dl-card p{color:#6b7a8d}
+.dl-btn:hover{color:#ffffff}
+
+/* Herramienta interactiva */
+.tool{background:#f4f7fb;border:1px solid #e0e6ee}
+.tool-head h3{color:#16202e}.tool-head small{color:#6b7a8d}
+.tool-row label{color:#3a4757}.tool-row label b{color:#1f6fe0}
+.tool-score{color:#1f6fe0}.tool-level{color:#3a4757}.tool-note{color:#6b7a8d}
+
+/* Badges y código */
+.badge-new{color:#17a34a;border-color:#17a34a55}
+.reviewed{color:#8a97a5}
+pre.code{background:#f4f7fb;border:1px solid #e0e6ee;border-left:3px solid var(--module,#1f6fe0);color:#22303f}
+pre.code .c{color:#8a97a5}
+code.inl{background:#eef2f7;border:1px solid #d7dee8;color:#1a4b8f}
+
+/* Menú móvil */
+.menu-toggle{background:#f4f7fb;border:1px solid #d7dee8}
+.menu-toggle span{background:#16202e}
+.mobile-menu-overlay{background:rgba(15,28,48,.45)}
+
+/* Botón "Volver a" sobre claro */
+.back-top{box-shadow:0 2px 8px rgba(20,40,80,.18)}
+
+
+/* V12 · Layout centralizado y contenido alineado al menú */
+.layout{
+  display:grid;
+  grid-template-columns:250px minmax(0,1fr);
+  align-items:stretch;
+}
+.content-column{
+  min-width:0;
+  width:100%;
+}
+.content-column > main{
+  width:100%;
+}
+.content-column .article-wrap{
+  max-width:1320px;
+  margin:0;
+  padding:28px 32px 72px;
+}
+.content-column .mh{
+  padding-left:32px;
+  padding-right:32px;
+}
+.content-column .mg{
+  padding-left:32px;
+  padding-right:32px;
+}
+.side{
+  min-height:100%;
+}
+.side .active{
+  background:#1671e8;
+  color:#fff;
+}
+.menu-toggle{
+  display:none;
+  margin-left:auto;
+  width:42px;
+  height:42px;
+  border:1px solid #28435d;
+  border-radius:8px;
+  background:#07131f;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  gap:5px;
+  cursor:pointer;
+}
+.menu-toggle span{
+  display:block;
+  width:22px;
+  height:2px;
+  border-radius:2px;
+  background:#fff;
+}
+.mobile-menu-overlay{display:none}
+
+@media(max-width:900px){
+  .layout{display:block}
+  .content-column .article-wrap{padding:20px 16px 48px}
+  .menu-toggle{display:flex}
+  .top nav{display:none}
+  .side{
+    display:block;
+    position:fixed;
+    top:70px;
+    left:0;
+    bottom:0;
+    width:min(86vw,310px);
+    z-index:1001;
+    transform:translateX(-105%);
+    transition:transform .2s ease;
+    overflow-y:auto;
+    box-shadow:12px 0 30px rgba(0,0,0,.35);
+  }
+  .side.open{transform:translateX(0)}
+  .mobile-menu-overlay{
+    position:fixed;
+    inset:70px 0 0;
+    z-index:1000;
+    background:rgba(0,0,0,.58);
+  }
+  .mobile-menu-overlay.open{display:block}
+  body.menu-open{overflow:hidden}
+}
+
+
+/* V16 · navegación lateral más clara */
+.side .legal-highlight{
+  margin-top:4px;
+  background:#162d4a;
+  color:#ffffff;
+  border:1px solid #234d7a;
+  font-weight:700;
+  box-shadow:0 5px 14px rgba(18,45,75,.16);
+}
+.side .legal-highlight b{
+  color:#ffffff;
+}
+.side .legal-highlight:hover{
+  background:#1d416b;
+  color:#ffffff;
+  border-color:#2f69a8;
+}
+.side .legal-highlight.active{
+  background:#1f6fe0;
+  color:#ffffff;
+  border-color:#1f6fe0;
+}
+
+
+/* V17 · Legal destacado y siempre legible */
+.side .legal-highlight,
+.side .legal-highlight:link,
+.side .legal-highlight:visited,
+.side .legal-highlight:hover,
+.side .legal-highlight:focus,
+.side .legal-highlight:active,
+.side .legal-highlight.active{
+  color:#ffffff !important;
+}
+.side .legal-highlight b{
+  color:#ffffff !important;
+}
+.top nav .top-legal-highlight,
+.top nav .top-legal-highlight:link,
+.top nav .top-legal-highlight:visited{
+  display:inline-flex;
+  align-items:center;
+  min-height:34px;
+  padding:8px 14px;
+  border-radius:8px;
+  background:#162d4a;
+  border:1px solid #234d7a;
+  color:#ffffff !important;
+  font-weight:700;
+  box-shadow:0 5px 14px rgba(18,45,75,.14);
+}
+.top nav .top-legal-highlight:hover,
+.top nav .top-legal-highlight:focus{
+  background:#1f6fe0;
+  border-color:#1f6fe0;
+  color:#ffffff !important;
+  transform:translateY(-1px);
+}

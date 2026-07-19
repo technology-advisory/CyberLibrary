@@ -1,1 +1,13 @@
 /* CSS específico del index */
+
+/* V15 · búsqueda funcional */
+.search-wrap{position:relative;z-index:8}
+.search-results{display:none;position:absolute;left:0;right:0;top:calc(100% + 8px);max-height:520px;overflow:auto;background:#fff;border:1px solid #dbe4ed;border-radius:12px;box-shadow:0 18px 48px rgba(25,47,70,.16)}
+.search-results.open{display:block}
+.sr-item{display:grid;grid-template-columns:1fr auto;gap:4px 16px;padding:14px 16px;border-bottom:1px solid #edf1f5;color:#16202e}
+.sr-item:last-child{border-bottom:0}
+.sr-item:hover,.sr-item.active{background:#eef5ff}
+.sr-item b{font-size:14px}.sr-item em{font-size:11px;font-style:normal;color:#1f6fe0}.sr-item span{grid-column:1/-1;font-size:12px;color:#607286;line-height:1.45}
+.sr-empty{padding:18px;color:#607286;font-size:13px}
+
+.home-resources{margin-top:28px}.home-resource-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.home-resource-grid a{display:flex;flex-direction:column;border:1px solid #dfe6ee;border-radius:12px;background:#fff;padding:19px}.home-resource-grid b{color:#17283b}.home-resource-grid span{color:#67788a;font-size:13px;margin-top:7px}@media(max-width:700px){.home-resource-grid{grid-template-columns:1fr}}

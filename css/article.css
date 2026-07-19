@@ -84,3 +84,53 @@
     padding:20px 18px 20px 24px !important;
   }
 }
+
+
+/* ===== V9 · TEMA CLARO · artículos ===== */
+.breadcrumbs{color:#8a97a5}
+.breadcrumbs a{color:#1f6fe0}
+.article-hero{background:#f4f7fb;border:1px solid #e4e9f0}
+.article-hero h1{color:#16202e}
+.article-hero p{color:#46586c}
+.article-body section{border-top:1px solid #e4e9f0}
+.article-body h2{color:#16202e}
+.article-body h3{color:#1f2d3d}
+.article-body p,.article-body li{color:#46586c}
+.article-body strong{color:#16202e}
+.plain-box{background:#f4f7fb;border-left:3px solid var(--module)}
+.step{background:#ffffff;border:1px solid #e4e9f0}
+.control-table th{color:#16202e;background:#eef2f7}
+.control-table th,.control-table td{border-bottom:1px solid #e4e9f0}
+.control-table td{color:#46586c}
+.checklist li{background:#ffffff;border:1px solid #e4e9f0}
+.article-side{background:#ffffff;border:1px solid #e4e9f0}
+.article-side a{color:#46586c;border-bottom:1px solid #eef2f7}
+.article-side a:hover{color:#1f6fe0}
+.ref-list a{border:1px solid #e4e9f0;color:#2a3746}
+.ref-list small{color:#7a8a9a}
+.notice{color:#5a6a7d;border:1px dashed #cdd7e2;background:#f7f9fc}
+
+
+/* ===== V14 · metadatos superiores y firma final ===== */
+.article-meta-strip{display:flex;gap:0;flex-wrap:wrap;margin:18px 0 24px;border:1px solid #d8e1eb;background-image:linear-gradient(#eef3f8 1px, transparent 1px),linear-gradient(90deg,#eef3f8 1px, transparent 1px);background-size:28px 28px;background-color:#fbfdff;border-radius:12px;overflow:hidden}
+.article-meta-strip .meta-item{display:inline-flex;align-items:center;gap:8px;padding:12px 18px;border-right:1px solid #d8e1eb;color:#516478;font-size:13px;font-weight:500}
+.article-meta-strip .meta-item:last-child{border-right:0}
+.article-meta-strip svg{width:16px;height:16px;color:#1f6fe0;flex:none}
+.author-signoff{display:grid;grid-template-columns:108px 1fr;gap:18px;align-items:center;margin-top:34px;padding:26px 24px;border-top:1px solid #dfe6ee}
+.author-signoff-media img{width:96px;height:96px}
+.author-eyebrow{font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6d7f92;margin-bottom:12px}
+.author-signoff h3{margin:0 0 10px;font-size:20px;color:#16202e}
+.author-signoff p{margin:0;color:#46586c;font-size:14px;line-height:1.65;max-width:900px}
+@media(max-width:700px){.article-meta-strip{gap:0}.article-meta-strip .meta-item{width:100%;border-right:0;border-bottom:1px solid #d8e1eb}.article-meta-strip .meta-item:last-child{border-bottom:0}.author-signoff{grid-template-columns:1fr;padding:22px 0 0}.author-signoff-media img{width:82px;height:82px}}
+
+
+/* ===== V15 · diagramas SVG internos ===== */
+
+.article-visual{margin:26px 0;border:1px solid #dfe6ee;border-radius:14px;background:#fbfdff;overflow:hidden;box-shadow:0 8px 24px rgba(27,50,74,.05)}
+.article-visual img{display:block;width:100%;height:auto}
+.article-visual figcaption{padding:10px 14px;border-top:1px solid #e7edf4;color:#64778a;font-size:12px;line-height:1.45}
+@media(max-width:700px){.article-visual{margin:20px 0}.article-visual figcaption{font-size:11px}}
+
+
+/* ===== V19 · clasificación y contenidos relacionados ===== */
+.article-taxonomy{display:flex;gap:8px;flex-wrap:wrap;margin:-12px 0 24px}.taxonomy-chip{display:inline-flex;border:1px solid #d8e2ec;background:#fff;border-radius:999px;padding:7px 10px;color:#40556b;font-size:11px;font-weight:700}.related-reading{margin-top:34px}.related-reading>p{margin-top:-4px}.related-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.related-grid a{display:flex;flex-direction:column;border:1px solid #dfe6ee;border-radius:10px;background:#fff;padding:15px;min-height:92px}.related-grid strong{color:#1e3349;font-size:13px;line-height:1.35}.related-grid small{color:#7b8b9b;margin-top:auto;padding-top:10px}@media(max-width:700px){.related-grid{grid-template-columns:1fr}}

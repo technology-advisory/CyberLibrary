@@ -4,12 +4,12 @@
   <url><loc>https://ai.opentrust.group/01-gobernanza-y-politicas/gobierno-del-sgia.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://ai.opentrust.group/01-gobernanza-y-politicas/roles-y-responsabilidades.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://ai.opentrust.group/01-gobernanza-y-politicas/comite-de-ia.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://ai.opentrust.group/01-gobernanza-y-politicas/gobierno-del-ciclo-de-vida.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ai.opentrust.group/01-gobernanza-y-politicas/gobierno-del-ciclo-de-vida.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url><url><loc>https://ai.opentrust.group/01-gobernanza-y-politicas/politica-uso-ia.html</loc></url>
   <url><loc>https://ai.opentrust.group/01-gobernanza-y-politicas/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://ai.opentrust.group/02-riesgo-y-cumplimiento/eu-ai-act.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://ai.opentrust.group/02-riesgo-y-cumplimiento/iso-iec-42001.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://ai.opentrust.group/02-riesgo-y-cumplimiento/evaluacion-impacto-ia.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://ai.opentrust.group/02-riesgo-y-cumplimiento/registro-riesgos-ia.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ai.opentrust.group/02-riesgo-y-cumplimiento/registro-riesgos-ia.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url><url><loc>https://ai.opentrust.group/02-riesgo-y-cumplimiento/clasificador-ai-act.html</loc></url>
   <url><loc>https://ai.opentrust.group/02-riesgo-y-cumplimiento/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://ai.opentrust.group/03-gobierno-de-modelos/inventario-shadow-ai.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://ai.opentrust.group/03-gobierno-de-modelos/model-cards.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -20,7 +20,7 @@
   <url><loc>https://ai.opentrust.group/04-seguridad-de-ia/seguridad-rag.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://ai.opentrust.group/04-seguridad-de-ia/seguridad-agentes.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://ai.opentrust.group/04-seguridad-de-ia/seguridad-mcp.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://ai.opentrust.group/04-seguridad-de-ia/seguridad-modelos.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ai.opentrust.group/04-seguridad-de-ia/seguridad-modelos.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url><url><loc>https://ai.opentrust.group/04-seguridad-de-ia/ai-hardening.html</loc></url>
   <url><loc>https://ai.opentrust.group/04-seguridad-de-ia/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://ai.opentrust.group/05-auditoria-de-ia/auditoria-iso-42001.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://ai.opentrust.group/05-auditoria-de-ia/auditoria-tecnica.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -37,7 +37,7 @@
   <url><loc>https://ai.opentrust.group/07-arquitectura-segura/ia-agentica.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://ai.opentrust.group/07-arquitectura-segura/ia-privada.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://ai.opentrust.group/07-arquitectura-segura/patrones-api.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://ai.opentrust.group/07-arquitectura-segura/ztna-edge.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ai.opentrust.group/07-arquitectura-segura/ztna-edge.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url><url><loc>https://ai.opentrust.group/07-arquitectura-segura/llm-local-instalacion-hardening.html</loc></url>
   <url><loc>https://ai.opentrust.group/07-arquitectura-segura/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://ai.opentrust.group/08-ai-red-teaming/rt-prompt-injection.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://ai.opentrust.group/08-ai-red-teaming/rt-jailbreaks.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -76,4 +76,4 @@
   <url><loc>https://ai.opentrust.group/13-automatizacion-y-controles/politicas-como-codigo.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://ai.opentrust.group/13-automatizacion-y-controles/orquestacion-alertas.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://ai.opentrust.group/13-automatizacion-y-controles/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-<url><loc>https://ai.opentrust.group/sobre-mi/</loc></url><url><loc>https://ai.opentrust.group/legal/</loc></url></urlset>
+<url><loc>https://ai.opentrust.group/sobre-mi/</loc></url><url><loc>https://ai.opentrust.group/legal/</loc></url><url><loc>https://ai.opentrust.group/rutas/</loc></url><url><loc>https://ai.opentrust.group/plantillas/</loc></url><url><loc>https://ai.opentrust.group/comparador/</loc></url></urlset>

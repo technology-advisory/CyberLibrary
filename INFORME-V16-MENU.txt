@@ -1,0 +1,7 @@
+CYBERLIBRARY AI · V16
+
+Cambios:
+- Biblioteca (sidebar) renombrada a Todos los contenidos.
+- Biblioteca · pilares renombrada a Pilares.
+- Legal resaltado con recuadro sólido y texto blanco.
+- Menú centralizado: cambio aplicado a todas las páginas desde /js/layout.js.
