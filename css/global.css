@@ -489,3 +489,11 @@ body.image-zoom-open{overflow:hidden}
   .author-signoff-media{justify-content:flex-start}
   .author-signoff-media .author-profile-photo{width:82px;height:82px}
 }
+
+
+/* Menu superior clonado dentro del cajon lateral en movil */
+.side .mobile-nav{display:none}
+@media(max-width:900px){
+  .side .mobile-nav{display:block}
+  .side .mobile-nav .sl b{color:#1f6fe0;font-weight:700}
+}

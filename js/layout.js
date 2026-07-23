@@ -78,6 +78,32 @@
     if (el) el.outerHTML = value;
   }
 
+  function injectMobileNav() {
+    const nav = document.querySelector(".top nav");
+    const side = document.querySelector(".side");
+    if (!nav || !side || side.querySelector(".mobile-nav")) return;
+    const wrap = document.createElement("div");
+    wrap.className = "mobile-nav";
+    const title = document.createElement("div");
+    title.className = "st";
+    title.textContent = "Menú";
+    wrap.appendChild(title);
+    nav.querySelectorAll("a").forEach(a => {
+      const link = document.createElement("a");
+      link.className = "sl" + (a.classList.contains("top-legal-highlight") ? " legal-highlight" : "");
+      link.href = a.getAttribute("href");
+      const icon = document.createElement("b");
+      icon.textContent = "›";
+      link.appendChild(icon);
+      link.appendChild(document.createTextNode(a.textContent.trim()));
+      wrap.appendChild(link);
+    });
+    const sep = document.createElement("div");
+    sep.className = "sep";
+    wrap.appendChild(sep);
+    side.insertBefore(wrap, side.firstChild);
+  }
+
   function markActive() {
     const path = location.pathname.replace(/\/index\.html$/, "/");
     document.querySelectorAll(".side a").forEach(a => {
@@ -138,6 +164,7 @@
     inject("site-header", headerHTML);
     inject("site-sidebar", sidebarHTML);
     inject("site-footer", footerHTML);
+    injectMobileNav();
     markActive();
     initMobileMenu();
     document.dispatchEvent(new CustomEvent("layout:loaded"));

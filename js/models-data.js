@@ -221,9 +221,9 @@
     const statistics = statisticsPayload._replace_with_generated_file ? {} : statisticsPayload;
     const resolvedStatistics = {
       ...statistics,
-      model_count: first(statistics, ['model_count', 'models', 'total_models'], metadata.model_count || rawModels.length),
-      provider_count: first(statistics, ['provider_count', 'providers', 'total_providers'], metadata.provider_count || providers.length),
-      family_count: first(statistics, ['family_count', 'families', 'total_families'], metadata.family_count || families.length)
+      model_count: first(statistics, ['model_count', 'data.model_count', 'models', 'total_models'], metadata.model_count || rawModels.length),
+      provider_count: first(statistics, ['provider_count', 'data.provider_count', 'providers', 'total_providers'], metadata.provider_count || providers.length),
+      family_count: first(statistics, ['family_count', 'data.family_count', 'families', 'total_families'], metadata.family_count || families.length)
     };
 
     const version = versionPayload._replace_with_generated_file ? {} : versionPayload;

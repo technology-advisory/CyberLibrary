@@ -1,3 +1,8 @@
 {
-  "_replace_with_generated_file": true
+  "engine_version": "3.1",
+  "generated_at_utc": "2026-07-23T15:04:58.563775+00:00",
+  "source": "openrouter",
+  "model_count": 342,
+  "provider_count": 52,
+  "family_count": 155
 }
