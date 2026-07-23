@@ -12,6 +12,7 @@
     <a href="/#pilares">Biblioteca</a>
     <a href="/rutas/">Rutas</a>
     <a href="/plantillas/">Plantillas</a>
+    <a href="/modelos/">Modelos</a>
     <a href="/02-riesgo-y-cumplimiento/">Marcos</a>
     <a href="/04-seguridad-de-ia/">Seguridad</a>
     <a href="/05-auditoria-de-ia/">Auditoría</a>
@@ -31,6 +32,8 @@
   <div class="st">Recursos prácticos</div>
   <a class="sl" href="/plantillas/"><b>▧</b>Plantillas y evidencias</a>
   <a class="sl" href="/comparador/"><b>≋</b>Comparador de marcos</a>
+  <a class="sl" href="/modelos/"><b>◈</b>Catálogo vivo de modelos</a>
+  <a class="sl" href="/comparativas/"><b>⇄</b>IA vs IA</a>
   <a class="sl" href="/06-respuesta-a-incidentes/"><b>▤</b>Playbooks de respuesta</a>
   <a class="sl" href="/07-arquitectura-segura/"><b>⌘</b>Arquitecturas y diagramas</a>
   <a class="sl" href="/08-ai-red-teaming/"><b>◎</b>AI Red Teaming</a>
@@ -58,16 +61,16 @@
     <div>
       <a class="brand" href="/"><img src="/svg/logo.svg" alt="CyberLibrary AI"><span>CYBERLIBRARY <b>AI</b></span></a>
       <p>Biblioteca profesional de gobernanza, arquitectura, seguridad y auditoría de sistemas de IA y SGIA.</p>
-      <a class="site-domain" href="https://ai.opentrust.group">ai.opentrust.group</a>
       <a class="linkedin" href="https://www.linkedin.com/in/macarriazo/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
     </div>
     <div><h4>Recursos</h4><a href="/#pilares">Biblioteca</a>
     <a href="/rutas/">Rutas</a>
-    <a href="/plantillas/">Plantillas</a><a href="/02-riesgo-y-cumplimiento/">Marcos de referencia</a><a href="/13-automatizacion-y-controles/">Herramientas</a><a href="/06-respuesta-a-incidentes/">Playbooks</a></div>
+    <a href="/plantillas/">Plantillas</a>
+    <a href="/modelos/">Modelos</a><a href="/02-riesgo-y-cumplimiento/">Marcos de referencia</a><a href="/13-automatizacion-y-controles/">Herramientas</a><a href="/06-respuesta-a-incidentes/">Playbooks</a></div>
     <div><h4>Proyecto</h4><a href="/01-gobernanza-y-politicas/">Gobernanza</a><a href="/04-seguridad-de-ia/">Seguridad</a><a href="/05-auditoria-de-ia/">Auditoría</a><a href="/07-arquitectura-segura/">Arquitectura</a></div>
     <div><h4>CyberLibrary AI</h4><a href="/sobre-mi/">Sobre mí</a><a href="/legal/">Legal</a><p>Construido con rigor. Diseñado para profesionales. Pensado para seguridad, cumplimiento y gobierno de la IA.</p></div>
   </div>
-  <div class="fb"><span>© 2026 CyberLibrary AI. Todos los derechos reservados · <b>OpenTrust Group</b></span><span>Versión 1.0.0</span></div>
+  <div class="fb"><span>© 2026 CyberLibrary AI. Todos los derechos reservados · <b>OpenTrust Group</b></span></div>
 </footer>`;
 
   function inject(id, value) {

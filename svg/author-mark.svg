@@ -1,14 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" fill="none">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="ring" x1="24" y1="20" x2="136" y2="140" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#1f6fe0"/>
-      <stop offset="100%" stop-color="#7d5cff"/>
+      <stop offset="100%" stop-color="#8a63ff"/>
     </linearGradient>
+    <linearGradient id="bg" x1="32" y1="26" x2="128" y2="134" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f6f9fd"/>
+      <stop offset="100%" stop-color="#eaf1fb"/>
+    </linearGradient>
+    <clipPath id="avatarClip">
+      <circle cx="80" cy="80" r="38"/>
+    </clipPath>
   </defs>
-  <circle cx="80" cy="80" r="72" fill="#F4F7FB" stroke="url(#g)" stroke-width="8"/>
-  <circle cx="80" cy="64" r="22" fill="#DDE8F8" stroke="#1f6fe0" stroke-width="4"/>
-  <path d="M40 122c8-21 26-34 40-34s32 13 40 34" fill="#DDE8F8" stroke="#1f6fe0" stroke-width="4" stroke-linecap="round"/>
-  <path d="M112 42l10 10" stroke="#7d5cff" stroke-width="4" stroke-linecap="round"/>
-  <path d="M116 24h12" stroke="#7d5cff" stroke-width="4" stroke-linecap="round"/>
-  <path d="M132 40v12" stroke="#7d5cff" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- outer badge -->
+  <circle cx="80" cy="80" r="70" fill="url(#bg)" stroke="url(#ring)" stroke-width="7"/>
+  <circle cx="80" cy="80" r="52" fill="#ffffff" stroke="#d6e3f5" stroke-width="2"/>
+
+  <!-- user photo -->
+  <g clip-path="url(#avatarClip)">
+    <image href="../img/image-perfil.jpg" x="42" y="42" width="76" height="76" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+  <circle cx="80" cy="80" r="38" stroke="#1f6fe0" stroke-width="3"/>
+
+  <!-- decorative marks -->
+  <circle cx="122" cy="38" r="9" fill="#ffffff" stroke="#8a63ff" stroke-width="3"/>
+  <path d="M120 22h10" stroke="#8a63ff" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M135 37v10" stroke="#8a63ff" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M28 122c8-4 16-6 24-6" stroke="#1f6fe0" stroke-width="3.5" stroke-linecap="round" opacity=".55"/>
+  <path d="M108 124h22" stroke="#1f6fe0" stroke-width="3.5" stroke-linecap="round" opacity=".55"/>
 </svg>

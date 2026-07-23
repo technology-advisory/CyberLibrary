@@ -1,10 +1,1 @@
-﻿Campo;Valor / evidencia
-ID;
-Sistema / caso de uso;
-Propietario;
-Proveedor / modelo;
-Finalidad;
-Datos tratados;
-Clasificación de riesgo;
-Estado;
-Fecha de revisión;
+﻿ID;Sistema / caso de uso;Descripción;Unidad propietaria;Responsable negocio;Responsable técnico;Rol AI Act;Clasificación riesgo;Modelo / proveedor;Datos;Estado ciclo de vida;Riesgo inherente;Riesgo residual;Próxima revisión

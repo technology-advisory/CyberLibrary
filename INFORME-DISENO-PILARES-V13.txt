@@ -1,9 +1,0 @@
-CYBERLIBRARY AI · DISEÑO DE PILARES V13
-
-- 13 índices rediseñados en tema blanco.
-- Cabecera visual por pilar con SVG propio.
-- SVG distinto para cada tarjeta.
-- Metadatos reales de palabras y tiempo estimado.
-- Flujo visual específico por pilar.
-- Responsive móvil incluido.
-- No se han modificado los contenidos de los artículos.

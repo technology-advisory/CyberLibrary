@@ -12,3 +12,53 @@
 .pillar-flow{display:grid;grid-template-columns:repeat(var(--flow-count),1fr);margin-top:28px;border:1px solid #dce4ee;border-radius:11px;background:#fff;box-shadow:0 4px 12px rgba(35,55,80,.06);overflow:hidden}.flow-item{padding:17px 18px;border-left:1px solid #e5ebf2;display:flex;gap:11px;align-items:flex-start}.flow-item:first-child{border-left:0}.flow-num{display:flex;align-items:center;justify-content:center;width:31px;height:31px;border-radius:8px;color:var(--module);background:color-mix(in srgb,var(--module) 10%,#fff);font-weight:850;font-size:11px;flex:none}.flow-item strong{display:block;font-size:11.5px;color:#172236}.flow-item small{display:block;font-size:10px;line-height:1.4;color:#77869a;margin-top:3px}.pillar-note{text-align:center;color:#748397;font-size:11.5px;font-style:italic;margin:22px 0 0}
 @media(max-width:1120px){.guide-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.pillar-showcase{grid-template-columns:1fr 240px}.pillar-flow{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:760px){.pillar-page{padding:18px 15px 45px}.pillar-showcase{grid-template-columns:1fr;padding:22px 20px}.pillar-hero-art{height:145px}.pillar-showcase h1{font-size:29px}.guide-grid{grid-template-columns:1fr;gap:14px}.guide-card{min-height:205px}.pillar-flow{grid-template-columns:1fr}.flow-item{border-left:0;border-top:1px solid #e5ebf2}.flow-item:first-child{border-top:0}.pillar-fact{padding:10px 14px;border-left:0}.pillar-fact:first-child{padding-left:14px}}
+
+
+/* ===== V34 · fichas de pilares más compactas ===== */
+.guide-grid{
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:14px;
+  margin-top:22px;
+}
+.guide-card{
+  min-height:178px;
+  padding:15px 16px 13px;
+  border-radius:10px;
+}
+.guide-card-top{
+  gap:10px;
+}
+.guide-icon{
+  width:48px;
+  height:48px;
+  padding:9px;
+  margin-top:-5px;
+}
+.guide-card h2{
+  font-size:16px;
+  margin:5px 0 6px;
+}
+.guide-card p{
+  font-size:11.5px;
+  line-height:1.45;
+  margin-bottom:11px;
+}
+.guide-card-foot{
+  gap:10px;
+  padding-top:10px;
+  font-size:10px;
+}
+/* Quitar el contador de palabras */
+.guide-card-foot > span:nth-of-type(2){
+  display:none!important;
+}
+@media(max-width:1250px){
+  .guide-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:900px){
+  .guide-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:600px){
+  .guide-grid{grid-template-columns:1fr}
+  .guide-card{min-height:166px}
+}

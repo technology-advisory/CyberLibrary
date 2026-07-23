@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "engine_version": "3.1",
+    "generated_at_utc": "2026-07-23T15:04:58Z"
+  },
+  "data": {
+    "new_models_last_7_days": 342,
+    "updated_models_last_7_days": 0,
+    "activity": {
+      "new_models": 342,
+      "updated_models": 0,
+      "window_days": 7
+    }
+  }
+}

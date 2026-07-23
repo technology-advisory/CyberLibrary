@@ -62,7 +62,7 @@
 .site-domain{display:inline-block!important;color:#18d8ff!important;font-size:11px!important;margin:2px 0 8px!important}.site-domain:hover{color:#8beaff!important}
 
 
-/* V6 · wordmark actualizado para ai.opentrust.group */
+/* V6 · wordmark actualizado para cyberlibrary-ai.es */
 .brand{letter-spacing:0}
 .brand small{max-width:430px;line-height:1.25}
 .footer .brand small{max-width:none}
@@ -457,4 +457,35 @@ code.inl{background:#eef2f7;border:1px solid #d7dee8;color:#1a4b8f}
   border-color:#1f6fe0;
   color:#ffffff !important;
   transform:translateY(-1px);
+}
+
+
+/* V23 · ampliación universal de imágenes y SVG renderizados como imagen */
+main img.zoomable-image{cursor:zoom-in;transition:transform .18s ease,filter .18s ease;touch-action:manipulation}
+main img.zoomable-image:hover{filter:brightness(.98);transform:translateY(-1px)}
+#image-zoom-viewer{position:fixed;inset:0;z-index:99999;display:none;align-items:center;justify-content:center;padding:28px;background:rgba(3,12,24,.88);backdrop-filter:blur(7px)}
+#image-zoom-viewer.open{display:flex}
+.image-zoom-stage{display:flex;flex-direction:column;align-items:center;max-width:min(96vw,1500px);max-height:92vh}
+.image-zoom-stage img{display:block;max-width:100%;max-height:84vh;object-fit:contain;border-radius:12px;background:#fff;box-shadow:0 28px 80px rgba(0,0,0,.4);cursor:zoom-out}
+.image-zoom-caption{margin-top:12px;max-width:900px;color:#eef5ff;text-align:center;font-size:13px;line-height:1.5}
+.image-zoom-close{position:fixed;top:18px;right:22px;width:44px;height:44px;border:1px solid rgba(255,255,255,.35);border-radius:50%;background:rgba(8,25,44,.88);color:#fff;font-size:30px;line-height:1;cursor:pointer;z-index:2}
+body.image-zoom-open{overflow:hidden}
+@media(max-width:600px){#image-zoom-viewer{padding:14px}.image-zoom-close{top:10px;right:10px}.image-zoom-stage img{max-height:80vh}}
+
+
+/* V25 · fotografía real en el bloque de autor */
+.author-signoff-media{display:flex;align-items:center;justify-content:center}
+.author-signoff-media .author-profile-photo{
+  width:96px;
+  height:96px;
+  border-radius:50%;
+  object-fit:cover;
+  object-position:center 22%;
+  border:3px solid #ffffff;
+  box-shadow:0 0 0 3px #1f6fe0,0 10px 24px rgba(23,55,90,.18);
+  background:#eef3f8;
+}
+@media(max-width:700px){
+  .author-signoff-media{justify-content:flex-start}
+  .author-signoff-media .author-profile-photo{width:82px;height:82px}
 }

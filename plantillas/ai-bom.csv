@@ -1,11 +1,1 @@
-﻿Campo;Valor / evidencia
-Componente;
-Tipo;
-Versión;
-Origen;
-Licencia;
-Hash / firma;
-Propietario;
-Dependencias;
-Riesgo;
-Fecha de validación;
+﻿ID;Tipo;Nombre;Versión;Proveedor / origen;Hash / digest;Licencia;Ubicación;Relación;Dependencia;Riesgo;Evidencia

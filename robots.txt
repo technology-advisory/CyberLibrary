@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ai.opentrust.group/sitemap.xml
+Sitemap: https://cyberlibrary-ai.es/sitemap.xml

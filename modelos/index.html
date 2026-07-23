@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Catálogo público del AI Intelligence Engine: modelos, proveedores, familias, capacidades, modalidades, contexto, precios y cambios." name="description"/>
+<link href="https://cyberlibrary-ai.es/modelos/" rel="canonical"/>
+<title>AI Intelligence Engine · Catálogo de modelos</title>
+<link href="/svg/logo.svg" rel="icon"/>
+<link href="/css/global.css?v=light" rel="stylesheet"/>
+<link href="/css/models.css?v=20260723-16" rel="stylesheet"/>
+</head>
+<body>
+<div id="site-header"></div>
+<div class="layout">
+<div id="site-sidebar"></div>
+<div class="content-column">
+<main class="model-page">
+<section class="model-hero">
+<div class="model-hero-copy">
+<span class="eyebrow">AI INTELLIGENCE ENGINE</span>
+<h1>Inteligencia pública sobre modelos de IA</h1>
+<p>Consulta un catálogo normalizado de modelos, proveedores, familias, capacidades, modalidades, contexto y precios. Los datos se actualizan diariamente.</p>
+<div class="status-row">
+<span class="status-pill loading" id="model-status">Cargando catálogo…</span>
+<span class="status-pill" id="model-updated">Última actualización: —</span>
+<span class="status-pill" id="model-version">Versión: —</span>
+</div>
+</div>
+<div aria-hidden="true" class="engine-visual">
+<div class="engine-core">AI</div>
+<span class="node n1">Modelos</span><span class="node n2">Proveedores</span>
+<span class="node n3">Familias</span><span class="node n4">Capacidades</span>
+</div>
+</section>
+<section aria-label="Resumen del catálogo" class="kpi-grid">
+<article><span>Modelos</span><strong id="stat-models">—</strong><small>inventariados</small></article>
+<article><span>Proveedores</span><strong id="stat-providers">—</strong><small>identificados</small></article>
+<article><span>Familias</span><strong id="stat-families">—</strong><small>normalizadas</small></article>
+<article><span>Capacidades</span><strong id="stat-capabilities">—</strong><small>catalogadas</small></article>
+<article><span>Cambios</span><strong id="stat-changes">—</strong><small>última publicación</small></article>
+</section>
+<section class="catalog-panel">
+<div class="catalog-heading">
+<div><span class="eyebrow">EXPLORADOR</span><h2>Catálogo de modelos</h2><p>Busca por nombre, proveedor, familia, capacidad o identificador.</p></div>
+<button class="secondary-button" id="reset-filters" type="button">Limpiar filtros</button>
+</div>
+<div class="model-controls">
+<label class="search-control">Buscar<input autocomplete="off" id="model-q" placeholder="GPT, Claude, Llama, visión, agentes…" type="search"/></label>
+<label>Proveedor<select id="model-provider"><option value="">Todos</option></select></label>
+<label>Familia<select id="model-family"><option value="">Todas</option></select></label>
+<label>Modalidad<select id="model-modality"><option value="">Todas</option></select></label>
+<label>Capacidad<select id="model-capability"><option value="">Todas</option></select></label>
+<label>Precio<select id="model-price"><option value="">Todos</option></select></label>
+<label>Orden<select id="model-sort"><option value="name">Nombre A–Z</option><option value="provider">Proveedor</option><option value="context-desc">Mayor contexto</option><option value="release-desc">Publicados más recientes</option><option value="release-asc">Publicados más antiguos</option></select></label>
+</div>
+<div class="result-toolbar">
+<p><strong id="result-count">0</strong> modelos encontrados</p>
+<label>Por página<select id="page-size"><option>24</option><option>48</option><option>96</option></select></label>
+</div>
+<div class="model-message error" hidden="" id="model-error"></div>
+<div class="model-message" hidden="" id="model-empty">No hay modelos que coincidan con los filtros seleccionados.</div>
+<section aria-live="polite" class="model-grid" id="model-grid"></section>
+<nav aria-label="Paginación del catálogo" class="pagination" id="pagination"></nav>
+</section>
+<section class="changes catalog-panel">
+<div class="catalog-heading"><div><span class="eyebrow">ACTIVIDAD</span><h2>Actividad del catálogo</h2><p>Seguimiento de publicaciones, actualizaciones y cambios relevantes del catálogo.</p></div></div>
+<div class="changes-list" id="changes-list"></div>
+</section>
+<section class="source-note">
+<b>Criterio CyberLibrary AI</b>
+<p>Este catálogo es una fuente de descubrimiento y análisis. Licencias, privacidad, residencia, precios, disponibilidad y condiciones contractuales deben confirmarse siempre en la documentación oficial del proveedor.</p>
+</section>
+</main>
+</div>
+</div>
+<div id="site-footer"></div>
+<script src="/js/models-data.js?v=20260723-20"></script>
+<script src="/js/models-catalog.js?v=20260723-20"></script>
+<script src="/js/layout.js?v=20260721-models"></script>
+<script src="/js/app.js?v=20260721"></script>
+</body>
+</html>

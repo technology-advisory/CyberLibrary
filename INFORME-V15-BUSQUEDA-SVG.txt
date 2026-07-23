@@ -1,8 +1,0 @@
-CYBERLIBRARY AI · V15
-
-Artículos procesados: 66
-Artículos con menos de 3 SVG: 0
-Búsqueda: search-index.js y search.js cargados desde index.html.
-Cada artículo documental dispone de un SVG de cabecera y dos diagramas SVG internos generados para su temática.
-
-Validación correcta: todos los artículos tienen al menos 3 SVG.

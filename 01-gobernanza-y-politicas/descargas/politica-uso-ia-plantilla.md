@@ -47,4 +47,4 @@ Esta politica se revisa cada [periodo] o ante cambios legales o tecnologicos rel
 Aprobada por: [cargo] - Fecha: [DD/MM/AAAA].
 
 ---
-Plantilla de CyberLibrary AI (ai.opentrust.group). Punto de partida, no asesoramiento juridico: adaptala con tu area legal.
+Plantilla de CyberLibrary AI (cyberlibrary-ai.es). Punto de partida, no asesoramiento juridico: adaptala con tu area legal.

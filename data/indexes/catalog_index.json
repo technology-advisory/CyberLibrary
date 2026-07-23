@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "engine_version": "3.0",
+    "generated_at_utc": "2026-07-23T14:29:40.803038+00:00",
+    "model_count": 342
+  },
+  "data": {
+    "indexes": [
+      "by_capability.json",
+      "by_context.json",
+      "by_family.json",
+      "by_modality.json",
+      "by_price.json",
+      "by_provider.json"
+    ],
+    "provider_count": 52,
+    "family_count": 155,
+    "capability_count": 7,
+    "modality_count": 8,
+    "context_buckets": {
+      "128k_to_1m": 215,
+      "32k_to_128k": 26,
+      "gte_1m": 85,
+      "lt_32k": 16
+    },
+    "price_buckets": {
+      "free": 17,
+      "paid": 320,
+      "special": 5
+    },
+    "statistics": {
+      "model_count": 342,
+      "provider_count": 52,
+      "family_count": 155,
+      "pricing_count": 342,
+      "capabilities_count": 342,
+      "free_models": 17,
+      "commercial_models": 320,
+      "special_models": 5,
+      "unknown_price_models": 0,
+      "multimodal_models": 192,
+      "negative_price_values": 10,
+      "supports_tools": 271,
+      "supports_structured_outputs": 266,
+      "supports_reasoning": 214,
+      "supports_vision": 181,
+      "supports_audio": 24,
+      "supports_video": 47,
+      "supports_files": 103
+    }
+  }
+}

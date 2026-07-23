@@ -1,5 +1,5 @@
 # LLM local · Checklist de hardening
-CyberLibrary AI · ai.opentrust.group · Revisado julio 2026
+CyberLibrary AI · cyberlibrary-ai.es · Revisado julio 2026
 
 Secuencia recomendada: Bind -> Parche -> Firewall -> Proxy -> Tunel.
 
