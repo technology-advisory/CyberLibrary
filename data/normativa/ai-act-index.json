@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-08-02T18:01:17.965931+00:00",
+  "available_views": [
+    "full_law",
+    "changes_only"
+  ],
+  "documents": [
+    {
+      "id": "ai-act-2024-1689",
+      "kind": "base_regulation",
+      "title": "Reglamento Europeo de Inteligencia Artificial",
+      "celex": "32024R1689",
+      "eli": "reg/2024/1689/oj",
+      "official_number": "Reglamento (UE) 2024/1689"
+    },
+    {
+      "id": "ai-omnibus-2026-1744",
+      "kind": "amending_regulation",
+      "title": "Digital Omnibus sobre Inteligencia Artificial",
+      "celex": "32026R1744",
+      "eli": "reg/2026/1744/oj",
+      "official_number": "Reglamento (UE) 2026/1744",
+      "amends": [
+        "32024R1689"
+      ]
+    }
+  ],
+  "files": {
+    "full_law": "ai-act-full.json",
+    "changes_only": "ai-act-changes.json",
+    "index": "ai-act-index.json"
+  },
+  "comparison_status": "pending_validated_consolidation"
+}

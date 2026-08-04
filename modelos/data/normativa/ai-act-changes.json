@@ -1,0 +1,577 @@
+{
+  "schema_version": "1.0",
+  "view": "changes_only",
+  "base_document": {
+    "id": "ai-act-2024-1689",
+    "kind": "base_regulation",
+    "title": "Reglamento Europeo de Inteligencia Artificial",
+    "celex": "32024R1689",
+    "eli": "reg/2024/1689/oj",
+    "official_number": "Reglamento (UE) 2024/1689"
+  },
+  "amending_document": {
+    "id": "ai-omnibus-2026-1744",
+    "kind": "amending_regulation",
+    "title": "Digital Omnibus sobre Inteligencia Artificial",
+    "celex": "32026R1744",
+    "eli": "reg/2026/1744/oj",
+    "official_number": "Reglamento (UE) 2026/1744",
+    "amends": [
+      "32024R1689"
+    ]
+  },
+  "source": {
+    "html_url": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32026R1744",
+    "html_sha256": "c2d49a0ad5f89803003f49cb586efbd9c860a7fef986ab7874a66328f2375aa9",
+    "html_content_type": "text/html",
+    "pdf": {
+      "path": "data/legal/raw/ai-omnibus-2026-1744.es.pdf",
+      "source_url": "https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:32026R1744",
+      "sha256": "2378133f4eec91108eec2858e028167b7de9226ddd588598b1b03f76769c2a9a",
+      "content_type": "application/pdf"
+    }
+  },
+  "change_count": 52,
+  "changes": [
+    {
+      "change_id": "change-001",
+      "sequence": 1,
+      "affected_articles": [
+        "1"
+      ],
+      "legal_instruction": "1)\n\nEn el artículo 1, apartado 2, la letra g) se sustituye por el texto siguiente:\n\n«g)\n\nmedidas en apoyo de la innovación, prestando especial atención a las pequeñas empresas de mediana capitalización y a las pequeñas y medianas empresas (pymes), incluidas las empresas emergentes.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-002",
+      "sequence": 2,
+      "affected_articles": [
+        "2",
+        "6",
+        "60bis"
+      ],
+      "legal_instruction": "2)\n\nEl artículo 2 se modifica como sigue:\n\na)\n\nel apartado 2 se sustituye por el texto siguiente:\n\n«2. A los sistemas de IA clasificados como sistemas de IA de alto riesgo de conformidad con el artículo 6, apartado 1, y relativos a productos regulados por los actos legislativos de armonización de la Unión enumerados en el anexo I, sección B, únicamente se les aplicarán el artículo 6, apartado 1, el artículo 60 bis y los artículos 102 a 112. Los artículos 57, 58 y 59 se aplicarán únicamente en la medida en que los requisitos para los sistemas de IA de alto riesgo en virtud del presente Reglamento se hayan integrado en dichos actos legislativos de armonización de la Unión.»\n\nb)\n\nel apartado 7 se sustituye por el texto siguiente:\n\n«7. El Derecho de la Unión en materia de protección de los datos personales, la intimidad y la confidencialidad de las comunicaciones se aplicará a los datos personales tratados en relación con los derechos y obligaciones establecidos en el presente Reglamento. Sin perjuicio de sus artículos 4 bis y 59, el presente Reglamento no afectará a los Reglamentos (UE) 2016/679 o (UE) 2018/1725 ni a las Directivas 2002/58/CE o (UE) 2016/680.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-003",
+      "sequence": 3,
+      "affected_articles": [
+        "2",
+        "6",
+        "97a"
+      ],
+      "legal_instruction": "3)\n\nEn el artículo 2, se añade el apartado siguiente:\n\n«13. En el caso de los sistemas de IA de alto riesgo a que se refiere el artículo 6, apartado 1, la aplicación de los requisitos u obligaciones específicos establecidos en los artículos 9 a 15 y 17 a 25 podrá limitarse cuando y en la medida en que:\n\na)\n\nlos actos legislativos de armonización de la Unión enumerados en el anexo I, sección A, establezcan requisitos u obligaciones que proporcionen un nivel de protección de la salud, la seguridad o los derechos fundamentales equivalente o superior al del requisito u obligación de que se trate, y\n\nb)\n\ndicha limitación no reduzca el nivel global de protección previsto en el presente Reglamento.\n\nA más tardar el 2 de agosto de 2027, la Comisión adoptará actos delegados con arreglo al artículo 97 a fin de completar el presente Reglamento especificando los sistemas de IA de alto riesgo afectados, los requisitos u obligaciones que pueden limitarse, las condiciones en las que se aplica dicha limitación y el alcance de la limitación.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-004",
+      "sequence": 4,
+      "affected_articles": [
+        "2",
+        "3"
+      ],
+      "legal_instruction": "4)\n\nEl artículo 3 se modifica como sigue:\n\na)\n\nel punto 14 se sustituye por el texto siguiente:\n\n«14)\n\n“componente de seguridad”: un componente de un producto o un sistema de IA que cumple una función de seguridad para dicho producto o sistema de IA, o cuyo fallo o defecto de funcionamiento pone en peligro la salud y la seguridad de las personas o los bienes; a efectos de la presente definición, un componente cumple una función de seguridad cuando su finalidad prevista es prevenir o mitigar los riesgos para la salud y la seguridad de las personas o los bienes;»\n\n;\n\nb)\n\nse insertan los puntos siguientes:\n\n«14 bis)\n\n“microempresa, pequeña o mediana empresa” o “pyme”: una microempresa, o una pequeña o mediana empresa, tal como se definen en el artículo 2 del anexo de la Recomendación 2003/361/CE;\n\n14 ter)\n\n“pequeña empresa de mediana capitalización”: una empresa pequeña de mediana capitalización, tal como se define en el punto 2 del anexo de la Recomendación (UE) 2025/1099;».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-005",
+      "sequence": 5,
+      "affected_articles": [
+        "4"
+      ],
+      "legal_instruction": "5)\n\nEl artículo 4 se sustituye por el texto siguiente:\n\n«Artículo 4\n\nAlfabetización en materia de IA",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-001",
+      "sequence": 1,
+      "affected_articles": [],
+      "legal_instruction": "1. Los proveedores y responsables del despliegue de sistemas de IA adoptarán medidas para apoyar la promoción de la alfabetización en materia de IA de su personal y demás personas que se encarguen en su nombre del funcionamiento y la utilización de sistemas de IA, teniendo en cuenta sus conocimientos técnicos, su experiencia, su educación y su formación, así como el contexto previsto de uso de los sistemas de IA y las personas o los colectivos de personas en que se van a utilizar dichos sistemas. Esta obligación no exige que los proveedores o los responsables del despliegue garanticen un nivel específico de alfabetización en materia de IA de ninguna persona en particular.",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-002",
+      "sequence": 2,
+      "affected_articles": [
+        "62"
+      ],
+      "legal_instruction": "2. La Comisión y los Estados miembros apoyarán y facilitarán los esfuerzos de los proveedores y responsables del despliegue de sistemas de IA, en particular de las pymes, en el cumplimiento de su obligación en virtud del apartado 1 del presente artículo. A tal fin, la Comisión publicará ejemplos prácticos de cómo cumplir dicha obligación en la plataforma única de información a que se refiere el artículo 62, apartado 3, letra b).",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-003",
+      "sequence": 3,
+      "affected_articles": [],
+      "legal_instruction": "3. El Consejo de IA adoptará recomendaciones, teniendo en cuenta los marcos europeos de competencias, con vistas a apoyar a la Comisión y a los Estados miembros en la promoción de la alfabetización en materia de IA exigida en virtud del apartado 1, incluido mediante el establecimiento de objetivos comunes.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-006",
+      "sequence": 6,
+      "affected_articles": [
+        "4bis"
+      ],
+      "legal_instruction": "6)\n\nSe inserta el artículo siguiente:\n\n«Artículo 4 bis\n\nTratamiento de categorías especiales de datos personales para la detección y corrección de sesgos",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-001",
+      "sequence": 1,
+      "affected_articles": [
+        "10"
+      ],
+      "legal_instruction": "1. En la medida en que sea estrictamente necesario para garantizar la detección y corrección de los sesgos asociados a los sistemas de IA de alto riesgo de conformidad con lo dispuesto en el artículo 10, apartado 2, letras f) y g), del presente Reglamento, los proveedores de dichos sistemas podrán tratar excepcionalmente las categorías especiales de datos personales siempre que ofrezcan las garantías adecuadas en relación con los derechos y las libertades fundamentales de las personas físicas. Además de las disposiciones establecidas en los Reglamentos (UE) 2016/679 y (UE) 2018/1725 y la Directiva (UE) 2016/680, según proceda, para que se produzca dicho tratamiento deberán cumplirse todas las condiciones siguientes:\n\na)\n\nque el tratamiento de otros datos, como los sintéticos o los anonimizados, no permita efectuar de forma efectiva la detección y corrección de sesgos;\n\nb)\n\nque las categorías especiales de datos personales estén sujetas a limitaciones técnicas relativas a la reutilización de los datos personales y a medidas punteras en materia de seguridad y protección de la intimidad, incluida la pseudonimización;\n\nc)\n\nque las categorías especiales de datos personales estén sujetas a medidas para garantizar que los datos personales tratados estén asegurados, protegidos y sujetos a garantías adecuadas, incluidos controles estrictos y documentación del acceso, a fin de evitar el uso indebido y garantizar que solo las personas autorizadas tengan acceso a dichos datos personales con obligaciones de confidencialidad adecuadas;\n\nd)\n\nque las categorías especiales de datos personales no se transmitan ni transfieran a terceros y que estos no puedan acceder de ningún otro modo a ellos;\n\ne)\n\nque las categorías especiales de datos personales se eliminen una vez que se haya corregido el sesgo o los datos personales hayan llegado al final de su período de conservación, si esta fecha es anterior, y\n\nf)\n\nque los registros de las actividades de tratamiento en virtud de los Reglamentos (UE) 2016/679 y (UE) 2018/1725 y la Directiva (UE) 2016/680 incluyan las razones por las que el tratamiento de categorías especiales de datos personales era estrictamente necesario para detectar y corregir sesgos, y por las que ese objetivo no podía alcanzarse mediante el tratamiento de otros datos.",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-002",
+      "sequence": 2,
+      "affected_articles": [],
+      "legal_instruction": "2. Los proveedores y responsables del despliegue de otros sistemas y modelos de IA y los responsables del despliegue de sistemas de IA de alto riesgo podrán excepcionalmente tratar categorías especiales de datos personales en la medida en que:\n\na)\n\ndicho tratamiento sea estrictamente necesario para garantizar la detección y corrección de sesgos atendiendo a posibles sesgos que afecten probablemente a la salud y la seguridad de las personas, tengan consecuencias negativas para los derechos fundamentales o den lugar a una discriminación prohibida por el Derecho de la Unión, especialmente cuando las salidas de datos influyan en las informaciones de entrada de futuras operaciones, y\n\nb)\n\nse apliquen todas las condiciones y garantías previstas en el apartado 1.\n\nEl presente apartado no crea obligación alguna de llevar a cabo dicha detección y corrección de sesgos.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-007",
+      "sequence": 7,
+      "affected_articles": [
+        "2",
+        "5"
+      ],
+      "legal_instruction": "7)\n\nEl artículo 5 se modifica como sigue:\n\na)\n\nen el apartado 1, párrafo primero, se insertan las letras siguientes:\n\n«b bis)\n\nla introducción en el mercado, la puesta en servicio o la utilización de un sistema de IA que genere o manipule imágenes, vídeos o audios realistas o material similar de las partes íntimas de una persona física identificable, o de una persona física identificable que participe en actividades sexualmente explícitas, sin el consentimiento libre, específico, informado e inequívoco y explícito de dicha persona para tal generación o manipulación;\n\nb ter)\n\nla introducción en el mercado, la puesta en servicio o la utilización de un sistema de IA que genere o manipule material o espectáculos en el sentido del artículo 2, letras c) y e), de la Directiva 2011/93/UE, excepto cuando se aplique una defensa de “forma ilícita” en virtud del Derecho nacional;»\n\n;\n\nb)\n\nse insertan los apartados siguientes:\n\n«1 bis. A efectos del apartado 1, párrafo primero, letras b bis) y b ter):\n\na)\n\nla introducción en el mercado o la puesta en servicio de un sistema de IA que genere o manipule el material o los espectáculos a que se refiere el apartado 1, párrafo primero, letras b bis) o b ter), solo estará prohibida cuando:\n\ni)\n\ndicha generación o manipulación sea la finalidad prevista del sistema de IA, o\n\nii)\n\nel diseño, el entrenamiento, la arquitectura, las capacidades o las funcionalidades orientadas al usuario del sistema hagan que esa generación o manipulación sea un resultado razonablemente previsible y reproducible, sin requerir modificaciones técnicas sustanciales, y el sistema no disponga de medidas técnicas de seguridad razonables y adecuadas y de otras salvaguardias para evitar de forma fiable dicha generación o manipulación, tomando en consideración un uso indebido razonablemente previsible, ni para corregir el uso indebido observado o notificado;\n\nb)\n\nla utilización de un sistema de IA que genere o manipule el material o los espectáculos a que se refiere el apartado 1, párrafo primero, letras b bis) y b ter), solo está prohibida cuando el responsable del despliegue utilice el sistema con el fin de generar o manipular dicho material o espectáculos.\n\n1 ter. A efectos del apartado 1, párrafo primero, letra b bis), no constituirán manipulación los sistemas de IA que manipulen el material en un modo que no aumente la exposición de ninguna parte íntima representada ni altere la naturaleza de ninguna actividad sexualmente explícita representada.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-008",
+      "sequence": 8,
+      "affected_articles": [
+        "6"
+      ],
+      "legal_instruction": "8)\n\nEn el artículo 6, se insertan los apartados siguientes:\n\n«1 bis. A efectos del presente Reglamento, incluido el apartado 1 del presente artículo, los sistemas de IA que se utilicen únicamente para aspectos no relacionados con la seguridad en los ámbitos de la asistencia al usuario, la optimización del rendimiento, la eficiencia del servicio, la automatización, la comodidad o el control de calidad no se considerarán componentes de seguridad.\n\n1 ter. No obstante lo dispuesto en el apartado 1 bis, los sistemas de IA cuyo fallo o defecto de funcionamiento pueda poner en peligro la salud y la seguridad se considerarán componentes de seguridad.\n\n1 quater. Se considerará que no cumplen la condición establecida en el apartado 1, letra b), los productos que deban someterse a una evaluación de la conformidad de terceros únicamente debido a riesgos distintos de los riesgos para la salud y la seguridad, en particular los riesgos relacionados con la distribución del espectro radioeléctrico o las interferencias electromagnéticas que no afecten a la salud y la seguridad.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-009",
+      "sequence": 9,
+      "affected_articles": [
+        "4bis",
+        "10"
+      ],
+      "legal_instruction": "9)\n\nEl artículo 10 se modifica como sigue:\n\na)\n\nel apartado 1 se sustituye por el texto siguiente:\n\n«1. Los sistemas de IA de alto riesgo que utilizan técnicas que implican el entrenamiento de modelos de IA con datos se desarrollarán a partir de conjuntos de datos de entrenamiento, validación y prueba que cumplan los criterios de calidad a que se refieren los apartados 2, 3 y 4 del presente artículo y el artículo 4 bis, apartado 1, siempre que se utilicen dichos conjuntos de datos.»\n\nb)\n\nse suprime el apartado 5;\n\nc)\n\nel apartado 6 se sustituye por el texto siguiente:\n\n«6. Para el desarrollo de sistemas de IA de alto riesgo que no emplean técnicas que implican el entrenamiento de modelos de IA, los apartados 2, 3 y 4 del presente artículo y el artículo 4 bis, apartado 1, se aplicarán únicamente a los conjuntos de datos de prueba.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-010",
+      "sequence": 10,
+      "affected_articles": [
+        "11"
+      ],
+      "legal_instruction": "10)\n\nEn el artículo 11, apartado 1, el párrafo segundo se sustituye por el texto siguiente:\n\n«Dicha documentación técnica se redactará de modo que demuestre que el sistema de IA de alto riesgo cumple los requisitos establecidos en la presente sección y que proporcione de manera clara y completa a las autoridades nacionales competentes y a los organismos notificados la información necesaria para evaluar la conformidad del sistema de IA con dichos requisitos. Contendrá, como mínimo, los elementos contemplados en el anexo IV. Las pymes —incluidas las empresas emergentes— y las pequeñas empresas de mediana capitalización podrán presentar los elementos de la documentación técnica especificada en el anexo IV de manera simplificada. A tal fin, la Comisión establecerá un formulario simplificado de documentación técnica orientado a las necesidades de las pymes —incluidas las empresas emergentes— y las pequeñas empresas de mediana capitalización. Cuando una pyme —incluidas las empresas emergentes— o una pequeña empresa de mediana capitalización opte por presentar la información exigida en el anexo IV de manera simplificada, utilizará el formulario a que se refiere el presente apartado. Los organismos notificados aceptarán dicho formulario a efectos de la evaluación de la conformidad.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-011",
+      "sequence": 11,
+      "affected_articles": [
+        "17"
+      ],
+      "legal_instruction": "11)\n\nEn el artículo 17, el apartado 2 se sustituye por el texto siguiente:\n\n«2. La aplicación de los aspectos mencionados en el apartado 1 será proporcional al tamaño de la organización del proveedor, en particular si el proveedor es una pyme, incluidas las empresas emergentes o las pequeñas empresas de mediana capitalización. Los proveedores respetarán, en todo caso, el grado de rigor y el nivel de protección requerido para garantizar la conformidad de sus sistemas de IA de alto riesgo con el presente Reglamento.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-012",
+      "sequence": 12,
+      "affected_articles": [
+        "16",
+        "25"
+      ],
+      "legal_instruction": "12)\n\nEl artículo 25 se modifica como sigue:\n\na)\n\nel apartado 2 se sustituye por el texto siguiente:\n\n«2. Cuando se den las circunstancias mencionadas en el apartado 1, el proveedor que inicialmente haya introducido en el mercado el sistema de IA o lo haya puesto en servicio dejará de ser considerado proveedor de ese sistema de IA específico a efectos del presente Reglamento.\n\nEse proveedor inicial cooperará estrechamente con los nuevos proveedores, pondrá a disposición la información necesaria y proporcionará el acceso técnico y otra asistencia que pueda esperarse razonablemente para el cumplimiento de las obligaciones establecidas en el presente Reglamento, en particular en lo que respecta al cumplimiento de la evaluación de la conformidad de los sistemas de IA de alto riesgo.\n\nEn particular, la obligación establecida en el párrafo segundo incluirá, cuando sea pertinente para los fines en él especificados, las obligaciones de:\n\na)\n\nponer a disposición documentación técnica suficiente para evaluar el cumplimiento de los requisitos establecidos en el artículo 16;\n\nb)\n\ninformar a los nuevos proveedores sobre las limitaciones y los modos de fallo conocidos, y\n\nc)\n\nproporcionar a los nuevos proveedores un acceso técnico específico, incluido para la prueba y la validación.\n\nEl presente apartado no se aplicará en los casos en que el proveedor inicial haya indicado claramente que su sistema de IA no debe ser transformado en un sistema de IA de alto riesgo y, por lo tanto, no está sujeto a la obligación de cooperar con los nuevos proveedores y entregarles la documentación.»\n\nb)\n\nen el apartado 4, el párrafo primero se sustituye por el texto siguiente:\n\n«4. El proveedor de un sistema de IA de alto riesgo y el tercero que suministre un sistema de IA, un modelo de IA, herramientas, servicios, componentes o procesos que se utilicen o integren en un sistema de IA de alto riesgo especificarán, mediante acuerdo escrito, la información, las capacidades, el acceso técnico y otra asistencia que sean necesarios, sobre la base del estado de la técnica generalmente reconocido, para que el proveedor del sistema de IA de alto riesgo pueda cumplir plenamente las obligaciones establecidas en el presente Reglamento. El presente apartado no se aplicará a los terceros que pongan a disposición del público herramientas, servicios, procesos o componentes que no sean modelos de IA de uso general en el marco de una licencia libre y de código abierto.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-013",
+      "sequence": 13,
+      "affected_articles": [
+        "27",
+        "35"
+      ],
+      "legal_instruction": "13)\n\nEl artículo 27 se modifica como sigue:\n\na)\n\nel apartado 4 se sustituye por el texto siguiente:\n\n«4. Si ya se cumplen cualesquiera de las obligaciones establecidas en el presente artículo mediante la evaluación de impacto relativa a la protección de datos realizada en virtud del artículo 35 del Reglamento (UE) 2016/679 o del artículo 27 de la Directiva (UE) 2016/680, el responsable del despliegue podrá, al llevar a cabo la evaluación de impacto relativa a los derechos fundamentales a que se refiere el apartado 1 del presente artículo, incluir referencias cruzadas a las secciones pertinentes de dicha evaluación de impacto relativa a la protección de datos o incluir las partes pertinentes de esta en la evaluación de impacto relativa a los derechos fundamentales.»\n\nb)\n\nel apartado 5 se sustituye por el texto siguiente:\n\n«5. La Oficina de IA elaborará un modelo de cuestionario, incluido mediante una herramienta automatizada, a fin de facilitar que los responsables del despliegue cumplan sus obligaciones en virtud del presente artículo de manera simplificada. Este modelo ofrecerá a los responsables del despliegue, cuando proceda, la posibilidad de incluir referencias cruzadas a las secciones pertinentes de la evaluación de impacto relativa a la protección de datos o de incluir las partes pertinentes de esta en la evaluación de impacto relativa a los derechos fundamentales, en virtud del apartado 4.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-014",
+      "sequence": 14,
+      "affected_articles": [
+        "28"
+      ],
+      "legal_instruction": "14)\n\nEn el artículo 28, se añaden los apartados siguientes:\n\n«8. Las autoridades notificantes designadas en virtud del presente Reglamento que sean responsables de los sistemas de IA regulados por los actos legislativos de armonización de la Unión enumerados en el anexo I, sección A, garantizarán que el organismo de evaluación de la conformidad que solicite la designación tanto en virtud del presente Reglamento como de los actos legislativos de armonización de la Unión enumerados en el anexo I, sección A, pueda presentar una solicitud única y someterse a un procedimiento de evaluación unificado para ser designado en virtud del presente Reglamento y de los actos legislativos de armonización de la Unión enumerados en el anexo I, sección A, cuando la legislación de armonización pertinente de la Unión disponga dicha solicitud única y dicho procedimiento de evaluación unificado. A tal fin, las autoridades notificantes designadas en virtud del presente Reglamento y las designadas en virtud de los actos legislativos de armonización de la Unión enumerados en el anexo I, sección A, cooperarán en sus evaluaciones.\n\nLa solicitud única y el procedimiento de evaluación unificado a que se refiere el presente apartado también se pondrán a disposición de los organismos notificados ya designados en virtud de los actos legislativos de armonización de la Unión enumerados en el anexo I, sección A, cuando dichos organismos notificados soliciten su designación en virtud del presente Reglamento, siempre que la legislación de armonización de la Unión pertinente disponga dicho procedimiento.\n\nUn organismo de evaluación de la conformidad designado en virtud de más de uno de los actos de la legislación de armonización de la Unión enumerado en el anexo I, sección A, solo tendrá que presentar una única solicitud para ser designado en virtud del presente Reglamento. La designación en virtud del presente Reglamento será aplicable a todos los actos legislativos de armonización de la Unión enumerados en el anexo I, sección A, para los cuales se designe al organismo de evaluación de la conformidad.\n\nLa solicitud única y el procedimiento de evaluación unificado evitarán duplicidades innecesarias, se basarán en los procedimientos existentes de designación con arreglo a los actos legislativos de armonización de la Unión enumerados en el anexo I, sección A, y garantizarán el cumplimiento de los requisitos relativos a los organismos notificados con arreglo tanto al presente Reglamento como a los actos legislativos de armonización de la Unión pertinentes.",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-009",
+      "sequence": 9,
+      "affected_articles": [],
+      "legal_instruction": "9. Una autoridad notificante que haya sido designada en virtud de los actos legislativos de armonización de la Unión enumerados en el anexo I, sección A, es también la autoridad notificante a efectos de la solicitud única y del procedimiento de evaluación unificado a que se refiere el apartado 8, a menos que el Estado miembro designe otra autoridad notificante a efectos del presente Reglamento.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-015",
+      "sequence": 15,
+      "affected_articles": [
+        "28",
+        "29",
+        "31"
+      ],
+      "legal_instruction": "15)\n\nEn el artículo 29, el apartado 4 se sustituye por el texto siguiente:\n\n«4. En lo que respecta a los organismos notificados designados en virtud de cualquier otro acto legislativo de armonización de la Unión, todos los documentos y certificados vinculados a dichas designaciones podrán utilizarse para apoyar y acelerar su procedimiento de designación en virtud del presente Reglamento, según proceda.\n\nLos organismos notificados que sean designados en virtud de cualquiera de los actos legislativos de armonización de la Unión enumerados en el anexo I, sección A, y se sometan a un procedimiento de evaluación unificado a que se refiere el artículo 28, apartado 8, presentarán la solicitud única de evaluación a la autoridad notificante designada en virtud de dichos actos legislativos de armonización de la Unión.\n\nEl organismo notificado actualizará la documentación a que se refieren los apartados 2 y 3 del presente artículo cuando se produzcan cambios pertinentes, para que la autoridad responsable de los organismos notificados pueda supervisar y comprobar que se siguen cumpliendo todos los requisitos establecidos en el artículo 31.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-016",
+      "sequence": 16,
+      "affected_articles": [
+        "30",
+        "97"
+      ],
+      "legal_instruction": "16)\n\nEn el artículo 30, el apartado 2 se sustituye por el texto siguiente:\n\n«2. Las autoridades notificantes notificarán a la Comisión y a los demás Estados miembros, sobre la base de la lista de códigos, categorías y tipos correspondientes de sistemas de IA que figura en el anexo XIV y mediante el sistema de notificación electrónica desarrollado y gestionado por la Comisión, cada organismo de evaluación de la conformidad a que se refiere el apartado 1.\n\nLa Comisión estará facultada para adoptar actos delegados con arreglo al artículo 97 por los que se modifique el anexo XIV, a la luz del progreso técnico, de los avances del conocimiento o de nuevos datos científicos, mediante la adición de un nuevo código, categoría o tipo de sistema de IA a la lista de códigos, categorías y tipos correspondientes de sistemas de IA, mediante la retirada de dicha lista de un código, categoría o tipo de sistema de IA que figure en ella o mediante el traslado de un código o tipo de sistema de IA de una categoría a otra.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-017",
+      "sequence": 17,
+      "affected_articles": [
+        "40"
+      ],
+      "legal_instruction": "17)\n\nEn el artículo 40, apartado 2, se añade el párrafo siguiente:\n\n«La Comisión solicitará a las organizaciones europeas de normalización, de conformidad con el Reglamento (UE) n.o 1025/2012 del Parlamento Europeo y del Consejo (*1) y sin demora indebida, que elaboren documentos de normalización —incluidas, en su caso, normas armonizadas— para facilitar el cumplimiento conjunto, y la correspondiente presunción de conformidad, de los requisitos u obligaciones establecidos en el capítulo III, secciones 2 y 3, del presente Reglamento y de los requisitos y obligaciones pertinentes establecidos en los actos legislativos de armonización de la Unión enumerados en el anexo I del presente Reglamento.».\n\n(*1) Reglamento (UE) n.o 1025/2012 del Parlamento Europeo y del Consejo, de 25 de octubre de 2012, sobre la normalización europea, por el que se modifican las Directivas 89/686/CEE y 93/15/CEE del Consejo y las Directivas 94/9/CE, 94/25/CE, 95/16/CE, 97/23/CE, 98/34/CE, 2004/22/CE, 2007/23/CE, 2009/23/CE y 2009/105/CE del Parlamento Europeo y del Consejo y por el que se deroga la Decisión 87/95/CEE del Consejo y la Decisión n.o 1673/2006/CE del Parlamento Europeo y del Consejo (DO L 316 de 14.11.2012, p. 12, ELI: http://data.europa.eu/eli/reg/2012/1025/oj).\"",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-018",
+      "sequence": 18,
+      "affected_articles": [
+        "12",
+        "15",
+        "42"
+      ],
+      "legal_instruction": "18)\n\nEn el artículo 42, se añade el apartado siguiente:\n\n«3. Cuando un sistema de IA de alto riesgo entre en el ámbito de aplicación del Reglamento (UE) 2024/2847 y se cumplan las condiciones establecidas en el artículo 12, apartado 1, de dicho Reglamento, se considerará que dicho sistema cumple los requisitos de ciberseguridad establecidos en el artículo 15 del presente Reglamento.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-019",
+      "sequence": 19,
+      "affected_articles": [
+        "6",
+        "17",
+        "28",
+        "31",
+        "41",
+        "43"
+      ],
+      "legal_instruction": "19)\n\nEn el artículo 43, el apartado 3 se sustituye por el texto siguiente:\n\n«3. En el caso de los sistemas de IA de alto riesgo regulados por los actos legislativos de armonización de la Unión enumerados en el anexo I, sección A, el proveedor del sistema se atendrá al procedimiento de evaluación de la conformidad pertinente exigido de conformidad con los actos legislativos de armonización de la Unión pertinentes. Los requisitos establecidos en la sección 2 del presente capítulo se aplicarán a dichos sistemas de IA de alto riesgo y formarán parte de dicha evaluación. También se llevará a cabo una evaluación del sistema de gestión de la calidad establecido en el artículo 17, y se aplicarán los puntos 3, 4.3, 4.4 y 4.5, el punto 4.6, párrafo quinto, y el punto 5 del anexo VII.\n\nA efectos de dicha evaluación de la conformidad, los organismos notificados que hayan sido notificados con arreglo a los actos legislativos de armonización de la Unión enumerados en el anexo I, sección A, estarán facultados para evaluar la conformidad de los sistemas de IA de alto riesgo con los requisitos establecidos en la sección 2 del presente capítulo, a condición de que el cumplimiento por parte de dichos organismos notificados de los requisitos establecidos en el artículo 31, apartados 4, 5, 10 y 11, se haya evaluado en el contexto del procedimiento de notificación con arreglo a los actos legislativos de armonización de la Unión pertinentes, lo que se demuestra mediante la evaluación efectuada en el marco de la notificación existente. Sin perjuicio de lo dispuesto en el artículo 28, dichos organismos notificados que hayan sido notificados de conformidad con los actos legislativos de armonización de la Unión enumerados en el anexo I, sección A, solicitarán su designación de conformidad con la sección 4 del presente capítulo a más tardar el 28 de enero de 2028.\n\nCuando un acto legislativo de armonización de la Unión enumerado en el anexo I, sección A, permita al fabricante del producto recurrir a una evaluación de la conformidad en la que no participen terceros a condición de que el fabricante haya aplicado normas armonizadas para garantizar el cumplimiento de todos los requisitos pertinentes, dicho fabricante solamente podrá recurrir dicha opción si también ha aplicado normas armonizadas o, en su caso, especificaciones comunes previstas en el artículo 41 que contemplen todos los requisitos establecidos en la sección 2 del presente capítulo. La clasificación de un producto como sistema de IA de alto riesgo de conformidad con el artículo 6, apartado 1, no afecta a las opciones relativas al procedimiento de evaluación de la conformidad de que disponen los fabricantes de productos regulados por los actos legislativos de armonización de la Unión enumerados en el anexo I, sección A, incluida, en su caso, la opción de basarse en normas armonizadas. Los fabricantes de dichos productos no están obligados a optar por un procedimiento de evaluación de la conformidad que implique una evaluación de la conformidad de terceros solo por motivo de que el producto incluya un sistema de IA de alto riesgo como componente de seguridad cuando no lo exijan los actos legislativos de armonización de la Unión enumerados en el anexo I, sección A.\n\nEn el caso de los sistemas de IA de alto riesgo que estén regulados por los actos legislativos de armonización de la Unión enumerados en el anexo I, sección A, y que entren en alguna de las categorías enumeradas en el anexo III, el proveedor del sistema se atendrá al procedimiento de evaluación de la conformidad pertinente exigido en virtud de los actos legislativos de armonización de la Unión enumerados el anexo I, sección A.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-020",
+      "sequence": 20,
+      "affected_articles": [
+        "50",
+        "56",
+        "98"
+      ],
+      "legal_instruction": "20)\n\nEn el artículo 50, el apartado 7 se sustituye por el texto siguiente:\n\n«7. La Comisión fomentará y facilitará la elaboración de códigos de buenas prácticas en el ámbito de la Unión para promover la aplicación efectiva de las obligaciones relativas a la detección, el marcado y el etiquetado de contenidos generados o manipulados de manera artificial. La Comisión, teniendo en cuenta en la mayor medida posible el dictamen del Consejo de IA, evaluará si la observancia de dichos códigos de buenas prácticas es adecuada para garantizar el cumplimiento de las obligaciones previstas en los apartados 2 y 4 del presente artículo, de conformidad con el procedimiento establecido en el artículo 56, apartado 6. Si considera que el código de buenas prácticas es inadecuado, la Comisión podrá adoptar un acto de ejecución que especifique normas comunes para el cumplimiento de dichas obligaciones de conformidad con el procedimiento de examen establecido en el artículo 98, apartado 2.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-021",
+      "sequence": 21,
+      "affected_articles": [
+        "56"
+      ],
+      "legal_instruction": "21)\n\nEn el artículo 56, el apartado 6 se sustituye por el texto siguiente:\n\n«6. La Comisión y el Consejo de IA supervisarán y evaluarán periódicamente la consecución de los objetivos de los códigos de buenas prácticas por parte de los participantes y su contribución a la correcta aplicación del presente Reglamento. La Comisión, teniendo en cuenta en la mayor medida posible el dictamen del Consejo de IA, evaluará si los códigos de buenas prácticas incluyen las obligaciones establecidas en los artículos 53 y 55, y supervisará y evaluará periódicamente la consecución de sus objetivos. La Comisión publicará su evaluación de la adecuación de los códigos de buenas prácticas.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-022",
+      "sequence": 22,
+      "affected_articles": [
+        "57",
+        "75"
+      ],
+      "legal_instruction": "22)\n\nEl artículo 57 se modifica como sigue:\n\na)\n\nen el apartado 1, el párrafo primero se sustituye por el texto siguiente:\n\n«1. Los Estados miembros se asegurarán de que sus autoridades competentes establezcan al menos un espacio controlado de pruebas para la IA a escala nacional, que estará operativo a más tardar el 2 de agosto de 2027. Dicho espacio controlado de pruebas para la IA también podrá establecerse conjuntamente con las autoridades competentes de otros Estados miembros. La Comisión podrá proporcionar apoyo técnico, asesoramiento y herramientas para el establecimiento y el funcionamiento de los espacios controlados de pruebas para la IA.»\n\nb)\n\nel apartado 3 se sustituye por el texto siguiente:\n\n«3. El Supervisor Europeo de Protección de Datos podrá establecer un espacio controlado de pruebas para la IA para las instituciones, órganos y organismos de la Unión. A tal efecto, las referencias hechas en el presente capítulo a las autoridades nacionales competentes se entenderán hechas al Supervisor Europeo de Protección de Datos.»\n\nc)\n\nse inserta el apartado siguiente:\n\n«3 bis. La Oficina de IA podrá establecer un espacio controlado de pruebas para la IA a escala de la Unión para los sistemas de IA contemplados en el artículo 75, apartado 1. A tal efecto, las referencias hechas en el presente capítulo a las autoridades nacionales competentes se entenderán, cuando proceda, hechas a la Oficina de IA. Dicho espacio controlado de pruebas para la IA se pondrá en práctica en estrecha cooperación con las autoridades competentes pertinentes, en particular cuando el cumplimiento de los actos legislativos de la Unión distintos del presente Reglamento se supervise en el espacio controlado de pruebas para la IA, y proporcionará un acceso prioritario a las pymes —incluidas las empresas emergentes— y a las pequeñas empresas de mediana capitalización.\n\nEl establecimiento de un espacio controlado de pruebas para la IA a escala de la Unión por parte de la Oficina de IA se entenderá sin perjuicio de las competencias de los Estados miembros para establecer y supervisar espacios controlados de pruebas para la IA para los sistemas de IA sujetos a su supervisión.»\n\nd)\n\nel apartado 5 se sustituye por el texto siguiente:\n\n«5. Los espacios controlados de pruebas para la IA establecidos de conformidad con el presente artículo proporcionarán un entorno controlado que fomente la innovación y facilite el desarrollo, el entrenamiento, la prueba y la validación de sistemas innovadores de IA durante un período limitado antes de su introducción en el mercado o su puesta en servicio, en virtud de un plan del espacio controlado de pruebas específico acordado entre los proveedores o proveedores potenciales y las autoridades competentes, asegurando que se disponga de las garantías adecuadas. Tales espacios controlados de pruebas podrán incluir la prueba en condiciones reales supervisadas dentro de ellos. Cuando proceda, el plan del espacio controlado de pruebas para la IA incorporará el plan de la prueba en condiciones reales a que se refieren los artículos 60 y 60 bis.»\n\ne)\n\nen el apartado 9, la letra e) se sustituye por el texto siguiente:\n\n«e)\n\nfacilitar y acelerar el acceso al mercado de la Unión de los sistemas de IA, en particular cuando los proporcionen pymes —incluidas empresas emergentes— y pequeñas empresas de mediana capitalización.»\n\n;\n\nf)\n\nel apartado 10 se sustituye por el texto siguiente:\n\n«10. Las autoridades nacionales competentes garantizarán que, en la medida en que los sistemas innovadores de IA impliquen el tratamiento de datos personales o estén comprendidos dentro del ámbito de supervisión de otras autoridades nacionales o autoridades competentes que proporcionen o apoyen el acceso a los datos, las autoridades competentes en materia de protección de datos y dichas otras autoridades nacionales o competentes estén vinculadas al funcionamiento del espacio controlado de pruebas para la IA e involucradas en la supervisión de dichos aspectos en la medida en que lo permitan sus respectivas funciones y poderes.»\n\ng)\n\nel apartado 14 se sustituye por el texto siguiente:\n\n«14. Las autoridades nacionales competentes, el Supervisor Europeo de Protección de Datos y la Oficina de IA, según proceda y en el marco de sus respectivas competencias, coordinarán sus actividades y cooperarán en el marco del Consejo de IA. Podrán apoyar el establecimiento y el funcionamiento conjuntos de espacios controlados de pruebas para la IA incluido en diferentes sectores, e intercambiar buenas prácticas en relación con cuestiones conexas.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-023",
+      "sequence": 23,
+      "affected_articles": [
+        "57",
+        "58"
+      ],
+      "legal_instruction": "23)\n\nEn el artículo 58, apartado 1, el párrafo primero se modifica como sigue:\n\na)\n\nla parte introductoria se sustituye por el texto siguiente:\n\n«1. A fin de evitar que se produzca una fragmentación en la Unión, la Comisión adoptará actos de ejecución que especifiquen las disposiciones detalladas para el establecimiento, el desarrollo, la puesta en práctica, el funcionamiento, la gobernanza y la supervisión de los espacios controlados de pruebas para la IA. Dichos actos de ejecución incluirán principios comunes sobre las cuestiones siguientes:»\n\nb)\n\nse añade la letra siguiente:\n\n«d)\n\nlas normas detalladas aplicables a la gobernanza de los espacios controlados de pruebas para la IA contemplados en virtud del artículo 57, incluido en lo que respecta a la participación y la supervisión de las autoridades competentes en materia de protección de datos, cuando proceda, y a la coordinación y cooperación en el ámbito nacional y de la Unión.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-024",
+      "sequence": 24,
+      "affected_articles": [
+        "5",
+        "60"
+      ],
+      "legal_instruction": "24)\n\nEl artículo 60 se modifica como sigue:\n\na)\n\nen el apartado 1, el párrafo primero se sustituye por el texto siguiente:\n\n«1. Los proveedores o proveedores potenciales de sistemas de IA de alto riesgo enumerados en el anexo III o regulados por los actos legislativos de armonización de la Unión enumerados en el anexo I, sección A, podrán realizar pruebas de sistemas de IA de alto riesgo en condiciones reales fuera de los espacios controlados de pruebas para la IA de conformidad con el presente artículo y con el plan de la prueba en condiciones reales a que se refiere el presente artículo, sin perjuicio de las prohibiciones establecidas en el artículo 5.»\n\nb)\n\nel apartado 2 se sustituye por el texto siguiente:\n\n«2. Los proveedores o proveedores potenciales podrán realizar pruebas de los sistemas de IA de alto riesgo mencionados en el anexo III o regulados por los actos legislativos de armonización de la Unión enumerados en el anexo I, sección A, en condiciones reales en cualquier momento antes de la introducción en el mercado o la puesta en servicio del sistema de IA de alto riesgo por cuenta propia o en asociación con uno o varios responsables del despliegue o responsables del despliegue potenciales.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-025",
+      "sequence": 25,
+      "affected_articles": [
+        "60bis"
+      ],
+      "legal_instruction": "25)\n\nSe inserta el artículo siguiente:\n\n«Artículo 60 bis\n\nPruebas de sistemas de IA de alto riesgo regulados por los actos legislativos de armonización de la Unión enumerados en el anexo I, sección B, en condiciones reales fuera de los espacios controlados de pruebas para la IA",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-001",
+      "sequence": 1,
+      "affected_articles": [],
+      "legal_instruction": "1. Los Estados miembros podrán permitir, de conformidad con el presente artículo, que los proveedores o proveedores potenciales de productos basados en la IA regulados por los actos legislativos de armonización de la Unión enumerados en el anexo I, sección B, realicen pruebas de sistemas de IA de alto riesgo en condiciones reales fuera de los espacios controlados de pruebas para la IA con el fin de evaluar y comprobar la conformidad de dichos sistemas con los requisitos establecidos en los artículos 8 a 15.",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-002",
+      "sequence": 2,
+      "affected_articles": [],
+      "legal_instruction": "2. Los Estados miembros que opten por permitir las pruebas a que se refiere el apartado 1 adoptarán, individual o conjuntamente, marcos para la prueba en condiciones reales.",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-003",
+      "sequence": 3,
+      "affected_articles": [],
+      "legal_instruction": "3. Cada Estado miembro notificará a la Comisión todo marco para la prueba en condiciones reales que adopte antes de ponerlo en práctica. Esto no afectará a las competencias de la Comisión en virtud de los actos legislativos de armonización de la Unión enumerados en el anexo I, sección B.",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-004",
+      "sequence": 4,
+      "affected_articles": [],
+      "legal_instruction": "4. Los Estados miembros que hayan adoptado marcos para la prueba en condiciones reales se asegurarán de que las autoridades nacionales competentes pertinentes, las autoridades pertinentes y las autoridades públicas responsables de la gestión y el funcionamiento de infraestructuras y productos regulados por los actos legislativos de armonización de la Unión enumerados en el anexo I, sección B, cooperen estrechamente entre sí de buena fe y eliminen cualquier obstáculo práctico, incluidos aquellos que afecten a las normas de procedimiento que regulen el acceso a infraestructuras públicas físicas, cuando sea necesario, a fin de poner en práctica satisfactoriamente dichos marcos para la prueba en condiciones reales y probar los productos basados en la IA regulados por los actos legislativos de armonización de la Unión enumerados en el anexo I, sección B.",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-005",
+      "sequence": 5,
+      "affected_articles": [
+        "60"
+      ],
+      "legal_instruction": "5. Los marcos para la prueba en condiciones reales establecerán los requisitos con arreglo a los cuales se realizará la prueba en condiciones reales. Dichos marcos:\n\na)\n\nincluirán la presentación obligatoria de un plan de la prueba en condiciones reales, que deberá ser acordado entre el proveedor o proveedor potencial y la autoridad nacional competente o la autoridad pertinente de conformidad con los actos legislativos de armonización de la Unión enumerados en el anexo I, sección B;\n\nb)\n\ngarantizarán el cumplimiento de los requisitos establecidos en el artículo 60, apartados 2 y 3, apartado 4, letras d) a j), y apartados 5 a 9, entendiéndose toda referencia hecha en dichas disposiciones a las autoridades de vigilancia del mercado como hecha a la autoridad nacional competente, o a la autoridad pertinente, según proceda, de conformidad con los actos legislativos de armonización de la Unión enumerados en el anexo I, sección B;\n\nc)\n\nincluirán mecanismos eficaces de gobernanza y rendición de cuentas;\n\nd)\n\ngarantizarán un elevado nivel de protección de la salud, la seguridad y los derechos fundamentales.",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-006",
+      "sequence": 6,
+      "affected_articles": [],
+      "legal_instruction": "6. La prueba en condiciones reales cumplirá las disposiciones aplicables establecidas en los actos legislativos de armonización de la Unión enumerados en el anexo I, sección B. Los requisitos establecidos en dichas disposiciones no afectarán a la aplicación del presente artículo en la medida necesaria para hacer posible las pruebas a que se refiere el apartado 1.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-026",
+      "sequence": 26,
+      "affected_articles": [
+        "17",
+        "63"
+      ],
+      "legal_instruction": "26)\n\nEn el artículo 63, el apartado 1 se sustituye por el texto siguiente:\n\n«1. Las pymes, incluidas las empresas emergentes, podrán cumplir determinados elementos del sistema de gestión de la calidad exigido por el artículo 17 del presente Reglamento de manera simplificada, siempre que no tengan empresas asociadas o empresas vinculadas en el sentido de la Recomendación 2003/361/CE. A tal fin, la Comisión elaborará directrices sobre los elementos del sistema de gestión de la calidad que puedan cumplirse de manera simplificada teniendo en cuenta las necesidades de las pymes sin que ello afecte al nivel de protección ni a la necesidad de cumplir los requisitos relativos a los sistemas de IA de alto riesgo.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-027",
+      "sequence": 27,
+      "affected_articles": [
+        "64"
+      ],
+      "legal_instruction": "27)\n\nEn el artículo 64, se añade el apartado siguiente:\n\n«3. Sin perjuicio del procedimiento presupuestario, se asignarán a la Oficina de IA los recursos adecuados para que pueda desempeñar eficazmente sus funciones y ejercer sus competencias en relación con ejecución del presente Reglamento.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-028",
+      "sequence": 28,
+      "affected_articles": [
+        "68",
+        "69"
+      ],
+      "legal_instruction": "28)\n\nEn el artículo 69, el apartado 2 se sustituye por el texto siguiente:\n\n«2. Se podrá exigir a los Estados miembros que paguen tasas por el asesoramiento y el apoyo prestado por los expertos, por un importe equivalente a los honorarios aplicables a la Comisión de conformidad con el acto de ejecución a que se refiere el artículo 68, apartado 1.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-029",
+      "sequence": 29,
+      "affected_articles": [
+        "70"
+      ],
+      "legal_instruction": "29)\n\nEn el artículo 70, el apartado 8 se sustituye por el texto siguiente:\n\n«8. Las autoridades nacionales competentes podrán proporcionar orientaciones y asesoramiento sobre la aplicación del presente Reglamento, en particular a las pymes —incluidas las empresas emergentes— y las pequeñas empresas de mediana capitalización, teniendo en cuenta las orientaciones y el asesoramiento del Consejo de IA y de la Comisión, según proceda. Siempre que una autoridad nacional competente tenga la intención de proporcionar orientaciones y asesoramiento en relación con un sistema de IA en ámbitos regulados por otros actos del Derecho de la Unión, se consultará a las autoridades nacionales competentes con arreglo a lo dispuesto en dichos actos, según proceda.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-030",
+      "sequence": 30,
+      "affected_articles": [
+        "72"
+      ],
+      "legal_instruction": "30)\n\nEn el artículo 72, el apartado 3 se sustituye por el texto siguiente:\n\n«3. El sistema de vigilancia poscomercialización se basará en un plan de vigilancia poscomercialización. El plan de vigilancia poscomercialización formará parte de la documentación técnica a que se refiere el anexo IV. La Comisión, teniendo en cuenta en la mayor medida posible el dictamen del Consejo de IA, adoptará orientaciones —que incluirán un modelo— sobre el plan de seguimiento poscomercialización a más tardar el 2 de septiembre de 2027.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-031",
+      "sequence": 31,
+      "affected_articles": [
+        "43",
+        "70",
+        "73",
+        "74",
+        "75",
+        "75bis"
+      ],
+      "legal_instruction": "31)\n\nEl artículo 75 se modifica como sigue:\n\na)\n\nel título se sustituye por el texto siguiente:\n\n«Vigilancia del mercado y control de los sistemas de IA y asistencia mutua»\n\nb)\n\nel apartado 1 se sustituye por el texto siguiente:\n\n«1. La Oficina de IA tendrá competencia exclusiva para supervisar y garantizar el cumplimiento de las obligaciones derivadas del presente Reglamento en relación con los sistemas de IA siguientes:\n\na)\n\nsistemas de IA basados en modelos de IA de uso general en los que el modelo y el sistema sean desarrollados por el mismo proveedor o por proveedores que formen parte de una misma empresa, con excepción de:\n\ni)\n\nlos sistemas de IA relacionados con productos regulados por los actos legislativos de armonización de la Unión enumerados en el anexo I,\n\nii)\n\nlos sistemas de IA a que se refiere el anexo III, punto 2,\n\niii)\n\nlos sistemas de IA proporcionados por autoridades garantes del cumplimiento del Derecho, autoridades de gestión de fronteras y entidades financieras, en la medida en que dichos sistemas de IA entren en el ámbito de aplicación del artículo 74, apartado 6, y\n\niv)\n\nlos sistemas de IA a que se refiere el anexo III, punto 8, en lo que respecta a la administración de justicia;\n\nb)\n\nsistemas de IA que constituyan o estén integrados en una plataforma en línea de muy gran tamaño o un motor de búsqueda en línea de muy gran tamaño designados de conformidad con el Reglamento (UE) 2022/2065.\n\nLa competencia exclusiva a que se refiere el párrafo primero se aplicará a los proveedores de dichos sistemas. Únicamente se aplicará a los responsables del despliegue de dichos sistemas cuando sean también el proveedor o formen parte de la misma empresa que el proveedor.»\n\nc)\n\nse insertan los apartados siguientes:\n\n«1 bis. Como excepción a lo dispuesto en el artículo 73, los proveedores de sistemas de IA de alto riesgo sujetos a la competencia de la Oficina de IA en virtud del apartado 1 del presente artículo notificarán cualquier incidente grave a la Oficina de IA. Será aplicable por analogía el artículo 73, apartados 2 a 9. La Oficina de IA transmitirá sin demora la información pertinente a la autoridad de vigilancia del mercado del Estado miembro en cuyo territorio esté situado el proveedor o su representante legal.\n\n1 ter. Las autoridades que participen en la aplicación del presente Reglamento cooperarán activamente con la Oficina de IA y le prestarán la asistencia necesaria para el ejercicio de sus competencias, incluido, cuando sea necesario, en relación con las inspecciones u otras medidas de garantía del cumplimiento llevadas a cabo en el territorio de un Estado miembro. A tal fin, dichas autoridades gozarán de los poderes establecidos en virtud del presente Reglamento y del Reglamento (UE) 2019/1020 y, cuando proceda y de modo limitado a lo necesario para desempeñar sus funciones con arreglo al presente apartado, de conformidad con los procedimientos nacionales aplicables.\n\n1 quater. Cuando adopte medidas de investigación o de garantía del cumplimiento en el territorio de un Estado miembro que impliquen el acceso a los datos o al sistema de IA de una autoridad pública, la Oficina de IA estará asistida por la autoridad de vigilancia del mercado pertinente.\n\n1 quinquies. Antes de adoptar una decisión que tenga por efecto prohibir o restringir la comercialización o puesta en servicio del sistema de IA en un mercado nacional, o una decisión de retirar o recuperar el sistema de IA de dicho mercado, la Oficina de IA notificará, sin demora indebida, a la autoridad de vigilancia del mercado competente para dicho mercado su intención de adoptar tal decisión. La Oficina de IA consultará a las autoridades que participen en la aplicación del presente Reglamento, cuando proceda, sobre cualquier asunto relacionado con la aplicación y ejecución del presente Reglamento.\n\n1 sexies. La Oficina de IA será responsable de las evaluaciones de la conformidad y las pruebas de los sistemas de IA a que se refiere el apartado 1 del presente artículo clasificados como de alto riesgo y sujetos a una evaluación de la conformidad de terceros en virtud del artículo 43 antes de su introducción en el mercado o su puesta en servicio. Dichas pruebas y evaluaciones comprobarán que los sistemas cumplen los requisitos pertinentes del presente Reglamento y pueden introducirse en el mercado o ponerse en servicio en la Unión de conformidad con el presente Reglamento. La Comisión encomendará la realización de estas pruebas o evaluaciones a organismos notificados designados de conformidad con el presente Reglamento, en cuyo caso el organismo notificado actuará en nombre de la Comisión. Si un organismo notificado al que la Comisión haya encomendado tareas en virtud del presente apartado no las realiza adecuadamente, la Comisión podrá retirar la delegación con efecto inmediato.\n\nLas tasas por las actividades de prueba y evaluación se cobrarán a los proveedores de sistemas de IA de alto riesgo que hayan solicitado a la Comisión la evaluación de la conformidad de terceros. El proveedor abonará directamente al organismo notificado los costes relacionados con los servicios encomendados por la Comisión a los organismos notificados de conformidad con el presente artículo.»\n\nd)\n\nse inserta el apartado siguiente:\n\n«2 bis. Cuando una autoridad de vigilancia del mercado tenga motivos fundados y suficientes para sospechar que un proveedor o un responsable del despliegue de un sistema de IA a que se refiere el apartado 1 del presente artículo ha infringido el presente Reglamento, podrá solicitar a la Oficina de IA, a través del punto de contacto único pertinente designado de conformidad con el artículo 70, apartado 2, que evalúe la cuestión con el fin de adoptar las medidas de supervisión y de garantía del cumplimiento necesarias para garantizar el rápido cumplimiento del presente Reglamento. Tal solicitud deberá motivarse debidamente e indicar, como mínimo:\n\na)\n\nel nombre del proveedor o del responsable del despliegue de que se trate;\n\nb)\n\nuna descripción de los hechos pertinentes, las disposiciones del presente Reglamento presuntamente infringidas y cualquier motivo fundado y suficiente para sospechar una infracción, incluida, en su caso, la descripción de los efectos negativos de la presunta infracción, y\n\nc)\n\nla autoridad de vigilancia del mercado que presenta la solicitud.\n\nLa Oficina de IA tendrá en cuenta la solicitud en la mayor medida posible, y la autoridad de vigilancia del mercado cooperará activamente y proporcionará a la Oficina de IA la asistencia necesaria para el ejercicio de sus competencias de conformidad con el apartado 1 bis.\n\nLa Oficina de IA, sin demora indebida y, en cualquier caso, a más tardar cuatro meses después de la recepción de la solicitud, informará al punto de contacto único de su intención de ejercer sus competencias de conformidad con el artículo 75 bis o de sus motivos para no ejercer dichas competencias. Si la Oficina de IA decide ejercer sus competencias de conformidad con el artículo 75 bis, informará periódicamente a dicho punto de contacto único sobre cualquier novedad destacada en el procedimiento y sobre el resultado de este, sin revelar ninguna información confidencial.».",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-032",
+      "sequence": 32,
+      "affected_articles": [
+        "75bis"
+      ],
+      "legal_instruction": "32)\n\nSe insertan los artículos siguientes:\n\n«Artículo 75 bis\n\nCompetencias de supervisión y de garantía del cumplimiento de la Oficina de IA",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-001",
+      "sequence": 1,
+      "affected_articles": [
+        "14",
+        "15",
+        "16",
+        "17",
+        "75"
+      ],
+      "legal_instruction": "1. Para llevar a cabo las tareas de supervisión y de garantía del cumplimiento establecidas en el artículo 75, apartado 1 del presente Reglamento, la Oficina de IA tendrá todos los poderes de una autoridad de vigilancia del mercado previstos en la presente sección y en el artículo 14, apartado 4, y el artículo 16, apartado 3, del Reglamento (UE) 2019/1020. La Oficina de IA estará autorizada a reclamar al operador pertinente la totalidad de los costes derivados de sus actividades de supervisión y de garantía del cumplimiento en casos de incumplimiento, incluidos los costes de recursos humanos y técnicos, de conformidad con el artículo 15 del Reglamento (UE) 2019/1020. El artículo 17 del Reglamento (UE) 2019/1020 se aplicará mutatis mutandis.",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-002",
+      "sequence": 2,
+      "affected_articles": [
+        "14",
+        "75",
+        "85"
+      ],
+      "legal_instruction": "2. Cuando la Oficina de IA tenga motivos razonables para sospechar que un proveedor o un responsable del despliegue de un sistema de IA a que se refiere el artículo 75, apartado 1 del presente Reglamento, incumple el presente Reglamento, podrá adoptar una decisión de iniciar una investigación sobre dicho incumplimiento de conformidad con el artículo 14, apartado 4, letra f), del Reglamento (UE) 2019/1020. Al iniciar dicha investigación, la Oficina de IA lo notificará al operador del sistema de IA de que se trate. La Oficina de IA podrá ejercer los poderes a que se refiere el apartado 1 del presente artículo por iniciativa propia o a raíz de una reclamación recibida en virtud del artículo 85 del presente Reglamento, incluso antes de iniciar una investigación en virtud del artículo 14, apartado 4, letra f), del Reglamento (UE) 2019/1020.\n\nCuando una autoridad de vigilancia del mercado tenga motivos para sospechar que un proveedor o un responsable del despliegue de un sistema de IA a que se refiere el artículo 75, apartado 1, incumple el presente Reglamento, podrá enviar una solicitud a la Oficina de IA para que evalúe el asunto.",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-003",
+      "sequence": 3,
+      "affected_articles": [
+        "14",
+        "74",
+        "99"
+      ],
+      "legal_instruction": "3. La Oficina de IA podrá ejercer los poderes enumerados en el artículo 14, apartado 4, letras a), b) y c), del Reglamento (UE) 2019/1020 y en el artículo 74, apartados 12 y 13, del presente Reglamento mediante simple solicitud o mediante una decisión.\n\nAl solicitar información, la Oficina de IA indicará la base jurídica y la finalidad de la solicitud, especificará qué información se requiere y fijará el plazo en el que debe proporcionarse la información. Cuando se trate de una simple solicitud, la Oficina de IA indicará asimismo que, aunque no exista obligación de proporcionar la información solicitada, toda respuesta voluntaria deberá ser correcta y no engañosa, e indicará las posibles multas previstas en el artículo 99, apartado 5, por proporcionar información inexacta o engañosa. Cuando la solicitud se presente mediante decisión, la Oficina de IA indicará además las multas previstas en el artículo 99, apartado 5, por proporcionar información inexacta, incompleta o engañosa, e indicará el derecho a recurrir la decisión ante el Tribunal de Justicia de la Unión Europea. La Oficina de IA enviará una copia de la solicitud a la autoridad de vigilancia del mercado del Estado miembro en cuyo territorio esté situado el operador o su representante legal.",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-004",
+      "sequence": 4,
+      "affected_articles": [
+        "14",
+        "74",
+        "99"
+      ],
+      "legal_instruction": "4. A fin de desempeñar las funciones que se le asignan en virtud de la presente sección, la Oficina de IA podrá llevar a cabo todas las inspecciones a distancia o in situ necesarias en virtud de los poderes establecidos en el artículo 14, apartado 4, letras d) y e), del Reglamento (UE) 2019/1020 y en el artículo 74, apartado 5, del presente Reglamento. Al llevar a cabo una inspección, la Oficina de IA informará al proveedor de que se trate del objeto y la finalidad de la investigación, de las multas pertinentes a que se refiere el artículo 99, apartado 5, del presente Reglamento y del derecho a recurrir la decisión ante el Tribunal de Justicia de la Unión Europea. Antes de llevar a cabo una inspección, la Oficina de IA informará a la autoridad de vigilancia del mercado del Estado miembro en cuyo territorio esté situado el operador o su representante legal.\n\nDurante dicha inspección, los agentes de la Oficina de IA estarán facultados para:\n\na)\n\nacceder a cualquiera de los locales, terrenos o propiedades de uso profesional situados en la Unión del operador de que se trate;\n\nb)\n\nexaminar los libros, datos y demás documentación pertinentes para el desempeño de sus funciones, independientemente del medio utilizado para almacenarlos;\n\nc)\n\ntomar u obtener, en cualquier formato, copias o extractos de libros, datos y otros registros;\n\nd)\n\npedir a toda persona objeto de la inspección, o a sus representantes o a miembros de su personal, que den explicaciones orales o escritas sobre los factores o documentos que guarden relación con el objeto y el propósito de la inspección, y registrar las respuestas, o\n\ne)\n\nprecintar todos los locales y libros o documentos de la empresa mientras dure la inspección y en la medida en que sea necesario para esta.\n\nCuando la Oficina de IA constate que una persona física o jurídica se opone a una inspección o la obstaculiza, la autoridad nacional competente del Estado miembro de que se trate le prestará la asistencia necesaria, solicitando, cuando proceda, la asistencia de la policía o de una autoridad de garantía del cumplimiento equivalente, para poder llevar a cabo la inspección in situ.\n\nCuando una inspección in situ de locales, terrenos o propiedades de uso profesional requiera la autorización de una autoridad judicial de conformidad con el Derecho nacional, la Oficina de IA solicitará dicha autorización. También podrá solicitarla como medida cautelar. Cuando se solicite dicha autorización, la autoridad judicial nacional comprobará sin demora que las medidas coercitivas previstas no sean arbitrarias ni desproporcionadas, teniendo en cuenta el objeto de la investigación o inspección y los documentos facilitados por la Oficina de IA junto con la decisión. Al comprobar la proporcionalidad de las medidas coercitivas, la autoridad judicial nacional podrá solicitar a la Oficina de IA explicaciones detalladas, en particular sobre los motivos por los que la Oficina de IA sospecha que se ha infringido el presente Reglamento, así como sobre la gravedad de la presunta infracción y, en su caso, la naturaleza de la implicación de la persona sujeta a las medidas coercitivas. La autoridad judicial nacional no revisará la necesidad de la investigación o inspección ni exigirá información del expediente de la Oficina de IA. De conformidad con los Tratados, la legalidad de la decisión de la Oficina de IA solo está sujeta al examen del Tribunal de Justicia de la Unión Europea.",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-005",
+      "sequence": 5,
+      "affected_articles": [],
+      "legal_instruction": "5. A petición de la Oficina de IA, la autoridad de vigilancia del mercado competente de un Estado miembro podrá llevar a cabo en su propio territorio cualquier investigación, inspección u otra medida de investigación en nombre y por cuenta de la Oficina de IA con el fin de determinar si se ha infringido el presente Reglamento. Los agentes de las autoridades competentes de los Estados miembros que sean responsables de llevar a cabo tales investigaciones, inspecciones o medidas de investigación, así como las personas autorizadas o designadas por ellos, ejercerán sus facultades de conformidad con su Derecho nacional.",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-006",
+      "sequence": 6,
+      "affected_articles": [
+        "75"
+      ],
+      "legal_instruction": "6. Además de los poderes establecidos en el apartado 1 del presente artículo, la Oficina de IA, en el ejercicio de sus competencias a que se refiere el artículo 75, apartado 1, podrá:\n\na)\n\nordenar a los operadores que proporcionen acceso a sus sistemas de IA y explicaciones al respecto;\n\nb)\n\nimponer a un operador la obligación de conservar todos los datos y documentos que se consideren necesarios para evaluar la aplicación y el cumplimiento de las obligaciones derivadas del presente Reglamento.",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-007",
+      "sequence": 7,
+      "affected_articles": [
+        "75"
+      ],
+      "legal_instruction": "7. Con el fin de ayudarla a supervisar la aplicación y el cumplimiento efectivos de las disposiciones pertinentes del presente Reglamento y de proporcionarle conocimientos especializados o específicos en el ejercicio de sus poderes con arreglo al artículo 75, apartado 1, la Oficina de IA podrá nombrar a expertos y auditores externos independientes, así como a expertos, equipos de investigación y auditores de las autoridades competentes de los Estados miembros, con el acuerdo de la autoridad de que se trate. La información obtenida como resultado de dichas medidas de seguimiento se compartirá con las autoridades competentes pertinentes de los Estados miembros.",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    },
+    {
+      "change_id": "change-008",
+      "sequence": 8,
+      "affected_articles": [],
+      "legal_instruction": "8. La información recopilada en virtud del presente artículo se utilizará únicamente a efectos del presente Reglamento.",
+      "validation_status": "requires_legal_validation",
+      "consolidated_text": null
+    }
+  ],
+  "legal_notice": "Las instrucciones modificadoras se extraen del texto oficial. El texto consolidado debe validarse jurídicamente antes de publicarse."
+}

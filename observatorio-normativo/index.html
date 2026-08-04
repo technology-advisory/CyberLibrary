@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="/svg/logo.svg" rel="icon">
+  <link href="/css/global.css?v=20260802-observatorio-v2" rel="stylesheet">
+  <link href="/css/observatorio-normativo.css?v=20260802-v10" rel="stylesheet">
+  <title>Observatorio normativo de IA · CyberLibrary AI</title>
+  <meta name="description" content="Consulta el Reglamento Europeo de Inteligencia Artificial completo, sus novedades y las modificaciones introducidas por el Digital Omnibus.">
+  <link rel="canonical" href="https://cyberlibrary-ai.es/observatorio-normativo/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="CyberLibrary AI">
+  <meta property="og:title" content="Observatorio normativo de IA · CyberLibrary AI">
+  <meta property="og:description" content="Texto completo, novedades y comparación normativa del Reglamento Europeo de IA.">
+  <meta property="og:url" content="https://cyberlibrary-ai.es/observatorio-normativo/">
+  <meta property="og:image" content="https://cyberlibrary-ai.es/og-cover.png">
+</head>
+<body>
+  <div id="site-header"></div>
+  <div class="layout">
+    <div id="site-sidebar"></div>
+    <div class="content-column">
+      <main class="legal-shell">
+        <section class="legal-hero">
+          <div class="legal-hero-copy">
+            <span class="legal-eyebrow">Observatorio normativo de IA</span>
+            <h1>Reglamento Europeo de Inteligencia Artificial</h1>
+            <p>Lee la norma completa, consulta únicamente las novedades o revisa cada modificación frente al texto original.</p>
+            <div class="legal-identifiers">
+              <span><b>Norma base</b> Reglamento (UE) 2024/1689</span>
+              <span><b>Modifica</b> Reglamento (UE) 2026/1744</span>
+              <span id="legal-generated"><b>Datos</b> cargando…</span>
+            </div>
+          </div>
+          <div class="legal-status-card">
+            <span class="legal-status-dot"></span>
+            <div><small>Estado del comparador</small><strong>Fuente oficial cargada</strong><p>La vista comparada resalta automáticamente los cambios y mantiene la referencia jurídica oficial.</p></div>
+          </div>
+        </section>
+
+        <section class="legal-mode-picker" aria-label="Modo de consulta">
+          <button class="legal-mode active" data-view="law">
+            <span class="legal-mode-icon">§</span><span><b>Ley completa</b><small>113 artículos y 13 anexos</small></span>
+          </button>
+          <button class="legal-mode" data-view="changes">
+            <span class="legal-mode-icon">Δ</span><span><b>Solo novedades</b><small>Disposiciones modificadoras detectadas</small></span>
+          </button>
+          <button class="legal-mode" data-view="compare">
+            <span class="legal-mode-icon">⇄</span><span><b>Comparar cambios</b><small>Mismo artículo con cambios resaltados</small></span>
+          </button>
+        </section>
+
+        <section class="legal-trust-note">
+          <div><b>Cómo leer este observatorio</b><span>El texto original y las instrucciones modificadoras proceden de las fuentes descargadas de EUR-Lex. CyberLibrary muestra el texto base y una vista comparada asistida con resaltado automático. La referencia jurídica oficial sigue siendo la instrucción publicada en EUR-Lex.</span></div>
+          <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj" target="_blank" rel="noopener">Norma base ↗</a>
+          <a href="https://eur-lex.europa.eu/eli/reg/2026/1744/oj" target="_blank" rel="noopener">Norma modificadora ↗</a>
+        </section>
+
+        <section class="legal-dashboard" id="legal-dashboard"></section>
+
+        <section class="legal-toolbar">
+          <label class="legal-search"><span>⌕</span><input id="legal-search" type="search" placeholder="Buscar artículo, concepto, obligación o término…"></label>
+          <select id="legal-chapter" aria-label="Filtrar por capítulo"><option value="all">Todos los capítulos</option></select>
+          <select id="legal-status-filter" aria-label="Filtrar por estado"><option value="all">Todos los estados</option><option value="changed">Con cambios</option><option value="unchanged">Sin cambios</option></select>
+        </section>
+
+        <section class="legal-workspace">
+          <aside class="legal-navigation">
+            <div class="legal-navigation-head"><div><b id="legal-list-title">Índice de la norma</b><span id="legal-result-count"></span></div><button id="legal-collapse" type="button" title="Ocultar índice">×</button></div>
+            <div id="legal-list" class="legal-list"></div>
+          </aside>
+          <article id="legal-content" class="legal-content"><div class="legal-loading">Cargando fuentes jurídicas…</div></article>
+        </section>
+      </main>
+    </div>
+  </div>
+  <div id="site-footer"></div>
+  <script src="/js/layout.js?v=20260802-observatorio-v4"></script>
+  <script src="/js/app.js?v=20260719"></script>
+  <script src="/js/observatorio-normativo.js?v=20260802-v10"></script>
+</body>
+</html>
