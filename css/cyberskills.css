@@ -1,0 +1,287 @@
+
+/* CyberSkills P14.8 · catálogo operativo + ficha técnica */
+.skills-page,.skill-sheet{max-width:1320px;padding:30px 34px 68px;color:#182b3d}
+.skills-head{padding:4px 0 22px;border:0;border-bottom:1px solid #dce5ed;background:transparent;border-radius:0}
+.skills-head .kicker{display:block;color:#3d668d;font-size:10px;font-weight:850;letter-spacing:.12em}
+.skills-head h1{margin:7px 0 8px;font-size:32px;line-height:1.05;letter-spacing:-.025em;color:#12283f}
+.skills-head p{max-width:920px;margin:0;color:#5f7488;font-size:13px;line-height:1.58}
+.skills-list{margin-top:8px;border-top:1px solid #d8e2eb}
+.skill-row{display:grid;grid-template-columns:48px minmax(0,1fr) 112px;gap:18px;align-items:center;padding:17px 4px;border-bottom:1px solid #d8e2eb;background:transparent}
+.skill-row:hover{background:#f9fbfd}
+.skill-id{align-self:start;padding-top:2px;color:#8090a0;font:700 11px/1 ui-monospace,SFMono-Regular,Consolas,monospace}
+.skill-main{min-width:0}.skill-meta{display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin-bottom:4px}
+.skill-category{color:#356284;font-size:9px;font-weight:850;letter-spacing:.09em;text-transform:uppercase}
+.skill-version{color:#74879a;font-size:10px}.skill-row h2{margin:0;font-size:17px;line-height:1.25;letter-spacing:-.01em}.skill-row h2 a{color:#17324f;text-decoration:none}.skill-row h2 a:hover{text-decoration:underline;text-underline-offset:3px}
+.skill-row p{max-width:900px;margin:5px 0 0;color:#607487;font-size:11.5px;line-height:1.48}
+.skill-open{justify-self:end;color:#225f99;font-size:11px;font-weight:800;text-decoration:none;white-space:nowrap}.skill-open:hover{text-decoration:underline;text-underline-offset:3px}
+.skill-note{margin-top:20px;padding:12px 14px;border-left:3px solid #4c8bbd;background:#f7fafc;color:#536a7e;font-size:11px;line-height:1.5}.skill-note code{font-size:10px}
+/* detalle */
+.skill-sheet .breadcrumbs{margin-bottom:16px;color:#708397;font-size:10px}.skill-sheet .breadcrumbs a{color:#426884;text-decoration:none}
+.skill-sheet-head{padding:0 0 20px;border-bottom:1px solid #d8e2eb}.skill-sheet-meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:7px;color:#486983;font-size:9px;font-weight:850;letter-spacing:.08em;text-transform:uppercase}.skill-sheet-meta>span+span{padding-left:8px;border-left:1px solid #cdd9e3}.skill-sheet-meta .skill-state{color:#187257}
+.skill-sheet-head h1{margin:0;font-size:30px;line-height:1.08;letter-spacing:-.025em;color:#12283f}.skill-sheet-head p{max-width:860px;margin:7px 0 0;color:#607487;font-size:13px;line-height:1.5}
+.skill-sheet-grid{display:grid;grid-template-columns:minmax(0,1fr) 220px;gap:34px;align-items:start;margin-top:20px}
+.skill-procedure{min-width:0}.skill-procedure-section{padding:0 0 20px;margin:0 0 20px;border-bottom:1px solid #e0e7ed}.skill-procedure-section:last-child{border-bottom:0;margin-bottom:0}
+.procedure-heading{display:grid;grid-template-columns:32px minmax(0,1fr);gap:10px;align-items:baseline;margin-bottom:10px}.procedure-index{color:#7c8d9d;font:700 9px/1 ui-monospace,SFMono-Regular,Consolas,monospace}.procedure-heading h2{margin:0;color:#18334c;font-size:16px;line-height:1.25;letter-spacing:-.01em}.procedure-content{padding-left:42px;color:#344b5f;font-size:12px;line-height:1.62}.procedure-content p{margin:0 0 9px}.procedure-content ul,.procedure-content ol{margin:4px 0 0;padding:0;list-style:none;counter-reset:skill-step}.procedure-content li{position:relative;margin:0;padding:7px 0 7px 28px;border-top:1px solid #edf1f4}.procedure-content li:first-child{border-top:0}.procedure-content ul.checklist li::before{content:'✓';position:absolute;left:2px;top:7px;color:#24765e;font-weight:800}.procedure-content ol{counter-reset:skill-step}.procedure-content ol li{counter-increment:skill-step;padding-left:34px}.procedure-content ol li::before{content:counter(skill-step,decimal-leading-zero);position:absolute;left:0;top:7px;color:#56718a;font:700 9px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace}
+.procedure-content .plain-box{padding:11px 13px;border-left:3px solid #6a8398;background:#f7f9fb;color:#41596d;font-size:11.5px;line-height:1.58}.procedure-content a{color:#245f96;font-weight:750;text-decoration:none}.procedure-content a:hover{text-decoration:underline;text-underline-offset:3px}
+.skill-toc{position:relative}.skill-toc-inner{position:sticky;top:86px;padding-left:16px;border-left:1px solid #d8e2eb}.skill-toc-label{display:block;margin-bottom:10px;color:#728497;font-size:9px;font-weight:850;letter-spacing:.12em}.skill-toc-status{display:flex;gap:6px;align-items:center;padding-bottom:11px;margin-bottom:7px;border-bottom:1px solid #e1e7ec;font-size:10px}.skill-toc-status b{color:#213d55}.skill-toc-status span{color:#187257}.skill-toc nav{display:grid}.skill-toc nav a{padding:6px 0;color:#566f84;font-size:10.5px;text-decoration:none}.skill-toc nav a:hover{color:#164f80}.skill-md,.skill-back{display:block;margin-top:12px;padding-top:11px;border-top:1px solid #e1e7ec;color:#255f92;font-size:10.5px;font-weight:750;text-decoration:none}.skill-back{margin-top:8px;padding-top:0;border-top:0;color:#667b8f;font-weight:650}
+@media(max-width:900px){.skills-page,.skill-sheet{padding:24px 22px 54px}.skill-sheet-grid{grid-template-columns:1fr}.skill-toc{order:-1}.skill-toc-inner{position:static;padding:11px 0;border-left:0;border-top:1px solid #d8e2eb;border-bottom:1px solid #d8e2eb}.skill-toc nav{grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}.skill-md,.skill-back{display:inline-block;margin:8px 14px 0 0;padding-top:0;border-top:0}}
+@media(max-width:680px){.skills-page,.skill-sheet{padding:20px 15px 48px}.skills-head h1,.skill-sheet-head h1{font-size:26px}.skill-row{grid-template-columns:32px minmax(0,1fr);gap:10px;padding:15px 0}.skill-open{grid-column:2;justify-self:start}.skill-sheet-grid{gap:22px}.procedure-content{padding-left:0}.procedure-heading{grid-template-columns:26px minmax(0,1fr)}.skill-toc nav{grid-template-columns:1fr 1fr}.skill-row p{font-size:11px}}
+
+
+/* P14.9.1 · corrección de maquetación de contenido operativo */
+/* Anula estilos heredados de article.css sobre .checklist dentro de CyberSkills. */
+.procedure-content ul.checklist{
+  display:block;
+  grid-template-columns:none;
+  gap:0;
+  margin:6px 0 12px;
+  padding:0;
+  list-style:none;
+}
+.procedure-content ul.checklist li{
+  display:block;
+  position:relative;
+  margin:0;
+  padding:8px 0 8px 30px;
+  border-top:1px solid #e8eef3;
+  border-radius:0;
+  min-height:34px;
+  color:#344b5f;
+  line-height:1.58;
+}
+.procedure-content ul.checklist li:first-child{border-top:0}
+.procedure-content ul.checklist li::before{
+  content:'✓';
+  position:absolute;
+  left:0;
+  top:8px;
+  width:18px;
+  margin:0;
+  padding:0;
+  color:#24765e;
+  font-family:Arial,sans-serif;
+  font-size:12px;
+  font-weight:800;
+  line-height:1.5;
+  text-align:center;
+}
+.procedure-content ul.checklist li strong{
+  color:#203d56;
+  font-weight:750;
+}
+.procedure-content h3{
+  margin:18px 0 7px;
+  padding-top:2px;
+  color:#1d3a53;
+  font-size:13px;
+  line-height:1.35;
+}
+.procedure-content h3:first-child{margin-top:0}
+.procedure-content ol{
+  display:block;
+  margin:6px 0 12px;
+  padding:0;
+}
+.procedure-content ol li{
+  display:block;
+  position:relative;
+  padding:9px 0 9px 42px;
+  border-top:1px solid #e8eef3;
+  line-height:1.58;
+}
+.procedure-content ol li:first-child{border-top:0}
+.procedure-content ol li::before{
+  left:0;
+  top:10px;
+  width:26px;
+  margin:0;
+  padding:0;
+  color:#587187;
+  font:700 10px/1.4 ui-monospace,SFMono-Regular,Consolas,monospace;
+  text-align:left;
+}
+.procedure-content em{
+  display:block;
+  margin-top:4px;
+  color:#6b7f91;
+  font-size:11px;
+  line-height:1.45;
+}
+.procedure-content .plain-box{
+  margin-top:12px;
+}
+@media(max-width:680px){
+  .procedure-content ul.checklist li{padding-left:28px}
+  .procedure-content ol li{padding-left:38px}
+}
+
+
+/* P14.9.3 · checklist robusto en detalle de CyberSkills */
+.procedure-content ul.meta-list{
+  display:block;
+  margin:0 0 14px;
+  padding:0;
+  list-style:none;
+}
+.procedure-content ul.meta-list li{
+  display:block;
+  position:static;
+  margin:0;
+  padding:8px 0;
+  border-top:1px solid #e8eef3;
+  border-radius:0;
+  background:transparent;
+  min-height:0;
+  color:#344b5f;
+  line-height:1.58;
+}
+.procedure-content ul.meta-list li:first-child{border-top:0}
+.procedure-content ul.meta-list li::before{content:none !important; display:none !important}
+.procedure-content ul.meta-list li strong{
+  display:inline-block;
+  min-width:180px;
+  color:#203d56;
+  font-weight:750;
+}
+.procedure-content ul.checklist{
+  display:block;
+  margin:6px 0 12px;
+  padding:0;
+  list-style:none;
+}
+.procedure-content ul.checklist li{
+  display:flex;
+  align-items:flex-start;
+  gap:10px;
+  position:static;
+  margin:0;
+  padding:8px 0;
+  border-top:1px solid #e8eef3;
+  border-left:0;
+  border-right:0;
+  border-radius:0;
+  background:transparent;
+  min-height:0;
+  color:#344b5f;
+  line-height:1.58;
+}
+.procedure-content ul.checklist li:first-child{border-top:0}
+.procedure-content ul.checklist li::before{
+  content:'✓';
+  position:static !important;
+  display:block;
+  flex:0 0 18px;
+  width:18px;
+  margin:0;
+  padding:1px 0 0;
+  color:#24765e;
+  font-family:Arial,sans-serif;
+  font-size:12px;
+  font-weight:800;
+  line-height:1.4;
+  text-align:center;
+}
+.procedure-content ul.checklist li::after{content:none !important}
+.procedure-content ul.checklist li strong{
+  color:#203d56;
+  font-weight:750;
+}
+.procedure-content h3{
+  margin:18px 0 7px;
+  padding-top:2px;
+  color:#1d3a53;
+  font-size:13px;
+  line-height:1.35;
+}
+.procedure-content h3:first-child{margin-top:0}
+.procedure-content ol{
+  display:block;
+  margin:6px 0 12px;
+  padding:0;
+}
+.procedure-content ol li{
+  display:block;
+  position:relative;
+  padding:9px 0 9px 42px;
+  border-top:1px solid #e8eef3;
+  line-height:1.58;
+}
+.procedure-content ol li:first-child{border-top:0}
+.procedure-content ol li::before{
+  left:0;
+  top:10px;
+  width:26px;
+  margin:0;
+  padding:0;
+  color:#587187;
+  font:700 10px/1.4 ui-monospace,SFMono-Regular,Consolas,monospace;
+  text-align:left;
+}
+.procedure-content em{
+  display:block;
+  margin-top:4px;
+  color:#6b7f91;
+  font-size:11px;
+  line-height:1.45;
+}
+.procedure-content .plain-box{margin-top:12px}
+@media(max-width:680px){
+  .procedure-content ul.meta-list li strong{display:block; min-width:0; margin-bottom:2px}
+  .procedure-content ul.checklist li{gap:8px}
+  .procedure-content ol li{padding-left:38px}
+}
+
+
+/* P14.9.4 · Entradas mínimas en tres columnas reales */
+.procedure-content ul.input-list{
+  display:block;
+  margin:6px 0 12px;
+  padding:0;
+  list-style:none;
+}
+.procedure-content ul.input-list li{
+  display:grid;
+  grid-template-columns:20px 92px minmax(0,1fr);
+  column-gap:10px;
+  align-items:start;
+  margin:0;
+  padding:9px 0;
+  border-top:1px solid #e8eef3;
+  border-radius:0;
+  background:transparent;
+  min-height:0;
+  color:#344b5f;
+  line-height:1.58;
+}
+.procedure-content ul.input-list li:first-child{border-top:0}
+.procedure-content ul.input-list li::before,
+.procedure-content ul.input-list li::after{content:none !important;display:none !important}
+.procedure-content .input-check{
+  display:block;
+  width:20px;
+  padding-top:1px;
+  color:#24765e;
+  font-family:Arial,sans-serif;
+  font-size:12px;
+  font-weight:800;
+  line-height:1.45;
+  text-align:center;
+}
+.procedure-content .input-kind{
+  display:block;
+  color:#203d56;
+  font-weight:750;
+  white-space:nowrap;
+}
+.procedure-content .input-text{
+  display:block;
+  min-width:0;
+}
+@media(max-width:680px){
+  .procedure-content ul.input-list li{
+    grid-template-columns:18px minmax(0,1fr);
+    column-gap:8px;
+  }
+  .procedure-content .input-kind{grid-column:2}
+  .procedure-content .input-text{grid-column:2;margin-top:1px}
+}

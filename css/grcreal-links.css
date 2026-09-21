@@ -1,0 +1,19 @@
+/* GRCReal IA cross-links · visual cards · 2026-09-16 */
+.grcreal-bridge{margin:24px 0;padding:22px;border:1px solid #d6e3ee;border-radius:16px;background:linear-gradient(135deg,#f7fbff 0%,#fff 58%,#f4fbf8 100%);box-shadow:0 10px 30px rgba(24,61,96,.045)}
+.grcreal-bridge-head{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;margin-bottom:14px}
+.grcreal-bridge-kicker{display:block;margin-bottom:5px;color:#1477e8;font-size:9px;font-weight:850;letter-spacing:.11em;text-transform:uppercase}
+.grcreal-bridge h2,.grcreal-bridge h3{margin:0;color:#142b43;line-height:1.16}.grcreal-bridge h2{font-size:21px}.grcreal-bridge h3{font-size:16px}
+.grcreal-bridge-intro{max-width:780px;margin:7px 0 0;color:#647a8d;font-size:12px;line-height:1.6}
+.grcreal-bridge-brand{flex:0 0 auto;padding:6px 9px;border:1px solid #d4e3ef;border-radius:999px;background:#fff;color:#4e6b84;font-size:9px;font-weight:800;letter-spacing:.05em;white-space:nowrap}
+.grcreal-bridge-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.grcreal-bridge-grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+.grcreal-tool{position:relative;display:flex;flex-direction:column;min-height:156px;padding:14px 14px 13px;border:1px solid #dbe6ef;border-radius:11px;background:#fff;text-decoration:none!important;transition:transform .15s ease,border-color .15s ease,box-shadow .15s ease}
+.grcreal-tool:hover{transform:translateY(-2px);border-color:#b9d0e3;box-shadow:0 10px 24px rgba(24,61,96,.07)}
+.grcreal-tool-icon{display:block;width:38px;height:38px;margin:0 0 9px;padding:6px;border:1px solid #deebf4;border-radius:9px;background:#f8fbfe;object-fit:contain}
+.grcreal-tool small{color:#71889a;font-size:8.5px;font-weight:850;letter-spacing:.1em;text-transform:uppercase}
+.grcreal-tool strong{display:block;margin-top:4px;color:#17344f;font-size:13px;line-height:1.25}
+.grcreal-tool span{display:block;margin-top:6px;color:#6b7f91;font-size:10.25px;line-height:1.48}
+.grcreal-tool b{margin-top:auto;padding-top:10px;color:#1477e8;font-size:10px}
+.grcreal-bridge.compact{padding:16px 18px}.grcreal-bridge.compact .grcreal-bridge-head{align-items:center;margin-bottom:11px}.grcreal-bridge.compact .grcreal-bridge-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.grcreal-bridge.compact .grcreal-bridge-grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}.grcreal-bridge.compact .grcreal-tool{min-height:142px;padding:12px}.grcreal-bridge.compact .grcreal-tool-icon{width:34px;height:34px;margin-bottom:7px;padding:5px}.grcreal-bridge.compact .grcreal-tool span{font-size:9.75px;line-height:1.43}
+.grcreal-bridge-links{display:flex;flex-wrap:wrap;gap:8px}.grcreal-bridge-links a{display:inline-flex;align-items:center;padding:8px 10px;border:1px solid #d5e3ee;border-radius:8px;background:#fff;color:#245985!important;font-size:10.5px;font-weight:800;text-decoration:none!important}.grcreal-bridge-links a:hover{border-color:#a9c8df;background:#f7fbff}.grcreal-bridge-followup{margin-top:10px}
+@media(max-width:900px){.grcreal-bridge-grid,.grcreal-bridge.compact .grcreal-bridge-grid,.grcreal-bridge-grid.two,.grcreal-bridge.compact .grcreal-bridge-grid.two{grid-template-columns:1fr 1fr}.grcreal-bridge-head{align-items:flex-start;flex-direction:column}.grcreal-bridge-brand{align-self:flex-start}}
+@media(max-width:620px){.grcreal-bridge{padding:17px}.grcreal-bridge-grid,.grcreal-bridge.compact .grcreal-bridge-grid,.grcreal-bridge-grid.two,.grcreal-bridge.compact .grcreal-bridge-grid.two{grid-template-columns:1fr}.grcreal-tool,.grcreal-bridge.compact .grcreal-tool{min-height:0}.grcreal-tool b{padding-top:9px}}

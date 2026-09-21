@@ -1,8 +1,7 @@
 (() => {
   'use strict';
 
-  const ROOT = '/data/';
-  const cacheBust = () => `?v=${Date.now()}`;
+  const ROOT = '/assets/data/';
   const array = value => Array.isArray(value) ? value : value == null ? [] : [value];
 
   const first = (obj, keys, fallback = '') => {
@@ -150,6 +149,7 @@
       publishedLabel: formatPublishedDate(createdUnix),
       updated: String(first(raw, ['last_modified', 'updated_at', 'last_updated', 'modified_at', 'date_updated'], '')),
       status: String(first(raw, ['status', 'lifecycle_status', 'availability_status'], 'Activo')),
+      availability: first(raw, ['availability'], {}),
       parameters: first(raw, ['parameters', 'parameter_count', 'params', 'size'], ''),
       architecture: first(raw, ['architecture', 'model_type', 'type', 'tokenizer'], ''),
       firstSeenAt: String(first(raw, ['first_seen_at'], '')),
@@ -163,7 +163,7 @@
 
   async function json(path, optional = false) {
     try {
-      const response = await fetch(ROOT + path + cacheBust(), { cache: 'no-store' });
+      const response = await fetch(ROOT + path);
       if (!response.ok) throw new Error(`${path}: HTTP ${response.status}`);
       return await response.json();
     } catch (error) {

@@ -18,6 +18,7 @@
   };
   const norm=s=>(s||'').toString().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[‐‑–—]/g,'-').replace(/[^a-z0-9ñáéíóúü\-\/\.\s]/gi,' ').replace(/\s+/g,' ').trim();
   const esc=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const safeInternalHref=value=>{const raw=String(value||'').trim().replace(/^\/+/, '');try{const u=new URL('/'+raw,location.origin);return u.origin===location.origin?u.pathname+u.search+u.hash:'/';}catch(_){return '/';}};
   const tokens=s=>norm(s).match(/[a-z0-9]+(?:[-\/\.][a-z0-9]+)*/g)||[];
   const tokenSet=s=>new Set(tokens(s));
   function parseQuery(q){
@@ -78,15 +79,21 @@
     const input=root.querySelector('[data-search-input],#q'); const out=root.querySelector('[data-search-results],#search-results');
     if(!input||!out) return;
     const filterEls=[...root.querySelectorAll('[data-search-filter]')]; let active=-1;
+    if (!out.id) out.id = `search-results-${Math.random().toString(36).slice(2,8)}`;
+    root.setAttribute('role', root.getAttribute('role') || 'search');
+    out.setAttribute('aria-live','polite');
+    out.setAttribute('aria-atomic','true');
+    input.setAttribute('aria-controls', out.id);
+    input.setAttribute('aria-expanded','false');
     const getFilters=()=>Object.fromEntries(filterEls.map(e=>[e.dataset.searchFilter,e.value]).filter(x=>x[1]));
     const links=()=>[...out.querySelectorAll('.sr-item')];
-    function close(){out.innerHTML='';out.classList.remove('open');active=-1;}
-    function activate(i){const a=links();if(!a.length)return;active=(i+a.length)%a.length;a.forEach((x,n)=>x.classList.toggle('active',n===active));a[active].scrollIntoView({block:'nearest'});}
+    function close(){out.innerHTML='';out.classList.remove('open');input.setAttribute('aria-expanded','false');input.removeAttribute('aria-activedescendant');active=-1;}
+    function activate(i){const a=links();if(!a.length)return;active=(i+a.length)%a.length;a.forEach((x,n)=>{x.classList.toggle('active',n===active);x.setAttribute('aria-current',n===active?'true':'false');});if(!a[active].id)a[active].id=out.id+'-item-'+active;input.setAttribute('aria-activedescendant',a[active].id);a[active].scrollIntoView({block:'nearest'});}
     function render(list,q){
       active=-1;if(!q.trim()){close();return;}
-      if(!list.length){out.innerHTML='<div class="sr-empty"><b>Sin resultados exactos para “'+esc(q)+'”.</b><span>Prueba otra palabra, un sinónimo o elimina algún filtro.</span></div>';out.classList.add('open');return;}
-      out.innerHTML=list.slice(0,30).map(r=>'<a class="sr-item" href="/'+esc(r.u)+'"><b>'+esc(r.t)+'</b><em>'+esc(r.type)+' · '+esc(r.p)+'</em><span>'+esc(r.d)+'</span><small>'+esc([r.level,...(r.frameworks||[])].filter(Boolean).join(' · '))+'</small></a>').join('');
-      out.classList.add('open');
+      if(!list.length){out.innerHTML='<div class="sr-empty"><b>Sin resultados exactos para “'+esc(q)+'”.</b><span>Prueba otra palabra, un sinónimo o elimina algún filtro.</span></div>';out.classList.add('open');input.setAttribute('aria-expanded','true');return;}
+      out.innerHTML=list.slice(0,30).map(r=>'<a class="sr-item" href="'+esc(safeInternalHref(r.u))+'"><b>'+esc(r.t)+'</b><em>'+esc(r.type)+' · '+esc(r.p)+'</em><span>'+esc(r.d)+'</span><small>'+esc([r.level,...(r.frameworks||[])].filter(Boolean).join(' · '))+'</small></a>').join('');
+      out.classList.add('open');input.setAttribute('aria-expanded','true');
     }
     function run(){render(search(input.value,getFilters()),input.value);}
     input.addEventListener('input',run);input.addEventListener('focus',()=>{if(input.value.trim())run();});filterEls.forEach(e=>e.addEventListener('change',run));

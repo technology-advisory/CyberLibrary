@@ -1,0 +1,19 @@
+/* CyberLibrary AI — Design System P10.1
+   Tokens y primitivas compartidas. Valores alineados con la dirección de arte P9. */
+:root{--ds-font-sans:Inter,"Segoe UI",Arial,sans-serif;--ds-font-mono:Consolas,Menlo,monospace;--ds-text-xs:10px;--ds-text-sm:12px;--ds-text-md:14px;--ds-text-lg:16px;--ds-brand-900:#10243b;--ds-brand-800:#142a42;--ds-brand-700:#102a46;--ds-accent:#1477e8;--ds-accent-strong:#1267d6;--ds-cyan:#18d8ff;--ds-navy:#07111f;--ds-text:#10243b;--ds-text-strong:#172b42;--ds-text-muted:#607286;--ds-text-soft:#64778a;--ds-canvas:#f6f8fb;--ds-surface:#ffffff;--ds-surface-soft:#f4f7fb;--ds-surface-blue:#edf4fb;--ds-surface-blue-strong:#eaf3ff;--ds-line:#e3e9f0;--ds-line-soft:#e8edf2;--ds-line-strong:#dfe6ee;--ds-radius-sm:8px;--ds-radius-md:10px;--ds-radius-lg:12px;--ds-radius-xl:18px;--ds-radius-pill:999px;--ds-shadow-sm:0 8px 24px rgba(20,45,75,.045);--ds-shadow-md:0 14px 38px rgba(20,45,75,.07);--ds-shadow-lg:0 18px 42px rgba(15,40,70,.12);--ds-motion-fast:.15s;--ds-motion-base:.18s;--ds-bp-sm:600px;--ds-bp-md:900px;--ds-bp-lg:1200px;}
+
+/* Shared primitives. Deliberadamente mínimas para no alterar P9. */
+.ds-surface{background:var(--ds-surface);border:1px solid var(--ds-line);}
+.ds-card{border:1px solid var(--ds-line-strong);border-radius:var(--ds-radius-lg);background:var(--ds-surface);box-shadow:var(--ds-shadow-sm);}
+.ds-badge{display:inline-flex;align-items:center;width:max-content;border-radius:var(--ds-radius-pill);font-size:var(--ds-text-xs);font-weight:800;}
+.ds-btn{display:inline-flex;align-items:center;justify-content:center;border-radius:var(--ds-radius-sm);font-weight:750;}
+.ds-muted{color:var(--ds-text-muted);}
+
+/* Patrón compartido por los 13 módulos; cada CSS de módulo define solo --module. */
+.mc{display:block;}
+.mc em{display:block;margin-top:12px;color:var(--module);font-size:11px;font-style:normal;font-weight:700;}
+.mc:hover{border-color:var(--module);}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;}
+}

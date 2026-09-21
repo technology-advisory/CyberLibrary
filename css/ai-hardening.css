@@ -1,0 +1,22 @@
+#autodiagnostico .tool{margin-top:22px;border:1px solid #dbe4ef;border-radius:18px;background:linear-gradient(145deg,#fff,#f6f9fd);box-shadow:0 16px 38px rgba(28,58,94,.08);overflow:hidden}
+#autodiagnostico .tool-head{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:22px 24px;border-bottom:1px solid #e1e8f0;background:#fff}
+#autodiagnostico .tool-head h3{margin:0;color:#122033;font-size:19px}
+#autodiagnostico .tool-head small{color:#687b90;font-size:12px}
+#autodiagnostico .tool-grid{display:grid;grid-template-columns:minmax(0,1fr) 390px;gap:0;min-height:480px}
+#autodiagnostico .tool-rows{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:22px;border-right:1px solid #e1e8f0;align-content:start}
+#autodiagnostico .ah-row{border:1px solid #dce5ef;border-radius:12px;background:#fff;padding:15px;box-shadow:0 4px 14px rgba(31,65,103,.04)}
+#autodiagnostico .ah-row-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}
+#autodiagnostico .ah-domain{display:flex;align-items:center;gap:9px;font-weight:750;color:#152337;font-size:13px}
+#autodiagnostico .ah-num{display:grid;place-items:center;width:28px;height:28px;border-radius:8px;background:#eef3ff;color:#276fe8;font-size:11px;font-weight:800}
+#autodiagnostico .ah-value{min-width:29px;text-align:center;color:#fff;background:#276fe8;border-radius:8px;padding:5px 7px;font-weight:800;font-size:12px}
+#autodiagnostico .ah-row input[type=range]{width:100%;accent-color:#276fe8;cursor:pointer}
+#autodiagnostico .ah-scale{display:flex;justify-content:space-between;color:#8a98a9;font-size:9px;margin-top:5px}
+#autodiagnostico .tool-aside{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;background:linear-gradient(180deg,#f8fbff,#eef4fb);text-align:center}
+#autodiagnostico #ah-radar{display:block;width:min(100%,310px);height:auto;filter:drop-shadow(0 10px 18px rgba(39,111,232,.10))}
+#autodiagnostico .tool-score{font-size:46px;line-height:1;color:#276fe8;font-weight:850;letter-spacing:-.04em;margin-top:6px}
+#autodiagnostico .tool-level{font-size:13px;font-weight:800;color:#152337;text-transform:uppercase;letter-spacing:.08em;margin-top:7px}
+#autodiagnostico .tool-note{max-width:290px;margin-top:14px;color:#61748a;font-size:11px;line-height:1.55}
+#autodiagnostico .ah-legend{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;margin-top:14px}
+#autodiagnostico .ah-legend span{font-size:9px;padding:5px 7px;border-radius:999px;background:#fff;border:1px solid #dce5ef;color:#61748a}
+@media(max-width:1050px){#autodiagnostico .tool-grid{grid-template-columns:1fr}#autodiagnostico .tool-rows{border-right:0;border-bottom:1px solid #e1e8f0}}
+@media(max-width:680px){#autodiagnostico .tool-head{align-items:flex-start;flex-direction:column}#autodiagnostico .tool-rows{grid-template-columns:1fr;padding:14px}#autodiagnostico .tool-aside{padding:20px 14px}}

@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "base": "Reglamento (UE) 2024/1689",
+    "amending": "Reglamento (UE) 2026/1744",
+    "updated": "2026-08-02",
+    "source": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+  },
+  "changes": [
+    {
+      "id": "art-1-objeto",
+      "chapter": "Capítulo I",
+      "article": "Artículo 1",
+      "title": "Objeto",
+      "type": "modificado",
+      "topic": "Ámbito general",
+      "operation": "Se sustituye el apartado 2 para adaptar el objeto y alcance a la simplificación introducida por el Ómnibus digital.",
+      "before": "El artículo definía el objeto del Reglamento de IA conforme a la redacción original de 2024.",
+      "after": "El texto consolidado incorpora la nueva redacción aprobada por el Reglamento (UE) 2026/1744.",
+      "explanation": "Cambio transversal que debe revisarse al actualizar políticas, inventarios regulatorios y referencias internas al AI Act.",
+      "roles": [
+        "Todas las organizaciones"
+      ],
+      "date": "27/07/2026"
+    },
+    {
+      "id": "art-4bis",
+      "chapter": "Capítulo I",
+      "article": "Artículo 4 bis",
+      "title": "Tratamiento de categorías especiales de datos",
+      "type": "nuevo",
+      "topic": "Datos y cumplimiento",
+      "operation": "Se inserta un nuevo artículo 4 bis.",
+      "before": "No existía una disposición independiente con esta numeración en la versión inicial.",
+      "after": "Se incorpora una regla específica vinculada al tratamiento de categorías especiales de datos en el contexto previsto por la modificación.",
+      "explanation": "Conviene revisar bases jurídicas, minimización, controles de acceso y evidencias cuando el sistema utilice datos especialmente protegidos.",
+      "roles": [
+        "Proveedor",
+        "Responsable del despliegue",
+        "DPO"
+      ],
+      "date": "27/07/2026"
+    },
+    {
+      "id": "art-60bis",
+      "chapter": "Capítulo VI",
+      "article": "Artículo 60 bis",
+      "title": "Medidas de apoyo a la innovación",
+      "type": "nuevo",
+      "topic": "Innovación y pymes",
+      "operation": "Se inserta una disposición adicional de apoyo a la innovación.",
+      "before": "La versión original no contenía el artículo 60 bis.",
+      "after": "La nueva disposición refuerza medidas de apoyo y presta atención especial a pymes y pequeñas empresas de mediana capitalización.",
+      "explanation": "Puede afectar a programas de acompañamiento, sandboxes, documentación simplificada y acceso a mecanismos de apoyo.",
+      "roles": [
+        "Pymes",
+        "Proveedores",
+        "Autoridades"
+      ],
+      "date": "27/07/2026"
+    },
+    {
+      "id": "art-75bis",
+      "chapter": "Capítulo IX",
+      "article": "Artículo 75 bis",
+      "title": "Competencias de supervisión",
+      "type": "nuevo",
+      "topic": "Gobernanza y supervisión",
+      "operation": "Se incorpora un nuevo artículo relativo a competencias de supervisión.",
+      "before": "No existía un artículo 75 bis en la estructura original.",
+      "after": "Se define una disposición específica sobre supervisión dentro del capítulo de vigilancia y gobernanza.",
+      "explanation": "Las matrices RACI y los procedimientos de relación con autoridades deberían actualizarse con la autoridad competente y el cauce de cooperación aplicable.",
+      "roles": [
+        "Autoridades",
+        "Proveedor",
+        "Responsable del despliegue"
+      ],
+      "date": "27/07/2026"
+    },
+    {
+      "id": "art-75ter",
+      "chapter": "Capítulo IX",
+      "article": "Artículo 75 ter",
+      "title": "Compromisos",
+      "type": "nuevo",
+      "topic": "Gobernanza y compromisos",
+      "operation": "Se añade un nuevo artículo sobre compromisos.",
+      "before": "La numeración y la obligación no figuraban como artículo autónomo.",
+      "after": "Se incorpora un mecanismo específico de compromisos en el marco de supervisión y cumplimiento.",
+      "explanation": "Debe evaluarse cómo documentar, aprobar, seguir y cerrar compromisos asumidos frente a la autoridad.",
+      "roles": [
+        "Proveedor",
+        "Autoridades"
+      ],
+      "date": "27/07/2026"
+    },
+    {
+      "id": "art-75quater",
+      "chapter": "Capítulo IX",
+      "article": "Artículo 75 quater",
+      "title": "Incumplimiento y medidas correctoras",
+      "type": "nuevo",
+      "topic": "Enforcement",
+      "operation": "Se incorpora una disposición sobre incumplimiento y medidas correctoras.",
+      "before": "No existía este artículo autónomo en la redacción de 2024.",
+      "after": "El texto modificado concreta el tratamiento de incumplimientos y la adopción de medidas correctoras.",
+      "explanation": "Los planes de respuesta regulatoria deben conectar hallazgos, acciones correctoras, responsables, fechas objetivo y evidencias de cierre.",
+      "roles": [
+        "Proveedor",
+        "Responsable del despliegue",
+        "Autoridades"
+      ],
+      "date": "27/07/2026"
+    },
+    {
+      "id": "anexo-xiv",
+      "chapter": "Anexos",
+      "article": "Anexo XIV",
+      "title": "Lista de códigos y categorías",
+      "type": "nuevo",
+      "topic": "Clasificación y referencias",
+      "operation": "Se añade un nuevo anexo XIV.",
+      "before": "El anexo no formaba parte de la estructura original del Reglamento.",
+      "after": "Se incorpora una lista estructurada de códigos, categorías o referencias para la aplicación de las nuevas disposiciones.",
+      "explanation": "Los inventarios de sistemas y las herramientas de clasificación deberán incorporar los nuevos códigos cuando sean aplicables.",
+      "roles": [
+        "Proveedor",
+        "Compliance",
+        "Auditoría"
+      ],
+      "date": "27/07/2026"
+    },
+    {
+      "id": "aplicabilidad-plazos",
+      "chapter": "Disposiciones finales",
+      "article": "Fechas de aplicación",
+      "title": "Ajuste de determinados plazos",
+      "type": "fecha",
+      "topic": "Calendario regulatorio",
+      "operation": "Se ajustan fechas y condiciones de aplicabilidad de determinadas obligaciones.",
+      "before": "El calendario seguía exclusivamente los hitos fijados en la versión de 2024.",
+      "after": "El calendario debe leerse junto con las modificaciones de 2026 y las condiciones vinculadas a normas armonizadas y medidas de ejecución.",
+      "explanation": "No debe asumirse una única fecha para todo el Reglamento. Cada obligación necesita una ficha con entrada en vigor, aplicabilidad y dependencias.",
+      "roles": [
+        "Todas las organizaciones"
+      ],
+      "date": "Según disposición"
+    }
+  ]
+}

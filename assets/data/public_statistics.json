@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "engine_version": "3.3",
+    "generated_at_utc": "2026-09-16T18:56:32Z"
+  },
+  "data": {
+    "model_count": 336,
+    "provider_count": 52,
+    "family_count": 154,
+    "capability_count": 33,
+    "historical_count": 31,
+    "source_record_count": 444,
+    "new_models_last_7_days": 47,
+    "updated_models_last_7_days": 0,
+    "activity": {
+      "new_models": 47,
+      "updated_models": 0,
+      "window_days": 7
+    }
+  }
+}

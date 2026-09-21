@@ -1,0 +1,2038 @@
+{
+  "metadata": {
+    "engine_version": "3.3",
+    "source": "openrouter",
+    "generated_at_utc": "2026-09-16T18:56:32Z",
+    "model_count": 336,
+    "provider_count": 52,
+    "family_count": 154,
+    "catalog_policy": "P14.2A",
+    "source_record_count": 444,
+    "historical_count": 31
+  },
+  "data": {
+    "statistics": {
+      "model_count": 336,
+      "provider_count": 52,
+      "family_count": 154
+    },
+    "models": [
+      {
+        "id": "aion-labs/aion-2.0",
+        "name": "AionLabs: Aion-2.0",
+        "provider": "Aion Labs",
+        "family": "aion"
+      },
+      {
+        "id": "aion-labs/aion-3.0",
+        "name": "AionLabs: Aion-3.0",
+        "provider": "Aion Labs",
+        "family": "aion"
+      },
+      {
+        "id": "aion-labs/aion-3.0-mini",
+        "name": "AionLabs: Aion-3.0-Mini",
+        "provider": "Aion Labs",
+        "family": "aion"
+      },
+      {
+        "id": "aion-labs/aion-rp-llama-3.1-8b",
+        "name": "AionLabs: Aion-RP 1.0 (8B)",
+        "provider": "Aion Labs",
+        "family": "aion-rp-llama"
+      },
+      {
+        "id": "amazon/nova-2-lite-v1",
+        "name": "Amazon: Nova 2 Lite",
+        "provider": "Amazon",
+        "family": "nova"
+      },
+      {
+        "id": "amazon/nova-lite-v1",
+        "name": "Amazon: Nova Lite 1.0",
+        "provider": "Amazon",
+        "family": "nova-lite"
+      },
+      {
+        "id": "amazon/nova-micro-v1",
+        "name": "Amazon: Nova Micro 1.0",
+        "provider": "Amazon",
+        "family": "nova-micro"
+      },
+      {
+        "id": "amazon/nova-premier-v1",
+        "name": "Amazon: Nova Premier 1.0",
+        "provider": "Amazon",
+        "family": "nova-premier"
+      },
+      {
+        "id": "amazon/nova-pro-v1",
+        "name": "Amazon: Nova Pro 1.0",
+        "provider": "Amazon",
+        "family": "nova-pro"
+      },
+      {
+        "id": "anthracite-org/magnum-v4-72b",
+        "name": "Magnum v4 72B",
+        "provider": "Anthracite Org",
+        "family": "magnum"
+      },
+      {
+        "id": "anthropic/claude-3-haiku",
+        "name": "Anthropic: Claude 3 Haiku",
+        "provider": "Anthropic",
+        "family": "claude"
+      },
+      {
+        "id": "anthropic/claude-fable-5",
+        "name": "Anthropic: Claude Fable 5",
+        "provider": "Anthropic",
+        "family": "claude-fable"
+      },
+      {
+        "id": "anthropic/claude-fable-5.1",
+        "name": "Anthropic: Claude Fable 5.1",
+        "provider": "Anthropic",
+        "family": "claude-fable"
+      },
+      {
+        "id": "anthropic/claude-haiku-4.5",
+        "name": "Anthropic: Claude Haiku 4.5",
+        "provider": "Anthropic",
+        "family": "claude-haiku"
+      },
+      {
+        "id": "anthropic/claude-opus-4",
+        "name": "Anthropic: Claude Opus 4",
+        "provider": "Anthropic",
+        "family": "claude-opus"
+      },
+      {
+        "id": "anthropic/claude-opus-4.1",
+        "name": "Anthropic: Claude Opus 4.1",
+        "provider": "Anthropic",
+        "family": "claude-opus"
+      },
+      {
+        "id": "anthropic/claude-opus-4.5",
+        "name": "Anthropic: Claude Opus 4.5",
+        "provider": "Anthropic",
+        "family": "claude-opus"
+      },
+      {
+        "id": "anthropic/claude-opus-4.6",
+        "name": "Anthropic: Claude Opus 4.6",
+        "provider": "Anthropic",
+        "family": "claude-opus"
+      },
+      {
+        "id": "anthropic/claude-opus-4.7",
+        "name": "Anthropic: Claude Opus 4.7",
+        "provider": "Anthropic",
+        "family": "claude-opus"
+      },
+      {
+        "id": "anthropic/claude-opus-4.8",
+        "name": "Anthropic: Claude Opus 4.8",
+        "provider": "Anthropic",
+        "family": "claude-opus"
+      },
+      {
+        "id": "anthropic/claude-opus-5",
+        "name": "Anthropic: Claude Opus 5",
+        "provider": "Anthropic",
+        "family": "claude-opus"
+      },
+      {
+        "id": "anthropic/claude-sonnet-4",
+        "name": "Anthropic: Claude Sonnet 4",
+        "provider": "Anthropic",
+        "family": "claude-sonnet"
+      },
+      {
+        "id": "anthropic/claude-sonnet-4.5",
+        "name": "Anthropic: Claude Sonnet 4.5",
+        "provider": "Anthropic",
+        "family": "claude-sonnet"
+      },
+      {
+        "id": "anthropic/claude-sonnet-4.6",
+        "name": "Anthropic: Claude Sonnet 4.6",
+        "provider": "Anthropic",
+        "family": "claude-sonnet"
+      },
+      {
+        "id": "anthropic/claude-sonnet-5",
+        "name": "Anthropic: Claude Sonnet 5",
+        "provider": "Anthropic",
+        "family": "claude-sonnet"
+      },
+      {
+        "id": "arcee-ai/trinity-large-thinking",
+        "name": "Arcee AI: Trinity Large Thinking",
+        "provider": "Arcee Ai",
+        "family": "trinity-large-thinking"
+      },
+      {
+        "id": "baidu/ernie-4.5-vl-424b-a47b",
+        "name": "Baidu: ERNIE 4.5 VL 424B A47B",
+        "provider": "Baidu",
+        "family": "ernie"
+      },
+      {
+        "id": "bytedance/ui-tars-1.5-7b",
+        "name": "ByteDance: UI-TARS 7B",
+        "provider": "Bytedance",
+        "family": "ui-tars"
+      },
+      {
+        "id": "bytedance-seed/seed-1.6",
+        "name": "ByteDance Seed: Seed 1.6",
+        "provider": "Bytedance Seed",
+        "family": "seed"
+      },
+      {
+        "id": "bytedance-seed/seed-1.6-flash",
+        "name": "ByteDance Seed: Seed 1.6 Flash",
+        "provider": "Bytedance Seed",
+        "family": "seed"
+      },
+      {
+        "id": "bytedance-seed/seed-2-1-turbo",
+        "name": "ByteDance Seed: Seed 2.1 Turbo",
+        "provider": "Bytedance Seed",
+        "family": "seed"
+      },
+      {
+        "id": "bytedance-seed/seed-2.0-code",
+        "name": "ByteDance Seed: Seed-2.0-Code",
+        "provider": "Bytedance Seed",
+        "family": "seed"
+      },
+      {
+        "id": "bytedance-seed/seed-2.0-lite",
+        "name": "ByteDance Seed: Seed-2.0-Lite",
+        "provider": "Bytedance Seed",
+        "family": "seed"
+      },
+      {
+        "id": "bytedance-seed/seed-2.0-mini",
+        "name": "ByteDance Seed: Seed-2.0-Mini",
+        "provider": "Bytedance Seed",
+        "family": "seed"
+      },
+      {
+        "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+        "name": "Venice: Uncensored",
+        "provider": "Cognitivecomputations",
+        "family": "dolphin-mistral"
+      },
+      {
+        "id": "cohere/command-a",
+        "name": "Cohere: Command A",
+        "provider": "Cohere",
+        "family": "command-a"
+      },
+      {
+        "id": "cohere/command-r-08-2024",
+        "name": "Cohere: Command R (08-2024)",
+        "provider": "Cohere",
+        "family": "command-r"
+      },
+      {
+        "id": "cohere/command-r-plus-08-2024",
+        "name": "Cohere: Command R+ (08-2024)",
+        "provider": "Cohere",
+        "family": "command-r-plus"
+      },
+      {
+        "id": "cohere/command-r7b-12-2024",
+        "name": "Cohere: Command R7B (12-2024)",
+        "provider": "Cohere",
+        "family": "command-r7b"
+      },
+      {
+        "id": "cohere/north-mini-code",
+        "name": "Cohere: North Mini Code",
+        "provider": "Cohere",
+        "family": "north-mini-code"
+      },
+      {
+        "id": "deepseek/deepseek-chat",
+        "name": "DeepSeek: DeepSeek V3",
+        "provider": "DeepSeek",
+        "family": "deepseek"
+      },
+      {
+        "id": "deepseek/deepseek-chat-v3-0324",
+        "name": "DeepSeek: DeepSeek V3 0324",
+        "provider": "DeepSeek",
+        "family": "deepseek"
+      },
+      {
+        "id": "deepseek/deepseek-chat-v3.1",
+        "name": "DeepSeek: DeepSeek V3.1",
+        "provider": "DeepSeek",
+        "family": "deepseek"
+      },
+      {
+        "id": "deepseek/deepseek-v3.1-terminus",
+        "name": "DeepSeek: DeepSeek V3.1 Terminus",
+        "provider": "DeepSeek",
+        "family": "deepseek"
+      },
+      {
+        "id": "deepseek/deepseek-v3.2",
+        "name": "DeepSeek: DeepSeek V3.2",
+        "provider": "DeepSeek",
+        "family": "deepseek"
+      },
+      {
+        "id": "deepseek/deepseek-v3.2-exp",
+        "name": "DeepSeek: DeepSeek V3.2 Exp",
+        "provider": "DeepSeek",
+        "family": "deepseek"
+      },
+      {
+        "id": "deepseek/deepseek-v4-flash",
+        "name": "DeepSeek: DeepSeek V4 Flash 0423",
+        "provider": "DeepSeek",
+        "family": "deepseek"
+      },
+      {
+        "id": "deepseek/deepseek-v4-flash-0731",
+        "name": "DeepSeek: DeepSeek V4 Flash 0731",
+        "provider": "DeepSeek",
+        "family": "deepseek"
+      },
+      {
+        "id": "deepseek/deepseek-v4-flash-vision-exp",
+        "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+        "provider": "DeepSeek",
+        "family": "deepseek"
+      },
+      {
+        "id": "deepseek/deepseek-v4-pro",
+        "name": "DeepSeek: DeepSeek V4 Pro 0423",
+        "provider": "DeepSeek",
+        "family": "deepseek"
+      },
+      {
+        "id": "deepseek/deepseek-v4-pro-0813",
+        "name": "DeepSeek: DeepSeek V4 Pro 0813",
+        "provider": "DeepSeek",
+        "family": "deepseek"
+      },
+      {
+        "id": "deepseek/deepseek-v4.1-flash",
+        "name": "DeepSeek: DeepSeek V4.1 Flash",
+        "provider": "DeepSeek",
+        "family": "deepseek"
+      },
+      {
+        "id": "deepseek/deepseek-r1",
+        "name": "DeepSeek: R1",
+        "provider": "DeepSeek",
+        "family": "deepseek-r1"
+      },
+      {
+        "id": "deepseek/deepseek-r1-0528",
+        "name": "DeepSeek: R1 0528",
+        "provider": "DeepSeek",
+        "family": "deepseek-r1"
+      },
+      {
+        "id": "deepseek/deepseek-r1-distill-llama-70b",
+        "name": "DeepSeek: R1 Distill Llama 70B",
+        "provider": "DeepSeek",
+        "family": "deepseek-r1-distill-llama"
+      },
+      {
+        "id": "dots-studio/dots-3-note-preview",
+        "name": "Dots Studio: Dots3-Note Preview",
+        "provider": "Dots Studio",
+        "family": "dots"
+      },
+      {
+        "id": "google/gemini-2.5-flash",
+        "name": "Google: Gemini 2.5 Flash",
+        "provider": "Google",
+        "family": "gemini"
+      },
+      {
+        "id": "google/gemini-2.5-flash-lite",
+        "name": "Google: Gemini 2.5 Flash Lite",
+        "provider": "Google",
+        "family": "gemini"
+      },
+      {
+        "id": "google/gemini-2.5-pro",
+        "name": "Google: Gemini 2.5 Pro",
+        "provider": "Google",
+        "family": "gemini"
+      },
+      {
+        "id": "google/gemini-2.5-pro-preview",
+        "name": "Google: Gemini 2.5 Pro Preview 06-05",
+        "provider": "Google",
+        "family": "gemini"
+      },
+      {
+        "id": "google/gemini-3-flash-preview",
+        "name": "Google: Gemini 3 Flash Preview",
+        "provider": "Google",
+        "family": "gemini"
+      },
+      {
+        "id": "google/gemini-3.1-flash-lite",
+        "name": "Google: Gemini 3.1 Flash Lite",
+        "provider": "Google",
+        "family": "gemini"
+      },
+      {
+        "id": "google/gemini-3.1-flash-lite-preview",
+        "name": "Google: Gemini 3.1 Flash Lite Preview",
+        "provider": "Google",
+        "family": "gemini"
+      },
+      {
+        "id": "google/gemini-3.1-pro-preview",
+        "name": "Google: Gemini 3.1 Pro Preview",
+        "provider": "Google",
+        "family": "gemini"
+      },
+      {
+        "id": "google/gemini-3.1-pro-preview-customtools",
+        "name": "Google: Gemini 3.1 Pro Preview Custom Tools",
+        "provider": "Google",
+        "family": "gemini"
+      },
+      {
+        "id": "google/gemini-3.5-flash",
+        "name": "Google: Gemini 3.5 Flash",
+        "provider": "Google",
+        "family": "gemini"
+      },
+      {
+        "id": "google/gemini-3.5-flash-lite",
+        "name": "Google: Gemini 3.5 Flash Lite",
+        "provider": "Google",
+        "family": "gemini"
+      },
+      {
+        "id": "google/gemini-3.6-flash",
+        "name": "Google: Gemini 3.6 Flash",
+        "provider": "Google",
+        "family": "gemini"
+      },
+      {
+        "id": "google/gemini-3.7-flash",
+        "name": "Google: Gemini 3.7 Flash",
+        "provider": "Google",
+        "family": "gemini"
+      },
+      {
+        "id": "google/gemini-3.8-flash",
+        "name": "Google: Gemini 3.8 Flash",
+        "provider": "Google",
+        "family": "gemini"
+      },
+      {
+        "id": "google/gemma-2-27b-it",
+        "name": "Google: Gemma 2 27B",
+        "provider": "Google",
+        "family": "gemma"
+      },
+      {
+        "id": "google/gemma-3-12b-it",
+        "name": "Google: Gemma 3 12B",
+        "provider": "Google",
+        "family": "gemma"
+      },
+      {
+        "id": "google/gemma-3-27b-it",
+        "name": "Google: Gemma 3 27B",
+        "provider": "Google",
+        "family": "gemma"
+      },
+      {
+        "id": "google/gemma-3-4b-it",
+        "name": "Google: Gemma 3 4B",
+        "provider": "Google",
+        "family": "gemma"
+      },
+      {
+        "id": "google/gemma-4-26b-a4b-it",
+        "name": "Google: Gemma 4 26B A4B",
+        "provider": "Google",
+        "family": "gemma"
+      },
+      {
+        "id": "google/gemma-4-31b-it",
+        "name": "Google: Gemma 4 31B",
+        "provider": "Google",
+        "family": "gemma"
+      },
+      {
+        "id": "google/lyria-3-clip-preview",
+        "name": "Google: Lyria 3 Clip Preview",
+        "provider": "Google",
+        "family": "lyria"
+      },
+      {
+        "id": "google/lyria-3-pro-preview",
+        "name": "Google: Lyria 3 Pro Preview",
+        "provider": "Google",
+        "family": "lyria"
+      },
+      {
+        "id": "google/gemini-2.5-flash-image",
+        "name": "Google: Nano Banana (Gemini 2.5 Flash Image)",
+        "provider": "Google",
+        "family": "gemini"
+      },
+      {
+        "id": "google/gemini-3.1-flash-image-preview",
+        "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+        "provider": "Google",
+        "family": "gemini"
+      },
+      {
+        "id": "google/gemini-3.1-flash-image",
+        "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
+        "provider": "Google",
+        "family": "gemini"
+      },
+      {
+        "id": "google/gemini-3.1-flash-lite-image",
+        "name": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
+        "provider": "Google",
+        "family": "gemini"
+      },
+      {
+        "id": "google/gemini-3-pro-image-preview",
+        "name": "Google: Nano Banana Pro (Gemini 3 Pro Image Preview)",
+        "provider": "Google",
+        "family": "gemini"
+      },
+      {
+        "id": "google/gemini-3-pro-image",
+        "name": "Google: Nano Banana Pro (Gemini 3 Pro Image)",
+        "provider": "Google",
+        "family": "gemini"
+      },
+      {
+        "id": "gryphe/mythomax-l2-13b",
+        "name": "MythoMax 13B",
+        "provider": "Gryphe",
+        "family": "mythomax-l2"
+      },
+      {
+        "id": "ibm-granite/granite-4.0-h-micro",
+        "name": "IBM: Granite 4.0 Micro",
+        "provider": "Ibm Granite",
+        "family": "granite"
+      },
+      {
+        "id": "ibm-granite/granite-4.2-8b",
+        "name": "IBM: Granite 4.2 8B",
+        "provider": "Ibm Granite",
+        "family": "granite"
+      },
+      {
+        "id": "inception/mercury-2",
+        "name": "Inception: Mercury 2",
+        "provider": "Inception",
+        "family": "mercury"
+      },
+      {
+        "id": "inception/mercury-2.5",
+        "name": "Inception: Mercury 2.5",
+        "provider": "Inception",
+        "family": "mercury"
+      },
+      {
+        "id": "inclusionai/ling-3.0-flash",
+        "name": "inclusionAI: Ling 3.0 Flash",
+        "provider": "Inclusionai",
+        "family": "ling"
+      },
+      {
+        "id": "inclusionai/ling-3.0-flash-fin",
+        "name": "inclusionAI: Ling 3.0 Flash Fin",
+        "provider": "Inclusionai",
+        "family": "ling"
+      },
+      {
+        "id": "inclusionai/ling-3.0-flash-sante",
+        "name": "inclusionAI: Ling 3.0 Flash Sante",
+        "provider": "Inclusionai",
+        "family": "ling"
+      },
+      {
+        "id": "inclusionai/ling-3.0-flash-vl",
+        "name": "inclusionAI: Ling 3.0 Flash VL",
+        "provider": "Inclusionai",
+        "family": "ling"
+      },
+      {
+        "id": "inference-net/schematron-v2-small",
+        "name": "Inference.net: Schematron V2 Small",
+        "provider": "Inference Net",
+        "family": "schematron"
+      },
+      {
+        "id": "inference-net/schematron-v2-turbo",
+        "name": "Inference.net: Schematron V2 Turbo",
+        "provider": "Inference Net",
+        "family": "schematron"
+      },
+      {
+        "id": "kwaipilot/kat-coder-pro-v2",
+        "name": "Kwaipilot: KAT-Coder-Pro V2",
+        "provider": "Kwaipilot",
+        "family": "kat-coder-pro"
+      },
+      {
+        "id": "kwaipilot/kat-coder-pro-v2.5",
+        "name": "Kwaipilot: KAT-Coder-Pro V2.5",
+        "provider": "Kwaipilot",
+        "family": "kat-coder-pro"
+      },
+      {
+        "id": "liquid/lfm-2.5-2.6b",
+        "name": "LiquidAI: LFM2.5-2.6B",
+        "provider": "Liquid",
+        "family": "lfm"
+      },
+      {
+        "id": "mancer/weaver",
+        "name": "Mancer: Weaver (alpha)",
+        "provider": "Mancer",
+        "family": "weaver"
+      },
+      {
+        "id": "meituan/longcat-2.0",
+        "name": "Meituan: LongCat 2.0",
+        "provider": "Meituan",
+        "family": "longcat"
+      },
+      {
+        "id": "meta-llama/llama-3.1-70b-instruct",
+        "name": "Meta: Llama 3.1 70B Instruct",
+        "provider": "Meta",
+        "family": "llama"
+      },
+      {
+        "id": "meta-llama/llama-3.1-8b-instruct",
+        "name": "Meta: Llama 3.1 8B Instruct",
+        "provider": "Meta",
+        "family": "llama"
+      },
+      {
+        "id": "meta-llama/llama-3.2-1b-instruct",
+        "name": "Meta: Llama 3.2 1B Instruct",
+        "provider": "Meta",
+        "family": "llama"
+      },
+      {
+        "id": "meta-llama/llama-3.2-3b-instruct",
+        "name": "Meta: Llama 3.2 3B Instruct",
+        "provider": "Meta",
+        "family": "llama"
+      },
+      {
+        "id": "meta-llama/llama-3.3-70b-instruct",
+        "name": "Meta: Llama 3.3 70B Instruct",
+        "provider": "Meta",
+        "family": "llama"
+      },
+      {
+        "id": "meta-llama/llama-4-maverick",
+        "name": "Meta: Llama 4 Maverick",
+        "provider": "Meta",
+        "family": "llama"
+      },
+      {
+        "id": "meta-llama/llama-4-scout",
+        "name": "Meta: Llama 4 Scout",
+        "provider": "Meta",
+        "family": "llama"
+      },
+      {
+        "id": "meta-llama/llama-guard-4-12b",
+        "name": "Meta: Llama Guard 4 12B",
+        "provider": "Meta",
+        "family": "llama-guard"
+      },
+      {
+        "id": "meta/muse-glimmer-30b",
+        "name": "Meta: Muse Glimmer 30B",
+        "provider": "Meta",
+        "family": "muse-glimmer"
+      },
+      {
+        "id": "meta/muse-spark-1.1",
+        "name": "Meta: Muse Spark 1.1",
+        "provider": "Meta",
+        "family": "muse-spark"
+      },
+      {
+        "id": "meta/muse-spark-1.2",
+        "name": "Meta: Muse Spark 1.2",
+        "provider": "Meta",
+        "family": "muse-spark"
+      },
+      {
+        "id": "meta/muse-spark-1.3",
+        "name": "Meta: Muse Spark 1.3",
+        "provider": "Meta",
+        "family": "muse-spark"
+      },
+      {
+        "id": "microsoft/phi-4",
+        "name": "Microsoft: Phi 4",
+        "provider": "Microsoft",
+        "family": "phi"
+      },
+      {
+        "id": "microsoft/wizardlm-2-8x22b",
+        "name": "WizardLM-2 8x22B",
+        "provider": "Microsoft",
+        "family": "wizardlm"
+      },
+      {
+        "id": "minimax/minimax-m1",
+        "name": "MiniMax: MiniMax M1",
+        "provider": "Minimax",
+        "family": "minimax-m1"
+      },
+      {
+        "id": "minimax/minimax-m2",
+        "name": "MiniMax: MiniMax M2",
+        "provider": "Minimax",
+        "family": "minimax-m2"
+      },
+      {
+        "id": "minimax/minimax-m2-her",
+        "name": "MiniMax: MiniMax M2-her",
+        "provider": "Minimax",
+        "family": "minimax-m2-her"
+      },
+      {
+        "id": "minimax/minimax-m2.1",
+        "name": "MiniMax: MiniMax M2.1",
+        "provider": "Minimax",
+        "family": "minimax-m2.1"
+      },
+      {
+        "id": "minimax/minimax-m2.5",
+        "name": "MiniMax: MiniMax M2.5",
+        "provider": "Minimax",
+        "family": "minimax-m2.5"
+      },
+      {
+        "id": "minimax/minimax-m2.7",
+        "name": "MiniMax: MiniMax M2.7",
+        "provider": "Minimax",
+        "family": "minimax-m2.7"
+      },
+      {
+        "id": "minimax/minimax-m3",
+        "name": "MiniMax: MiniMax M3",
+        "provider": "Minimax",
+        "family": "minimax-m3"
+      },
+      {
+        "id": "minimax/minimax-01",
+        "name": "MiniMax: MiniMax-01",
+        "provider": "Minimax",
+        "family": "minimax"
+      },
+      {
+        "id": "mistralai/mistral-large",
+        "name": "Mistral Large",
+        "provider": "Mistral AI",
+        "family": "mistral-large"
+      },
+      {
+        "id": "mistralai/mistral-large-2407",
+        "name": "Mistral Large 2407",
+        "provider": "Mistral AI",
+        "family": "mistral-large"
+      },
+      {
+        "id": "mistralai/codestral-2508",
+        "name": "Mistral: Codestral 2508",
+        "provider": "Mistral AI",
+        "family": "codestral"
+      },
+      {
+        "id": "mistralai/devstral-2512",
+        "name": "Mistral: Devstral 2 2512",
+        "provider": "Mistral AI",
+        "family": "devstral"
+      },
+      {
+        "id": "mistralai/ministral-14b-2512",
+        "name": "Mistral: Ministral 3 14B 2512",
+        "provider": "Mistral AI",
+        "family": "ministral"
+      },
+      {
+        "id": "mistralai/ministral-3b-2512",
+        "name": "Mistral: Ministral 3 3B 2512",
+        "provider": "Mistral AI",
+        "family": "ministral"
+      },
+      {
+        "id": "mistralai/ministral-8b-2512",
+        "name": "Mistral: Ministral 3 8B 2512",
+        "provider": "Mistral AI",
+        "family": "ministral"
+      },
+      {
+        "id": "mistralai/mistral-large-2512",
+        "name": "Mistral: Mistral Large 3 2512",
+        "provider": "Mistral AI",
+        "family": "mistral-large"
+      },
+      {
+        "id": "mistralai/mistral-medium-3",
+        "name": "Mistral: Mistral Medium 3",
+        "provider": "Mistral AI",
+        "family": "mistral-medium"
+      },
+      {
+        "id": "mistralai/mistral-medium-3.1",
+        "name": "Mistral: Mistral Medium 3.1",
+        "provider": "Mistral AI",
+        "family": "mistral-medium"
+      },
+      {
+        "id": "mistralai/mistral-medium-3-5",
+        "name": "Mistral: Mistral Medium 3.5",
+        "provider": "Mistral AI",
+        "family": "mistral-medium"
+      },
+      {
+        "id": "mistralai/mistral-nemo",
+        "name": "Mistral: Mistral Nemo",
+        "provider": "Mistral AI",
+        "family": "mistral-nemo"
+      },
+      {
+        "id": "mistralai/mistral-small-24b-instruct-2501",
+        "name": "Mistral: Mistral Small 3",
+        "provider": "Mistral AI",
+        "family": "mistral-small"
+      },
+      {
+        "id": "mistralai/mistral-small-3.1-24b-instruct",
+        "name": "Mistral: Mistral Small 3.1 24B",
+        "provider": "Mistral AI",
+        "family": "mistral-small"
+      },
+      {
+        "id": "mistralai/mistral-small-3.2-24b-instruct",
+        "name": "Mistral: Mistral Small 3.2 24B",
+        "provider": "Mistral AI",
+        "family": "mistral-small"
+      },
+      {
+        "id": "mistralai/mistral-small-2603",
+        "name": "Mistral: Mistral Small 4",
+        "provider": "Mistral AI",
+        "family": "mistral-small"
+      },
+      {
+        "id": "mistralai/mixtral-8x22b-instruct",
+        "name": "Mistral: Mixtral 8x22B Instruct",
+        "provider": "Mistral AI",
+        "family": "mixtral-8x22b"
+      },
+      {
+        "id": "mistralai/mistral-saba",
+        "name": "Mistral: Saba",
+        "provider": "Mistral AI",
+        "family": "mistral-saba"
+      },
+      {
+        "id": "mistralai/voxtral-small-24b-2507",
+        "name": "Mistral: Voxtral Small 24B 2507",
+        "provider": "Mistral AI",
+        "family": "voxtral-small"
+      },
+      {
+        "id": "moonshotai/kimi-k2",
+        "name": "MoonshotAI: Kimi K2 0711",
+        "provider": "Moonshotai",
+        "family": "kimi-k2"
+      },
+      {
+        "id": "moonshotai/kimi-k2-0905",
+        "name": "MoonshotAI: Kimi K2 0905",
+        "provider": "Moonshotai",
+        "family": "kimi-k2"
+      },
+      {
+        "id": "moonshotai/kimi-k2-thinking",
+        "name": "MoonshotAI: Kimi K2 Thinking",
+        "provider": "Moonshotai",
+        "family": "kimi-k2-thinking"
+      },
+      {
+        "id": "moonshotai/kimi-k2.5",
+        "name": "MoonshotAI: Kimi K2.5",
+        "provider": "Moonshotai",
+        "family": "kimi-k2.5"
+      },
+      {
+        "id": "moonshotai/kimi-k2.6",
+        "name": "MoonshotAI: Kimi K2.6",
+        "provider": "Moonshotai",
+        "family": "kimi-k2.6"
+      },
+      {
+        "id": "moonshotai/kimi-k2.7-code",
+        "name": "MoonshotAI: Kimi K2.7 Code",
+        "provider": "Moonshotai",
+        "family": "kimi-k2.7-code"
+      },
+      {
+        "id": "moonshotai/kimi-k3",
+        "name": "MoonshotAI: Kimi K3",
+        "provider": "Moonshotai",
+        "family": "kimi-k3"
+      },
+      {
+        "id": "morph/morph-v3-fast",
+        "name": "Morph: Morph V3 Fast",
+        "provider": "Morph",
+        "family": "morph"
+      },
+      {
+        "id": "morph/morph-v3-large",
+        "name": "Morph: Morph V3 Large",
+        "provider": "Morph",
+        "family": "morph"
+      },
+      {
+        "id": "nvidia/nemotron-3-nano-30b-a3b",
+        "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
+        "provider": "NVIDIA",
+        "family": "nemotron"
+      },
+      {
+        "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+        "name": "NVIDIA: Nemotron 3 Nano Omni",
+        "provider": "NVIDIA",
+        "family": "nemotron"
+      },
+      {
+        "id": "nvidia/nemotron-3-super-120b-a12b",
+        "name": "NVIDIA: Nemotron 3 Super",
+        "provider": "NVIDIA",
+        "family": "nemotron"
+      },
+      {
+        "id": "nvidia/nemotron-3-ultra-550b-a55b",
+        "name": "NVIDIA: Nemotron 3 Ultra",
+        "provider": "NVIDIA",
+        "family": "nemotron"
+      },
+      {
+        "id": "nvidia/nemotron-3.5-content-safety",
+        "name": "NVIDIA: Nemotron 3.5 Content Safety",
+        "provider": "NVIDIA",
+        "family": "nemotron"
+      },
+      {
+        "id": "nvidia/nemotron-3.5-lightning",
+        "name": "NVIDIA: Nemotron 3.5 Lightning",
+        "provider": "NVIDIA",
+        "family": "nemotron"
+      },
+      {
+        "id": "nex-agi/nex-n2.5-mini",
+        "name": "Nex AGI: Nex-N2.5-Mini",
+        "provider": "Nex Agi",
+        "family": "nex-n2.5-mini"
+      },
+      {
+        "id": "nex-agi/nex-n2.5-pro",
+        "name": "Nex AGI: Nex-N2.5-Pro",
+        "provider": "Nex Agi",
+        "family": "nex-n2.5-pro"
+      },
+      {
+        "id": "nousresearch/hermes-3-llama-3.1-405b",
+        "name": "Nous: Hermes 3 405B Instruct",
+        "provider": "Nousresearch",
+        "family": "hermes"
+      },
+      {
+        "id": "nousresearch/hermes-3-llama-3.1-70b",
+        "name": "Nous: Hermes 3 70B Instruct",
+        "provider": "Nousresearch",
+        "family": "hermes"
+      },
+      {
+        "id": "nousresearch/hermes-4-405b",
+        "name": "Nous: Hermes 4 405B",
+        "provider": "Nousresearch",
+        "family": "hermes"
+      },
+      {
+        "id": "openai/gpt-audio",
+        "name": "OpenAI: GPT Audio",
+        "provider": "OpenAI",
+        "family": "gpt-audio"
+      },
+      {
+        "id": "openai/gpt-audio-mini",
+        "name": "OpenAI: GPT Audio Mini",
+        "provider": "OpenAI",
+        "family": "gpt-audio-mini"
+      },
+      {
+        "id": "openai/gpt-3.5-turbo",
+        "name": "OpenAI: GPT-3.5 Turbo",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-3.5-turbo-0613",
+        "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-3.5-turbo-16k",
+        "name": "OpenAI: GPT-3.5 Turbo 16k",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-3.5-turbo-instruct",
+        "name": "OpenAI: GPT-3.5 Turbo Instruct",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-4",
+        "name": "OpenAI: GPT-4",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-4-turbo",
+        "name": "OpenAI: GPT-4 Turbo",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-4.1",
+        "name": "OpenAI: GPT-4.1",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-4.1-mini",
+        "name": "OpenAI: GPT-4.1 Mini",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-4.1-nano",
+        "name": "OpenAI: GPT-4.1 Nano",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-4o",
+        "name": "OpenAI: GPT-4o",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-4o-2024-05-13",
+        "name": "OpenAI: GPT-4o (2024-05-13)",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-4o-2024-08-06",
+        "name": "OpenAI: GPT-4o (2024-08-06)",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-4o-2024-11-20",
+        "name": "OpenAI: GPT-4o (2024-11-20)",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-4o-mini",
+        "name": "OpenAI: GPT-4o-mini",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-4o-mini-2024-07-18",
+        "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5",
+        "name": "OpenAI: GPT-5",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5-image",
+        "name": "OpenAI: GPT-5 Image",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5-image-mini",
+        "name": "OpenAI: GPT-5 Image Mini",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5-mini",
+        "name": "OpenAI: GPT-5 Mini",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5-nano",
+        "name": "OpenAI: GPT-5 Nano",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5-pro",
+        "name": "OpenAI: GPT-5 Pro",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5.1",
+        "name": "OpenAI: GPT-5.1",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5.1-codex",
+        "name": "OpenAI: GPT-5.1-Codex",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5.1-codex-max",
+        "name": "OpenAI: GPT-5.1-Codex-Max",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5.1-codex-mini",
+        "name": "OpenAI: GPT-5.1-Codex-Mini",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5.2",
+        "name": "OpenAI: GPT-5.2",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5.2-chat",
+        "name": "OpenAI: GPT-5.2 Chat",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5.2-pro",
+        "name": "OpenAI: GPT-5.2 Pro",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5.2-codex",
+        "name": "OpenAI: GPT-5.2-Codex",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5.3-codex",
+        "name": "OpenAI: GPT-5.3-Codex",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5.4",
+        "name": "OpenAI: GPT-5.4",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5.4-image-2",
+        "name": "OpenAI: GPT-5.4 Image 2",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5.4-mini",
+        "name": "OpenAI: GPT-5.4 Mini",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5.4-nano",
+        "name": "OpenAI: GPT-5.4 Nano",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5.4-pro",
+        "name": "OpenAI: GPT-5.4 Pro",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5.5",
+        "name": "OpenAI: GPT-5.5",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5.5-pro",
+        "name": "OpenAI: GPT-5.5 Pro",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5.6-luna",
+        "name": "OpenAI: GPT-5.6 Luna",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5.6-luna-pro",
+        "name": "OpenAI: GPT-5.6 Luna Pro",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5.6-sol",
+        "name": "OpenAI: GPT-5.6 Sol",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5.6-sol-pro",
+        "name": "OpenAI: GPT-5.6 Sol Pro",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5.6-terra",
+        "name": "OpenAI: GPT-5.6 Terra",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-5.6-terra-pro",
+        "name": "OpenAI: GPT-5.6 Terra Pro",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-6-astra",
+        "name": "OpenAI: GPT-6 Astra",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-6-astra-pro",
+        "name": "OpenAI: GPT-6 Astra Pro",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-oss-120b",
+        "name": "OpenAI: gpt-oss-120b",
+        "provider": "OpenAI",
+        "family": "gpt-oss"
+      },
+      {
+        "id": "openai/gpt-oss-20b",
+        "name": "OpenAI: gpt-oss-20b",
+        "provider": "OpenAI",
+        "family": "gpt-oss"
+      },
+      {
+        "id": "openai/gpt-oss-safeguard-20b",
+        "name": "OpenAI: gpt-oss-safeguard-20b",
+        "provider": "OpenAI",
+        "family": "gpt-oss-safeguard"
+      },
+      {
+        "id": "openai/o1",
+        "name": "OpenAI: o1",
+        "provider": "OpenAI",
+        "family": "o1"
+      },
+      {
+        "id": "openai/o1-pro",
+        "name": "OpenAI: o1-pro",
+        "provider": "OpenAI",
+        "family": "o1-pro"
+      },
+      {
+        "id": "openai/o3",
+        "name": "OpenAI: o3",
+        "provider": "OpenAI",
+        "family": "o3"
+      },
+      {
+        "id": "openai/o3-mini",
+        "name": "OpenAI: o3 Mini",
+        "provider": "OpenAI",
+        "family": "o3-mini"
+      },
+      {
+        "id": "openai/o3-mini-high",
+        "name": "OpenAI: o3 Mini High",
+        "provider": "OpenAI",
+        "family": "o3-mini-high"
+      },
+      {
+        "id": "openai/o3-pro",
+        "name": "OpenAI: o3 Pro",
+        "provider": "OpenAI",
+        "family": "o3-pro"
+      },
+      {
+        "id": "openai/o4-mini",
+        "name": "OpenAI: o4 Mini",
+        "provider": "OpenAI",
+        "family": "o4-mini"
+      },
+      {
+        "id": "openai/o4-mini-high",
+        "name": "OpenAI: o4 Mini High",
+        "provider": "OpenAI",
+        "family": "o4-mini-high"
+      },
+      {
+        "id": "openrouter/auto",
+        "name": "Auto Router",
+        "provider": "OpenRouter",
+        "family": "auto"
+      },
+      {
+        "id": "openrouter/auto-beta",
+        "name": "Auto Router (Beta)",
+        "provider": "OpenRouter",
+        "family": "auto"
+      },
+      {
+        "id": "openrouter/bodybuilder",
+        "name": "Body Builder (beta)",
+        "provider": "OpenRouter",
+        "family": "bodybuilder"
+      },
+      {
+        "id": "openrouter/free",
+        "name": "Free Models Router",
+        "provider": "OpenRouter",
+        "family": "free"
+      },
+      {
+        "id": "openrouter/fusion",
+        "name": "OpenRouter: Fusion",
+        "provider": "OpenRouter",
+        "family": "fusion"
+      },
+      {
+        "id": "openrouter/pareto-code",
+        "name": "Pareto Code Router",
+        "provider": "OpenRouter",
+        "family": "pareto-code"
+      },
+      {
+        "id": "perceptron/perceptron-mk1",
+        "name": "Perceptron: Perceptron Mk1",
+        "provider": "Perceptron",
+        "family": "perceptron-mk1"
+      },
+      {
+        "id": "perplexity/sonar",
+        "name": "Perplexity: Sonar",
+        "provider": "Perplexity",
+        "family": "sonar"
+      },
+      {
+        "id": "perplexity/sonar-deep-research",
+        "name": "Perplexity: Sonar Deep Research",
+        "provider": "Perplexity",
+        "family": "sonar-deep-research"
+      },
+      {
+        "id": "perplexity/sonar-pro",
+        "name": "Perplexity: Sonar Pro",
+        "provider": "Perplexity",
+        "family": "sonar-pro"
+      },
+      {
+        "id": "perplexity/sonar-pro-search",
+        "name": "Perplexity: Sonar Pro Search",
+        "provider": "Perplexity",
+        "family": "sonar-pro-search"
+      },
+      {
+        "id": "perplexity/sonar-reasoning-pro",
+        "name": "Perplexity: Sonar Reasoning Pro",
+        "provider": "Perplexity",
+        "family": "sonar-reasoning-pro"
+      },
+      {
+        "id": "poolside/laguna-s-2.1",
+        "name": "Poolside: Laguna S 2.1",
+        "provider": "Poolside",
+        "family": "laguna-s"
+      },
+      {
+        "id": "poolside/laguna-xs-2.1",
+        "name": "Poolside: Laguna XS 2.1",
+        "provider": "Poolside",
+        "family": "laguna-xs"
+      },
+      {
+        "id": "qwen/qwen-2.5-72b-instruct",
+        "name": "Qwen2.5 72B Instruct",
+        "provider": "Qwen",
+        "family": "qwen"
+      },
+      {
+        "id": "qwen/qwen-2.5-coder-32b-instruct",
+        "name": "Qwen2.5 Coder 32B Instruct",
+        "provider": "Qwen",
+        "family": "qwen"
+      },
+      {
+        "id": "qwen/qwen-plus-2025-07-28",
+        "name": "Qwen: Qwen Plus 0728",
+        "provider": "Qwen",
+        "family": "qwen-plus"
+      },
+      {
+        "id": "qwen/qwen-plus",
+        "name": "Qwen: Qwen-Plus",
+        "provider": "Qwen",
+        "family": "qwen-plus"
+      },
+      {
+        "id": "qwen/qwen-2.5-7b-instruct",
+        "name": "Qwen: Qwen2.5 7B Instruct",
+        "provider": "Qwen",
+        "family": "qwen"
+      },
+      {
+        "id": "qwen/qwen2.5-vl-72b-instruct",
+        "name": "Qwen: Qwen2.5 VL 72B Instruct",
+        "provider": "Qwen",
+        "family": "qwen2.5-vl"
+      },
+      {
+        "id": "qwen/qwen3-14b",
+        "name": "Qwen: Qwen3 14B",
+        "provider": "Qwen",
+        "family": "qwen3"
+      },
+      {
+        "id": "qwen/qwen3-235b-a22b",
+        "name": "Qwen: Qwen3 235B A22B",
+        "provider": "Qwen",
+        "family": "qwen3"
+      },
+      {
+        "id": "qwen/qwen3-235b-a22b-2507",
+        "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+        "provider": "Qwen",
+        "family": "qwen3"
+      },
+      {
+        "id": "qwen/qwen3-235b-a22b-thinking-2507",
+        "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+        "provider": "Qwen",
+        "family": "qwen3"
+      },
+      {
+        "id": "qwen/qwen3-30b-a3b",
+        "name": "Qwen: Qwen3 30B A3B",
+        "provider": "Qwen",
+        "family": "qwen3"
+      },
+      {
+        "id": "qwen/qwen3-30b-a3b-instruct-2507",
+        "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+        "provider": "Qwen",
+        "family": "qwen3"
+      },
+      {
+        "id": "qwen/qwen3-30b-a3b-thinking-2507",
+        "name": "Qwen: Qwen3 30B A3B Thinking 2507",
+        "provider": "Qwen",
+        "family": "qwen3"
+      },
+      {
+        "id": "qwen/qwen3-32b",
+        "name": "Qwen: Qwen3 32B",
+        "provider": "Qwen",
+        "family": "qwen3"
+      },
+      {
+        "id": "qwen/qwen3-8b",
+        "name": "Qwen: Qwen3 8B",
+        "provider": "Qwen",
+        "family": "qwen3"
+      },
+      {
+        "id": "qwen/qwen3-coder-30b-a3b-instruct",
+        "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
+        "provider": "Qwen",
+        "family": "qwen3-coder"
+      },
+      {
+        "id": "qwen/qwen3-coder",
+        "name": "Qwen: Qwen3 Coder 480B A35B",
+        "provider": "Qwen",
+        "family": "qwen3-coder"
+      },
+      {
+        "id": "qwen/qwen3-coder-flash",
+        "name": "Qwen: Qwen3 Coder Flash",
+        "provider": "Qwen",
+        "family": "qwen3-coder-flash"
+      },
+      {
+        "id": "qwen/qwen3-coder-next",
+        "name": "Qwen: Qwen3 Coder Next",
+        "provider": "Qwen",
+        "family": "qwen3-coder-next"
+      },
+      {
+        "id": "qwen/qwen3-coder-plus",
+        "name": "Qwen: Qwen3 Coder Plus",
+        "provider": "Qwen",
+        "family": "qwen3-coder-plus"
+      },
+      {
+        "id": "qwen/qwen3-max",
+        "name": "Qwen: Qwen3 Max",
+        "provider": "Qwen",
+        "family": "qwen3-max"
+      },
+      {
+        "id": "qwen/qwen3-max-thinking",
+        "name": "Qwen: Qwen3 Max Thinking",
+        "provider": "Qwen",
+        "family": "qwen3-max-thinking"
+      },
+      {
+        "id": "qwen/qwen3-next-80b-a3b-instruct",
+        "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+        "provider": "Qwen",
+        "family": "qwen3-next"
+      },
+      {
+        "id": "qwen/qwen3-next-80b-a3b-thinking",
+        "name": "Qwen: Qwen3 Next 80B A3B Thinking",
+        "provider": "Qwen",
+        "family": "qwen3-next"
+      },
+      {
+        "id": "qwen/qwen3-vl-235b-a22b-instruct",
+        "name": "Qwen: Qwen3 VL 235B A22B Instruct",
+        "provider": "Qwen",
+        "family": "qwen3-vl"
+      },
+      {
+        "id": "qwen/qwen3-vl-235b-a22b-thinking",
+        "name": "Qwen: Qwen3 VL 235B A22B Thinking",
+        "provider": "Qwen",
+        "family": "qwen3-vl"
+      },
+      {
+        "id": "qwen/qwen3-vl-30b-a3b-instruct",
+        "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+        "provider": "Qwen",
+        "family": "qwen3-vl"
+      },
+      {
+        "id": "qwen/qwen3-vl-30b-a3b-thinking",
+        "name": "Qwen: Qwen3 VL 30B A3B Thinking",
+        "provider": "Qwen",
+        "family": "qwen3-vl"
+      },
+      {
+        "id": "qwen/qwen3-vl-32b-instruct",
+        "name": "Qwen: Qwen3 VL 32B Instruct",
+        "provider": "Qwen",
+        "family": "qwen3-vl"
+      },
+      {
+        "id": "qwen/qwen3-vl-8b-instruct",
+        "name": "Qwen: Qwen3 VL 8B Instruct",
+        "provider": "Qwen",
+        "family": "qwen3-vl"
+      },
+      {
+        "id": "qwen/qwen3-vl-8b-thinking",
+        "name": "Qwen: Qwen3 VL 8B Thinking",
+        "provider": "Qwen",
+        "family": "qwen3-vl"
+      },
+      {
+        "id": "qwen/qwen3.5-397b-a17b",
+        "name": "Qwen: Qwen3.5 397B A17B",
+        "provider": "Qwen",
+        "family": "qwen3.5"
+      },
+      {
+        "id": "qwen/qwen3.5-plus-02-15",
+        "name": "Qwen: Qwen3.5 Plus 2026-02-15",
+        "provider": "Qwen",
+        "family": "qwen3.5-plus"
+      },
+      {
+        "id": "qwen/qwen3.5-plus-20260420",
+        "name": "Qwen: Qwen3.5 Plus 2026-04-20",
+        "provider": "Qwen",
+        "family": "qwen3.5-plus"
+      },
+      {
+        "id": "qwen/qwen3.5-122b-a10b",
+        "name": "Qwen: Qwen3.5-122B-A10B",
+        "provider": "Qwen",
+        "family": "qwen3.5"
+      },
+      {
+        "id": "qwen/qwen3.5-27b",
+        "name": "Qwen: Qwen3.5-27B",
+        "provider": "Qwen",
+        "family": "qwen3.5"
+      },
+      {
+        "id": "qwen/qwen3.5-35b-a3b",
+        "name": "Qwen: Qwen3.5-35B-A3B",
+        "provider": "Qwen",
+        "family": "qwen3.5"
+      },
+      {
+        "id": "qwen/qwen3.5-9b",
+        "name": "Qwen: Qwen3.5-9B",
+        "provider": "Qwen",
+        "family": "qwen3.5"
+      },
+      {
+        "id": "qwen/qwen3.5-flash-02-23",
+        "name": "Qwen: Qwen3.5-Flash",
+        "provider": "Qwen",
+        "family": "qwen3.5-flash"
+      },
+      {
+        "id": "qwen/qwen3.6-27b",
+        "name": "Qwen: Qwen3.6 27B",
+        "provider": "Qwen",
+        "family": "qwen3.6"
+      },
+      {
+        "id": "qwen/qwen3.6-35b-a3b",
+        "name": "Qwen: Qwen3.6 35B A3B",
+        "provider": "Qwen",
+        "family": "qwen3.6"
+      },
+      {
+        "id": "qwen/qwen3.6-flash",
+        "name": "Qwen: Qwen3.6 Flash",
+        "provider": "Qwen",
+        "family": "qwen3.6-flash"
+      },
+      {
+        "id": "qwen/qwen3.6-max-preview",
+        "name": "Qwen: Qwen3.6 Max Preview",
+        "provider": "Qwen",
+        "family": "qwen3.6-max"
+      },
+      {
+        "id": "qwen/qwen3.6-plus",
+        "name": "Qwen: Qwen3.6 Plus",
+        "provider": "Qwen",
+        "family": "qwen3.6-plus"
+      },
+      {
+        "id": "qwen/qwen3.7-flash",
+        "name": "Qwen: Qwen3.7 Flash",
+        "provider": "Qwen",
+        "family": "qwen3.7-flash"
+      },
+      {
+        "id": "qwen/qwen3.7-max",
+        "name": "Qwen: Qwen3.7 Max",
+        "provider": "Qwen",
+        "family": "qwen3.7-max"
+      },
+      {
+        "id": "qwen/qwen3.7-plus",
+        "name": "Qwen: Qwen3.7 Plus",
+        "provider": "Qwen",
+        "family": "qwen3.7-plus"
+      },
+      {
+        "id": "qwen/qwen3.8-2.4t-a95b",
+        "name": "Qwen: Qwen3.8 2.4T A95B",
+        "provider": "Qwen",
+        "family": "qwen3.8"
+      },
+      {
+        "id": "qwen/qwen3.8-27b",
+        "name": "Qwen: Qwen3.8 27B",
+        "provider": "Qwen",
+        "family": "qwen3.8"
+      },
+      {
+        "id": "qwen/qwen3.8-flash",
+        "name": "Qwen: Qwen3.8 Flash",
+        "provider": "Qwen",
+        "family": "qwen3.8-flash"
+      },
+      {
+        "id": "qwen/qwen3.8-max-0902",
+        "name": "Qwen: Qwen3.8 Max (0902)",
+        "provider": "Qwen",
+        "family": "qwen3.8-max"
+      },
+      {
+        "id": "rekaai/reka-edge",
+        "name": "Reka Edge",
+        "provider": "Rekaai",
+        "family": "reka-edge"
+      },
+      {
+        "id": "rekaai/reka-flash-3",
+        "name": "Reka Flash 3",
+        "provider": "Rekaai",
+        "family": "reka-flash"
+      },
+      {
+        "id": "relace/relace-apply-3",
+        "name": "Relace: Relace Apply 3",
+        "provider": "Relace",
+        "family": "relace-apply"
+      },
+      {
+        "id": "relace/relace-search",
+        "name": "Relace: Relace Search",
+        "provider": "Relace",
+        "family": "relace-search"
+      },
+      {
+        "id": "sakana/fugu-max",
+        "name": "Sakana: Fugu Max",
+        "provider": "Sakana",
+        "family": "fugu-max"
+      },
+      {
+        "id": "sakana/fugu-ultra",
+        "name": "Sakana: Fugu Ultra",
+        "provider": "Sakana",
+        "family": "fugu-ultra"
+      },
+      {
+        "id": "sakana/fugu-ultra-v2",
+        "name": "Sakana: Fugu Ultra v2",
+        "provider": "Sakana",
+        "family": "fugu-ultra"
+      },
+      {
+        "id": "sakana/sakana-namazu",
+        "name": "Sakana: Sakana Namazu",
+        "provider": "Sakana",
+        "family": "sakana-namazu"
+      },
+      {
+        "id": "sao10k/l3-lunaris-8b",
+        "name": "Sao10K: Llama 3 8B Lunaris",
+        "provider": "Sao10k",
+        "family": "l3-lunaris"
+      },
+      {
+        "id": "sao10k/l3.1-euryale-70b",
+        "name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
+        "provider": "Sao10k",
+        "family": "l3.1-euryale"
+      },
+      {
+        "id": "sao10k/l3.3-euryale-70b",
+        "name": "Sao10K: Llama 3.3 Euryale 70B",
+        "provider": "Sao10k",
+        "family": "l3.3-euryale"
+      },
+      {
+        "id": "stealth/union-alpha",
+        "name": "Union Alpha",
+        "provider": "Stealth",
+        "family": "union-alpha"
+      },
+      {
+        "id": "stepfun/step-3.5-flash",
+        "name": "StepFun: Step 3.5 Flash",
+        "provider": "Stepfun",
+        "family": "step"
+      },
+      {
+        "id": "stepfun/step-3.7-flash",
+        "name": "StepFun: Step 3.7 Flash",
+        "provider": "Stepfun",
+        "family": "step"
+      },
+      {
+        "id": "tencent/hunyuan-a13b-instruct",
+        "name": "Tencent: Hunyuan A13B Instruct",
+        "provider": "Tencent",
+        "family": "hunyuan-a13b"
+      },
+      {
+        "id": "tencent/hy-mt2-1.8b",
+        "name": "Tencent: Hy-MT2-1.8B",
+        "provider": "Tencent",
+        "family": "hy-mt2"
+      },
+      {
+        "id": "tencent/hy-mt2-30b-a3b",
+        "name": "Tencent: Hy-MT2-30B-A3B",
+        "provider": "Tencent",
+        "family": "hy-mt2"
+      },
+      {
+        "id": "tencent/hy-mt2-7b",
+        "name": "Tencent: Hy-MT2-7B",
+        "provider": "Tencent",
+        "family": "hy-mt2"
+      },
+      {
+        "id": "tencent/hy3",
+        "name": "Tencent: Hy3",
+        "provider": "Tencent",
+        "family": "hy3"
+      },
+      {
+        "id": "tencent/hy3-preview",
+        "name": "Tencent: Hy3 preview",
+        "provider": "Tencent",
+        "family": "hy3"
+      },
+      {
+        "id": "tencent/hy4-preview",
+        "name": "Tencent: Hy4 preview",
+        "provider": "Tencent",
+        "family": "hy4"
+      },
+      {
+        "id": "thedrummer/cydonia-24b-v4.1",
+        "name": "TheDrummer: Cydonia 24B V4.1",
+        "provider": "Thedrummer",
+        "family": "cydonia"
+      },
+      {
+        "id": "thedrummer/skyfall-36b-v2",
+        "name": "TheDrummer: Skyfall 36B V2",
+        "provider": "Thedrummer",
+        "family": "skyfall"
+      },
+      {
+        "id": "thedrummer/unslopnemo-12b",
+        "name": "TheDrummer: UnslopNemo 12B",
+        "provider": "Thedrummer",
+        "family": "unslopnemo"
+      },
+      {
+        "id": "thinkingmachines/inkling",
+        "name": "Thinking Machines: Inkling",
+        "provider": "Thinkingmachines",
+        "family": "inkling"
+      },
+      {
+        "id": "thinkingmachines/inkling-small",
+        "name": "Thinking Machines: Inkling Small",
+        "provider": "Thinkingmachines",
+        "family": "inkling-small"
+      },
+      {
+        "id": "undi95/remm-slerp-l2-13b",
+        "name": "ReMM SLERP 13B",
+        "provider": "Undi95",
+        "family": "remm-slerp-l2"
+      },
+      {
+        "id": "upstage/solar-pro-3",
+        "name": "Upstage: Solar Pro 3",
+        "provider": "Upstage",
+        "family": "solar-pro"
+      },
+      {
+        "id": "upstage/solar-pro4",
+        "name": "Upstage: Solar Pro 4",
+        "provider": "Upstage",
+        "family": "solar-pro4"
+      },
+      {
+        "id": "writer/palmyra-x5",
+        "name": "Writer: Palmyra X5",
+        "provider": "Writer",
+        "family": "palmyra-x5"
+      },
+      {
+        "id": "xiaomi/mimo-v2.5",
+        "name": "Xiaomi: MiMo-V2.5",
+        "provider": "Xiaomi",
+        "family": "mimo"
+      },
+      {
+        "id": "xiaomi/mimo-v2.5-pro",
+        "name": "Xiaomi: MiMo-V2.5-Pro",
+        "provider": "Xiaomi",
+        "family": "mimo"
+      },
+      {
+        "id": "z-ai/glm-4.5",
+        "name": "Z.ai: GLM 4.5",
+        "provider": "Z Ai",
+        "family": "glm"
+      },
+      {
+        "id": "z-ai/glm-4.5-air",
+        "name": "Z.ai: GLM 4.5 Air",
+        "provider": "Z Ai",
+        "family": "glm"
+      },
+      {
+        "id": "z-ai/glm-4.5v",
+        "name": "Z.ai: GLM 4.5V",
+        "provider": "Z Ai",
+        "family": "glm"
+      },
+      {
+        "id": "z-ai/glm-4.6",
+        "name": "Z.ai: GLM 4.6",
+        "provider": "Z Ai",
+        "family": "glm"
+      },
+      {
+        "id": "z-ai/glm-4.6v",
+        "name": "Z.ai: GLM 4.6V",
+        "provider": "Z Ai",
+        "family": "glm"
+      },
+      {
+        "id": "z-ai/glm-4.7",
+        "name": "Z.ai: GLM 4.7",
+        "provider": "Z Ai",
+        "family": "glm"
+      },
+      {
+        "id": "z-ai/glm-4.7-flash",
+        "name": "Z.ai: GLM 4.7 Flash",
+        "provider": "Z Ai",
+        "family": "glm"
+      },
+      {
+        "id": "z-ai/glm-5",
+        "name": "Z.ai: GLM 5",
+        "provider": "Z Ai",
+        "family": "glm"
+      },
+      {
+        "id": "z-ai/glm-5-turbo",
+        "name": "Z.ai: GLM 5 Turbo",
+        "provider": "Z Ai",
+        "family": "glm"
+      },
+      {
+        "id": "z-ai/glm-5.1",
+        "name": "Z.ai: GLM 5.1",
+        "provider": "Z Ai",
+        "family": "glm"
+      },
+      {
+        "id": "z-ai/glm-5.2",
+        "name": "Z.ai: GLM 5.2",
+        "provider": "Z Ai",
+        "family": "glm"
+      },
+      {
+        "id": "z-ai/glm-5.3",
+        "name": "Z.ai: GLM 5.3",
+        "provider": "Z Ai",
+        "family": "glm"
+      },
+      {
+        "id": "z-ai/glm-5.3-flash",
+        "name": "Z.ai: GLM 5.3 Flash",
+        "provider": "Z Ai",
+        "family": "glm"
+      },
+      {
+        "id": "z-ai/glm-5v-turbo",
+        "name": "Z.ai: GLM 5V Turbo",
+        "provider": "Z Ai",
+        "family": "glm"
+      },
+      {
+        "id": "x-ai/grok-4.20",
+        "name": "SpaceXAI: Grok 4.20",
+        "provider": "xAI",
+        "family": "grok"
+      },
+      {
+        "id": "x-ai/grok-4.20-multi-agent",
+        "name": "SpaceXAI: Grok 4.20 Multi-Agent",
+        "provider": "xAI",
+        "family": "grok"
+      },
+      {
+        "id": "x-ai/grok-4.3",
+        "name": "SpaceXAI: Grok 4.3",
+        "provider": "xAI",
+        "family": "grok"
+      },
+      {
+        "id": "x-ai/grok-4.5",
+        "name": "SpaceXAI: Grok 4.5",
+        "provider": "xAI",
+        "family": "grok"
+      },
+      {
+        "id": "x-ai/grok-4.6",
+        "name": "SpaceXAI: Grok 4.6",
+        "provider": "xAI",
+        "family": "grok"
+      },
+      {
+        "id": "x-ai/grok-build-0.1",
+        "name": "SpaceXAI: Grok Build 0.1",
+        "provider": "xAI",
+        "family": "grok-build"
+      }
+    ]
+  }
+}

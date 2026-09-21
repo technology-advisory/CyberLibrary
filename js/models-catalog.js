@@ -3,6 +3,7 @@
   const $ = selector => document.querySelector(selector);
   const fmt = value => new Intl.NumberFormat('es-ES').format(Number(value) || 0);
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const safeExternalUrl = value => { try { const u = new URL(String(value || ''), location.origin); return u.protocol === 'https:' ? u.href : '#'; } catch (_) { return '#'; } };
   const norm = value => String(value ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
   const state = { data: null, filtered: [], page: 1, pageSize: 24 };
   const filterIds = ['model-provider','model-family','model-modality','model-capability','model-price'];
@@ -92,16 +93,16 @@
     $('#stat-changes').textContent = fmt(newCount + updatedCount || state.data.changes.length);
   }
   function card(model) {
-    const tags = [...model.modalities.slice(0,3), ...model.capabilities.slice(0,2)];
-    const activityBadge = isRecentlyPublished(model)
-      ? '<span class="activity-badge updated">Actualizado</span>'
-      : '';
-    return `<article class="model-card">
-      <div class="model-card-top"><div><div class="card-provider-row"><span class="card-provider">${esc(model.provider)}</span>${activityBadge}</div><h3>${esc(model.name)}</h3></div><span class="source-badge">${esc(model.source)}</span></div>
-      <p class="model-desc">${esc(model.description.slice(0,210))}${model.description.length > 210 ? '…' : ''}</p>
-      <div class="model-tags">${tags.map(v=>`<span>${esc(v)}</span>`).join('') || '<span>Sin etiquetas</span>'}</div>
-      <dl class="model-facts"><div><dt>Familia</dt><dd>${esc(model.family)}</dd></div><div><dt>Contexto</dt><dd>${esc(model.contextLabel)}</dd></div><div><dt>Licencia</dt><dd>${esc(model.license)}</dd></div><div><dt>Publicado</dt><dd>${esc(model.publishedLabel)}</dd></div></dl>
-      <div class="card-actions"><a class="detail-link" href="/modelos/detalle.html?id=${encodeURIComponent(model.id)}">Ver ficha completa →</a>${model.sourceUrl ? `<a class="source-link" href="${esc(model.sourceUrl)}" target="_blank" rel="noopener" aria-label="Abrir fuente oficial">↗</a>` : ''}</div>
+    const availabilityTags = [model.availability?.free_only ? 'Solo gratuita' : model.availability?.free ? 'Gratis' : '', model.availability?.batch ? 'Batch' : ''].filter(Boolean);
+    const modalities = model.modalities.slice(0,4);
+    const capabilities = model.capabilities.slice(0,5);
+    const activityBadge = isRecentlyPublished(model) ? '<span class="activity-badge updated">Actualizado</span>' : '<span class="activity-badge active">Activo</span>';
+    const pricing = model.price || model.pricing || model.priceLabel || 'Consultar ficha/fuente';
+    return `<article class="model-card model-list-item">
+      <header class="model-list-head"><div><div class="card-provider-row"><span class="card-provider">${esc(model.provider)} · ${esc(model.family)}</span>${activityBadge}</div><h3>${esc(model.name)}</h3></div><span class="source-badge">${esc(model.source)}</span></header>
+      <p class="model-desc">${esc(model.description.slice(0,260))}${model.description.length > 260 ? '…' : ''}</p>
+      <div class="model-list-meta"><div><span>Contexto</span><strong>${esc(model.contextLabel)}</strong></div><div><span>Modalidades</span><div class="model-tags">${modalities.map(v=>`<span>${esc(v)}</span>`).join('') || '<span>No indicado</span>'}</div></div><div><span>Capacidades</span><div class="model-tags">${capabilities.map(v=>`<span>${esc(v)}</span>`).join('') || '<span>No indicado</span>'}</div></div><div><span>Precio orientativo</span><strong>${esc(String(pricing))}</strong></div></div>
+      <footer class="card-actions"><div class="model-list-secondary">Licencia: <b>${esc(model.license)}</b> · Publicado: <b>${esc(model.publishedLabel)}</b>${availabilityTags.length ? ' · '+availabilityTags.map(esc).join(' · ') : ''}</div><div><a class="detail-link" href="/modelos/fichas/${encodeURIComponent(model.slug)}/">Ver ficha completa →</a>${model.sourceUrl ? `<a class="source-link" href="${esc(safeExternalUrl(model.sourceUrl))}" target="_blank" rel="noopener" aria-label="Abrir fuente oficial">↗</a>` : ''}</div></footer>
     </article>`;
   }
   function renderPagination(total) {
@@ -142,7 +143,7 @@
         const name=ModelsData.first(change,['name','model_name','id','model_id','title'],'Modelo');
         const date=ModelsData.first(change,['date','detected_at','changed_at','updated_at'],'');
         const fields=ModelsData.array(ModelsData.first(change,['fields','changed_fields','changes'],[])).join(', ');
-        return `<article class="change-item"><time>${esc(date||'—')}</time><span class="change-kind ${label==='Alta'?'added':label==='Retirada'?'removed':'updated'}">${label}</span><div><strong>${esc(name)}</strong>${fields?`<small>${esc(fields)}</small>`:''}${ModelsData.first(change,['id','model_id'],'')?`<a class="change-link" href="/modelos/detalle.html?id=${encodeURIComponent(ModelsData.first(change,['id','model_id'],''))}">Ver modelo →</a>`:''}</div></article>`;
+        return `<article class="change-item"><time>${esc(date||'—')}</time><span class="change-kind ${label==='Alta'?'added':label==='Retirada'?'removed':'updated'}">${label}</span><div><strong>${esc(name)}</strong>${fields?`<small>${esc(fields)}</small>`:''}${ModelsData.first(change,['id','model_id'],'')?`<a class="change-link" href="/modelos/fichas/${encodeURIComponent(ModelsData.slug(ModelsData.first(change,['id','model_id'],'')))}/">Ver modelo →</a>`:''}</div></article>`;
       }).join('');
       return;
     }

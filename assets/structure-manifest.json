@@ -1,0 +1,19 @@
+{
+  "generated": "2026-09-13",
+  "purpose": "Normalización estructural previa al rediseño",
+  "public_html_urls_preserved": true,
+  "moved_files": 367,
+  "sitemap_urls": 105,
+  "required_directories": [
+    "/css",
+    "/js",
+    "/img",
+    "/fonts",
+    "/assets",
+    "/pages"
+  ],
+  "notes": [
+    "Los directorios temáticos HTML se conservan para no alterar URLs públicas.",
+    "Los recursos no HTML se centralizan por tipo."
+  ]
+}

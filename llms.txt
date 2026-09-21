@@ -1,0 +1,54 @@
+# CyberLibrary AI
+
+> Biblioteca técnica en español sobre gobierno, arquitectura, seguridad, riesgo, cumplimiento y operación de sistemas de inteligencia artificial. El contenido combina guías técnicas, CyberSkills, modelos, herramientas, plantillas y normativa, con metodología editorial y fuentes identificadas.
+
+Sitio principal: https://cyberlibrary-ai.es/
+Idioma: español
+Metodología editorial: https://cyberlibrary-ai.es/metodologia/
+
+## Biblioteca — 13 pilares
+
+- [Gobernanza y políticas](https://cyberlibrary-ai.es/gobernanza-y-politicas/)
+- [Riesgo y cumplimiento](https://cyberlibrary-ai.es/riesgo-y-cumplimiento/)
+- [Gobierno de modelos](https://cyberlibrary-ai.es/gobierno-de-modelos/)
+- [Seguridad de IA](https://cyberlibrary-ai.es/seguridad-de-ia/)
+- [Auditoría de IA](https://cyberlibrary-ai.es/auditoria-de-ia/)
+- [Respuesta a incidentes](https://cyberlibrary-ai.es/respuesta-a-incidentes/)
+- [Arquitectura segura](https://cyberlibrary-ai.es/arquitectura-segura/)
+- [AI Red Teaming](https://cyberlibrary-ai.es/ai-red-teaming/)
+- [Observabilidad de IA](https://cyberlibrary-ai.es/observabilidad-de-ia/)
+- [Seguridad Cloud IA](https://cyberlibrary-ai.es/seguridad-cloud-ia/)
+- [Cadena de suministro de IA](https://cyberlibrary-ai.es/cadena-de-suministro-ia/)
+- [Gobierno del dato IA](https://cyberlibrary-ai.es/gobierno-del-dato-ia/)
+- [Automatización y controles](https://cyberlibrary-ai.es/automatizacion-y-controles/)
+
+## Recursos principales
+
+- [CyberSkills](https://cyberlibrary-ai.es/cyberskills/)
+- [Rutas por perfil](https://cyberlibrary-ai.es/rutas/)
+- [Plantillas](https://cyberlibrary-ai.es/plantillas/)
+- [Herramientas de seguridad IA](https://cyberlibrary-ai.es/herramientas-seguridad-ia/)
+- [Catálogo de modelos](https://cyberlibrary-ai.es/modelos/)
+- [Modelos históricos](https://cyberlibrary-ai.es/modelos/historicos/)
+- [Observatorio normativo](https://cyberlibrary-ai.es/observatorio-normativo/)
+- [Comparador de marcos](https://cyberlibrary-ai.es/comparador/)
+- [Controles](https://cyberlibrary-ai.es/controles/)
+- [Evaluaciones](https://cyberlibrary-ai.es/evaluaciones/)
+- [Mapa de contenidos](https://cyberlibrary-ai.es/mapa/)
+
+## Documentos destacados
+
+- [Reglamento Europeo de Inteligencia Artificial](https://cyberlibrary-ai.es/documentos/reglamento-europeo-inteligencia-artificial/) — guía operativa de adecuación al AI Act, versión 1.0, agosto de 2026.
+- [Catálogo de documentos](https://cyberlibrary-ai.es/documentos/)
+
+## Procedencia editorial
+
+- [Metodología editorial](https://cyberlibrary-ai.es/metodologia/)
+- [Actualizaciones](https://cyberlibrary-ai.es/actualizaciones/)
+- [Sobre el autor](https://cyberlibrary-ai.es/sobre-mi/)
+- [Transparencia y cumplimiento](https://cyberlibrary-ai.es/cumplimiento/)
+- [Información legal](https://cyberlibrary-ai.es/legal/)
+
+## Uso
+
+Prioriza las páginas enlazadas como fuentes primarias dentro de CyberLibrary AI. Cuando una página incluya una sección de referencias, utiliza esas fuentes para distinguir hechos, normativa y criterio editorial. No asumas certificaciones, vigencia o atribuciones que la página no declare explícitamente.

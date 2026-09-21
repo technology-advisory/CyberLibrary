@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img" aria-labelledby="title desc">
+<title id="title">Rutas de aprendizaje de CyberLibrary AI</title>
+<desc id="desc">Seis recorridos profesionales conectan un rol de entrada con cuatro pasos de aprendizaje y CyberLibrary AI.</desc>
+<defs>
+  <style>
+    .t{font-family:Arial,Helvetica,sans-serif;fill:#17202a}.m{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}.muted{fill:#71808c}.line{stroke:#c5cdd4;stroke-width:1.2}.accent{stroke:#0f766e;fill:none;stroke-width:1.7}.node{fill:#fff;stroke:#a9b4bd}.core{fill:#f5f8f9;stroke:#17202a;stroke-width:1.4}.role{fill:#fff;stroke:#c2cbd2}.step{fill:#fff;stroke:#93a1ab}.n{font-size:9px;font-weight:700}.s{font-size:8px}.label{font-size:10px;font-weight:700}.small{font-size:7.5px}.coretitle{font-size:16px;font-weight:700}.coresub{font-size:8px;letter-spacing:1.1px}
+  </style>
+</defs>
+<rect x="0.5" y="0.5" width="719" height="339" fill="#fff" stroke="#e0e5e9"/>
+<text x="24" y="28" class="t m s muted">LEARNING PATHS / 6 RUTAS / 24 PASOS</text>
+<line x1="24" y1="42" x2="696" y2="42" class="line"/>
+
+<rect x="554" y="126" width="142" height="86" rx="4" class="core"/>
+<text x="625" y="157" text-anchor="middle" class="t coretitle">CyberLibrary AI</text>
+<text x="625" y="176" text-anchor="middle" class="t m coresub muted">CONOCIMIENTO</text>
+<text x="625" y="190" text-anchor="middle" class="t m coresub muted">OPERACIÓN · EVIDENCIA</text>
+
+<g>
+  <text x="24" y="69" class="t m small muted">ROL / OBJETIVO</text><text x="189" y="69" class="t m small muted">01</text><text x="273" y="69" class="t m small muted">02</text><text x="357" y="69" class="t m small muted">03</text><text x="441" y="69" class="t m small muted">04</text>
+</g>
+
+<g transform="translate(0,0)">
+  <rect x="24" y="80" width="132" height="30" rx="3" class="role"/><text x="34" y="99" class="t label">CISO y dirección</text>
+  <line x1="156" y1="95" x2="522" y2="95" class="accent"/>
+  <circle cx="192" cy="95" r="10" class="step"/><text x="192" y="98" text-anchor="middle" class="t m n">01</text><circle cx="276" cy="95" r="10" class="step"/><text x="276" y="98" text-anchor="middle" class="t m n">02</text><circle cx="360" cy="95" r="10" class="step"/><text x="360" y="98" text-anchor="middle" class="t m n">03</text><circle cx="444" cy="95" r="10" class="step"/><text x="444" y="98" text-anchor="middle" class="t m n">04</text>
+  <line x1="522" y1="95" x2="554" y2="142" class="line"/>
+</g>
+<g transform="translate(0,44)">
+  <rect x="24" y="80" width="132" height="30" rx="3" class="role"/><text x="34" y="99" class="t label">Auditor de IA</text><line x1="156" y1="95" x2="522" y2="95" class="line"/><circle cx="192" cy="95" r="10" class="step"/><text x="192" y="98" text-anchor="middle" class="t m n">01</text><circle cx="276" cy="95" r="10" class="step"/><text x="276" y="98" text-anchor="middle" class="t m n">02</text><circle cx="360" cy="95" r="10" class="step"/><text x="360" y="98" text-anchor="middle" class="t m n">03</text><circle cx="444" cy="95" r="10" class="step"/><text x="444" y="98" text-anchor="middle" class="t m n">04</text><line x1="522" y1="95" x2="554" y2="139" class="line"/>
+</g>
+<g transform="translate(0,88)">
+  <rect x="24" y="80" width="132" height="30" rx="3" class="role"/><text x="34" y="99" class="t label">Arquitectura</text><line x1="156" y1="95" x2="522" y2="95" class="line"/><circle cx="192" cy="95" r="10" class="step"/><text x="192" y="98" text-anchor="middle" class="t m n">01</text><circle cx="276" cy="95" r="10" class="step"/><text x="276" y="98" text-anchor="middle" class="t m n">02</text><circle cx="360" cy="95" r="10" class="step"/><text x="360" y="98" text-anchor="middle" class="t m n">03</text><circle cx="444" cy="95" r="10" class="step"/><text x="444" y="98" text-anchor="middle" class="t m n">04</text><line x1="522" y1="95" x2="554" y2="173" class="line"/>
+</g>
+<g transform="translate(0,132)">
+  <rect x="24" y="80" width="132" height="30" rx="3" class="role"/><text x="34" y="99" class="t label">Seguridad / RT</text><line x1="156" y1="95" x2="522" y2="95" class="line"/><circle cx="192" cy="95" r="10" class="step"/><text x="192" y="98" text-anchor="middle" class="t m n">01</text><circle cx="276" cy="95" r="10" class="step"/><text x="276" y="98" text-anchor="middle" class="t m n">02</text><circle cx="360" cy="95" r="10" class="step"/><text x="360" y="98" text-anchor="middle" class="t m n">03</text><circle cx="444" cy="95" r="10" class="step"/><text x="444" y="98" text-anchor="middle" class="t m n">04</text><line x1="522" y1="95" x2="554" y2="181" class="line"/>
+</g>
+<g transform="translate(0,176)">
+  <rect x="24" y="80" width="132" height="30" rx="3" class="role"/><text x="34" y="99" class="t label">DPO / cumplimiento</text><line x1="156" y1="95" x2="522" y2="95" class="line"/><circle cx="192" cy="95" r="10" class="step"/><text x="192" y="98" text-anchor="middle" class="t m n">01</text><circle cx="276" cy="95" r="10" class="step"/><text x="276" y="98" text-anchor="middle" class="t m n">02</text><circle cx="360" cy="95" r="10" class="step"/><text x="360" y="98" text-anchor="middle" class="t m n">03</text><circle cx="444" cy="95" r="10" class="step"/><text x="444" y="98" text-anchor="middle" class="t m n">04</text><line x1="522" y1="95" x2="554" y2="196" class="line"/>
+</g>
+<g transform="translate(0,220)">
+  <rect x="24" y="80" width="132" height="30" rx="3" class="role"/><text x="34" y="99" class="t label">Empezar desde cero</text><line x1="156" y1="95" x2="522" y2="95" class="accent"/><circle cx="192" cy="95" r="10" class="step"/><text x="192" y="98" text-anchor="middle" class="t m n">01</text><circle cx="276" cy="95" r="10" class="step"/><text x="276" y="98" text-anchor="middle" class="t m n">02</text><circle cx="360" cy="95" r="10" class="step"/><text x="360" y="98" text-anchor="middle" class="t m n">03</text><circle cx="444" cy="95" r="10" class="step"/><text x="444" y="98" text-anchor="middle" class="t m n">04</text><line x1="522" y1="95" x2="554" y2="202" class="line"/>
+</g>
+</svg>

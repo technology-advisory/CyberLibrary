@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.1",
+  "snapshot_id": "obs-ai-act-20260916T181128Z",
+  "generated_at_utc": "2026-09-16T18:11:28Z",
+  "scope": {
+    "jurisdiction": "Unión Europea",
+    "dataset": "AI Act",
+    "base_document": "Reglamento (UE) 2024/1689",
+    "amending_document": "Reglamento (UE) 2026/1744",
+    "coverage": "dataset curado; no catálogo normativo exhaustivo"
+  },
+  "source_of_truth": {
+    "policy": "snapshot_controlado",
+    "primary_source": "EUR-Lex",
+    "base_eli": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+    "amending_eli": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj",
+    "official_consolidated_reference": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27"
+  },
+  "governance": {
+    "snapshot_validation": "validacion_estructural",
+    "legal_consolidation": "pendiente_validacion_juridica",
+    "realtime": false,
+    "automatic_legal_consolidation_published": false
+  },
+  "canonical_artifacts": [
+    {
+      "path": "/assets/data/normativa/ai-act-full.json",
+      "role": "texto_base_normalizado",
+      "sha256": "34703def2b80b119a0c9f0faa0a7a46232fa3e7d98886bcc958a69f6a642ac1f",
+      "bytes": 855889
+    },
+    {
+      "path": "/assets/data/normativa/ai-act-changes.json",
+      "role": "operaciones_modificadoras",
+      "sha256": "2a03062c2ebcdc9ac28ef5aeb4c1faa507b785097aba5148ba2c0cd55356da8a",
+      "bytes": 75190
+    },
+    {
+      "path": "/assets/data/normativa/ai-act-index.json",
+      "role": "indice_snapshot",
+      "sha256": "de2f2bab776dadb90b8db5fd56b4dbf47edd44c39da09d77969e532ca9a58a99",
+      "bytes": 918
+    }
+  ],
+  "current_semantic_entities": [
+    "documento",
+    "seccion",
+    "articulo",
+    "anexo",
+    "operacion_modificadora",
+    "indice"
+  ],
+  "not_formally_modelled": [
+    "considerando como entidad independiente",
+    "referencia_cruzada semantica",
+    "regla de entrada en vigor",
+    "transposicion",
+    "derogacion parcial como relacion canonica",
+    "firma de aprobacion",
+    "sellado temporal confiable"
+  ],
+  "known_limitations": [
+    "La comparación es asistida y estructural; no equivale a un diff jurídico semántico completo.",
+    "El snapshot no es un feed en tiempo real.",
+    "La consolidación automática de CyberLibrary permanece bloqueada hasta validación jurídica.",
+    "Los hashes permiten detectar alteraciones, pero no constituyen por sí solos firma, sellado temporal ni no repudio."
+  ],
+  "metric_definitions": {
+    "navigable_units": {
+      "value": 126,
+      "definition": "Secciones navegables de la norma base: 113 artículos + 13 anexos."
+    },
+    "articles": {
+      "value": 113,
+      "definition": "Artículos estructurados de la norma base."
+    },
+    "annexes": {
+      "value": 13,
+      "definition": "Anexos estructurados de la norma base."
+    },
+    "extracted_change_records": {
+      "value": 52,
+      "definition": "Registros de cambio extraídos del acto modificador antes de agregación/normalización de operaciones."
+    },
+    "normalized_amendment_operations": {
+      "value": 32,
+      "definition": "Operaciones principales después de normalizar y agrupar los registros de cambio para la interfaz."
+    },
+    "additions": {
+      "value": 8,
+      "definition": "Operaciones normalizadas clasificadas como adición."
+    },
+    "linked_official_acts": {
+      "value": 2,
+      "definition": "Actos oficiales enlazados en el dataset activo: norma base y acto modificador."
+    }
+  },
+  "snapshot_history": {
+    "available_count": 1,
+    "current_snapshot_id": "obs-ai-act-20260916T181128Z",
+    "predecessor_snapshot_id": null,
+    "longitudinal_history_complete": false,
+    "status": "no_definido_mas_alla_del_snapshot_activo",
+    "note": "El módulo expone un snapshot activo identificado; no se declara una serie histórica longitudinal completa."
+  },
+  "auditability": {
+    "artifact_hashes": "sha256",
+    "signed_audit_log": "no_definido",
+    "trusted_timestamp": "no_definido",
+    "immutable_storage": "no_definido",
+    "rollback_by_snapshot": "no_definido",
+    "retention_policy": "no_definido",
+    "recovery_policy": "no_definido"
+  },
+  "external_integrations": {
+    "grcreal": {
+      "mode": "enlaces_editoriales_externos",
+      "snapshot_context_transfer": false,
+      "shared_provenance": false,
+      "end_to_end_traceability": false,
+      "note": "Los enlaces no transfieren snapshot_id, artículo ni contexto probatorio al sistema externo."
+    }
+  }
+}

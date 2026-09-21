@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 240" role="img" aria-labelledby="title desc">
+  <title id="title">Cadena de aseguramiento de un control</title>
+  <desc id="desc">Flujo operativo desde riesgo y control hasta prueba, evidencia, validación y mejora.</desc>
+  <rect width="1120" height="240" fill="#f8fbfe"/>
+  <g font-family="Arial, sans-serif">
+    <text x="26" y="31" font-size="13" font-weight="700" fill="#183b5d">CADENA DE ASEGURAMIENTO</text>
+    <text x="26" y="50" font-size="10" fill="#6a7e91">Un control es operativo cuando puede probarse, producir evidencia y sostener una validación repetible.</text>
+    <g transform="translate(26 82)">
+      <path d="M87 34 H183 M271 34 H367 M455 34 H551 M639 34 H735 M823 34 H919" stroke="#8faec8" stroke-width="2" fill="none"/>
+      <g fill="#8faec8">
+        <path d="M177 29 l9 5 -9 5z"/><path d="M361 29 l9 5 -9 5z"/><path d="M545 29 l9 5 -9 5z"/><path d="M729 29 l9 5 -9 5z"/><path d="M913 29 l9 5 -9 5z"/>
+      </g>
+      <g text-anchor="middle">
+        <g><circle cx="54" cy="34" r="34" fill="#eef4f9" stroke="#a9bfd2"/><text x="54" y="31" font-size="10" font-weight="700" fill="#244967">RIESGO</text><text x="54" y="46" font-size="8" fill="#6d8193">alcance</text></g>
+        <g><circle cx="238" cy="34" r="34" fill="#edf5fb" stroke="#91b4d1"/><text x="238" y="31" font-size="10" font-weight="700" fill="#1f567f">CONTROL</text><text x="238" y="46" font-size="8" fill="#6d8193">objetivo</text></g>
+        <g><circle cx="422" cy="34" r="34" fill="#edf5fb" stroke="#91b4d1"/><text x="422" y="31" font-size="10" font-weight="700" fill="#1f567f">PRUEBA</text><text x="422" y="46" font-size="8" fill="#6d8193">ejecución</text></g>
+        <g><circle cx="606" cy="34" r="34" fill="#edf5fb" stroke="#91b4d1"/><text x="606" y="31" font-size="10" font-weight="700" fill="#1f567f">EVIDENCIA</text><text x="606" y="46" font-size="8" fill="#6d8193">artefacto</text></g>
+        <g><circle cx="790" cy="34" r="34" fill="#edf5fb" stroke="#91b4d1"/><text x="790" y="31" font-size="10" font-weight="700" fill="#1f567f">VALIDACIÓN</text><text x="790" y="46" font-size="8" fill="#6d8193">revisión</text></g>
+        <g><circle cx="974" cy="34" r="34" fill="#eef4f9" stroke="#a9bfd2"/><text x="974" y="31" font-size="10" font-weight="700" fill="#244967">MEJORA</text><text x="974" y="46" font-size="8" fill="#6d8193">seguimiento</text></g>
+      </g>
+    </g>
+    <line x1="26" y1="190" x2="1094" y2="190" stroke="#d8e3ec"/>
+    <g font-size="9" fill="#62788c">
+      <text x="26" y="211"><tspan font-weight="700" fill="#315a7c">Gobierno:</tspan> propietario · cadencia · criterio de aceptación · trazabilidad</text>
+      <text x="1094" y="211" text-anchor="end"><tspan font-weight="700" fill="#315a7c">Resultado:</tspan> evidencia reproducible y revisable</text>
+    </g>
+  </g>
+</svg>
