@@ -46,7 +46,7 @@
   <div class="sep"></div>
   <div class="st">Recursos</div>
   <a class="sl" href="/plantillas/"><b>▧</b>Plantillas y evidencias</a>
-  <a class="sl" href="/herramientas-seguridad-ia/"><b>⚙</b>Herramientas de seguridad IA</a>
+  <a class="sl" href="/herramientas-seguridad-ia/"><b>⚙</b>AI Security Center</a>
   <a class="sl" href="/modelos/"><b>◈</b>Catálogo de modelos</a>
   <a class="sl" href="/observatorio-normativo/"><b>§</b>Observatorio normativo</a>
   <a class="sl" href="/comparador/"><b>≋</b>Comparador de marcos</a>
@@ -65,7 +65,7 @@
       <a class="linkedin" href="https://www.linkedin.com/in/macarriazo/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
     </div>
     <div><h4>Explorar</h4><a href="/#pilares">Biblioteca</a><a href="/mapa/">Mapa de contenidos</a><a href="/cyberskills/">CyberSkills</a><a href="/rutas/">Rutas</a><a href="/buscar/">Buscar</a></div>
-    <div><h4>Recursos</h4><a href="/plantillas/">Plantillas</a><a href="/herramientas-seguridad-ia/">Herramientas</a><a href="/modelos/">Modelos</a><a href="/observatorio-normativo/">Observatorio normativo</a><a href="/comparador/">Comparador de marcos</a><a href="/controles/">Controles</a><a href="/evaluaciones/">Evaluaciones</a><a href="/ia-aplicada/">IA aplicada</a></div>
+    <div><h4>Recursos</h4><a href="/plantillas/">Plantillas</a><a href="/herramientas-seguridad-ia/">AI Security Center</a><a href="/modelos/">Modelos</a><a href="/observatorio-normativo/">Observatorio normativo</a><a href="/comparador/">Comparador de marcos</a><a href="/controles/">Controles</a><a href="/evaluaciones/">Evaluaciones</a><a href="/ia-aplicada/">IA aplicada</a></div>
     <div><h4>Proyecto</h4><a href="/metodologia/">Metodología editorial</a><a href="/actualizaciones/">Actualizaciones</a><a href="/cumplimiento/">Transparencia y cumplimiento</a><a href="/sobre-mi/">Sobre CyberLibrary</a><a href="/legal/">Legal</a><p>Construido con rigor. Diseñado para profesionales. Pensado para seguridad, cumplimiento y gobierno de la IA.</p></div>
   </div>
   <div class="fb"><span>© 2026 CyberLibrary AI. Todos los derechos reservados · <b>OpenTrust Group</b></span></div>
