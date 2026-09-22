@@ -2,19 +2,19 @@
   "metadata": {
     "engine_version": "3.3",
     "source": "openrouter",
-    "generated_at_utc": "2026-09-16T18:56:32Z",
-    "model_count": 336,
-    "provider_count": 52,
-    "family_count": 154,
+    "generated_at_utc": "2026-09-22T11:26:39Z",
+    "model_count": 339,
+    "provider_count": 53,
+    "family_count": 155,
     "catalog_policy": "P14.2A",
     "source_record_count": 444,
-    "historical_count": 31
+    "historical_count": 35
   },
   "data": {
     "statistics": {
-      "model_count": 336,
-      "provider_count": 52,
-      "family_count": 154
+      "model_count": 339,
+      "provider_count": 53,
+      "family_count": 155
     },
     "models": [
       {
@@ -100,12 +100,6 @@
         "name": "Anthropic: Claude Haiku 4.5",
         "provider": "Anthropic",
         "family": "claude-haiku"
-      },
-      {
-        "id": "anthropic/claude-opus-4",
-        "name": "Anthropic: Claude Opus 4",
-        "provider": "Anthropic",
-        "family": "claude-opus"
       },
       {
         "id": "anthropic/claude-opus-4.1",
@@ -588,12 +582,6 @@
         "family": "schematron"
       },
       {
-        "id": "kwaipilot/kat-coder-pro-v2",
-        "name": "Kwaipilot: KAT-Coder-Pro V2",
-        "provider": "Kwaipilot",
-        "family": "kat-coder-pro"
-      },
-      {
         "id": "kwaipilot/kat-coder-pro-v2.5",
         "name": "Kwaipilot: KAT-Coder-Pro V2.5",
         "provider": "Kwaipilot",
@@ -790,12 +778,6 @@
         "name": "Mistral: Ministral 3 8B 2512",
         "provider": "Mistral AI",
         "family": "ministral"
-      },
-      {
-        "id": "mistralai/mistral-large-2512",
-        "name": "Mistral: Mistral Large 3 2512",
-        "provider": "Mistral AI",
-        "family": "mistral-large"
       },
       {
         "id": "mistralai/mistral-medium-3",
@@ -1416,6 +1398,12 @@
         "family": "laguna-xs"
       },
       {
+        "id": "prism-ml/ternary-bonsai-2-27b",
+        "name": "PrismML: Ternary Bonsai 2 27B",
+        "provider": "Prism Ml",
+        "family": "ternary-bonsai"
+      },
+      {
         "id": "qwen/qwen-2.5-72b-instruct",
         "name": "Qwen2.5 72B Instruct",
         "provider": "Qwen",
@@ -1788,12 +1776,6 @@
         "family": "l3.3-euryale"
       },
       {
-        "id": "stealth/union-alpha",
-        "name": "Union Alpha",
-        "provider": "Stealth",
-        "family": "union-alpha"
-      },
-      {
         "id": "stepfun/step-3.5-flash",
         "name": "StepFun: Step 3.5 Flash",
         "provider": "Stepfun",
@@ -1878,6 +1860,12 @@
         "family": "inkling-small"
       },
       {
+        "id": "unbiased/pareto",
+        "name": "Pareto",
+        "provider": "Unbiased",
+        "family": "pareto"
+      },
+      {
         "id": "undi95/remm-slerp-l2-13b",
         "name": "ReMM SLERP 13B",
         "provider": "Undi95",
@@ -1910,6 +1898,24 @@
       {
         "id": "xiaomi/mimo-v2.5-pro",
         "name": "Xiaomi: MiMo-V2.5-Pro",
+        "provider": "Xiaomi",
+        "family": "mimo"
+      },
+      {
+        "id": "xiaomi/mimo-v2.6-flash",
+        "name": "Xiaomi: MiMo-V2.6-Flash",
+        "provider": "Xiaomi",
+        "family": "mimo"
+      },
+      {
+        "id": "xiaomi/mimo-v2.6-pro",
+        "name": "Xiaomi: MiMo-V2.6-Pro",
+        "provider": "Xiaomi",
+        "family": "mimo"
+      },
+      {
+        "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+        "name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
         "provider": "Xiaomi",
         "family": "mimo"
       },
@@ -1992,6 +1998,12 @@
         "family": "glm"
       },
       {
+        "id": "z-ai/glm-5.3-flashx",
+        "name": "Z.ai: GLM 5.3 FlashX",
+        "provider": "Z Ai",
+        "family": "glm"
+      },
+      {
         "id": "z-ai/glm-5v-turbo",
         "name": "Z.ai: GLM 5V Turbo",
         "provider": "Z Ai",
@@ -2024,6 +2036,12 @@
       {
         "id": "x-ai/grok-4.6",
         "name": "SpaceXAI: Grok 4.6",
+        "provider": "xAI",
+        "family": "grok"
+      },
+      {
+        "id": "x-ai/grok-4.7",
+        "name": "SpaceXAI: Grok 4.7",
         "provider": "xAI",
         "family": "grok"
       },

@@ -2,13 +2,13 @@
   "metadata": {
     "engine_version": "3.3",
     "source": "openrouter",
-    "generated_at_utc": "2026-09-16T18:56:32Z",
-    "model_count": 336,
-    "provider_count": 52,
-    "family_count": 154,
+    "generated_at_utc": "2026-09-22T11:26:39Z",
+    "model_count": 339,
+    "provider_count": 53,
+    "family_count": 155,
     "catalog_policy": "P14.2A",
     "source_record_count": 444,
-    "historical_count": 31
+    "historical_count": 35
   },
   "data": [
     {
@@ -118,7 +118,6 @@
       "provider": "Anthropic",
       "name": "claude-opus",
       "model_ids": [
-        "anthropic/claude-opus-4",
         "anthropic/claude-opus-4.1",
         "anthropic/claude-opus-4.5",
         "anthropic/claude-opus-4.6",
@@ -126,7 +125,7 @@
         "anthropic/claude-opus-4.8",
         "anthropic/claude-opus-5"
       ],
-      "model_count": 7
+      "model_count": 6
     },
     {
       "id": "anthropic:claude-sonnet",
@@ -391,10 +390,9 @@
       "provider": "Kwaipilot",
       "name": "kat-coder-pro",
       "model_ids": [
-        "kwaipilot/kat-coder-pro-v2",
         "kwaipilot/kat-coder-pro-v2.5"
       ],
-      "model_count": 2
+      "model_count": 1
     },
     {
       "id": "liquid:lfm",
@@ -592,10 +590,9 @@
       "name": "mistral-large",
       "model_ids": [
         "mistralai/mistral-large",
-        "mistralai/mistral-large-2407",
-        "mistralai/mistral-large-2512"
+        "mistralai/mistral-large-2407"
       ],
-      "model_count": 3
+      "model_count": 2
     },
     {
       "id": "mistral-ai:mistral-medium",
@@ -1045,6 +1042,15 @@
       "model_count": 1
     },
     {
+      "id": "prism-ml:ternary-bonsai",
+      "provider": "Prism Ml",
+      "name": "ternary-bonsai",
+      "model_ids": [
+        "prism-ml/ternary-bonsai-2-27b"
+      ],
+      "model_count": 1
+    },
+    {
       "id": "qwen:qwen",
       "provider": "Qwen",
       "name": "qwen",
@@ -1387,15 +1393,6 @@
       "model_count": 1
     },
     {
-      "id": "stealth:union-alpha",
-      "provider": "Stealth",
-      "name": "union-alpha",
-      "model_ids": [
-        "stealth/union-alpha"
-      ],
-      "model_count": 1
-    },
-    {
       "id": "stepfun:step",
       "provider": "Stepfun",
       "name": "step",
@@ -1490,6 +1487,15 @@
       "model_count": 1
     },
     {
+      "id": "unbiased:pareto",
+      "provider": "Unbiased",
+      "name": "pareto",
+      "model_ids": [
+        "unbiased/pareto"
+      ],
+      "model_count": 1
+    },
+    {
       "id": "undi95:remm-slerp-l2",
       "provider": "Undi95",
       "name": "remm-slerp-l2",
@@ -1534,9 +1540,10 @@
         "x-ai/grok-4.20-multi-agent",
         "x-ai/grok-4.3",
         "x-ai/grok-4.5",
-        "x-ai/grok-4.6"
+        "x-ai/grok-4.6",
+        "x-ai/grok-4.7"
       ],
-      "model_count": 5
+      "model_count": 6
     },
     {
       "id": "xai:grok-build",
@@ -1553,9 +1560,12 @@
       "name": "mimo",
       "model_ids": [
         "xiaomi/mimo-v2.5",
-        "xiaomi/mimo-v2.5-pro"
+        "xiaomi/mimo-v2.5-pro",
+        "xiaomi/mimo-v2.6-flash",
+        "xiaomi/mimo-v2.6-pro",
+        "xiaomi/mimo-v2.6-pro-ultraspeed"
       ],
-      "model_count": 2
+      "model_count": 5
     },
     {
       "id": "z-ai:glm",
@@ -1575,9 +1585,10 @@
         "z-ai/glm-5.2",
         "z-ai/glm-5.3",
         "z-ai/glm-5.3-flash",
+        "z-ai/glm-5.3-flashx",
         "z-ai/glm-5v-turbo"
       ],
-      "model_count": 14
+      "model_count": 15
     }
   ]
 }

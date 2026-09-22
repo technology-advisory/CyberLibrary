@@ -575,6 +575,7 @@
 /modelos/fichas/z-ai-glm-latest/ /modelos/fichas/z-ai-glm-5-3/ 301
 
 # BEGIN AI INTELLIGENCE ENGINE AUTO
+/modelos/fichas/qwen-qwen3-8-27b-free/  /modelos/fichas/qwen-qwen3-8-27b/  301
 # END AI INTELLIGENCE ENGINE AUTO
 /ia-banca-dora/*  /ia-aplicada/sectores/financiero/:splat  301
 /ia-aplicada/ia-banca-dora/*  /ia-aplicada/sectores/financiero/:splat  301

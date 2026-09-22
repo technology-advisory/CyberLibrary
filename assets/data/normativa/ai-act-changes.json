@@ -21,12 +21,12 @@
     ]
   },
   "source": {
-    "html_url": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32026R1744",
-    "html_sha256": "fb9c54f251f5fda5bfd3d2ee1b954ad0f11a1c8a308865ad072006cf5f81591a",
-    "html_content_type": "text/html",
+    "html_url": "http://publications.europa.eu/resource/cellar/b459c07f-86fb-11f1-bf5e-01aa75ed71a1.0023.03/DOC_1",
+    "html_sha256": "8d6d9825b8131aff76a6a062d210e354b2b985b154390e3b8712e7299ffd4641",
+    "html_content_type": "application/xhtml+xml",
     "pdf": {
       "path": "data/legal/raw/ai-omnibus-2026-1744.es.pdf",
-      "source_url": "https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:32026R1744",
+      "source_url": "http://publications.europa.eu/resource/cellar/b459c07f-86fb-11f1-bf5e-01aa75ed71a1.0023.01/DOC_1",
       "sha256": "2378133f4eec91108eec2858e028167b7de9226ddd588598b1b03f76769c2a9a",
       "content_type": "application/pdf"
     }

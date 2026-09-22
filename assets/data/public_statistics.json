@@ -1,19 +1,19 @@
 {
   "metadata": {
     "engine_version": "3.3",
-    "generated_at_utc": "2026-09-16T18:56:32Z"
+    "generated_at_utc": "2026-09-22T11:26:39Z"
   },
   "data": {
-    "model_count": 336,
-    "provider_count": 52,
-    "family_count": 154,
+    "model_count": 339,
+    "provider_count": 53,
+    "family_count": 155,
     "capability_count": 33,
-    "historical_count": 31,
+    "historical_count": 35,
     "source_record_count": 444,
-    "new_models_last_7_days": 47,
+    "new_models_last_7_days": 53,
     "updated_models_last_7_days": 0,
     "activity": {
-      "new_models": 47,
+      "new_models": 53,
       "updated_models": 0,
       "window_days": 7
     }

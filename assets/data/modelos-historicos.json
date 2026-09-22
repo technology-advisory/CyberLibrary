@@ -2,13 +2,13 @@
   "metadata": {
     "engine_version": "3.3",
     "source": "openrouter",
-    "generated_at_utc": "2026-09-16T18:56:32Z",
-    "model_count": 336,
-    "provider_count": 52,
-    "family_count": 154,
+    "generated_at_utc": "2026-09-22T11:26:39Z",
+    "model_count": 339,
+    "provider_count": 53,
+    "family_count": 155,
     "catalog_policy": "P14.2A",
     "source_record_count": 444,
-    "historical_count": 31
+    "historical_count": 35
   },
   "data": [
     {
@@ -23,6 +23,91 @@
       "name": "AllenAI: Olmo 3 32B Think",
       "provider": "CyberLibrary AI",
       "description": "Modelo ya no disponible en la fuente actual; ficha conservada para trazabilidad.",
+      "status": "historical"
+    },
+    {
+      "id": "anthropic/claude-opus-4",
+      "source": "openrouter",
+      "source_id": "anthropic/claude-opus-4",
+      "canonical_slug": "anthropic/claude-4-opus-20250522",
+      "name": "Anthropic: Claude Opus 4",
+      "description": "Claude Opus 4 is benchmarked as the world’s best coding model, at time of release, bringing sustained performance on complex, long-running tasks and agent workflows. It sets new benchmarks in...",
+      "provider": "Anthropic",
+      "provider_slug": "anthropic",
+      "family": "claude-opus",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1747931245,
+      "context_length": 200000,
+      "max_completion_tokens": 32000,
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Claude",
+      "instruct_type": null,
+      "is_moderated": false,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "reasoning": {
+        "mandatory": false
+      },
+      "knowledge_cutoff": "2025-01-31",
+      "expiration_date": null,
+      "hugging_face_id": null,
+      "links": {
+        "details": "/api/v1/models/anthropic/claude-4-opus-20250522/endpoints"
+      },
+      "first_seen_at": "2026-07-23T15:04:58Z",
+      "last_seen_at": "2026-09-16T18:56:32Z",
+      "last_updated_at": "2026-07-23T15:04:58Z",
+      "is_new": false,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": true,
+      "supports_structured_outputs": false,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": true,
+      "pricing": {
+        "prompt": "0.000015",
+        "completion": "0.000075",
+        "web_search": "0.01",
+        "input_cache_read": "0.0000015",
+        "input_cache_write": "0.00001875",
+        "input_cache_write_1h": "0.00003"
+      },
       "status": "historical"
     },
     {
@@ -93,6 +178,177 @@
       "name": "Kwaipilot: KAT-Coder-Air V2.5",
       "provider": "CyberLibrary AI",
       "description": "Modelo ya no disponible en la fuente actual; ficha conservada para trazabilidad.",
+      "status": "historical"
+    },
+    {
+      "id": "kwaipilot/kat-coder-pro-v2",
+      "source": "openrouter",
+      "source_id": "kwaipilot/kat-coder-pro-v2",
+      "canonical_slug": "kwaipilot/kat-coder-pro-v2-20260327",
+      "name": "Kwaipilot: KAT-Coder-Pro V2",
+      "description": "KAT-Coder-Pro V2 is the latest high-performance model in KwaiKAT’s KAT-Coder series, designed for complex enterprise-grade software engineering and SaaS integration. It builds on the agentic coding strengths of earlier versions,...",
+      "provider": "Kwaipilot",
+      "provider_slug": "kwaipilot",
+      "family": "kat-coder-pro",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1774649310,
+      "context_length": 262144,
+      "max_completion_tokens": 144000,
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null,
+      "is_moderated": false,
+      "supported_parameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "reasoning": {},
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "hugging_face_id": null,
+      "links": {
+        "details": "/api/v1/models/kwaipilot/kat-coder-pro-v2-20260327/endpoints"
+      },
+      "first_seen_at": "2026-07-23T15:04:58Z",
+      "last_seen_at": "2026-09-16T18:56:32Z",
+      "last_updated_at": "2026-09-16T18:10:32Z",
+      "is_new": false,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": false,
+      "supports_vision": false,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0.0000003",
+        "completion": "0.0000012",
+        "input_cache_read": "0.00000006"
+      },
+      "status": "historical"
+    },
+    {
+      "id": "mistralai/mistral-large-2512",
+      "source": "openrouter",
+      "source_id": "mistralai/mistral-large-2512",
+      "canonical_slug": "mistralai/mistral-large-2512",
+      "name": "Mistral: Mistral Large 3 2512",
+      "description": "Mistral Large 3 2512 is Mistral’s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license.",
+      "provider": "Mistral AI",
+      "provider_slug": "mistral-ai",
+      "family": "mistral-large",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1764624472,
+      "context_length": 262144,
+      "max_completion_tokens": 209715,
+      "modality": "text+image+file->text",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Mistral",
+      "instruct_type": null,
+      "is_moderated": false,
+      "supported_parameters": [
+        "frequency_penalty",
+        "max_tokens",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 0.0645,
+        "top_p": null,
+        "frequency_penalty": null
+      },
+      "reasoning": {},
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "hugging_face_id": null,
+      "links": {
+        "details": "/api/v1/models/mistralai/mistral-large-2512/endpoints"
+      },
+      "first_seen_at": "2026-07-23T15:04:58Z",
+      "last_seen_at": "2026-09-16T18:56:32Z",
+      "last_updated_at": "2026-07-23T15:04:58Z",
+      "is_new": false,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": true,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {
+        "batch": {
+          "prompt": "0.00000025",
+          "completion": "0.00000075",
+          "input_cache_read": "0.000000025"
+        }
+      },
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": false,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": true,
+      "pricing": {
+        "prompt": "0.0000005",
+        "completion": "0.0000015",
+        "input_cache_read": "0.00000005"
+      },
       "status": "historical"
     },
     {
@@ -205,6 +461,76 @@
       "name": "TheDrummer: Rocinante 12B",
       "provider": "CyberLibrary AI",
       "description": "Modelo ya no disponible en la fuente actual; ficha conservada para trazabilidad.",
+      "status": "historical"
+    },
+    {
+      "id": "stealth/union-alpha",
+      "source": "openrouter",
+      "source_id": "stealth/union-alpha",
+      "canonical_slug": "stealth/union-alpha",
+      "name": "Union Alpha",
+      "description": "Union Alpha is a multimodal model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. Union Alpha is a stealth model....",
+      "provider": "Stealth",
+      "provider_slug": "stealth",
+      "family": "union-alpha",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1789569723,
+      "context_length": 262144,
+      "max_completion_tokens": 131072,
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null,
+      "is_moderated": false,
+      "supported_parameters": [
+        "max_tokens",
+        "response_format",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p",
+        "structured_outputs"
+      ],
+      "default_parameters": {},
+      "reasoning": {},
+      "knowledge_cutoff": null,
+      "expiration_date": "2098-12-31",
+      "hugging_face_id": null,
+      "links": {
+        "details": "/api/v1/models/stealth/union-alpha/endpoints"
+      },
+      "first_seen_at": "2026-09-16T18:10:32Z",
+      "last_seen_at": "2026-09-16T18:56:32Z",
+      "last_updated_at": "2026-09-16T18:10:32Z",
+      "is_new": true,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": false,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
       "status": "historical"
     },
     {

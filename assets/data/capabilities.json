@@ -2,13 +2,13 @@
   "metadata": {
     "engine_version": "3.3",
     "source": "openrouter",
-    "generated_at_utc": "2026-09-16T18:56:32Z",
-    "model_count": 336,
-    "provider_count": 52,
-    "family_count": 154,
+    "generated_at_utc": "2026-09-22T11:26:39Z",
+    "model_count": 339,
+    "provider_count": 53,
+    "family_count": 155,
     "catalog_policy": "P14.2A",
     "source_record_count": 444,
-    "historical_count": 31
+    "historical_count": 35
   },
   "data": [
     {
@@ -461,6 +461,7 @@
         "response_format",
         "stop",
         "structured_outputs",
+        "tool_choice",
         "tools",
         "verbosity"
       ],
@@ -517,43 +518,6 @@
         "free": false,
         "free_only": false,
         "batch": true,
-        "contributor": false,
-        "thinking": false
-      }
-    },
-    {
-      "model_id": "anthropic/claude-opus-4",
-      "provider": "Anthropic",
-      "input_modalities": [
-        "file",
-        "image",
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "stop",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "supports_tools": true,
-      "supports_structured_outputs": false,
-      "supports_reasoning": true,
-      "supports_vision": true,
-      "supports_audio": false,
-      "supports_video": false,
-      "supports_files": true,
-      "availability": {
-        "standard": true,
-        "free": false,
-        "free_only": false,
-        "batch": false,
         "contributor": false,
         "thinking": false
       }
@@ -3886,48 +3850,6 @@
       }
     },
     {
-      "model_id": "kwaipilot/kat-coder-pro-v2",
-      "provider": "Kwaipilot",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "max_tokens",
-        "min_p",
-        "presence_penalty",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "supports_tools": true,
-      "supports_structured_outputs": true,
-      "supports_reasoning": false,
-      "supports_vision": false,
-      "supports_audio": false,
-      "supports_video": false,
-      "supports_files": false,
-      "availability": {
-        "standard": true,
-        "free": false,
-        "free_only": false,
-        "batch": false,
-        "contributor": false,
-        "thinking": false
-      }
-    },
-    {
       "model_id": "kwaipilot/kat-coder-pro-v2.5",
       "provider": "Kwaipilot",
       "input_modalities": [
@@ -4981,7 +4903,7 @@
         "standard": true,
         "free": false,
         "free_only": false,
-        "batch": true,
+        "batch": false,
         "contributor": false,
         "thinking": false
       }
@@ -5292,46 +5214,6 @@
       }
     },
     {
-      "model_id": "mistralai/mistral-large-2512",
-      "provider": "Mistral AI",
-      "input_modalities": [
-        "file",
-        "image",
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "supported_parameters": [
-        "frequency_penalty",
-        "max_tokens",
-        "presence_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "supports_tools": true,
-      "supports_structured_outputs": true,
-      "supports_reasoning": false,
-      "supports_vision": true,
-      "supports_audio": false,
-      "supports_video": false,
-      "supports_files": true,
-      "availability": {
-        "standard": true,
-        "free": false,
-        "free_only": false,
-        "batch": true,
-        "contributor": false,
-        "thinking": false
-      }
-    },
-    {
       "model_id": "mistralai/mistral-medium-3",
       "provider": "Mistral AI",
       "input_modalities": [
@@ -5559,11 +5441,13 @@
         "seed",
         "stop",
         "temperature",
+        "tool_choice",
+        "tools",
         "top_k",
         "top_logprobs",
         "top_p"
       ],
-      "supports_tools": false,
+      "supports_tools": true,
       "supports_structured_outputs": false,
       "supports_reasoning": false,
       "supports_vision": true,
@@ -5648,7 +5532,6 @@
         "temperature",
         "tool_choice",
         "tools",
-        "top_k",
         "top_p"
       ],
       "supports_tools": true,
@@ -6094,7 +5977,7 @@
         "standard": true,
         "free": false,
         "free_only": false,
-        "batch": true,
+        "batch": false,
         "contributor": false,
         "thinking": false
       }
@@ -6442,16 +6325,13 @@
         "max_tokens",
         "reasoning",
         "reasoning_effort",
-        "response_format",
         "structured_outputs",
         "temperature",
-        "tool_choice",
-        "tools",
         "top_k",
         "top_logprobs",
         "top_p"
       ],
-      "supports_tools": true,
+      "supports_tools": false,
       "supports_structured_outputs": true,
       "supports_reasoning": true,
       "supports_vision": true,
@@ -6459,9 +6339,9 @@
       "supports_video": false,
       "supports_files": false,
       "availability": {
-        "standard": false,
+        "standard": true,
         "free": true,
-        "free_only": true,
+        "free_only": false,
         "batch": false,
         "contributor": false,
         "thinking": false
@@ -6483,7 +6363,6 @@
         "max_tokens",
         "reasoning",
         "reasoning_effort",
-        "response_format",
         "structured_outputs",
         "temperature",
         "tool_choice",
@@ -6500,9 +6379,9 @@
       "supports_video": false,
       "supports_files": false,
       "availability": {
-        "standard": false,
+        "standard": true,
         "free": true,
-        "free_only": true,
+        "free_only": false,
         "batch": false,
         "contributor": false,
         "thinking": false
@@ -8558,7 +8437,7 @@
         "standard": true,
         "free": false,
         "free_only": false,
-        "batch": true,
+        "batch": false,
         "contributor": false,
         "thinking": false
       }
@@ -9464,6 +9343,52 @@
       }
     },
     {
+      "model_id": "prism-ml/ternary-bonsai-2-27b",
+      "provider": "Prism Ml",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
       "model_id": "qwen/qwen-2.5-72b-instruct",
       "provider": "Qwen",
       "input_modalities": [
@@ -9521,14 +9446,16 @@
         "min_p",
         "presence_penalty",
         "repetition_penalty",
+        "response_format",
         "seed",
         "stop",
         "temperature",
         "top_k",
-        "top_p"
+        "top_p",
+        "structured_outputs"
       ],
       "supports_tools": false,
-      "supports_structured_outputs": false,
+      "supports_structured_outputs": true,
       "supports_reasoning": false,
       "supports_vision": false,
       "supports_audio": false,
@@ -11113,7 +11040,7 @@
         "standard": true,
         "free": false,
         "free_only": false,
-        "batch": true,
+        "batch": false,
         "contributor": false,
         "thinking": false
       }
@@ -11561,7 +11488,7 @@
         "standard": true,
         "free": false,
         "free_only": false,
-        "batch": true,
+        "batch": false,
         "contributor": false,
         "thinking": false
       }
@@ -11609,7 +11536,7 @@
       "supports_files": false,
       "availability": {
         "standard": true,
-        "free": false,
+        "free": true,
         "free_only": false,
         "batch": false,
         "contributor": false,
@@ -12108,41 +12035,6 @@
       "supports_structured_outputs": true,
       "supports_reasoning": false,
       "supports_vision": false,
-      "supports_audio": false,
-      "supports_video": false,
-      "supports_files": false,
-      "availability": {
-        "standard": true,
-        "free": false,
-        "free_only": false,
-        "batch": false,
-        "contributor": false,
-        "thinking": false
-      }
-    },
-    {
-      "model_id": "stealth/union-alpha",
-      "provider": "Stealth",
-      "input_modalities": [
-        "image",
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "supported_parameters": [
-        "max_tokens",
-        "response_format",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p",
-        "structured_outputs"
-      ],
-      "supports_tools": true,
-      "supports_structured_outputs": true,
-      "supports_reasoning": false,
-      "supports_vision": true,
       "supports_audio": false,
       "supports_video": false,
       "supports_files": false,
@@ -12655,7 +12547,7 @@
         "standard": true,
         "free": true,
         "free_only": false,
-        "batch": true,
+        "batch": false,
         "contributor": false,
         "thinking": false
       }
@@ -12701,6 +12593,39 @@
       "availability": {
         "standard": true,
         "free": true,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "unbiased/pareto",
+      "provider": "Unbiased",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "max_tokens",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": false,
+      "supports_reasoning": false,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "availability": {
+        "standard": true,
+        "free": false,
         "free_only": false,
         "batch": false,
         "contributor": false,
@@ -12766,6 +12691,7 @@
         "parallel_tool_calls",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "structured_outputs",
         "temperature",
@@ -12805,6 +12731,7 @@
         "parallel_tool_calls",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "structured_outputs",
         "temperature",
@@ -12943,6 +12870,132 @@
       "supports_vision": false,
       "supports_audio": false,
       "supports_video": false,
+      "supports_files": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "xiaomi/mimo-v2.6-flash",
+      "provider": "Xiaomi",
+      "input_modalities": [
+        "audio",
+        "image",
+        "text",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": true,
+      "supports_video": true,
+      "supports_files": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "xiaomi/mimo-v2.6-pro",
+      "provider": "Xiaomi",
+      "input_modalities": [
+        "audio",
+        "image",
+        "text",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": true,
+      "supports_video": true,
+      "supports_files": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+      "provider": "Xiaomi",
+      "input_modalities": [
+        "audio",
+        "image",
+        "text",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": true,
+      "supports_video": true,
       "supports_files": false,
       "availability": {
         "standard": true,
@@ -13526,6 +13579,46 @@
       }
     },
     {
+      "model_id": "z-ai/glm-5.3-flashx",
+      "provider": "Z Ai",
+      "input_modalities": [
+        "image",
+        "text",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p",
+        "structured_outputs"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": true,
+      "supports_files": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
       "model_id": "z-ai/glm-5v-turbo",
       "provider": "Z Ai",
       "input_modalities": [
@@ -13754,6 +13847,48 @@
         "tool_choice",
         "tools",
         "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": true,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "x-ai/grok-4.7",
+      "provider": "xAI",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
         "top_logprobs",
         "top_p"
       ],

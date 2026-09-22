@@ -10,12 +10,12 @@
     "official_number": "Reglamento (UE) 2024/1689"
   },
   "source": {
-    "html_url": "https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32024R1689",
-    "html_sha256": "994de6ec00162fda1b55b7bab390f6c7b248051ac59a18a1c3d07f24456a1d9d",
-    "html_content_type": "text/html",
+    "html_url": "http://publications.europa.eu/resource/cellar/dc8116a1-3fe6-11ef-865a-01aa75ed71a1.0023.03/DOC_1",
+    "html_sha256": "0ef11d381226cde823d0bbf03ed195ec98645b9a0b7e06b1668c7f46751aad8c",
+    "html_content_type": "application/xhtml+xml",
     "pdf": {
       "path": "data/legal/raw/ai-act-2024-1689.es.pdf",
-      "source_url": "https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:32024R1689",
+      "source_url": "http://publications.europa.eu/resource/cellar/dc8116a1-3fe6-11ef-865a-01aa75ed71a1.0023.01/DOC_1",
       "sha256": "29e6d41f41cc0efea6b5f8a1418a7ef31e9422f9eba0c297ddc7e7ed7f357b1c",
       "content_type": "application/pdf"
     }
