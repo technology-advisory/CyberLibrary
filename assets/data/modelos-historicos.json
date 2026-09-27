@@ -2,13 +2,13 @@
   "metadata": {
     "engine_version": "3.3",
     "source": "openrouter",
-    "generated_at_utc": "2026-09-22T11:44:39Z",
-    "model_count": 339,
-    "provider_count": 53,
-    "family_count": 155,
+    "generated_at_utc": "2026-09-27T18:34:23Z",
+    "model_count": 353,
+    "provider_count": 55,
+    "family_count": 160,
     "catalog_policy": "P14.2A",
-    "source_record_count": 444,
-    "historical_count": 35
+    "source_record_count": 458,
+    "historical_count": 37
   },
   "data": [
     {
@@ -23,6 +23,80 @@
       "name": "AllenAI: Olmo 3 32B Think",
       "provider": "CyberLibrary AI",
       "description": "Modelo ya no disponible en la fuente actual; ficha conservada para trazabilidad.",
+      "status": "historical"
+    },
+    {
+      "id": "anthropic/claude-3-haiku",
+      "source": "openrouter",
+      "source_id": "anthropic/claude-3-haiku",
+      "canonical_slug": "anthropic/claude-3-haiku",
+      "name": "Anthropic: Claude 3 Haiku",
+      "description": "Claude 3 Haiku is Anthropic's fastest and most compact model for\nnear-instant responsiveness. Quick and accurate targeted performance.\n\nSee the launch announcement and benchmark results [here](https://www.anthropic.com/news/claude-3-haiku)\n\n#multimodal",
+      "provider": "Anthropic",
+      "provider_slug": "anthropic",
+      "family": "claude",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1710288000,
+      "context_length": 200000,
+      "max_completion_tokens": 4096,
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Claude",
+      "instruct_type": null,
+      "is_moderated": true,
+      "supported_parameters": [
+        "max_tokens",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "reasoning": {},
+      "knowledge_cutoff": "2023-08-31",
+      "expiration_date": null,
+      "hugging_face_id": null,
+      "links": {
+        "details": "/api/v1/models/anthropic/claude-3-haiku/endpoints"
+      },
+      "first_seen_at": "2026-07-23T15:04:58Z",
+      "last_seen_at": "2026-09-22T11:44:39Z",
+      "last_updated_at": "2026-07-23T15:04:58Z",
+      "is_new": false,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": true,
+      "supports_structured_outputs": false,
+      "supports_reasoning": false,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0.00000025",
+        "completion": "0.00000125",
+        "web_search": "0.01",
+        "input_cache_read": "0.00000003",
+        "input_cache_write": "0.0000003",
+        "input_cache_write_1h": "0.0000005"
+      },
       "status": "historical"
     },
     {
@@ -266,92 +340,6 @@
       "status": "historical"
     },
     {
-      "id": "mistralai/mistral-large-2512",
-      "source": "openrouter",
-      "source_id": "mistralai/mistral-large-2512",
-      "canonical_slug": "mistralai/mistral-large-2512",
-      "name": "Mistral: Mistral Large 3 2512",
-      "description": "Mistral Large 3 2512 is Mistral’s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license.",
-      "provider": "Mistral AI",
-      "provider_slug": "mistral-ai",
-      "family": "mistral-large",
-      "variant": null,
-      "is_free": false,
-      "created_unix": 1764624472,
-      "context_length": 262144,
-      "max_completion_tokens": 209715,
-      "modality": "text+image+file->text",
-      "input_modalities": [
-        "file",
-        "image",
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Mistral",
-      "instruct_type": null,
-      "is_moderated": false,
-      "supported_parameters": [
-        "frequency_penalty",
-        "max_tokens",
-        "presence_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 0.0645,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "reasoning": {},
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "hugging_face_id": null,
-      "links": {
-        "details": "/api/v1/models/mistralai/mistral-large-2512/endpoints"
-      },
-      "first_seen_at": "2026-07-23T15:04:58Z",
-      "last_seen_at": "2026-09-16T18:56:32Z",
-      "last_updated_at": "2026-07-23T15:04:58Z",
-      "is_new": false,
-      "is_updated": false,
-      "availability": {
-        "standard": true,
-        "free": false,
-        "free_only": false,
-        "batch": true,
-        "contributor": false,
-        "thinking": false
-      },
-      "variant_pricing": {
-        "batch": {
-          "prompt": "0.00000025",
-          "completion": "0.00000075",
-          "input_cache_read": "0.000000025"
-        }
-      },
-      "supports_tools": true,
-      "supports_structured_outputs": true,
-      "supports_reasoning": false,
-      "supports_vision": true,
-      "supports_audio": false,
-      "supports_video": false,
-      "supports_files": true,
-      "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.0000015",
-        "input_cache_read": "0.00000005"
-      },
-      "status": "historical"
-    },
-    {
       "id": "nvidia/nemotron-nano-12b-v2-vl:free",
       "name": "NVIDIA: Nemotron Nano 12B 2 VL (free)",
       "provider": "CyberLibrary AI",
@@ -377,6 +365,190 @@
       "name": "Nex AGI: Nex-N2-Pro",
       "provider": "CyberLibrary AI",
       "description": "Modelo ya no disponible en la fuente actual; ficha conservada para trazabilidad.",
+      "status": "historical"
+    },
+    {
+      "id": "nex-agi/nex-n2.5-mini",
+      "source": "openrouter",
+      "source_id": "nex-agi/nex-n2.5-mini",
+      "canonical_slug": "nex-agi/nex-n2.5-mini-20260908",
+      "name": "Nex AGI: Nex-N2.5-Mini",
+      "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
+      "provider": "Nex Agi",
+      "provider_slug": "nex-agi",
+      "family": "nex-n2.5-mini",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1788890061,
+      "context_length": 262144,
+      "max_completion_tokens": 235929,
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null,
+      "is_moderated": false,
+      "supported_parameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "structured_outputs",
+        "temperature",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 0.7,
+        "top_p": 0.95,
+        "top_k": 40
+      },
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": [
+          "high",
+          "medium",
+          "none"
+        ],
+        "default_effort": "high"
+      },
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "hugging_face_id": "nex-agi/Nex-N2.5-mini",
+      "links": {
+        "details": "/api/v1/models/nex-agi/nex-n2.5-mini-20260908/endpoints"
+      },
+      "first_seen_at": "2026-09-22T08:55:28Z",
+      "last_seen_at": "2026-09-22T11:44:39Z",
+      "last_updated_at": "2026-09-22T08:55:28Z",
+      "is_new": true,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": true,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {
+        "free": {
+          "prompt": "0",
+          "completion": "0"
+        }
+      },
+      "supports_tools": false,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0.000000025",
+        "completion": "0.0000001",
+        "input_cache_read": "0.0000000025"
+      },
+      "status": "historical"
+    },
+    {
+      "id": "nex-agi/nex-n2.5-pro",
+      "source": "openrouter",
+      "source_id": "nex-agi/nex-n2.5-pro",
+      "canonical_slug": "nex-agi/nex-n2.5-pro-20260907",
+      "name": "Nex AGI: Nex-N2.5-Pro",
+      "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
+      "provider": "Nex Agi",
+      "provider_slug": "nex-agi",
+      "family": "nex-n2.5-pro",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1788890050,
+      "context_length": 262144,
+      "max_completion_tokens": 235929,
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null,
+      "is_moderated": false,
+      "supported_parameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 0.7,
+        "top_p": 0.95,
+        "top_k": 40
+      },
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": [
+          "high",
+          "medium",
+          "none"
+        ],
+        "default_effort": "high"
+      },
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "hugging_face_id": "nex-agi/Nex-N2.5-Pro",
+      "links": {
+        "details": "/api/v1/models/nex-agi/nex-n2.5-pro-20260907/endpoints"
+      },
+      "first_seen_at": "2026-09-22T08:55:28Z",
+      "last_seen_at": "2026-09-22T11:44:39Z",
+      "last_updated_at": "2026-09-22T08:55:28Z",
+      "is_new": true,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": true,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {
+        "free": {
+          "prompt": "0",
+          "completion": "0"
+        }
+      },
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0.000000075",
+        "completion": "0.00000025",
+        "input_cache_read": "0.000000015"
+      },
       "status": "historical"
     },
     {

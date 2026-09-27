@@ -1,9 +1,523 @@
 {
-  "generated_at": "2026-09-22T11:44:39Z",
+  "generated_at": "2026-09-27T18:34:23Z",
   "summary": {
-    "added": 0,
-    "historical": 0,
-    "updated": 0
+    "added": 17,
+    "historical": 3,
+    "updated": 37
   },
-  "changes": []
+  "changes": [
+    {
+      "type": "added",
+      "id": "aion-labs/aion-3.5",
+      "name": "AionLabs: Aion 3.5",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "aion-labs/aion-3.5-mini",
+      "name": "AionLabs: Aion 3.5 Mini",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "anthropic/claude-opus-5.5",
+      "name": "Anthropic: Claude Opus 5.5",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "cohere/command-a-plus",
+      "name": "Cohere: Command A+",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "fireworks/ember-1",
+      "name": "Fireworks: Ember-1",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "mistralai/mistral-large-2512",
+      "name": "Mistral: Mistral Large 3 2512",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "openai/gpt-6-luna",
+      "name": "OpenAI: GPT-6 Luna",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "openai/gpt-6-luna-pro",
+      "name": "OpenAI: GPT-6 Luna Pro",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "openai/gpt-6-sol",
+      "name": "OpenAI: GPT-6 Sol",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "openai/gpt-6-sol-pro",
+      "name": "OpenAI: GPT-6 Sol Pro",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "perceptron/perceptron-mk1.5",
+      "name": "Perceptron: Perceptron Mk1.5",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "qwen/qwen3.8-max-prime",
+      "name": "Qwen: Qwen3.8 Max Prime",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "qwen/qwen3.8-omni-flash",
+      "name": "Qwen: Qwen3.8 Omni Flash",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "stealth/space-bunny-alpha",
+      "name": "Space Bunny Alpha",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "typesafe/jev-router",
+      "name": "TypeSafe: Jev Router",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "upstage/solar-mini4",
+      "name": "Upstage: Solar Mini 4",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "z-ai/glm-5.3-prime",
+      "name": "Z.ai: GLM 5.3 Prime",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "anthropic/claude-opus-4.8",
+      "name": "Anthropic: Claude Opus 4.8",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "deepseek/deepseek-chat",
+      "name": "DeepSeek: DeepSeek V3",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "deepseek/deepseek-v4-flash",
+      "name": "DeepSeek: DeepSeek V4 Flash 0423",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "name": "DeepSeek: DeepSeek V4 Flash 0731",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek: DeepSeek V4 Pro 0423",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "name": "DeepSeek: DeepSeek V4 Pro 0813",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "name": "DeepSeek: DeepSeek V4.1 Flash",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "google/gemma-4-26b-a4b-it",
+      "name": "Google: Gemma 4 26B A4B",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "inclusionai/ling-3.0-flash-vl",
+      "name": "inclusionAI: Ling 3.0 Flash VL",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "liquid/lfm-2.5-2.6b",
+      "name": "LiquidAI: LFM2.5-2.6B",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "meta/muse-glimmer-30b",
+      "name": "Meta: Muse Glimmer 30B",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "minimax/minimax-m2",
+      "name": "MiniMax: MiniMax M2",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "minimax/minimax-m2.7",
+      "name": "MiniMax: MiniMax M2.7",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "moonshotai/kimi-k2.7-code",
+      "name": "MoonshotAI: Kimi K2.7 Code",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "moonshotai/kimi-k3",
+      "name": "MoonshotAI: Kimi K3",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "nvidia/nemotron-3.5-lightning",
+      "name": "NVIDIA: Nemotron 3.5 Lightning",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "openai/gpt-4",
+      "name": "OpenAI: GPT-4",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "openai/gpt-oss-120b",
+      "name": "OpenAI: gpt-oss-120b",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "openai/gpt-oss-20b",
+      "name": "OpenAI: gpt-oss-20b",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "qwen/qwen3-30b-a3b-instruct-2507",
+      "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "qwen/qwen3-vl-30b-a3b-instruct",
+      "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "qwen/qwen3.5-122b-a10b",
+      "name": "Qwen: Qwen3.5-122B-A10B",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "qwen/qwen3.6-27b",
+      "name": "Qwen: Qwen3.6 27B",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "tencent/hy3",
+      "name": "Tencent: Hy3",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "tencent/hy4-preview",
+      "name": "Tencent: Hy4 preview",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "thinkingmachines/inkling",
+      "name": "Thinking Machines: Inkling",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "thinkingmachines/inkling-small",
+      "name": "Thinking Machines: Inkling Small",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "xiaomi/mimo-v2.6-flash",
+      "name": "Xiaomi: MiMo-V2.6-Flash",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "xiaomi/mimo-v2.6-pro",
+      "name": "Xiaomi: MiMo-V2.6-Pro",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "z-ai/glm-4.7",
+      "name": "Z.ai: GLM 4.7",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "z-ai/glm-5.1",
+      "name": "Z.ai: GLM 5.1",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "z-ai/glm-5.2",
+      "name": "Z.ai: GLM 5.2",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "z-ai/glm-5.3",
+      "name": "Z.ai: GLM 5.3",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "z-ai/glm-5.3-flash",
+      "name": "Z.ai: GLM 5.3 Flash",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "z-ai/glm-5.3-flashx",
+      "name": "Z.ai: GLM 5.3 FlashX",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "historical",
+      "id": "anthropic/claude-3-haiku",
+      "name": "Anthropic: Claude 3 Haiku",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "removed_from_source"
+      ]
+    },
+    {
+      "type": "historical",
+      "id": "nex-agi/nex-n2.5-mini",
+      "name": "Nex AGI: Nex-N2.5-Mini",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "removed_from_source"
+      ]
+    },
+    {
+      "type": "historical",
+      "id": "nex-agi/nex-n2.5-pro",
+      "name": "Nex AGI: Nex-N2.5-Pro",
+      "date": "2026-09-27T18:34:23Z",
+      "fields": [
+        "removed_from_source"
+      ]
+    }
+  ]
 }

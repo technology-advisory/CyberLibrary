@@ -2,21 +2,33 @@
   "metadata": {
     "engine_version": "3.3",
     "source": "openrouter",
-    "generated_at_utc": "2026-09-22T11:44:39Z",
-    "model_count": 339,
-    "provider_count": 53,
-    "family_count": 155,
+    "generated_at_utc": "2026-09-27T18:34:23Z",
+    "model_count": 353,
+    "provider_count": 55,
+    "family_count": 160,
     "catalog_policy": "P14.2A",
-    "source_record_count": 444,
-    "historical_count": 35
+    "source_record_count": 458,
+    "historical_count": 37
   },
   "data": {
     "statistics": {
-      "model_count": 339,
-      "provider_count": 53,
-      "family_count": 155
+      "model_count": 353,
+      "provider_count": 55,
+      "family_count": 160
     },
     "models": [
+      {
+        "id": "aion-labs/aion-3.5",
+        "name": "AionLabs: Aion 3.5",
+        "provider": "Aion Labs",
+        "family": "aion"
+      },
+      {
+        "id": "aion-labs/aion-3.5-mini",
+        "name": "AionLabs: Aion 3.5 Mini",
+        "provider": "Aion Labs",
+        "family": "aion"
+      },
       {
         "id": "aion-labs/aion-2.0",
         "name": "AionLabs: Aion-2.0",
@@ -78,12 +90,6 @@
         "family": "magnum"
       },
       {
-        "id": "anthropic/claude-3-haiku",
-        "name": "Anthropic: Claude 3 Haiku",
-        "provider": "Anthropic",
-        "family": "claude"
-      },
-      {
         "id": "anthropic/claude-fable-5",
         "name": "Anthropic: Claude Fable 5",
         "provider": "Anthropic",
@@ -134,6 +140,12 @@
       {
         "id": "anthropic/claude-opus-5",
         "name": "Anthropic: Claude Opus 5",
+        "provider": "Anthropic",
+        "family": "claude-opus"
+      },
+      {
+        "id": "anthropic/claude-opus-5.5",
+        "name": "Anthropic: Claude Opus 5.5",
         "provider": "Anthropic",
         "family": "claude-opus"
       },
@@ -226,6 +238,12 @@
         "name": "Cohere: Command A",
         "provider": "Cohere",
         "family": "command-a"
+      },
+      {
+        "id": "cohere/command-a-plus",
+        "name": "Cohere: Command A+",
+        "provider": "Cohere",
+        "family": "command-a-plus"
       },
       {
         "id": "cohere/command-r-08-2024",
@@ -346,6 +364,12 @@
         "name": "Dots Studio: Dots3-Note Preview",
         "provider": "Dots Studio",
         "family": "dots"
+      },
+      {
+        "id": "fireworks/ember-1",
+        "name": "Fireworks: Ember-1",
+        "provider": "Fireworks",
+        "family": "ember"
       },
       {
         "id": "google/gemini-2.5-flash",
@@ -780,6 +804,12 @@
         "family": "ministral"
       },
       {
+        "id": "mistralai/mistral-large-2512",
+        "name": "Mistral: Mistral Large 3 2512",
+        "provider": "Mistral AI",
+        "family": "mistral-large"
+      },
+      {
         "id": "mistralai/mistral-medium-3",
         "name": "Mistral: Mistral Medium 3",
         "provider": "Mistral AI",
@@ -934,18 +964,6 @@
         "name": "NVIDIA: Nemotron 3.5 Lightning",
         "provider": "NVIDIA",
         "family": "nemotron"
-      },
-      {
-        "id": "nex-agi/nex-n2.5-mini",
-        "name": "Nex AGI: Nex-N2.5-Mini",
-        "provider": "Nex Agi",
-        "family": "nex-n2.5-mini"
-      },
-      {
-        "id": "nex-agi/nex-n2.5-pro",
-        "name": "Nex AGI: Nex-N2.5-Pro",
-        "provider": "Nex Agi",
-        "family": "nex-n2.5-pro"
       },
       {
         "id": "nousresearch/hermes-3-llama-3.1-405b",
@@ -1248,6 +1266,30 @@
         "family": "gpt"
       },
       {
+        "id": "openai/gpt-6-luna",
+        "name": "OpenAI: GPT-6 Luna",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-6-luna-pro",
+        "name": "OpenAI: GPT-6 Luna Pro",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-6-sol",
+        "name": "OpenAI: GPT-6 Sol",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-6-sol-pro",
+        "name": "OpenAI: GPT-6 Sol Pro",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
         "id": "openai/gpt-oss-120b",
         "name": "OpenAI: gpt-oss-120b",
         "provider": "OpenAI",
@@ -1354,6 +1396,12 @@
         "name": "Perceptron: Perceptron Mk1",
         "provider": "Perceptron",
         "family": "perceptron-mk1"
+      },
+      {
+        "id": "perceptron/perceptron-mk1.5",
+        "name": "Perceptron: Perceptron Mk1.5",
+        "provider": "Perceptron",
+        "family": "perceptron-mk1.5"
       },
       {
         "id": "perplexity/sonar",
@@ -1710,6 +1758,18 @@
         "family": "qwen3.8-max"
       },
       {
+        "id": "qwen/qwen3.8-max-prime",
+        "name": "Qwen: Qwen3.8 Max Prime",
+        "provider": "Qwen",
+        "family": "qwen3.8-max-prime"
+      },
+      {
+        "id": "qwen/qwen3.8-omni-flash",
+        "name": "Qwen: Qwen3.8 Omni Flash",
+        "provider": "Qwen",
+        "family": "qwen3.8-omni-flash"
+      },
+      {
         "id": "rekaai/reka-edge",
         "name": "Reka Edge",
         "provider": "Rekaai",
@@ -1774,6 +1834,12 @@
         "name": "Sao10K: Llama 3.3 Euryale 70B",
         "provider": "Sao10k",
         "family": "l3.3-euryale"
+      },
+      {
+        "id": "stealth/space-bunny-alpha",
+        "name": "Space Bunny Alpha",
+        "provider": "Stealth",
+        "family": "space-bunny-alpha"
       },
       {
         "id": "stepfun/step-3.5-flash",
@@ -1860,6 +1926,12 @@
         "family": "inkling-small"
       },
       {
+        "id": "typesafe/jev-router",
+        "name": "TypeSafe: Jev Router",
+        "provider": "Typesafe",
+        "family": "jev-router"
+      },
+      {
         "id": "unbiased/pareto",
         "name": "Pareto",
         "provider": "Unbiased",
@@ -1870,6 +1942,12 @@
         "name": "ReMM SLERP 13B",
         "provider": "Undi95",
         "family": "remm-slerp-l2"
+      },
+      {
+        "id": "upstage/solar-mini4",
+        "name": "Upstage: Solar Mini 4",
+        "provider": "Upstage",
+        "family": "solar-mini4"
       },
       {
         "id": "upstage/solar-pro-3",
@@ -2000,6 +2078,12 @@
       {
         "id": "z-ai/glm-5.3-flashx",
         "name": "Z.ai: GLM 5.3 FlashX",
+        "provider": "Z Ai",
+        "family": "glm"
+      },
+      {
+        "id": "z-ai/glm-5.3-prime",
+        "name": "Z.ai: GLM 5.3 Prime",
         "provider": "Z Ai",
         "family": "glm"
       },

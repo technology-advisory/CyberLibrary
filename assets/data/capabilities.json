@@ -2,15 +2,89 @@
   "metadata": {
     "engine_version": "3.3",
     "source": "openrouter",
-    "generated_at_utc": "2026-09-22T11:44:39Z",
-    "model_count": 339,
-    "provider_count": 53,
-    "family_count": 155,
+    "generated_at_utc": "2026-09-27T18:34:23Z",
+    "model_count": 353,
+    "provider_count": 55,
+    "family_count": 160,
     "catalog_policy": "P14.2A",
-    "source_record_count": 444,
-    "historical_count": 35
+    "source_record_count": 458,
+    "historical_count": 37
   },
   "data": [
+    {
+      "model_id": "aion-labs/aion-3.5",
+      "provider": "Aion Labs",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p",
+        "structured_outputs"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": false,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "aion-labs/aion-3.5-mini",
+      "provider": "Aion Labs",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p",
+        "structured_outputs"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": false,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
     {
       "model_id": "aion-labs/aion-2.0",
       "provider": "Aion Labs",
@@ -367,41 +441,6 @@
       }
     },
     {
-      "model_id": "anthropic/claude-3-haiku",
-      "provider": "Anthropic",
-      "input_modalities": [
-        "image",
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "supported_parameters": [
-        "max_tokens",
-        "stop",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "supports_tools": true,
-      "supports_structured_outputs": false,
-      "supports_reasoning": false,
-      "supports_vision": true,
-      "supports_audio": false,
-      "supports_video": false,
-      "supports_files": false,
-      "availability": {
-        "standard": true,
-        "free": false,
-        "free_only": false,
-        "batch": false,
-        "contributor": false,
-        "thinking": false
-      }
-    },
-    {
       "model_id": "anthropic/claude-fable-5",
       "provider": "Anthropic",
       "input_modalities": [
@@ -727,6 +766,47 @@
     },
     {
       "model_id": "anthropic/claude-opus-5",
+      "provider": "Anthropic",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": true,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": true,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "anthropic/claude-opus-5.5",
       "provider": "Anthropic",
       "input_modalities": [
         "file",
@@ -1360,6 +1440,47 @@
       }
     },
     {
+      "model_id": "cohere/command-a-plus",
+      "provider": "Cohere",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
       "model_id": "cohere/command-r-08-2024",
       "provider": "Cohere",
       "input_modalities": [
@@ -1874,7 +1995,7 @@
         "standard": true,
         "free": false,
         "free_only": false,
-        "batch": true,
+        "batch": false,
         "contributor": false,
         "thinking": false
       }
@@ -1922,7 +2043,7 @@
         "standard": true,
         "free": false,
         "free_only": false,
-        "batch": true,
+        "batch": false,
         "contributor": false,
         "thinking": false
       }
@@ -2017,7 +2138,7 @@
         "standard": true,
         "free": false,
         "free_only": false,
-        "batch": true,
+        "batch": false,
         "contributor": false,
         "thinking": false
       }
@@ -2065,7 +2186,7 @@
         "standard": true,
         "free": false,
         "free_only": false,
-        "batch": false,
+        "batch": true,
         "contributor": false,
         "thinking": false
       }
@@ -2228,6 +2349,52 @@
         "standard": false,
         "free": true,
         "free_only": true,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "fireworks/ember-1",
+      "provider": "Fireworks",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
         "batch": false,
         "contributor": false,
         "thinking": false
@@ -3740,6 +3907,7 @@
         "frequency_penalty",
         "include_reasoning",
         "logit_bias",
+        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -3753,6 +3921,7 @@
         "tool_choice",
         "tools",
         "top_k",
+        "top_logprobs",
         "top_p"
       ],
       "supports_tools": true,
@@ -3764,7 +3933,7 @@
       "supports_files": false,
       "availability": {
         "standard": true,
-        "free": true,
+        "free": false,
         "free_only": false,
         "batch": false,
         "contributor": false,
@@ -3918,7 +4087,8 @@
         "tool_choice",
         "tools",
         "top_k",
-        "top_logprobs"
+        "top_logprobs",
+        "top_p"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -4400,7 +4570,7 @@
         "standard": true,
         "free": false,
         "free_only": false,
-        "batch": true,
+        "batch": false,
         "contributor": false,
         "thinking": false
       }
@@ -5214,6 +5384,46 @@
       }
     },
     {
+      "model_id": "mistralai/mistral-large-2512",
+      "provider": "Mistral AI",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "frequency_penalty",
+        "max_tokens",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": false,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": true,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": true,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
       "model_id": "mistralai/mistral-medium-3",
       "provider": "Mistral AI",
       "input_modalities": [
@@ -5977,7 +6187,7 @@
         "standard": true,
         "free": false,
         "free_only": false,
-        "batch": false,
+        "batch": true,
         "contributor": false,
         "thinking": false
       }
@@ -6297,84 +6507,6 @@
       "supports_structured_outputs": true,
       "supports_reasoning": true,
       "supports_vision": false,
-      "supports_audio": false,
-      "supports_video": false,
-      "supports_files": false,
-      "availability": {
-        "standard": true,
-        "free": true,
-        "free_only": false,
-        "batch": false,
-        "contributor": false,
-        "thinking": false
-      }
-    },
-    {
-      "model_id": "nex-agi/nex-n2.5-mini",
-      "provider": "Nex Agi",
-      "input_modalities": [
-        "image",
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "supported_parameters": [
-        "include_reasoning",
-        "logprobs",
-        "max_tokens",
-        "reasoning",
-        "reasoning_effort",
-        "structured_outputs",
-        "temperature",
-        "top_k",
-        "top_logprobs",
-        "top_p"
-      ],
-      "supports_tools": false,
-      "supports_structured_outputs": true,
-      "supports_reasoning": true,
-      "supports_vision": true,
-      "supports_audio": false,
-      "supports_video": false,
-      "supports_files": false,
-      "availability": {
-        "standard": true,
-        "free": true,
-        "free_only": false,
-        "batch": false,
-        "contributor": false,
-        "thinking": false
-      }
-    },
-    {
-      "model_id": "nex-agi/nex-n2.5-pro",
-      "provider": "Nex Agi",
-      "input_modalities": [
-        "image",
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "supported_parameters": [
-        "include_reasoning",
-        "logprobs",
-        "max_tokens",
-        "reasoning",
-        "reasoning_effort",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_logprobs",
-        "top_p"
-      ],
-      "supports_tools": true,
-      "supports_structured_outputs": true,
-      "supports_reasoning": true,
-      "supports_vision": true,
       "supports_audio": false,
       "supports_video": false,
       "supports_files": false,
@@ -8395,6 +8527,162 @@
       }
     },
     {
+      "model_id": "openai/gpt-6-luna",
+      "provider": "OpenAI",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": true,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": true,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "openai/gpt-6-luna-pro",
+      "provider": "OpenAI",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": true,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": true,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "openai/gpt-6-sol",
+      "provider": "OpenAI",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": true,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": true,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "openai/gpt-6-sol-pro",
+      "provider": "OpenAI",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": true,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": true,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
       "model_id": "openai/gpt-oss-120b",
       "provider": "OpenAI",
       "input_modalities": [
@@ -8437,7 +8725,7 @@
         "standard": true,
         "free": false,
         "free_only": false,
-        "batch": false,
+        "batch": true,
         "contributor": false,
         "thinking": false
       }
@@ -8484,7 +8772,7 @@
         "standard": true,
         "free": false,
         "free_only": false,
-        "batch": false,
+        "batch": true,
         "contributor": false,
         "thinking": false
       }
@@ -9084,6 +9372,48 @@
       "supports_reasoning": true,
       "supports_vision": true,
       "supports_audio": false,
+      "supports_video": true,
+      "supports_files": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "perceptron/perceptron-mk1.5",
+      "provider": "Perceptron",
+      "input_modalities": [
+        "audio",
+        "image",
+        "text",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": true,
       "supports_video": true,
       "supports_files": false,
       "availability": {
@@ -11635,6 +11965,98 @@
       }
     },
     {
+      "model_id": "qwen/qwen3.8-max-prime",
+      "provider": "Qwen",
+      "input_modalities": [
+        "image",
+        "text",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": true,
+      "supports_files": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "qwen/qwen3.8-omni-flash",
+      "provider": "Qwen",
+      "input_modalities": [
+        "audio",
+        "image",
+        "text",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": true,
+      "supports_video": true,
+      "supports_files": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
       "model_id": "rekaai/reka-edge",
       "provider": "Rekaai",
       "input_modalities": [
@@ -12048,6 +12470,45 @@
       }
     },
     {
+      "model_id": "stealth/space-bunny-alpha",
+      "provider": "Stealth",
+      "input_modalities": [
+        "image",
+        "text",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p",
+        "structured_outputs"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": true,
+      "supports_files": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
       "model_id": "stepfun/step-3.5-flash",
       "provider": "Stepfun",
       "input_modalities": [
@@ -12357,17 +12818,23 @@
         "text"
       ],
       "supported_parameters": [
+        "frequency_penalty",
         "include_reasoning",
         "max_completion_tokens",
         "max_tokens",
+        "presence_penalty",
         "reasoning",
         "reasoning_effort",
+        "repetition_penalty",
         "response_format",
+        "seed",
         "stop",
         "structured_outputs",
         "temperature",
         "tool_choice",
-        "tools"
+        "tools",
+        "top_k",
+        "top_p"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -12567,7 +13034,6 @@
         "frequency_penalty",
         "include_reasoning",
         "logit_bias",
-        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -12580,7 +13046,6 @@
         "tool_choice",
         "tools",
         "top_k",
-        "top_logprobs",
         "top_p"
       ],
       "supports_tools": true,
@@ -12593,6 +13058,36 @@
       "availability": {
         "standard": true,
         "free": true,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "typesafe/jev-router",
+      "provider": "Typesafe",
+      "input_modalities": [
+        "audio",
+        "file",
+        "image",
+        "text",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [],
+      "supports_tools": false,
+      "supports_structured_outputs": false,
+      "supports_reasoning": false,
+      "supports_vision": true,
+      "supports_audio": true,
+      "supports_video": true,
+      "supports_files": true,
+      "availability": {
+        "standard": true,
+        "free": false,
         "free_only": false,
         "batch": false,
         "contributor": false,
@@ -12662,6 +13157,46 @@
       "supports_tools": false,
       "supports_structured_outputs": true,
       "supports_reasoning": false,
+      "supports_vision": false,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "upstage/solar-mini4",
+      "provider": "Upstage",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "parallel_tool_calls",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
       "supports_vision": false,
       "supports_audio": false,
       "supports_video": false,
@@ -12895,15 +13430,20 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
+        "logit_bias",
         "max_tokens",
+        "min_p",
         "presence_penalty",
         "reasoning",
+        "repetition_penalty",
         "response_format",
+        "seed",
         "stop",
         "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
+        "top_k",
         "top_p"
       ],
       "supports_tools": true,
@@ -12937,15 +13477,20 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
+        "logit_bias",
         "max_tokens",
+        "min_p",
         "presence_penalty",
         "reasoning",
+        "repetition_penalty",
         "response_format",
+        "seed",
         "stop",
         "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
+        "top_k",
         "top_p"
       ],
       "supports_tools": true,
@@ -13473,9 +14018,9 @@
       "supports_files": false,
       "availability": {
         "standard": true,
-        "free": true,
+        "free": false,
         "free_only": false,
-        "batch": true,
+        "batch": false,
         "contributor": false,
         "thinking": false
       }
@@ -13608,6 +14153,50 @@
       "supports_vision": true,
       "supports_audio": false,
       "supports_video": true,
+      "supports_files": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "z-ai/glm-5.3-prime",
+      "provider": "Z Ai",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p",
+        "structured_outputs"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": false,
+      "supports_audio": false,
+      "supports_video": false,
       "supports_files": false,
       "availability": {
         "standard": true,

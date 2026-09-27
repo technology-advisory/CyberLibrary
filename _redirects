@@ -575,6 +575,13 @@
 /modelos/fichas/z-ai-glm-latest/ /modelos/fichas/z-ai-glm-5-3/ 301
 
 # BEGIN AI INTELLIGENCE ENGINE AUTO
+/modelos/fichas/anthropic-claude-opus-5-5-batch/  /modelos/fichas/anthropic-claude-opus-5-5/  301
+/modelos/fichas/deepseek-deepseek-v4-1-flash-batch/  /modelos/fichas/deepseek-deepseek-v4-1-flash/  301
+/modelos/fichas/openai-gpt-6-luna-pro-batch/  /modelos/fichas/openai-gpt-6-luna-pro/  301
+/modelos/fichas/openai-gpt-6-luna-batch/  /modelos/fichas/openai-gpt-6-luna/  301
+/modelos/fichas/openai-gpt-6-sol-pro-batch/  /modelos/fichas/openai-gpt-6-sol-pro/  301
+/modelos/fichas/openai-gpt-6-sol-batch/  /modelos/fichas/openai-gpt-6-sol/  301
+/modelos/fichas/openai-gpt-oss-20b-batch/  /modelos/fichas/openai-gpt-oss-20b/  301
 /modelos/fichas/qwen-qwen3-8-27b-free/  /modelos/fichas/qwen-qwen3-8-27b/  301
 # END AI INTELLIGENCE ENGINE AUTO
 /ia-banca-dora/*  /ia-aplicada/sectores/financiero/:splat  301

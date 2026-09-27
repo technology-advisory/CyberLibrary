@@ -2,13 +2,13 @@
   "metadata": {
     "engine_version": "3.3",
     "source": "openrouter",
-    "generated_at_utc": "2026-09-22T11:44:39Z",
-    "model_count": 339,
-    "provider_count": 53,
-    "family_count": 155,
+    "generated_at_utc": "2026-09-27T18:34:23Z",
+    "model_count": 353,
+    "provider_count": 55,
+    "family_count": 160,
     "catalog_policy": "P14.2A",
-    "source_record_count": 444,
-    "historical_count": 35
+    "source_record_count": 458,
+    "historical_count": 37
   },
   "data": [
     {
@@ -18,9 +18,11 @@
       "model_ids": [
         "aion-labs/aion-2.0",
         "aion-labs/aion-3.0",
-        "aion-labs/aion-3.0-mini"
+        "aion-labs/aion-3.0-mini",
+        "aion-labs/aion-3.5",
+        "aion-labs/aion-3.5-mini"
       ],
-      "model_count": 3
+      "model_count": 5
     },
     {
       "id": "aion-labs:aion-rp-llama",
@@ -86,15 +88,6 @@
       "model_count": 1
     },
     {
-      "id": "anthropic:claude",
-      "provider": "Anthropic",
-      "name": "claude",
-      "model_ids": [
-        "anthropic/claude-3-haiku"
-      ],
-      "model_count": 1
-    },
-    {
       "id": "anthropic:claude-fable",
       "provider": "Anthropic",
       "name": "claude-fable",
@@ -123,9 +116,10 @@
         "anthropic/claude-opus-4.6",
         "anthropic/claude-opus-4.7",
         "anthropic/claude-opus-4.8",
-        "anthropic/claude-opus-5"
+        "anthropic/claude-opus-5",
+        "anthropic/claude-opus-5.5"
       ],
-      "model_count": 6
+      "model_count": 7
     },
     {
       "id": "anthropic:claude-sonnet",
@@ -195,6 +189,15 @@
       "name": "command-a",
       "model_ids": [
         "cohere/command-a"
+      ],
+      "model_count": 1
+    },
+    {
+      "id": "cohere:command-a-plus",
+      "provider": "Cohere",
+      "name": "command-a-plus",
+      "model_ids": [
+        "cohere/command-a-plus"
       ],
       "model_count": 1
     },
@@ -279,6 +282,15 @@
       "name": "dots",
       "model_ids": [
         "dots-studio/dots-3-note-preview"
+      ],
+      "model_count": 1
+    },
+    {
+      "id": "fireworks:ember",
+      "provider": "Fireworks",
+      "name": "ember",
+      "model_ids": [
+        "fireworks/ember-1"
       ],
       "model_count": 1
     },
@@ -590,9 +602,10 @@
       "name": "mistral-large",
       "model_ids": [
         "mistralai/mistral-large",
-        "mistralai/mistral-large-2407"
+        "mistralai/mistral-large-2407",
+        "mistralai/mistral-large-2512"
       ],
-      "model_count": 2
+      "model_count": 3
     },
     {
       "id": "mistral-ai:mistral-medium",
@@ -719,24 +732,6 @@
       "model_count": 2
     },
     {
-      "id": "nex-agi:nex-n2.5-mini",
-      "provider": "Nex Agi",
-      "name": "nex-n2.5-mini",
-      "model_ids": [
-        "nex-agi/nex-n2.5-mini"
-      ],
-      "model_count": 1
-    },
-    {
-      "id": "nex-agi:nex-n2.5-pro",
-      "provider": "Nex Agi",
-      "name": "nex-n2.5-pro",
-      "model_ids": [
-        "nex-agi/nex-n2.5-pro"
-      ],
-      "model_count": 1
-    },
-    {
       "id": "nousresearch:hermes",
       "provider": "Nousresearch",
       "name": "hermes",
@@ -810,9 +805,13 @@
         "openai/gpt-5.6-terra",
         "openai/gpt-5.6-terra-pro",
         "openai/gpt-6-astra",
-        "openai/gpt-6-astra-pro"
+        "openai/gpt-6-astra-pro",
+        "openai/gpt-6-luna",
+        "openai/gpt-6-luna-pro",
+        "openai/gpt-6-sol",
+        "openai/gpt-6-sol-pro"
       ],
-      "model_count": 45
+      "model_count": 49
     },
     {
       "id": "openai:gpt-audio",
@@ -975,6 +974,15 @@
       "name": "perceptron-mk1",
       "model_ids": [
         "perceptron/perceptron-mk1"
+      ],
+      "model_count": 1
+    },
+    {
+      "id": "perceptron:perceptron-mk1.5",
+      "provider": "Perceptron",
+      "name": "perceptron-mk1.5",
+      "model_ids": [
+        "perceptron/perceptron-mk1.5"
       ],
       "model_count": 1
     },
@@ -1302,6 +1310,24 @@
       "model_count": 1
     },
     {
+      "id": "qwen:qwen3.8-max-prime",
+      "provider": "Qwen",
+      "name": "qwen3.8-max-prime",
+      "model_ids": [
+        "qwen/qwen3.8-max-prime"
+      ],
+      "model_count": 1
+    },
+    {
+      "id": "qwen:qwen3.8-omni-flash",
+      "provider": "Qwen",
+      "name": "qwen3.8-omni-flash",
+      "model_ids": [
+        "qwen/qwen3.8-omni-flash"
+      ],
+      "model_count": 1
+    },
+    {
       "id": "rekaai:reka-edge",
       "provider": "Rekaai",
       "name": "reka-edge",
@@ -1389,6 +1415,15 @@
       "name": "l3.3-euryale",
       "model_ids": [
         "sao10k/l3.3-euryale-70b"
+      ],
+      "model_count": 1
+    },
+    {
+      "id": "stealth:space-bunny-alpha",
+      "provider": "Stealth",
+      "name": "space-bunny-alpha",
+      "model_ids": [
+        "stealth/space-bunny-alpha"
       ],
       "model_count": 1
     },
@@ -1487,6 +1522,15 @@
       "model_count": 1
     },
     {
+      "id": "typesafe:jev-router",
+      "provider": "Typesafe",
+      "name": "jev-router",
+      "model_ids": [
+        "typesafe/jev-router"
+      ],
+      "model_count": 1
+    },
+    {
       "id": "unbiased:pareto",
       "provider": "Unbiased",
       "name": "pareto",
@@ -1501,6 +1545,15 @@
       "name": "remm-slerp-l2",
       "model_ids": [
         "undi95/remm-slerp-l2-13b"
+      ],
+      "model_count": 1
+    },
+    {
+      "id": "upstage:solar-mini4",
+      "provider": "Upstage",
+      "name": "solar-mini4",
+      "model_ids": [
+        "upstage/solar-mini4"
       ],
       "model_count": 1
     },
@@ -1586,9 +1639,10 @@
         "z-ai/glm-5.3",
         "z-ai/glm-5.3-flash",
         "z-ai/glm-5.3-flashx",
+        "z-ai/glm-5.3-prime",
         "z-ai/glm-5v-turbo"
       ],
-      "model_count": 15
+      "model_count": 16
     }
   ]
 }
