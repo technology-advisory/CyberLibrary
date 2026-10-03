@@ -2,19 +2,19 @@
   "metadata": {
     "engine_version": "3.3",
     "source": "openrouter",
-    "generated_at_utc": "2026-09-27T18:34:23Z",
-    "model_count": 353,
-    "provider_count": 55,
-    "family_count": 160,
+    "generated_at_utc": "2026-10-03T17:36:59Z",
+    "model_count": 361,
+    "provider_count": 57,
+    "family_count": 163,
     "catalog_policy": "P14.2A",
-    "source_record_count": 458,
-    "historical_count": 37
+    "source_record_count": 466,
+    "historical_count": 36
   },
   "data": {
     "statistics": {
-      "model_count": 353,
-      "provider_count": 55,
-      "family_count": 160
+      "model_count": 361,
+      "provider_count": 57,
+      "family_count": 163
     },
     "models": [
       {
@@ -172,6 +172,18 @@
         "name": "Anthropic: Claude Sonnet 5",
         "provider": "Anthropic",
         "family": "claude-sonnet"
+      },
+      {
+        "id": "anthropic/claude-sonnet-5.5",
+        "name": "Anthropic: Claude Sonnet 5.5",
+        "provider": "Anthropic",
+        "family": "claude-sonnet"
+      },
+      {
+        "id": "apodex/apodex-1.1-mini",
+        "name": "Apodex: Apodex 1.1 Mini",
+        "provider": "Apodex",
+        "family": "apodex"
       },
       {
         "id": "arcee-ai/trinity-large-thinking",
@@ -352,12 +364,6 @@
         "name": "DeepSeek: R1 0528",
         "provider": "DeepSeek",
         "family": "deepseek-r1"
-      },
-      {
-        "id": "deepseek/deepseek-r1-distill-llama-70b",
-        "name": "DeepSeek: R1 Distill Llama 70B",
-        "provider": "DeepSeek",
-        "family": "deepseek-r1-distill-llama"
       },
       {
         "id": "dots-studio/dots-3-note-preview",
@@ -590,6 +596,12 @@
       {
         "id": "inclusionai/ling-3.0-flash-vl",
         "name": "inclusionAI: Ling 3.0 Flash VL",
+        "provider": "Inclusionai",
+        "family": "ling"
+      },
+      {
+        "id": "inclusionai/ling-3.1-flash",
+        "name": "inclusionAI: Ling 3.1 Flash",
         "provider": "Inclusionai",
         "family": "ling"
       },
@@ -966,6 +978,24 @@
         "family": "nemotron"
       },
       {
+        "id": "nvidia/switchyard",
+        "name": "NVIDIA: Switchyard",
+        "provider": "NVIDIA",
+        "family": "switchyard"
+      },
+      {
+        "id": "nex-agi/nex-n2.5-mini",
+        "name": "Nex AGI: Nex-N2.5-Mini",
+        "provider": "Nex Agi",
+        "family": "nex-n2.5-mini"
+      },
+      {
+        "id": "nex-agi/nex-n2.5-pro",
+        "name": "Nex AGI: Nex-N2.5-Pro",
+        "provider": "Nex Agi",
+        "family": "nex-n2.5-pro"
+      },
+      {
         "id": "nousresearch/hermes-3-llama-3.1-405b",
         "name": "Nous: Hermes 3 405B Instruct",
         "provider": "Nousresearch",
@@ -1286,6 +1316,18 @@
       {
         "id": "openai/gpt-6-sol-pro",
         "name": "OpenAI: GPT-6 Sol Pro",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-6.1-sol",
+        "name": "OpenAI: GPT-6.1 Sol",
+        "provider": "OpenAI",
+        "family": "gpt"
+      },
+      {
+        "id": "openai/gpt-6.1-sol-pro",
+        "name": "OpenAI: GPT-6.1 Sol Pro",
         "provider": "OpenAI",
         "family": "gpt"
       },
@@ -1934,6 +1976,12 @@
       {
         "id": "unbiased/pareto",
         "name": "Pareto",
+        "provider": "Unbiased",
+        "family": "pareto"
+      },
+      {
+        "id": "unbiased/pareto-26.10-preview",
+        "name": "Pareto 26.10 Preview",
         "provider": "Unbiased",
         "family": "pareto"
       },

@@ -2,13 +2,13 @@
   "metadata": {
     "engine_version": "3.3",
     "source": "openrouter",
-    "generated_at_utc": "2026-09-27T18:34:23Z",
-    "model_count": 353,
-    "provider_count": 55,
-    "family_count": 160,
+    "generated_at_utc": "2026-10-03T17:36:59Z",
+    "model_count": 361,
+    "provider_count": 57,
+    "family_count": 163,
     "catalog_policy": "P14.2A",
-    "source_record_count": 458,
-    "historical_count": 37
+    "source_record_count": 466,
+    "historical_count": 36
   },
   "data": [
     {
@@ -715,6 +715,57 @@
       }
     },
     {
+      "model_id": "anthropic/claude-sonnet-5.5",
+      "provider": "Anthropic",
+      "currency": "USD",
+      "unit": "per_token",
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.00001",
+        "web_search": "0.01",
+        "input_cache_read": "0.0000002",
+        "input_cache_write": "0.0000025",
+        "input_cache_write_1h": "0.000004"
+      },
+      "variant_pricing": {
+        "batch": {
+          "prompt": "0.000001",
+          "completion": "0.000005",
+          "web_search": "0.01",
+          "input_cache_read": "0.0000001",
+          "input_cache_write": "0.00000125",
+          "input_cache_write_1h": "0.000002"
+        }
+      },
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": true,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "apodex/apodex-1.1-mini",
+      "provider": "Apodex",
+      "currency": "USD",
+      "unit": "per_token",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "variant_pricing": {},
+      "availability": {
+        "standard": false,
+        "free": true,
+        "free_only": true,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
       "model_id": "arcee-ai/trinity-large-thinking",
       "provider": "Arcee Ai",
       "currency": "USD",
@@ -1081,8 +1132,9 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.000001"
+        "prompt": "0.00000029",
+        "completion": "0.00000114",
+        "input_cache_read": "0.00000011"
       },
       "variant_pricing": {},
       "availability": {
@@ -1121,8 +1173,7 @@
       "unit": "per_token",
       "pricing": {
         "prompt": "0.00000027",
-        "completion": "0.000001",
-        "input_cache_read": "0.000000135"
+        "completion": "0.000001"
       },
       "variant_pricing": {},
       "availability": {
@@ -1140,9 +1191,9 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.000000269",
-        "completion": "0.0000004",
-        "input_cache_read": "0.0000001345"
+        "prompt": "0.00000028",
+        "completion": "0.00000042",
+        "input_cache_read": "0.000000028"
       },
       "variant_pricing": {},
       "availability": {
@@ -1179,9 +1230,9 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.0000000469",
-        "completion": "0.0000000938",
-        "input_cache_read": "0.00000000938"
+        "prompt": "0.000000028",
+        "completion": "0.000000056",
+        "input_cache_read": "0.0000000056"
       },
       "variant_pricing": {},
       "availability": {
@@ -1199,9 +1250,9 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.000000021",
-        "completion": "0.00000032",
-        "input_cache_read": "0.000000016"
+        "prompt": "0.0000000188",
+        "completion": "0.00000128",
+        "input_cache_read": "0.0000000188"
       },
       "variant_pricing": {},
       "availability": {
@@ -1239,9 +1290,9 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.000000348",
-        "completion": "0.000000696",
-        "input_cache_read": "0.000000029"
+        "prompt": "0.0000002088",
+        "completion": "0.0000004176",
+        "input_cache_read": "0.0000000174"
       },
       "variant_pricing": {},
       "availability": {
@@ -1259,9 +1310,9 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.00000029304",
-        "completion": "0.0000035",
-        "input_cache_read": "0.000000172"
+        "prompt": "0.00000022",
+        "completion": "0.0000042",
+        "input_cache_read": "0.00000014"
       },
       "variant_pricing": {},
       "availability": {
@@ -1279,9 +1330,9 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.000000035",
-        "completion": "0.00000029",
-        "input_cache_read": "0.000000001"
+        "prompt": "0.0000003",
+        "completion": "0.0000012",
+        "input_cache_read": "0.000000006"
       },
       "variant_pricing": {
         "batch": {
@@ -1327,25 +1378,6 @@
         "prompt": "0.0000005",
         "completion": "0.00000215",
         "input_cache_read": "0.00000035"
-      },
-      "variant_pricing": {},
-      "availability": {
-        "standard": true,
-        "free": false,
-        "free_only": false,
-        "batch": false,
-        "contributor": false,
-        "thinking": false
-      }
-    },
-    {
-      "model_id": "deepseek/deepseek-r1-distill-llama-70b",
-      "provider": "DeepSeek",
-      "currency": "USD",
-      "unit": "per_token",
-      "pricing": {
-        "prompt": "0.0000008",
-        "completion": "0.0000008"
       },
       "variant_pricing": {},
       "availability": {
@@ -2371,19 +2403,14 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.00000006",
-        "completion": "0.00000018",
-        "input_cache_read": "0.000000012"
+        "prompt": "0.000000042",
+        "completion": "0.0000001232",
+        "input_cache_read": "0.0000000084"
       },
-      "variant_pricing": {
-        "free": {
-          "prompt": "0",
-          "completion": "0"
-        }
-      },
+      "variant_pricing": {},
       "availability": {
         "standard": true,
-        "free": true,
+        "free": false,
         "free_only": false,
         "batch": false,
         "contributor": false,
@@ -2418,6 +2445,25 @@
         "prompt": "0.000000021",
         "completion": "0.0000000616",
         "input_cache_read": "0.0000000042"
+      },
+      "variant_pricing": {},
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "inclusionai/ling-3.1-flash",
+      "provider": "Inclusionai",
+      "currency": "USD",
+      "unit": "per_token",
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
       },
       "variant_pricing": {},
       "availability": {
@@ -2706,8 +2752,8 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
+        "prompt": "0.00000035",
+        "completion": "0.0000015",
         "input_cache_read": "0.00000004"
       },
       "variant_pricing": {},
@@ -2841,7 +2887,7 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.0000004",
+        "prompt": "0.00000055",
         "completion": "0.0000022"
       },
       "variant_pricing": {},
@@ -3448,8 +3494,7 @@
       "unit": "per_token",
       "pricing": {
         "prompt": "0.0000006",
-        "completion": "0.0000025",
-        "input_cache_read": "0.00000015"
+        "completion": "0.0000025"
       },
       "variant_pricing": {},
       "availability": {
@@ -3507,8 +3552,8 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.0000006562",
-        "completion": "0.0000033",
+        "prompt": "0.0000006712",
+        "completion": "0.00000335",
         "input_cache_read": "0.00000018"
       },
       "variant_pricing": {},
@@ -3527,9 +3572,9 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.000003",
-        "completion": "0.000015",
-        "input_cache_read": "0.0000003"
+        "prompt": "0.00000099",
+        "completion": "0.000013",
+        "input_cache_read": "0.0000008"
       },
       "variant_pricing": {
         "batch": {
@@ -3654,9 +3699,9 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.0000006",
-        "completion": "0.0000024",
-        "input_cache_read": "0.00000012"
+        "prompt": "0.0000005",
+        "completion": "0.0000022",
+        "input_cache_read": "0.0000001"
       },
       "variant_pricing": {
         "free": {
@@ -3703,9 +3748,9 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.00000008",
-        "completion": "0.0000002",
-        "input_cache_read": "0.00000004"
+        "prompt": "0.0000000595",
+        "completion": "0.00000017",
+        "input_cache_read": "0.00000002975"
       },
       "variant_pricing": {
         "free": {
@@ -3716,6 +3761,65 @@
       "availability": {
         "standard": true,
         "free": true,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "nvidia/switchyard",
+      "provider": "NVIDIA",
+      "currency": "USD",
+      "unit": "per_token",
+      "pricing": {
+        "prompt": "-1",
+        "completion": "-1"
+      },
+      "variant_pricing": {},
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "nex-agi/nex-n2.5-mini",
+      "provider": "Nex Agi",
+      "currency": "USD",
+      "unit": "per_token",
+      "pricing": {
+        "prompt": "0.000000025",
+        "completion": "0.0000001",
+        "input_cache_read": "0.0000000025"
+      },
+      "variant_pricing": {},
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "nex-agi/nex-n2.5-pro",
+      "provider": "Nex Agi",
+      "currency": "USD",
+      "unit": "per_token",
+      "pricing": {
+        "prompt": "0.000000075",
+        "completion": "0.00000025",
+        "input_cache_read": "0.000000015"
+      },
+      "variant_pricing": {},
+      "availability": {
+        "standard": true,
+        "free": false,
         "free_only": false,
         "batch": false,
         "contributor": false,
@@ -4918,18 +5022,18 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.000002",
-        "completion": "0.00001",
+        "prompt": "0.000004",
+        "completion": "0.00002",
         "web_search": "0.01",
-        "input_cache_read": "0.0000002",
-        "input_cache_write": "0.0000025",
+        "input_cache_read": "0.0000004",
+        "input_cache_write": "0.000005",
         "overrides": [
           {
             "min_prompt_tokens": 272000,
-            "prompt": "0.000004",
-            "completion": "0.000015",
-            "input_cache_read": "0.0000004",
-            "input_cache_write": "0.000005"
+            "prompt": "0.000008",
+            "completion": "0.00003",
+            "input_cache_read": "0.0000008",
+            "input_cache_write": "0.00001"
           }
         ]
       },
@@ -5341,14 +5445,75 @@
       }
     },
     {
+      "model_id": "openai/gpt-6.1-sol",
+      "provider": "OpenAI",
+      "currency": "USD",
+      "unit": "per_token",
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.00001",
+        "web_search": "0.01",
+        "input_cache_read": "0.0000001",
+        "input_cache_write": "0.0000025",
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.000004",
+            "completion": "0.000015",
+            "input_cache_read": "0.0000002",
+            "input_cache_write": "0.000005"
+          }
+        ]
+      },
+      "variant_pricing": {},
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "openai/gpt-6.1-sol-pro",
+      "provider": "OpenAI",
+      "currency": "USD",
+      "unit": "per_token",
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.00001",
+        "web_search": "0.01",
+        "input_cache_read": "0.0000001",
+        "input_cache_write": "0.0000025",
+        "overrides": [
+          {
+            "min_prompt_tokens": 272000,
+            "prompt": "0.000004",
+            "completion": "0.000015",
+            "input_cache_read": "0.0000002",
+            "input_cache_write": "0.000005"
+          }
+        ]
+      },
+      "variant_pricing": {},
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
       "model_id": "openai/gpt-oss-120b",
       "provider": "OpenAI",
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
-        "input_cache_read": "0.000000075"
+        "prompt": "0.000000037",
+        "completion": "0.00000017"
       },
       "variant_pricing": {
         "batch": {
@@ -5372,7 +5537,8 @@
       "unit": "per_token",
       "pricing": {
         "prompt": "0.000000018",
-        "completion": "0.00000009"
+        "completion": "0.00000009",
+        "input_cache_read": "0.000000009"
       },
       "variant_pricing": {
         "batch": {
@@ -5906,7 +6072,8 @@
       "unit": "per_token",
       "pricing": {
         "prompt": "0.000000075",
-        "completion": "0.0000005"
+        "completion": "0.0000005",
+        "input_cache_read": "0.0000000375"
       },
       "variant_pricing": {},
       "availability": {
@@ -6153,8 +6320,8 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.0000003"
+        "prompt": "0.00000004815",
+        "completion": "0.00000019305"
       },
       "variant_pricing": {},
       "availability": {
@@ -6715,9 +6882,9 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.0000003125",
-        "completion": "0.00000125",
-        "input_cache_read": "0.00000015625"
+        "prompt": "0.00000015",
+        "completion": "0.000001",
+        "input_cache_read": "0.00000005"
       },
       "variant_pricing": {},
       "availability": {
@@ -7534,9 +7701,25 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.000000834",
-        "completion": "0.000002501",
-        "input_cache_read": "0.000000042"
+        "prompt": "0.0000007506",
+        "completion": "0.0000022509",
+        "input_cache_read": "0.0000000378",
+        "overrides": [
+          {
+            "utc_start": 0,
+            "utc_end": 1600,
+            "prompt": "0.000000834",
+            "completion": "0.000002501",
+            "input_cache_read": "0.000000042"
+          },
+          {
+            "utc_start": 1600,
+            "utc_end": 0,
+            "prompt": "0.0000007506",
+            "completion": "0.0000022509",
+            "input_cache_read": "0.0000000378"
+          }
+        ]
       },
       "variant_pricing": {},
       "availability": {
@@ -7613,9 +7796,9 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.000001",
+        "prompt": "0.00000095",
         "completion": "0.00000405",
-        "input_cache_read": "0.00000017"
+        "input_cache_read": "0.00000016"
       },
       "variant_pricing": {
         "free": {
@@ -7685,6 +7868,26 @@
         "prompt": "0.0000025",
         "completion": "0.0000075",
         "input_cache_read": "0.00000025"
+      },
+      "variant_pricing": {},
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "unbiased/pareto-26.10-preview",
+      "provider": "Unbiased",
+      "currency": "USD",
+      "unit": "per_token",
+      "pricing": {
+        "prompt": "0.0000008",
+        "completion": "0.0000032",
+        "input_cache_read": "0.00000003"
       },
       "variant_pricing": {},
       "availability": {
@@ -7982,7 +8185,7 @@
       "pricing": {
         "prompt": "0.0000003",
         "completion": "0.0000009",
-        "input_cache_read": "0.000000055"
+        "input_cache_read": "0.00000005"
       },
       "variant_pricing": {},
       "availability": {
@@ -8079,9 +8282,9 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.0000009646",
-        "completion": "0.0000030316",
-        "input_cache_read": "0.00000017914"
+        "prompt": "0.0000014",
+        "completion": "0.0000044",
+        "input_cache_read": "0.00000026"
       },
       "variant_pricing": {},
       "availability": {
@@ -8099,9 +8302,9 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.0000006496",
-        "completion": "0.0000020416",
-        "input_cache_read": "0.00000012064"
+        "prompt": "0.00000041",
+        "completion": "0.00000399",
+        "input_cache_read": "0.00000026"
       },
       "variant_pricing": {},
       "availability": {
@@ -8121,7 +8324,7 @@
       "pricing": {
         "prompt": "0.0000014",
         "completion": "0.0000044",
-        "input_cache_read": "0.00000026"
+        "input_cache_read": "0.00000014"
       },
       "variant_pricing": {
         "batch": {
@@ -8145,9 +8348,9 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.000000045",
-        "completion": "0.00000014",
-        "input_cache_read": "0.00000001"
+        "prompt": "0.00000015",
+        "completion": "0.0000005",
+        "input_cache_read": "0.00000003"
       },
       "variant_pricing": {
         "batch": {
@@ -8391,16 +8594,16 @@
       "currency": "USD",
       "unit": "per_token",
       "pricing": {
-        "prompt": "0.0000016",
-        "completion": "0.0000048",
+        "prompt": "0.000002",
+        "completion": "0.000006",
         "web_search": "0.005",
-        "input_cache_read": "0.0000004",
+        "input_cache_read": "0.0000005",
         "overrides": [
           {
             "min_prompt_tokens": 200000,
-            "prompt": "0.0000032",
-            "completion": "0.0000096",
-            "input_cache_read": "0.0000008"
+            "prompt": "0.000004",
+            "completion": "0.000012",
+            "input_cache_read": "0.000001"
           }
         ]
       },

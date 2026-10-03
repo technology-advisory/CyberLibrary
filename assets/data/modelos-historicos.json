@@ -2,13 +2,13 @@
   "metadata": {
     "engine_version": "3.3",
     "source": "openrouter",
-    "generated_at_utc": "2026-09-27T18:34:23Z",
-    "model_count": 353,
-    "provider_count": 55,
-    "family_count": 160,
+    "generated_at_utc": "2026-10-03T17:36:59Z",
+    "model_count": 361,
+    "provider_count": 57,
+    "family_count": 163,
     "catalog_policy": "P14.2A",
-    "source_record_count": 458,
-    "historical_count": 37
+    "source_record_count": 466,
+    "historical_count": 36
   },
   "data": [
     {
@@ -213,6 +213,81 @@
       "status": "historical"
     },
     {
+      "id": "deepseek/deepseek-r1-distill-llama-70b",
+      "source": "openrouter",
+      "source_id": "deepseek/deepseek-r1-distill-llama-70b",
+      "canonical_slug": "deepseek/deepseek-r1-distill-llama-70b",
+      "name": "DeepSeek: R1 Distill Llama 70B",
+      "description": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). The model combines advanced distillation techniques to achieve high performance across...",
+      "provider": "DeepSeek",
+      "provider_slug": "deepseek",
+      "family": "deepseek-r1-distill-llama",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1737663169,
+      "context_length": 8192,
+      "max_completion_tokens": 7372,
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Llama3",
+      "instruct_type": "deepseek-r1",
+      "is_moderated": false,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "seed",
+        "stop",
+        "temperature",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "reasoning": {
+        "mandatory": false
+      },
+      "knowledge_cutoff": "2024-07-31",
+      "expiration_date": "2026-09-28",
+      "hugging_face_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "links": {
+        "details": "/api/v1/models/deepseek/deepseek-r1-distill-llama-70b/endpoints"
+      },
+      "first_seen_at": "2026-07-23T15:04:58Z",
+      "last_seen_at": "2026-09-27T18:34:23Z",
+      "last_updated_at": "2026-07-23T15:04:58Z",
+      "is_new": false,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": false,
+      "supports_structured_outputs": false,
+      "supports_reasoning": true,
+      "supports_vision": false,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0.0000008",
+        "completion": "0.0000008"
+      },
+      "status": "historical"
+    },
+    {
       "id": "google/gemini-2.5-pro-preview-05-06",
       "name": "Google: Gemini 2.5 Pro Preview 05-06",
       "provider": "CyberLibrary AI",
@@ -365,190 +440,6 @@
       "name": "Nex AGI: Nex-N2-Pro",
       "provider": "CyberLibrary AI",
       "description": "Modelo ya no disponible en la fuente actual; ficha conservada para trazabilidad.",
-      "status": "historical"
-    },
-    {
-      "id": "nex-agi/nex-n2.5-mini",
-      "source": "openrouter",
-      "source_id": "nex-agi/nex-n2.5-mini",
-      "canonical_slug": "nex-agi/nex-n2.5-mini-20260908",
-      "name": "Nex AGI: Nex-N2.5-Mini",
-      "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
-      "provider": "Nex Agi",
-      "provider_slug": "nex-agi",
-      "family": "nex-n2.5-mini",
-      "variant": null,
-      "is_free": false,
-      "created_unix": 1788890061,
-      "context_length": 262144,
-      "max_completion_tokens": 235929,
-      "modality": "text+image->text",
-      "input_modalities": [
-        "image",
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen3",
-      "instruct_type": null,
-      "is_moderated": false,
-      "supported_parameters": [
-        "include_reasoning",
-        "logprobs",
-        "max_tokens",
-        "reasoning",
-        "reasoning_effort",
-        "structured_outputs",
-        "temperature",
-        "top_k",
-        "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 0.7,
-        "top_p": 0.95,
-        "top_k": 40
-      },
-      "reasoning": {
-        "mandatory": false,
-        "supported_efforts": [
-          "high",
-          "medium",
-          "none"
-        ],
-        "default_effort": "high"
-      },
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "hugging_face_id": "nex-agi/Nex-N2.5-mini",
-      "links": {
-        "details": "/api/v1/models/nex-agi/nex-n2.5-mini-20260908/endpoints"
-      },
-      "first_seen_at": "2026-09-22T08:55:28Z",
-      "last_seen_at": "2026-09-22T11:44:39Z",
-      "last_updated_at": "2026-09-22T08:55:28Z",
-      "is_new": true,
-      "is_updated": false,
-      "availability": {
-        "standard": true,
-        "free": true,
-        "free_only": false,
-        "batch": false,
-        "contributor": false,
-        "thinking": false
-      },
-      "variant_pricing": {
-        "free": {
-          "prompt": "0",
-          "completion": "0"
-        }
-      },
-      "supports_tools": false,
-      "supports_structured_outputs": true,
-      "supports_reasoning": true,
-      "supports_vision": true,
-      "supports_audio": false,
-      "supports_video": false,
-      "supports_files": false,
-      "pricing": {
-        "prompt": "0.000000025",
-        "completion": "0.0000001",
-        "input_cache_read": "0.0000000025"
-      },
-      "status": "historical"
-    },
-    {
-      "id": "nex-agi/nex-n2.5-pro",
-      "source": "openrouter",
-      "source_id": "nex-agi/nex-n2.5-pro",
-      "canonical_slug": "nex-agi/nex-n2.5-pro-20260907",
-      "name": "Nex AGI: Nex-N2.5-Pro",
-      "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
-      "provider": "Nex Agi",
-      "provider_slug": "nex-agi",
-      "family": "nex-n2.5-pro",
-      "variant": null,
-      "is_free": false,
-      "created_unix": 1788890050,
-      "context_length": 262144,
-      "max_completion_tokens": 235929,
-      "modality": "text+image->text",
-      "input_modalities": [
-        "image",
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "tokenizer": "Qwen3",
-      "instruct_type": null,
-      "is_moderated": false,
-      "supported_parameters": [
-        "include_reasoning",
-        "logprobs",
-        "max_tokens",
-        "reasoning",
-        "reasoning_effort",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 0.7,
-        "top_p": 0.95,
-        "top_k": 40
-      },
-      "reasoning": {
-        "mandatory": false,
-        "supported_efforts": [
-          "high",
-          "medium",
-          "none"
-        ],
-        "default_effort": "high"
-      },
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "hugging_face_id": "nex-agi/Nex-N2.5-Pro",
-      "links": {
-        "details": "/api/v1/models/nex-agi/nex-n2.5-pro-20260907/endpoints"
-      },
-      "first_seen_at": "2026-09-22T08:55:28Z",
-      "last_seen_at": "2026-09-22T11:44:39Z",
-      "last_updated_at": "2026-09-22T08:55:28Z",
-      "is_new": true,
-      "is_updated": false,
-      "availability": {
-        "standard": true,
-        "free": true,
-        "free_only": false,
-        "batch": false,
-        "contributor": false,
-        "thinking": false
-      },
-      "variant_pricing": {
-        "free": {
-          "prompt": "0",
-          "completion": "0"
-        }
-      },
-      "supports_tools": true,
-      "supports_structured_outputs": true,
-      "supports_reasoning": true,
-      "supports_vision": true,
-      "supports_audio": false,
-      "supports_video": false,
-      "supports_files": false,
-      "pricing": {
-        "prompt": "0.000000075",
-        "completion": "0.00000025",
-        "input_cache_read": "0.000000015"
-      },
       "status": "historical"
     },
     {

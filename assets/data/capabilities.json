@@ -2,13 +2,13 @@
   "metadata": {
     "engine_version": "3.3",
     "source": "openrouter",
-    "generated_at_utc": "2026-09-27T18:34:23Z",
-    "model_count": 353,
-    "provider_count": 55,
-    "family_count": 160,
+    "generated_at_utc": "2026-10-03T17:36:59Z",
+    "model_count": 361,
+    "provider_count": 57,
+    "family_count": 163,
     "catalog_policy": "P14.2A",
-    "source_record_count": 458,
-    "historical_count": 37
+    "source_record_count": 466,
+    "historical_count": 36
   },
   "data": [
     {
@@ -1009,6 +1009,89 @@
       }
     },
     {
+      "model_id": "anthropic/claude-sonnet-5.5",
+      "provider": "Anthropic",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": true,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": true,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "apodex/apodex-1.1-mini",
+      "provider": "Apodex",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": false,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "availability": {
+        "standard": false,
+        "free": true,
+        "free_only": true,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
       "model_id": "arcee-ai/trinity-large-thinking",
       "provider": "Arcee Ai",
       "input_modalities": [
@@ -1687,15 +1770,10 @@
       ],
       "supported_parameters": [
         "frequency_penalty",
-        "logit_bias",
         "logprobs",
         "max_tokens",
-        "min_p",
-        "presence_penalty",
-        "repetition_penalty",
         "response_format",
         "seed",
-        "stop",
         "structured_outputs",
         "temperature",
         "tool_choice",
@@ -1868,22 +1946,14 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
-        "logit_bias",
-        "logprobs",
         "max_tokens",
-        "min_p",
-        "presence_penalty",
         "reasoning",
-        "repetition_penalty",
         "response_format",
-        "seed",
-        "stop",
         "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
         "top_k",
-        "top_logprobs",
         "top_p"
       ],
       "supports_tools": true,
@@ -2265,44 +2335,6 @@
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
-      "supports_reasoning": true,
-      "supports_vision": false,
-      "supports_audio": false,
-      "supports_video": false,
-      "supports_files": false,
-      "availability": {
-        "standard": true,
-        "free": false,
-        "free_only": false,
-        "batch": false,
-        "contributor": false,
-        "thinking": false
-      }
-    },
-    {
-      "model_id": "deepseek/deepseek-r1-distill-llama-70b",
-      "provider": "DeepSeek",
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "repetition_penalty",
-        "seed",
-        "stop",
-        "temperature",
-        "top_k",
-        "top_p"
-      ],
-      "supports_tools": false,
-      "supports_structured_outputs": false,
       "supports_reasoning": true,
       "supports_vision": false,
       "supports_audio": false,
@@ -3820,6 +3852,7 @@
         "frequency_penalty",
         "include_reasoning",
         "logit_bias",
+        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -3832,6 +3865,7 @@
         "tool_choice",
         "tools",
         "top_k",
+        "top_logprobs",
         "top_p"
       ],
       "supports_tools": true,
@@ -3843,7 +3877,7 @@
       "supports_files": false,
       "availability": {
         "standard": true,
-        "free": true,
+        "free": false,
         "free_only": false,
         "batch": false,
         "contributor": false,
@@ -3941,6 +3975,48 @@
       }
     },
     {
+      "model_id": "inclusionai/ling-3.1-flash",
+      "provider": "Inclusionai",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "seed",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": false,
+      "supports_reasoning": true,
+      "supports_vision": false,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
       "model_id": "inference-net/schematron-v2-small",
       "provider": "Inference Net",
       "input_modalities": [
@@ -3955,6 +4031,7 @@
         "max_tokens",
         "min_p",
         "presence_penalty",
+        "repetition_penalty",
         "response_format",
         "seed",
         "stop",
@@ -3994,6 +4071,7 @@
         "max_tokens",
         "min_p",
         "presence_penalty",
+        "repetition_penalty",
         "response_format",
         "seed",
         "stop",
@@ -4415,7 +4493,6 @@
         "logit_bias",
         "logprobs",
         "max_tokens",
-        "min_p",
         "presence_penalty",
         "repetition_penalty",
         "response_format",
@@ -4541,7 +4618,6 @@
         "frequency_penalty",
         "include_reasoning",
         "logit_bias",
-        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -4556,7 +4632,6 @@
         "tool_choice",
         "tools",
         "top_k",
-        "top_logprobs",
         "top_p"
       ],
       "supports_tools": true,
@@ -4579,7 +4654,6 @@
       "model_id": "meta/muse-spark-1.1",
       "provider": "Meta",
       "input_modalities": [
-        "audio",
         "file",
         "image",
         "text",
@@ -4606,7 +4680,7 @@
       "supports_structured_outputs": true,
       "supports_reasoning": true,
       "supports_vision": true,
-      "supports_audio": true,
+      "supports_audio": false,
       "supports_video": true,
       "supports_files": true,
       "availability": {
@@ -4622,7 +4696,6 @@
       "model_id": "meta/muse-spark-1.2",
       "provider": "Meta",
       "input_modalities": [
-        "audio",
         "file",
         "image",
         "text",
@@ -4649,7 +4722,7 @@
       "supports_structured_outputs": true,
       "supports_reasoning": true,
       "supports_vision": true,
-      "supports_audio": true,
+      "supports_audio": false,
       "supports_video": true,
       "supports_files": true,
       "availability": {
@@ -4665,7 +4738,6 @@
       "model_id": "meta/muse-spark-1.3",
       "provider": "Meta",
       "input_modalities": [
-        "audio",
         "file",
         "image",
         "text",
@@ -4692,7 +4764,7 @@
       "supports_structured_outputs": true,
       "supports_reasoning": true,
       "supports_vision": true,
-      "supports_audio": true,
+      "supports_audio": false,
       "supports_video": true,
       "supports_files": true,
       "availability": {
@@ -4997,7 +5069,6 @@
         "frequency_penalty",
         "include_reasoning",
         "logit_bias",
-        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -5006,13 +5077,12 @@
         "response_format",
         "seed",
         "stop",
-        "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
         "top_k",
-        "top_logprobs",
-        "top_p"
+        "top_p",
+        "structured_outputs"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -6520,6 +6590,110 @@
       }
     },
     {
+      "model_id": "nvidia/switchyard",
+      "provider": "NVIDIA",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [],
+      "supports_tools": false,
+      "supports_structured_outputs": false,
+      "supports_reasoning": false,
+      "supports_vision": false,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "nex-agi/nex-n2.5-mini",
+      "provider": "Nex Agi",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "structured_outputs",
+        "temperature",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "supports_tools": false,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "nex-agi/nex-n2.5-pro",
+      "provider": "Nex Agi",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
       "model_id": "nousresearch/hermes-3-llama-3.1-405b",
       "provider": "Nousresearch",
       "input_modalities": [
@@ -7378,7 +7552,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -7409,20 +7584,17 @@
         "text"
       ],
       "supported_parameters": [
-        "frequency_penalty",
         "include_reasoning",
-        "logit_bias",
         "logprobs",
         "max_tokens",
-        "presence_penalty",
         "reasoning",
         "response_format",
         "seed",
-        "stop",
         "structured_outputs",
         "temperature",
         "top_logprobs",
-        "top_p"
+        "top_p",
+        "verbosity"
       ],
       "supports_tools": false,
       "supports_structured_outputs": true,
@@ -7453,20 +7625,17 @@
         "text"
       ],
       "supported_parameters": [
-        "frequency_penalty",
         "include_reasoning",
-        "logit_bias",
         "logprobs",
         "max_tokens",
-        "presence_penalty",
         "reasoning",
         "response_format",
         "seed",
-        "stop",
         "structured_outputs",
         "temperature",
         "top_logprobs",
-        "top_p"
+        "top_p",
+        "verbosity"
       ],
       "supports_tools": false,
       "supports_structured_outputs": true,
@@ -7505,7 +7674,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -7544,7 +7714,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -7582,7 +7753,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -7621,7 +7793,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -7658,7 +7831,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -7695,7 +7869,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -7732,7 +7907,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -7771,7 +7947,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -7806,7 +7983,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -7844,7 +8022,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -7881,7 +8060,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -7920,7 +8100,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -7959,7 +8140,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -7990,19 +8172,16 @@
         "text"
       ],
       "supported_parameters": [
-        "frequency_penalty",
         "include_reasoning",
-        "logit_bias",
         "logprobs",
         "max_tokens",
-        "presence_penalty",
         "reasoning",
         "reasoning_effort",
         "response_format",
         "seed",
-        "stop",
         "structured_outputs",
-        "top_logprobs"
+        "top_logprobs",
+        "verbosity"
       ],
       "supports_tools": false,
       "supports_structured_outputs": true,
@@ -8041,7 +8220,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -8080,7 +8260,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -8119,7 +8300,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -8158,7 +8340,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -8196,7 +8379,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -8235,7 +8419,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -8274,7 +8459,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -8313,7 +8499,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -8352,7 +8539,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -8391,7 +8579,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -8430,7 +8619,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -8469,7 +8659,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -8508,7 +8699,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -8547,7 +8739,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -8586,7 +8779,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -8625,7 +8819,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -8664,7 +8859,8 @@
         "seed",
         "structured_outputs",
         "tool_choice",
-        "tools"
+        "tools",
+        "verbosity"
       ],
       "supports_tools": true,
       "supports_structured_outputs": true,
@@ -8678,6 +8874,86 @@
         "free": false,
         "free_only": false,
         "batch": true,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "openai/gpt-6.1-sol",
+      "provider": "OpenAI",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": true,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "openai/gpt-6.1-sol-pro",
+      "provider": "OpenAI",
+      "input_modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": true,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
         "contributor": false,
         "thinking": false
       }
@@ -10281,6 +10557,7 @@
         "frequency_penalty",
         "include_reasoning",
         "logit_bias",
+        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -10293,7 +10570,9 @@
         "temperature",
         "tool_choice",
         "tools",
+        "top_a",
         "top_k",
+        "top_logprobs",
         "top_p"
       ],
       "supports_tools": true,
@@ -12558,10 +12837,8 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
-        "logit_bias",
         "logprobs",
         "max_tokens",
-        "min_p",
         "presence_penalty",
         "reasoning",
         "reasoning_effort",
@@ -12820,8 +13097,10 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
+        "logit_bias",
         "max_completion_tokens",
         "max_tokens",
+        "min_p",
         "presence_penalty",
         "reasoning",
         "reasoning_effort",
@@ -13077,10 +13356,35 @@
       "output_modalities": [
         "text"
       ],
-      "supported_parameters": [],
-      "supports_tools": false,
-      "supports_structured_outputs": false,
-      "supports_reasoning": false,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_completion_tokens",
+        "max_tokens",
+        "min_p",
+        "parallel_tool_calls",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_a",
+        "top_k",
+        "top_logprobs",
+        "top_p",
+        "verbosity"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
       "supports_vision": true,
       "supports_audio": true,
       "supports_video": true,
@@ -13096,6 +13400,41 @@
     },
     {
       "model_id": "unbiased/pareto",
+      "provider": "Unbiased",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supported_parameters": [
+        "max_tokens",
+        "response_format",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p",
+        "structured_outputs"
+      ],
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": false,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      }
+    },
+    {
+      "model_id": "unbiased/pareto-26.10-preview",
       "provider": "Unbiased",
       "input_modalities": [
         "image",
@@ -13337,9 +13676,7 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
-        "logit_bias",
         "max_tokens",
-        "min_p",
         "presence_penalty",
         "reasoning",
         "repetition_penalty",
@@ -13381,10 +13718,8 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
-        "logit_bias",
         "logprobs",
         "max_tokens",
-        "min_p",
         "presence_penalty",
         "reasoning",
         "repetition_penalty",
@@ -13431,6 +13766,7 @@
         "frequency_penalty",
         "include_reasoning",
         "logit_bias",
+        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -13444,6 +13780,7 @@
         "tool_choice",
         "tools",
         "top_k",
+        "top_logprobs",
         "top_p"
       ],
       "supports_tools": true,

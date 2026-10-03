@@ -576,6 +576,8 @@
 
 # BEGIN AI INTELLIGENCE ENGINE AUTO
 /modelos/fichas/anthropic-claude-opus-5-5-batch/  /modelos/fichas/anthropic-claude-opus-5-5/  301
+/modelos/fichas/anthropic-claude-sonnet-5-5-batch/  /modelos/fichas/anthropic-claude-sonnet-5-5/  301
+/modelos/fichas/apodex-apodex-1-1-mini-free/  /modelos/fichas/apodex-apodex-1-1-mini/  301
 /modelos/fichas/deepseek-deepseek-v4-1-flash-batch/  /modelos/fichas/deepseek-deepseek-v4-1-flash/  301
 /modelos/fichas/openai-gpt-6-luna-pro-batch/  /modelos/fichas/openai-gpt-6-luna-pro/  301
 /modelos/fichas/openai-gpt-6-luna-batch/  /modelos/fichas/openai-gpt-6-luna/  301

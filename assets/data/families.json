@@ -2,13 +2,13 @@
   "metadata": {
     "engine_version": "3.3",
     "source": "openrouter",
-    "generated_at_utc": "2026-09-27T18:34:23Z",
-    "model_count": 353,
-    "provider_count": 55,
-    "family_count": 160,
+    "generated_at_utc": "2026-10-03T17:36:59Z",
+    "model_count": 361,
+    "provider_count": 57,
+    "family_count": 163,
     "catalog_policy": "P14.2A",
-    "source_record_count": 458,
-    "historical_count": 37
+    "source_record_count": 466,
+    "historical_count": 36
   },
   "data": [
     {
@@ -129,9 +129,19 @@
         "anthropic/claude-sonnet-4",
         "anthropic/claude-sonnet-4.5",
         "anthropic/claude-sonnet-4.6",
-        "anthropic/claude-sonnet-5"
+        "anthropic/claude-sonnet-5",
+        "anthropic/claude-sonnet-5.5"
       ],
-      "model_count": 4
+      "model_count": 5
+    },
+    {
+      "id": "apodex:apodex",
+      "provider": "Apodex",
+      "name": "apodex",
+      "model_ids": [
+        "apodex/apodex-1.1-mini"
+      ],
+      "model_count": 1
     },
     {
       "id": "arcee-ai:trinity-large-thinking",
@@ -268,15 +278,6 @@
       "model_count": 2
     },
     {
-      "id": "deepseek:deepseek-r1-distill-llama",
-      "provider": "DeepSeek",
-      "name": "deepseek-r1-distill-llama",
-      "model_ids": [
-        "deepseek/deepseek-r1-distill-llama-70b"
-      ],
-      "model_count": 1
-    },
-    {
       "id": "dots-studio:dots",
       "provider": "Dots Studio",
       "name": "dots",
@@ -383,9 +384,10 @@
         "inclusionai/ling-3.0-flash",
         "inclusionai/ling-3.0-flash-fin",
         "inclusionai/ling-3.0-flash-sante",
-        "inclusionai/ling-3.0-flash-vl"
+        "inclusionai/ling-3.0-flash-vl",
+        "inclusionai/ling-3.1-flash"
       ],
-      "model_count": 4
+      "model_count": 5
     },
     {
       "id": "inference-net:schematron",
@@ -732,6 +734,24 @@
       "model_count": 2
     },
     {
+      "id": "nex-agi:nex-n2.5-mini",
+      "provider": "Nex Agi",
+      "name": "nex-n2.5-mini",
+      "model_ids": [
+        "nex-agi/nex-n2.5-mini"
+      ],
+      "model_count": 1
+    },
+    {
+      "id": "nex-agi:nex-n2.5-pro",
+      "provider": "Nex Agi",
+      "name": "nex-n2.5-pro",
+      "model_ids": [
+        "nex-agi/nex-n2.5-pro"
+      ],
+      "model_count": 1
+    },
+    {
       "id": "nousresearch:hermes",
       "provider": "Nousresearch",
       "name": "hermes",
@@ -755,6 +775,15 @@
         "nvidia/nemotron-3.5-lightning"
       ],
       "model_count": 6
+    },
+    {
+      "id": "nvidia:switchyard",
+      "provider": "NVIDIA",
+      "name": "switchyard",
+      "model_ids": [
+        "nvidia/switchyard"
+      ],
+      "model_count": 1
     },
     {
       "id": "openai:gpt",
@@ -809,9 +838,11 @@
         "openai/gpt-6-luna",
         "openai/gpt-6-luna-pro",
         "openai/gpt-6-sol",
-        "openai/gpt-6-sol-pro"
+        "openai/gpt-6-sol-pro",
+        "openai/gpt-6.1-sol",
+        "openai/gpt-6.1-sol-pro"
       ],
-      "model_count": 49
+      "model_count": 51
     },
     {
       "id": "openai:gpt-audio",
@@ -1535,9 +1566,10 @@
       "provider": "Unbiased",
       "name": "pareto",
       "model_ids": [
-        "unbiased/pareto"
+        "unbiased/pareto",
+        "unbiased/pareto-26.10-preview"
       ],
-      "model_count": 1
+      "model_count": 2
     },
     {
       "id": "undi95:remm-slerp-l2",

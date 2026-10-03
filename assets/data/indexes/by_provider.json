@@ -2,13 +2,13 @@
   "metadata": {
     "engine_version": "3.3",
     "source": "openrouter",
-    "generated_at_utc": "2026-09-27T18:34:23Z",
-    "model_count": 353,
-    "provider_count": 55,
-    "family_count": 160,
+    "generated_at_utc": "2026-10-03T17:36:59Z",
+    "model_count": 361,
+    "provider_count": 57,
+    "family_count": 163,
     "catalog_policy": "P14.2A",
-    "source_record_count": 458,
-    "historical_count": 37
+    "source_record_count": 466,
+    "historical_count": 36
   },
   "data": {
     "aion-labs": [
@@ -43,7 +43,11 @@
       "anthropic/claude-sonnet-4",
       "anthropic/claude-sonnet-4.5",
       "anthropic/claude-sonnet-4.6",
-      "anthropic/claude-sonnet-5"
+      "anthropic/claude-sonnet-5",
+      "anthropic/claude-sonnet-5.5"
+    ],
+    "apodex": [
+      "apodex/apodex-1.1-mini"
     ],
     "arcee-ai": [
       "arcee-ai/trinity-large-thinking"
@@ -79,7 +83,6 @@
       "deepseek/deepseek-chat-v3.1",
       "deepseek/deepseek-r1",
       "deepseek/deepseek-r1-0528",
-      "deepseek/deepseek-r1-distill-llama-70b",
       "deepseek/deepseek-v3.1-terminus",
       "deepseek/deepseek-v3.2",
       "deepseek/deepseek-v3.2-exp",
@@ -141,7 +144,8 @@
       "inclusionai/ling-3.0-flash",
       "inclusionai/ling-3.0-flash-fin",
       "inclusionai/ling-3.0-flash-sante",
-      "inclusionai/ling-3.0-flash-vl"
+      "inclusionai/ling-3.0-flash-vl",
+      "inclusionai/ling-3.1-flash"
     ],
     "inference-net": [
       "inference-net/schematron-v2-small",
@@ -221,6 +225,10 @@
       "morph/morph-v3-fast",
       "morph/morph-v3-large"
     ],
+    "nex-agi": [
+      "nex-agi/nex-n2.5-mini",
+      "nex-agi/nex-n2.5-pro"
+    ],
     "nousresearch": [
       "nousresearch/hermes-3-llama-3.1-405b",
       "nousresearch/hermes-3-llama-3.1-70b",
@@ -232,7 +240,8 @@
       "nvidia/nemotron-3-super-120b-a12b",
       "nvidia/nemotron-3-ultra-550b-a55b",
       "nvidia/nemotron-3.5-content-safety",
-      "nvidia/nemotron-3.5-lightning"
+      "nvidia/nemotron-3.5-lightning",
+      "nvidia/switchyard"
     ],
     "openai": [
       "openai/gpt-3.5-turbo",
@@ -284,6 +293,8 @@
       "openai/gpt-6-luna-pro",
       "openai/gpt-6-sol",
       "openai/gpt-6-sol-pro",
+      "openai/gpt-6.1-sol",
+      "openai/gpt-6.1-sol-pro",
       "openai/gpt-audio",
       "openai/gpt-audio-mini",
       "openai/gpt-oss-120b",
@@ -427,7 +438,8 @@
       "typesafe/jev-router"
     ],
     "unbiased": [
-      "unbiased/pareto"
+      "unbiased/pareto",
+      "unbiased/pareto-26.10-preview"
     ],
     "undi95": [
       "undi95/remm-slerp-l2-13b"
