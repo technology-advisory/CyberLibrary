@@ -2,7 +2,7 @@
   "metadata": {
     "engine_version": "3.3",
     "source": "openrouter",
-    "generated_at_utc": "2026-10-03T17:36:59Z",
+    "generated_at_utc": "2026-10-05T15:04:58Z",
     "model_count": 361,
     "provider_count": 57,
     "family_count": 163,
@@ -5720,6 +5720,7 @@
         "repetition_penalty",
         "seed",
         "stop",
+        "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
@@ -5728,7 +5729,7 @@
         "top_p"
       ],
       "supports_tools": true,
-      "supports_structured_outputs": false,
+      "supports_structured_outputs": true,
       "supports_reasoning": false,
       "supports_vision": true,
       "supports_audio": false,
