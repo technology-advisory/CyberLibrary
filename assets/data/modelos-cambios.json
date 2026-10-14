@@ -1,16 +1,169 @@
 {
-  "generated_at": "2026-10-05T15:04:58Z",
+  "generated_at": "2026-10-14T15:00:09Z",
   "summary": {
-    "added": 0,
-    "historical": 0,
-    "updated": 15
+    "added": 10,
+    "historical": 18,
+    "updated": 61
   },
   "changes": [
+    {
+      "type": "added",
+      "id": "anthropic/claude-haiku-5.5",
+      "name": "Anthropic: Claude Haiku 5.5",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "google/gemini-4-argon",
+      "name": "Google: Gemini 4 Argon",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "google/gemini-nano-banana-2.1",
+      "name": "Google: Nano Banana 2.1",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "liquid/lfm-2.5-24b-a2b",
+      "name": "LiquidAI: LFM2.5-24B-A2B",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "meta/muse-wonder",
+      "name": "Meta: Muse Wonder",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "mistralai/mistral-large-4-0",
+      "name": "Mistral: Mistral Large 4",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "scaledown/extract",
+      "name": "ScaleDown: Extract",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "scaledown/summarize",
+      "name": "ScaleDown: Summarize",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "stepfun/step-5-preview",
+      "name": "StepFun: Step 5 Preview",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "added",
+      "id": "unbiased/pareto-26.9",
+      "name": "Pareto 26.9",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "new_model"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "anthropic/claude-opus-4.8",
+      "name": "Anthropic: Claude Opus 4.8",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "anthropic/claude-opus-5",
+      "name": "Anthropic: Claude Opus 5",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "anthropic/claude-opus-5.5",
+      "name": "Anthropic: Claude Opus 5.5",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "anthropic/claude-sonnet-5.5",
+      "name": "Anthropic: Claude Sonnet 5.5",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "deepseek/deepseek-chat",
+      "name": "DeepSeek: DeepSeek V3",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "deepseek/deepseek-v3.1-terminus",
+      "name": "DeepSeek: DeepSeek V3.1 Terminus",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "deepseek/deepseek-v3.2",
+      "name": "DeepSeek: DeepSeek V3.2",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
     {
       "type": "updated",
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "date": "2026-10-05T15:04:58Z",
+      "date": "2026-10-14T15:00:09Z",
       "fields": [
         "catalog_update"
       ]
@@ -19,7 +172,16 @@
       "type": "updated",
       "id": "deepseek/deepseek-v4-flash-0731",
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "date": "2026-10-05T15:04:58Z",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek: DeepSeek V4 Pro 0423",
+      "date": "2026-10-14T15:00:09Z",
       "fields": [
         "catalog_update"
       ]
@@ -28,16 +190,43 @@
       "type": "updated",
       "id": "deepseek/deepseek-v4-pro-0813",
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "date": "2026-10-05T15:04:58Z",
+      "date": "2026-10-14T15:00:09Z",
       "fields": [
         "catalog_update"
       ]
     },
     {
       "type": "updated",
-      "id": "google/gemma-4-26b-a4b-it",
-      "name": "Google: Gemma 4 26B A4B",
-      "date": "2026-10-05T15:04:58Z",
+      "id": "deepseek/deepseek-v4.1-flash",
+      "name": "DeepSeek: DeepSeek V4.1 Flash",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "inclusionai/ling-3.0-flash-vl",
+      "name": "inclusionAI: Ling 3.0 Flash VL",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "inclusionai/ling-3.1-flash",
+      "name": "inclusionAI: Ling 3.1 Flash",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "liquid/lfm-2.5-2.6b",
+      "name": "LiquidAI: LFM2.5-2.6B",
+      "date": "2026-10-14T15:00:09Z",
       "fields": [
         "catalog_update"
       ]
@@ -46,16 +235,97 @@
       "type": "updated",
       "id": "meta-llama/llama-3.3-70b-instruct",
       "name": "Meta: Llama 3.3 70B Instruct",
-      "date": "2026-10-05T15:04:58Z",
+      "date": "2026-10-14T15:00:09Z",
       "fields": [
         "catalog_update"
       ]
     },
     {
       "type": "updated",
-      "id": "mistralai/mistral-small-3.1-24b-instruct",
-      "name": "Mistral: Mistral Small 3.1 24B",
-      "date": "2026-10-05T15:04:58Z",
+      "id": "meta-llama/llama-4-maverick",
+      "name": "Meta: Llama 4 Maverick",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "meta-llama/llama-4-scout",
+      "name": "Meta: Llama 4 Scout",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "meta/muse-glimmer-30b",
+      "name": "Meta: Muse Glimmer 30B",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "minimax/minimax-m2",
+      "name": "MiniMax: MiniMax M2",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "minimax/minimax-m2.1",
+      "name": "MiniMax: MiniMax M2.1",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "minimax/minimax-m2.7",
+      "name": "MiniMax: MiniMax M2.7",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "mistralai/mistral-nemo",
+      "name": "Mistral: Mistral Nemo",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "moonshotai/kimi-k2-thinking",
+      "name": "MoonshotAI: Kimi K2 Thinking",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "moonshotai/kimi-k2.5",
+      "name": "MoonshotAI: Kimi K2.5",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "moonshotai/kimi-k2.6",
+      "name": "MoonshotAI: Kimi K2.6",
+      "date": "2026-10-14T15:00:09Z",
       "fields": [
         "catalog_update"
       ]
@@ -64,7 +334,25 @@
       "type": "updated",
       "id": "moonshotai/kimi-k3",
       "name": "MoonshotAI: Kimi K3",
-      "date": "2026-10-05T15:04:58Z",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "nvidia/nemotron-3-nano-30b-a3b",
+      "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "name": "NVIDIA: Nemotron 3 Ultra",
+      "date": "2026-10-14T15:00:09Z",
       "fields": [
         "catalog_update"
       ]
@@ -73,16 +361,160 @@
       "type": "updated",
       "id": "nvidia/nemotron-3.5-lightning",
       "name": "NVIDIA: Nemotron 3.5 Lightning",
-      "date": "2026-10-05T15:04:58Z",
+      "date": "2026-10-14T15:00:09Z",
       "fields": [
         "catalog_update"
       ]
     },
     {
       "type": "updated",
-      "id": "openai/gpt-5.6-sol-pro",
-      "name": "OpenAI: GPT-5.6 Sol Pro",
-      "date": "2026-10-05T15:04:58Z",
+      "id": "openai/gpt-3.5-turbo-16k",
+      "name": "OpenAI: GPT-3.5 Turbo 16k",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "openai/gpt-6-astra-pro",
+      "name": "OpenAI: GPT-6 Astra Pro",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "openai/gpt-6.1-sol",
+      "name": "OpenAI: GPT-6.1 Sol",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "openai/gpt-6.1-sol-pro",
+      "name": "OpenAI: GPT-6.1 Sol Pro",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "openrouter/pareto-code",
+      "name": "Pareto Code Router",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "qwen/qwen3-14b",
+      "name": "Qwen: Qwen3 14B",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "qwen/qwen3-235b-a22b-2507",
+      "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "qwen/qwen3-30b-a3b",
+      "name": "Qwen: Qwen3 30B A3B",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "qwen/qwen3-30b-a3b-instruct-2507",
+      "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "qwen/qwen3-coder-30b-a3b-instruct",
+      "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "qwen/qwen3-next-80b-a3b-thinking",
+      "name": "Qwen: Qwen3 Next 80B A3B Thinking",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "qwen/qwen3-vl-30b-a3b-thinking",
+      "name": "Qwen: Qwen3 VL 30B A3B Thinking",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "qwen/qwen3-vl-8b-instruct",
+      "name": "Qwen: Qwen3 VL 8B Instruct",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "qwen/qwen3.5-27b",
+      "name": "Qwen: Qwen3.5-27B",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "qwen/qwen3.5-35b-a3b",
+      "name": "Qwen: Qwen3.5-35B-A3B",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "qwen/qwen3.5-397b-a17b",
+      "name": "Qwen: Qwen3.5 397B A17B",
+      "date": "2026-10-14T15:00:09Z",
       "fields": [
         "catalog_update"
       ]
@@ -91,7 +523,16 @@
       "type": "updated",
       "id": "qwen/qwen3.6-27b",
       "name": "Qwen: Qwen3.6 27B",
-      "date": "2026-10-05T15:04:58Z",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "qwen/qwen3.6-35b-a3b",
+      "name": "Qwen: Qwen3.6 35B A3B",
+      "date": "2026-10-14T15:00:09Z",
       "fields": [
         "catalog_update"
       ]
@@ -100,16 +541,34 @@
       "type": "updated",
       "id": "qwen/qwen3.8-27b",
       "name": "Qwen: Qwen3.8 27B",
-      "date": "2026-10-05T15:04:58Z",
+      "date": "2026-10-14T15:00:09Z",
       "fields": [
         "catalog_update"
       ]
     },
     {
       "type": "updated",
-      "id": "tencent/hy3",
-      "name": "Tencent: Hy3",
-      "date": "2026-10-05T15:04:58Z",
+      "id": "qwen/qwen3.8-flash",
+      "name": "Qwen: Qwen3.8 Flash",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "qwen/qwen3.8-max-0902",
+      "name": "Qwen: Qwen3.8 Max (0902)",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "sao10k/l3.1-euryale-70b",
+      "name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
+      "date": "2026-10-14T15:00:09Z",
       "fields": [
         "catalog_update"
       ]
@@ -118,7 +577,43 @@
       "type": "updated",
       "id": "tencent/hy4-preview",
       "name": "Tencent: Hy4 preview",
-      "date": "2026-10-05T15:04:58Z",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "thinkingmachines/inkling",
+      "name": "Thinking Machines: Inkling",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "z-ai/glm-4.6",
+      "name": "Z.ai: GLM 4.6",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "z-ai/glm-4.6v",
+      "name": "Z.ai: GLM 4.6V",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "z-ai/glm-5.1",
+      "name": "Z.ai: GLM 5.1",
+      "date": "2026-10-14T15:00:09Z",
       "fields": [
         "catalog_update"
       ]
@@ -127,7 +622,7 @@
       "type": "updated",
       "id": "z-ai/glm-5.2",
       "name": "Z.ai: GLM 5.2",
-      "date": "2026-10-05T15:04:58Z",
+      "date": "2026-10-14T15:00:09Z",
       "fields": [
         "catalog_update"
       ]
@@ -136,9 +631,180 @@
       "type": "updated",
       "id": "z-ai/glm-5.3",
       "name": "Z.ai: GLM 5.3",
-      "date": "2026-10-05T15:04:58Z",
+      "date": "2026-10-14T15:00:09Z",
       "fields": [
         "catalog_update"
+      ]
+    },
+    {
+      "type": "updated",
+      "id": "z-ai/glm-5.3-flash",
+      "name": "Z.ai: GLM 5.3 Flash",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "catalog_update"
+      ]
+    },
+    {
+      "type": "historical",
+      "id": "apodex/apodex-1.1-mini",
+      "name": "Apodex: Apodex 1.1 Mini",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "removed_from_source"
+      ]
+    },
+    {
+      "type": "historical",
+      "id": "baidu/ernie-4.5-vl-424b-a47b",
+      "name": "Baidu: ERNIE 4.5 VL 424B A47B",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "removed_from_source"
+      ]
+    },
+    {
+      "type": "historical",
+      "id": "inclusionai/ling-3.0-flash-fin",
+      "name": "inclusionAI: Ling 3.0 Flash Fin",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "removed_from_source"
+      ]
+    },
+    {
+      "type": "historical",
+      "id": "inclusionai/ling-3.0-flash-sante",
+      "name": "inclusionAI: Ling 3.0 Flash Sante",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "removed_from_source"
+      ]
+    },
+    {
+      "type": "historical",
+      "id": "kwaipilot/kat-coder-pro-v2.5",
+      "name": "Kwaipilot: KAT-Coder-Pro V2.5",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "removed_from_source"
+      ]
+    },
+    {
+      "type": "historical",
+      "id": "qwen/qwen-plus-2025-07-28",
+      "name": "Qwen: Qwen Plus 0728",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "removed_from_source"
+      ]
+    },
+    {
+      "type": "historical",
+      "id": "qwen/qwen3-235b-a22b",
+      "name": "Qwen: Qwen3 235B A22B",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "removed_from_source"
+      ]
+    },
+    {
+      "type": "historical",
+      "id": "qwen/qwen3-30b-a3b-thinking-2507",
+      "name": "Qwen: Qwen3 30B A3B Thinking 2507",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "removed_from_source"
+      ]
+    },
+    {
+      "type": "historical",
+      "id": "qwen/qwen3-8b",
+      "name": "Qwen: Qwen3 8B",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "removed_from_source"
+      ]
+    },
+    {
+      "type": "historical",
+      "id": "qwen/qwen3-coder-plus",
+      "name": "Qwen: Qwen3 Coder Plus",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "removed_from_source"
+      ]
+    },
+    {
+      "type": "historical",
+      "id": "qwen/qwen3-max",
+      "name": "Qwen: Qwen3 Max",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "removed_from_source"
+      ]
+    },
+    {
+      "type": "historical",
+      "id": "qwen/qwen3-max-thinking",
+      "name": "Qwen: Qwen3 Max Thinking",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "removed_from_source"
+      ]
+    },
+    {
+      "type": "historical",
+      "id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "name": "Qwen: Qwen3 VL 235B A22B Thinking",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "removed_from_source"
+      ]
+    },
+    {
+      "type": "historical",
+      "id": "qwen/qwen3-vl-32b-instruct",
+      "name": "Qwen: Qwen3 VL 32B Instruct",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "removed_from_source"
+      ]
+    },
+    {
+      "type": "historical",
+      "id": "qwen/qwen3-vl-8b-thinking",
+      "name": "Qwen: Qwen3 VL 8B Thinking",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "removed_from_source"
+      ]
+    },
+    {
+      "type": "historical",
+      "id": "qwen/qwen3.6-max-preview",
+      "name": "Qwen: Qwen3.6 Max Preview",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "removed_from_source"
+      ]
+    },
+    {
+      "type": "historical",
+      "id": "stealth/space-bunny-alpha",
+      "name": "Space Bunny Alpha",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "removed_from_source"
+      ]
+    },
+    {
+      "type": "historical",
+      "id": "unbiased/pareto",
+      "name": "Pareto",
+      "date": "2026-10-14T15:00:09Z",
+      "fields": [
+        "removed_from_source"
       ]
     }
   ]

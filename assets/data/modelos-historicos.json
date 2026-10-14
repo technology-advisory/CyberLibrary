@@ -2,13 +2,13 @@
   "metadata": {
     "engine_version": "3.3",
     "source": "openrouter",
-    "generated_at_utc": "2026-10-05T15:04:58Z",
-    "model_count": 361,
-    "provider_count": 57,
-    "family_count": 163,
+    "generated_at_utc": "2026-10-14T15:00:09Z",
+    "model_count": 353,
+    "provider_count": 54,
+    "family_count": 159,
     "catalog_policy": "P14.2A",
-    "source_record_count": 466,
-    "historical_count": 36
+    "source_record_count": 462,
+    "historical_count": 54
   },
   "data": [
     {
@@ -199,10 +199,166 @@
       "status": "historical"
     },
     {
+      "id": "apodex/apodex-1.1-mini",
+      "source": "openrouter",
+      "source_id": "apodex/apodex-1.1-mini",
+      "canonical_slug": "apodex/apodex-1.1-mini",
+      "name": "Apodex: Apodex 1.1 Mini",
+      "description": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,...",
+      "provider": "Apodex",
+      "provider_slug": "apodex",
+      "family": "apodex",
+      "variant": null,
+      "is_free": true,
+      "created_unix": 1790875335,
+      "context_length": 262144,
+      "max_completion_tokens": 235929,
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null,
+      "is_moderated": false,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "reasoning": {
+        "mandatory": false
+      },
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "hugging_face_id": null,
+      "links": {
+        "details": "/api/v1/models/apodex/apodex-1.1-mini-20261001/endpoints"
+      },
+      "first_seen_at": "2026-10-03T17:36:59Z",
+      "last_seen_at": "2026-10-05T15:04:58Z",
+      "last_updated_at": "2026-10-03T17:36:59Z",
+      "is_new": true,
+      "is_updated": false,
+      "source_catalog_id": "apodex/apodex-1.1-mini:free",
+      "availability": {
+        "standard": false,
+        "free": true,
+        "free_only": true,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": false,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "status": "historical"
+    },
+    {
       "id": "arcee-ai/virtuoso-large",
       "name": "Arcee AI: Virtuoso Large",
       "provider": "CyberLibrary AI",
       "description": "Modelo ya no disponible en la fuente actual; ficha conservada para trazabilidad.",
+      "status": "historical"
+    },
+    {
+      "id": "baidu/ernie-4.5-vl-424b-a47b",
+      "source": "openrouter",
+      "source_id": "baidu/ernie-4.5-vl-424b-a47b",
+      "canonical_slug": "baidu/ernie-4.5-vl-424b-a47b",
+      "name": "Baidu: ERNIE 4.5 VL 424B A47B",
+      "description": "ERNIE-4.5-VL-424B-A47B is a multimodal Mixture-of-Experts (MoE) model from Baidu’s ERNIE 4.5 series, featuring 424B total parameters with 47B active per token. It is trained jointly on text and image data...",
+      "provider": "Baidu",
+      "provider_slug": "baidu",
+      "family": "ernie",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1751300903,
+      "context_length": 123000,
+      "max_completion_tokens": 16000,
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null,
+      "is_moderated": false,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "seed",
+        "stop",
+        "temperature",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "reasoning": {
+        "mandatory": false
+      },
+      "knowledge_cutoff": "2025-03-31",
+      "expiration_date": "2026-10-08",
+      "hugging_face_id": "baidu/ERNIE-4.5-VL-424B-A47B-PT",
+      "links": {
+        "details": "/api/v1/models/baidu/ernie-4.5-vl-424b-a47b/endpoints"
+      },
+      "first_seen_at": "2026-07-23T15:04:58Z",
+      "last_seen_at": "2026-10-05T15:04:58Z",
+      "last_updated_at": "2026-07-23T15:04:58Z",
+      "is_new": false,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": false,
+      "supports_structured_outputs": false,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0.00000042",
+        "completion": "0.00000125"
+      },
       "status": "historical"
     },
     {
@@ -415,6 +571,91 @@
       "status": "historical"
     },
     {
+      "id": "kwaipilot/kat-coder-pro-v2.5",
+      "source": "openrouter",
+      "source_id": "kwaipilot/kat-coder-pro-v2.5",
+      "canonical_slug": "kwaipilot/kat-coder-pro-v2.5-20260710",
+      "name": "Kwaipilot: KAT-Coder-Pro V2.5",
+      "description": "KAT-Coder-Pro V2.5 is a flagship-level Agentic Coding model that can directly hand over an entire issue or an entire business workflow to it, allowing it to autonomously locate and make...",
+      "provider": "Kwaipilot",
+      "provider_slug": "kwaipilot",
+      "family": "kat-coder-pro",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1783714589,
+      "context_length": 262144,
+      "max_completion_tokens": 235929,
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null,
+      "is_moderated": false,
+      "supported_parameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "reasoning": {},
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "hugging_face_id": null,
+      "links": {
+        "details": "/api/v1/models/kwaipilot/kat-coder-pro-v2.5-20260710/endpoints"
+      },
+      "first_seen_at": "2026-07-23T15:04:58Z",
+      "last_seen_at": "2026-10-05T15:04:58Z",
+      "last_updated_at": "2026-09-16T18:10:32Z",
+      "is_new": false,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": false,
+      "supports_vision": false,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0.00000074",
+        "completion": "0.00000296",
+        "input_cache_read": "0.00000015"
+      },
+      "status": "historical"
+    },
+    {
       "id": "nvidia/nemotron-nano-12b-v2-vl:free",
       "name": "NVIDIA: Nemotron Nano 12B 2 VL (free)",
       "provider": "CyberLibrary AI",
@@ -513,10 +754,1137 @@
       "status": "historical"
     },
     {
+      "id": "unbiased/pareto",
+      "source": "openrouter",
+      "source_id": "unbiased/pareto",
+      "canonical_slug": "unbiased/pareto-20260917",
+      "name": "Pareto",
+      "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks.",
+      "provider": "Unbiased",
+      "provider_slug": "unbiased",
+      "family": "pareto",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1789686178,
+      "context_length": 262144,
+      "max_completion_tokens": 131072,
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null,
+      "is_moderated": false,
+      "supported_parameters": [
+        "max_tokens",
+        "response_format",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p",
+        "structured_outputs"
+      ],
+      "default_parameters": {},
+      "reasoning": {},
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "hugging_face_id": null,
+      "links": {
+        "details": "/api/v1/models/unbiased/pareto-20260917/endpoints"
+      },
+      "first_seen_at": "2026-09-22T08:55:28Z",
+      "last_seen_at": "2026-10-05T15:04:58Z",
+      "last_updated_at": "2026-10-03T17:36:59Z",
+      "is_new": false,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": false,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.0000075",
+        "input_cache_read": "0.00000025"
+      },
+      "status": "historical"
+    },
+    {
       "id": "poolside/laguna-m.1",
       "name": "Poolside: Laguna M.1",
       "provider": "CyberLibrary AI",
       "description": "Modelo ya no disponible en la fuente actual; ficha conservada para trazabilidad.",
+      "status": "historical"
+    },
+    {
+      "id": "qwen/qwen-plus-2025-07-28",
+      "source": "openrouter",
+      "source_id": "qwen/qwen-plus-2025-07-28",
+      "canonical_slug": "qwen/qwen-plus-2025-07-28",
+      "name": "Qwen: Qwen Plus 0728",
+      "description": "Qwen Plus 0728, based on the Qwen3 foundation model, is a 1 million context hybrid reasoning model with a balanced performance, speed, and cost combination.",
+      "provider": "Qwen",
+      "provider_slug": "qwen",
+      "family": "qwen-plus",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1757347599,
+      "context_length": 1000000,
+      "max_completion_tokens": 32768,
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null,
+      "is_moderated": false,
+      "supported_parameters": [
+        "frequency_penalty",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      },
+      "reasoning": {
+        "mandatory": false
+      },
+      "knowledge_cutoff": "2025-03-31",
+      "expiration_date": "2026-10-09",
+      "hugging_face_id": null,
+      "links": {
+        "details": "/api/v1/models/qwen/qwen-plus-2025-07-28/endpoints"
+      },
+      "first_seen_at": "2026-07-23T15:04:58Z",
+      "last_seen_at": "2026-10-05T15:04:58Z",
+      "last_updated_at": "2026-09-16T18:10:32Z",
+      "is_new": false,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": false,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0.00000026",
+        "completion": "0.00000078",
+        "overrides": [
+          {
+            "min_prompt_tokens": 256000,
+            "prompt": "0.00000078",
+            "completion": "0.00000234"
+          }
+        ]
+      },
+      "status": "historical"
+    },
+    {
+      "id": "qwen/qwen3-235b-a22b",
+      "source": "openrouter",
+      "source_id": "qwen/qwen3-235b-a22b",
+      "canonical_slug": "qwen/qwen3-235b-a22b-04-28",
+      "name": "Qwen: Qwen3 235B A22B",
+      "description": "Qwen3-235B-A22B is a 235B parameter mixture-of-experts (MoE) model developed by Qwen, activating 22B parameters per forward pass. It supports seamless switching between a \"thinking\" mode for complex reasoning, math, and...",
+      "provider": "Qwen",
+      "provider_slug": "qwen",
+      "family": "qwen3",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1745875757,
+      "context_length": 131072,
+      "max_completion_tokens": 8192,
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": "qwen3",
+      "is_moderated": false,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p",
+        "structured_outputs"
+      ],
+      "default_parameters": {},
+      "reasoning": {
+        "mandatory": false
+      },
+      "knowledge_cutoff": "2025-03-31",
+      "expiration_date": "2026-10-09",
+      "hugging_face_id": "Qwen/Qwen3-235B-A22B",
+      "links": {
+        "details": "/api/v1/models/qwen/qwen3-235b-a22b-04-28/endpoints"
+      },
+      "first_seen_at": "2026-07-23T15:04:58Z",
+      "last_seen_at": "2026-10-05T15:04:58Z",
+      "last_updated_at": "2026-09-16T18:10:32Z",
+      "is_new": false,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": false,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0.000000455",
+        "completion": "0.00000182"
+      },
+      "status": "historical"
+    },
+    {
+      "id": "qwen/qwen3-30b-a3b-thinking-2507",
+      "source": "openrouter",
+      "source_id": "qwen/qwen3-30b-a3b-thinking-2507",
+      "canonical_slug": "qwen/qwen3-30b-a3b-thinking-2507",
+      "name": "Qwen: Qwen3 30B A3B Thinking 2507",
+      "description": "Qwen3-30B-A3B-Thinking-2507 is a 30B parameter Mixture-of-Experts reasoning model optimized for complex tasks requiring extended multi-step thinking. The model is designed specifically for “thinking mode,” where internal reasoning traces are separated...",
+      "provider": "Qwen",
+      "provider_slug": "qwen",
+      "family": "qwen3",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1756399192,
+      "context_length": 81920,
+      "max_completion_tokens": 32768,
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null,
+      "is_moderated": false,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p",
+        "structured_outputs"
+      ],
+      "default_parameters": {},
+      "reasoning": {
+        "mandatory": true
+      },
+      "knowledge_cutoff": "2025-06-30",
+      "expiration_date": "2026-10-09",
+      "hugging_face_id": "Qwen/Qwen3-30B-A3B-Thinking-2507",
+      "links": {
+        "details": "/api/v1/models/qwen/qwen3-30b-a3b-thinking-2507/endpoints"
+      },
+      "first_seen_at": "2026-07-23T15:04:58Z",
+      "last_seen_at": "2026-10-05T15:04:58Z",
+      "last_updated_at": "2026-09-16T18:10:32Z",
+      "is_new": false,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": false,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0.0000002",
+        "completion": "0.0000024"
+      },
+      "status": "historical"
+    },
+    {
+      "id": "qwen/qwen3-8b",
+      "source": "openrouter",
+      "source_id": "qwen/qwen3-8b",
+      "canonical_slug": "qwen/qwen3-8b-04-28",
+      "name": "Qwen: Qwen3 8B",
+      "description": "Qwen3-8B is a dense 8.2B parameter causal language model from the Qwen3 series, designed for both reasoning-heavy tasks and efficient dialogue. It supports seamless switching between \"thinking\" mode for math,...",
+      "provider": "Qwen",
+      "provider_slug": "qwen",
+      "family": "qwen3",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1745876632,
+      "context_length": 131072,
+      "max_completion_tokens": 8192,
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": "qwen3",
+      "is_moderated": false,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p",
+        "structured_outputs"
+      ],
+      "default_parameters": {
+        "temperature": 0.6,
+        "top_p": 0.95,
+        "top_k": 20,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true
+      },
+      "knowledge_cutoff": "2025-03-31",
+      "expiration_date": "2026-10-09",
+      "hugging_face_id": "Qwen/Qwen3-8B",
+      "links": {
+        "details": "/api/v1/models/qwen/qwen3-8b-04-28/endpoints"
+      },
+      "first_seen_at": "2026-07-23T15:04:58Z",
+      "last_seen_at": "2026-10-05T15:04:58Z",
+      "last_updated_at": "2026-09-16T18:10:32Z",
+      "is_new": false,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": false,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0.000000117",
+        "completion": "0.000000455"
+      },
+      "status": "historical"
+    },
+    {
+      "id": "qwen/qwen3-coder-plus",
+      "source": "openrouter",
+      "source_id": "qwen/qwen3-coder-plus",
+      "canonical_slug": "qwen/qwen3-coder-plus",
+      "name": "Qwen: Qwen3 Coder Plus",
+      "description": "Qwen3 Coder Plus is Alibaba's proprietary version of the Open Source Qwen3 Coder 480B A35B. It is a powerful coding agent model specializing in autonomous programming via tool calling and...",
+      "provider": "Qwen",
+      "provider_slug": "qwen",
+      "family": "qwen3-coder-plus",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1758662707,
+      "context_length": 1000000,
+      "max_completion_tokens": 65536,
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null,
+      "is_moderated": false,
+      "supported_parameters": [
+        "frequency_penalty",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      },
+      "reasoning": {},
+      "knowledge_cutoff": "2025-06-30",
+      "expiration_date": "2026-10-09",
+      "hugging_face_id": null,
+      "links": {
+        "details": "/api/v1/models/qwen/qwen3-coder-plus/endpoints"
+      },
+      "first_seen_at": "2026-07-23T15:04:58Z",
+      "last_seen_at": "2026-10-05T15:04:58Z",
+      "last_updated_at": "2026-09-16T18:10:32Z",
+      "is_new": false,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": false,
+      "supports_vision": false,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0.00000065",
+        "completion": "0.00000325",
+        "input_cache_read": "0.00000013",
+        "input_cache_write": "0.0000008125",
+        "overrides": [
+          {
+            "min_prompt_tokens": 32000,
+            "prompt": "0.00000117",
+            "completion": "0.00000585",
+            "input_cache_read": "0.000000234",
+            "input_cache_write": "0.0000014625"
+          },
+          {
+            "min_prompt_tokens": 128000,
+            "prompt": "0.00000195",
+            "completion": "0.00000975",
+            "input_cache_read": "0.00000039",
+            "input_cache_write": "0.0000024375"
+          }
+        ]
+      },
+      "status": "historical"
+    },
+    {
+      "id": "qwen/qwen3-max",
+      "source": "openrouter",
+      "source_id": "qwen/qwen3-max",
+      "canonical_slug": "qwen/qwen3-max",
+      "name": "Qwen: Qwen3 Max",
+      "description": "Qwen3-Max is an updated release built on the Qwen3 series, offering major improvements in reasoning, instruction following, multilingual support, and long-tail knowledge coverage compared to the January 2025 version. It...",
+      "provider": "Qwen",
+      "provider_slug": "qwen",
+      "family": "qwen3-max",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1758662808,
+      "context_length": 262144,
+      "max_completion_tokens": 65536,
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null,
+      "is_moderated": false,
+      "supported_parameters": [
+        "frequency_penalty",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 1,
+        "top_p": 1,
+        "frequency_penalty": null
+      },
+      "reasoning": {
+        "mandatory": false
+      },
+      "knowledge_cutoff": "2025-06-30",
+      "expiration_date": "2026-10-09",
+      "hugging_face_id": null,
+      "links": {
+        "details": "/api/v1/models/qwen/qwen3-max/endpoints"
+      },
+      "first_seen_at": "2026-07-23T15:04:58Z",
+      "last_seen_at": "2026-10-05T15:04:58Z",
+      "last_updated_at": "2026-09-16T18:10:32Z",
+      "is_new": false,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": false,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0.00000078",
+        "completion": "0.0000039",
+        "input_cache_read": "0.000000156",
+        "input_cache_write": "0.000000975",
+        "overrides": [
+          {
+            "min_prompt_tokens": 32000,
+            "prompt": "0.00000156",
+            "completion": "0.0000078",
+            "input_cache_read": "0.000000312",
+            "input_cache_write": "0.00000195"
+          },
+          {
+            "min_prompt_tokens": 128000,
+            "prompt": "0.00000195",
+            "completion": "0.00000975",
+            "input_cache_read": "0.00000039",
+            "input_cache_write": "0.0000024375"
+          }
+        ]
+      },
+      "status": "historical"
+    },
+    {
+      "id": "qwen/qwen3-max-thinking",
+      "source": "openrouter",
+      "source_id": "qwen/qwen3-max-thinking",
+      "canonical_slug": "qwen/qwen3-max-thinking-20260123",
+      "name": "Qwen: Qwen3 Max Thinking",
+      "description": "Qwen3-Max-Thinking is the flagship reasoning model in the Qwen3 series, designed for high-stakes cognitive tasks that require deep, multi-step reasoning. By significantly scaling model capacity and reinforcement learning compute, it...",
+      "provider": "Qwen",
+      "provider_slug": "qwen",
+      "family": "qwen3-max-thinking",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1770671901,
+      "context_length": 262144,
+      "max_completion_tokens": 65536,
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen",
+      "instruct_type": null,
+      "is_moderated": false,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      },
+      "reasoning": {
+        "mandatory": false
+      },
+      "knowledge_cutoff": null,
+      "expiration_date": "2026-10-09",
+      "hugging_face_id": null,
+      "links": {
+        "details": "/api/v1/models/qwen/qwen3-max-thinking-20260123/endpoints"
+      },
+      "first_seen_at": "2026-07-23T15:04:58Z",
+      "last_seen_at": "2026-10-05T15:04:58Z",
+      "last_updated_at": "2026-09-16T18:10:32Z",
+      "is_new": false,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": false,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0.00000078",
+        "completion": "0.0000039",
+        "overrides": [
+          {
+            "min_prompt_tokens": 32000,
+            "prompt": "0.00000156",
+            "completion": "0.0000078"
+          },
+          {
+            "min_prompt_tokens": 128000,
+            "prompt": "0.00000195",
+            "completion": "0.00000975"
+          }
+        ]
+      },
+      "status": "historical"
+    },
+    {
+      "id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "source": "openrouter",
+      "source_id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "canonical_slug": "qwen/qwen3-vl-235b-a22b-thinking",
+      "name": "Qwen: Qwen3 VL 235B A22B Thinking",
+      "description": "Qwen3-VL-235B-A22B Thinking is a multimodal model that unifies strong text generation with visual understanding across images and video. The Thinking model is optimized for multimodal reasoning in STEM and math....",
+      "provider": "Qwen",
+      "provider_slug": "qwen",
+      "family": "qwen3-vl",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1758668690,
+      "context_length": 131072,
+      "max_completion_tokens": 32768,
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null,
+      "is_moderated": false,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 0.8,
+        "top_p": 0.95,
+        "top_k": 20,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": 1
+      },
+      "reasoning": {
+        "mandatory": true
+      },
+      "knowledge_cutoff": "2025-03-31",
+      "expiration_date": "2026-10-09",
+      "hugging_face_id": "Qwen/Qwen3-VL-235B-A22B-Thinking",
+      "links": {
+        "details": "/api/v1/models/qwen/qwen3-vl-235b-a22b-thinking/endpoints"
+      },
+      "first_seen_at": "2026-07-23T15:04:58Z",
+      "last_seen_at": "2026-10-05T15:04:58Z",
+      "last_updated_at": "2026-09-16T18:10:32Z",
+      "is_new": false,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0.0000004",
+        "completion": "0.000004"
+      },
+      "status": "historical"
+    },
+    {
+      "id": "qwen/qwen3-vl-32b-instruct",
+      "source": "openrouter",
+      "source_id": "qwen/qwen3-vl-32b-instruct",
+      "canonical_slug": "qwen/qwen3-vl-32b-instruct",
+      "name": "Qwen: Qwen3 VL 32B Instruct",
+      "description": "Qwen3-VL-32B-Instruct is a large-scale multimodal vision-language model designed for high-precision understanding and reasoning across text, images, and video. With 32 billion parameters, it combines deep visual perception with advanced text...",
+      "provider": "Qwen",
+      "provider_slug": "qwen",
+      "family": "qwen3-vl",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1761231332,
+      "context_length": 131072,
+      "max_completion_tokens": 32768,
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen",
+      "instruct_type": null,
+      "is_moderated": false,
+      "supported_parameters": [
+        "frequency_penalty",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 0.7,
+        "top_p": 0.8,
+        "top_k": 20,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": 1
+      },
+      "reasoning": {},
+      "knowledge_cutoff": null,
+      "expiration_date": "2026-10-09",
+      "hugging_face_id": "Qwen/Qwen3-VL-32B-Instruct",
+      "links": {
+        "details": "/api/v1/models/qwen/qwen3-vl-32b-instruct/endpoints"
+      },
+      "first_seen_at": "2026-07-23T15:04:58Z",
+      "last_seen_at": "2026-10-05T15:04:58Z",
+      "last_updated_at": "2026-09-16T18:10:32Z",
+      "is_new": false,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": false,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0.000000104",
+        "completion": "0.000000416"
+      },
+      "status": "historical"
+    },
+    {
+      "id": "qwen/qwen3-vl-8b-thinking",
+      "source": "openrouter",
+      "source_id": "qwen/qwen3-vl-8b-thinking",
+      "canonical_slug": "qwen/qwen3-vl-8b-thinking",
+      "name": "Qwen: Qwen3 VL 8B Thinking",
+      "description": "Qwen3-VL-8B-Thinking is the reasoning-optimized variant of the Qwen3-VL-8B multimodal model, designed for advanced visual and textual reasoning across complex scenes, documents, and temporal sequences. It integrates enhanced multimodal alignment and...",
+      "provider": "Qwen",
+      "provider_slug": "qwen",
+      "family": "qwen3-vl",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1760463746,
+      "context_length": 131072,
+      "max_completion_tokens": 32768,
+      "modality": "text+image->text",
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen3",
+      "instruct_type": null,
+      "is_moderated": false,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 1,
+        "top_p": 0.95
+      },
+      "reasoning": {
+        "mandatory": true
+      },
+      "knowledge_cutoff": null,
+      "expiration_date": "2026-10-09",
+      "hugging_face_id": "Qwen/Qwen3-VL-8B-Thinking",
+      "links": {
+        "details": "/api/v1/models/qwen/qwen3-vl-8b-thinking/endpoints"
+      },
+      "first_seen_at": "2026-07-23T15:04:58Z",
+      "last_seen_at": "2026-10-05T15:04:58Z",
+      "last_updated_at": "2026-09-16T18:10:32Z",
+      "is_new": false,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0.00000018",
+        "completion": "0.0000021"
+      },
+      "status": "historical"
+    },
+    {
+      "id": "qwen/qwen3.6-max-preview",
+      "source": "openrouter",
+      "source_id": "qwen/qwen3.6-max-preview",
+      "canonical_slug": "qwen/qwen3.6-max-preview-20260420",
+      "name": "Qwen: Qwen3.6 Max Preview",
+      "description": "Qwen3.6-Max-Preview is a proprietary frontier model from Alibaba Cloud built on a sparse mixture-of-experts architecture with approximately 1 trillion total parameters. It is optimized for agentic coding, tool use, and...",
+      "provider": "Qwen",
+      "provider_slug": "qwen",
+      "family": "qwen3.6-max",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1777260242,
+      "context_length": 262144,
+      "max_completion_tokens": 65536,
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Qwen",
+      "instruct_type": null,
+      "is_moderated": false,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true
+      },
+      "knowledge_cutoff": null,
+      "expiration_date": "2026-10-09",
+      "hugging_face_id": null,
+      "links": {
+        "details": "/api/v1/models/qwen/qwen3.6-max-preview-20260420/endpoints"
+      },
+      "first_seen_at": "2026-07-23T15:04:58Z",
+      "last_seen_at": "2026-10-05T15:04:58Z",
+      "last_updated_at": "2026-09-16T18:10:32Z",
+      "is_new": false,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": false,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0.000001027",
+        "completion": "0.000006162",
+        "input_cache_write": "0.00000128375",
+        "overrides": [
+          {
+            "min_prompt_tokens": 128000,
+            "prompt": "0.00000158",
+            "completion": "0.00000948",
+            "input_cache_write": "0.000001975"
+          }
+        ]
+      },
+      "status": "historical"
+    },
+    {
+      "id": "stealth/space-bunny-alpha",
+      "source": "openrouter",
+      "source_id": "stealth/space-bunny-alpha",
+      "canonical_slug": "stealth/space-bunny-alpha",
+      "name": "Space Bunny Alpha",
+      "description": "Space Bunny Alpha is an anonymous large model with blazing-fast inference, strong coding capabilities and native multimodal input support. It delivers adjustable reasoning effort, and a 1M-token context window. Space...",
+      "provider": "Stealth",
+      "provider_slug": "stealth",
+      "family": "space-bunny-alpha",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1790174884,
+      "context_length": 1000000,
+      "max_completion_tokens": 524288,
+      "modality": "text+image+video->text",
+      "input_modalities": [
+        "image",
+        "text",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null,
+      "is_moderated": false,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p",
+        "structured_outputs"
+      ],
+      "default_parameters": {},
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default_effort": "max"
+      },
+      "knowledge_cutoff": null,
+      "expiration_date": "2026-10-05",
+      "hugging_face_id": null,
+      "links": {
+        "details": "/api/v1/models/stealth/space-bunny-alpha/endpoints"
+      },
+      "first_seen_at": "2026-09-27T18:34:23Z",
+      "last_seen_at": "2026-10-05T15:04:58Z",
+      "last_updated_at": "2026-09-27T18:34:23Z",
+      "is_new": false,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": true,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
       "status": "historical"
     },
     {
@@ -587,6 +1955,171 @@
       "supports_structured_outputs": true,
       "supports_reasoning": false,
       "supports_vision": true,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "status": "historical"
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash-fin",
+      "source": "openrouter",
+      "source_id": "inclusionai/ling-3.0-flash-fin",
+      "canonical_slug": "inclusionai/ling-3.0-flash-fin-20260827",
+      "name": "inclusionAI: Ling 3.0 Flash Fin",
+      "description": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment...",
+      "provider": "Inclusionai",
+      "provider_slug": "inclusionai",
+      "family": "ling",
+      "variant": null,
+      "is_free": false,
+      "created_unix": 1787846290,
+      "context_length": 262144,
+      "max_completion_tokens": 32768,
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null,
+      "is_moderated": false,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true
+      },
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "hugging_face_id": null,
+      "links": {
+        "details": "/api/v1/models/inclusionai/ling-3.0-flash-fin-20260827/endpoints"
+      },
+      "first_seen_at": "2026-09-16T18:10:32Z",
+      "last_seen_at": "2026-10-05T15:04:58Z",
+      "last_updated_at": "2026-10-03T17:36:59Z",
+      "is_new": false,
+      "is_updated": false,
+      "availability": {
+        "standard": true,
+        "free": false,
+        "free_only": false,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": true,
+      "supports_structured_outputs": true,
+      "supports_reasoning": true,
+      "supports_vision": false,
+      "supports_audio": false,
+      "supports_video": false,
+      "supports_files": false,
+      "pricing": {
+        "prompt": "0.000000042",
+        "completion": "0.0000001232",
+        "input_cache_read": "0.0000000084"
+      },
+      "status": "historical"
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash-sante",
+      "source": "openrouter",
+      "source_id": "inclusionai/ling-3.0-flash-sante",
+      "canonical_slug": "inclusionai/ling-3.0-flash-sante",
+      "name": "inclusionAI: Ling 3.0 Flash Sante",
+      "description": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for...",
+      "provider": "Inclusionai",
+      "provider_slug": "inclusionai",
+      "family": "ling",
+      "variant": null,
+      "is_free": true,
+      "created_unix": 1788545946,
+      "context_length": 262144,
+      "max_completion_tokens": 32768,
+      "modality": "text->text",
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null,
+      "is_moderated": false,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "seed",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true
+      },
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "hugging_face_id": null,
+      "links": {
+        "details": "/api/v1/models/inclusionai/ling-3.0-flash-sante-20260904/endpoints"
+      },
+      "first_seen_at": "2026-09-16T18:10:32Z",
+      "last_seen_at": "2026-10-05T15:04:58Z",
+      "last_updated_at": "2026-09-16T18:10:32Z",
+      "is_new": false,
+      "is_updated": false,
+      "source_catalog_id": "inclusionai/ling-3.0-flash-sante:free",
+      "availability": {
+        "standard": false,
+        "free": true,
+        "free_only": true,
+        "batch": false,
+        "contributor": false,
+        "thinking": false
+      },
+      "variant_pricing": {},
+      "supports_tools": true,
+      "supports_structured_outputs": false,
+      "supports_reasoning": true,
+      "supports_vision": false,
       "supports_audio": false,
       "supports_video": false,
       "supports_files": false,

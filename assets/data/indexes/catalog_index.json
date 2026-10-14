@@ -2,19 +2,19 @@
   "metadata": {
     "engine_version": "3.3",
     "source": "openrouter",
-    "generated_at_utc": "2026-10-05T15:04:58Z",
-    "model_count": 361,
-    "provider_count": 57,
-    "family_count": 163,
+    "generated_at_utc": "2026-10-14T15:00:09Z",
+    "model_count": 353,
+    "provider_count": 54,
+    "family_count": 159,
     "catalog_policy": "P14.2A",
-    "source_record_count": 466,
-    "historical_count": 36
+    "source_record_count": 462,
+    "historical_count": 54
   },
   "data": {
     "statistics": {
-      "model_count": 361,
-      "provider_count": 57,
-      "family_count": 163
+      "model_count": 353,
+      "provider_count": 54,
+      "family_count": 159
     },
     "models": [
       {
@@ -108,6 +108,12 @@
         "family": "claude-haiku"
       },
       {
+        "id": "anthropic/claude-haiku-5.5",
+        "name": "Anthropic: Claude Haiku 5.5",
+        "provider": "Anthropic",
+        "family": "claude-haiku"
+      },
+      {
         "id": "anthropic/claude-opus-4.1",
         "name": "Anthropic: Claude Opus 4.1",
         "provider": "Anthropic",
@@ -180,22 +186,10 @@
         "family": "claude-sonnet"
       },
       {
-        "id": "apodex/apodex-1.1-mini",
-        "name": "Apodex: Apodex 1.1 Mini",
-        "provider": "Apodex",
-        "family": "apodex"
-      },
-      {
         "id": "arcee-ai/trinity-large-thinking",
         "name": "Arcee AI: Trinity Large Thinking",
         "provider": "Arcee Ai",
         "family": "trinity-large-thinking"
-      },
-      {
-        "id": "baidu/ernie-4.5-vl-424b-a47b",
-        "name": "Baidu: ERNIE 4.5 VL 424B A47B",
-        "provider": "Baidu",
-        "family": "ernie"
       },
       {
         "id": "bytedance/ui-tars-1.5-7b",
@@ -462,6 +456,12 @@
         "family": "gemini"
       },
       {
+        "id": "google/gemini-4-argon",
+        "name": "Google: Gemini 4 Argon",
+        "provider": "Google",
+        "family": "gemini"
+      },
+      {
         "id": "google/gemma-2-27b-it",
         "name": "Google: Gemma 2 27B",
         "provider": "Google",
@@ -534,6 +534,12 @@
         "family": "gemini"
       },
       {
+        "id": "google/gemini-nano-banana-2.1",
+        "name": "Google: Nano Banana 2.1",
+        "provider": "Google",
+        "family": "gemini-nano-banana"
+      },
+      {
         "id": "google/gemini-3-pro-image-preview",
         "name": "Google: Nano Banana Pro (Gemini 3 Pro Image Preview)",
         "provider": "Google",
@@ -582,18 +588,6 @@
         "family": "ling"
       },
       {
-        "id": "inclusionai/ling-3.0-flash-fin",
-        "name": "inclusionAI: Ling 3.0 Flash Fin",
-        "provider": "Inclusionai",
-        "family": "ling"
-      },
-      {
-        "id": "inclusionai/ling-3.0-flash-sante",
-        "name": "inclusionAI: Ling 3.0 Flash Sante",
-        "provider": "Inclusionai",
-        "family": "ling"
-      },
-      {
         "id": "inclusionai/ling-3.0-flash-vl",
         "name": "inclusionAI: Ling 3.0 Flash VL",
         "provider": "Inclusionai",
@@ -618,14 +612,14 @@
         "family": "schematron"
       },
       {
-        "id": "kwaipilot/kat-coder-pro-v2.5",
-        "name": "Kwaipilot: KAT-Coder-Pro V2.5",
-        "provider": "Kwaipilot",
-        "family": "kat-coder-pro"
-      },
-      {
         "id": "liquid/lfm-2.5-2.6b",
         "name": "LiquidAI: LFM2.5-2.6B",
+        "provider": "Liquid",
+        "family": "lfm"
+      },
+      {
+        "id": "liquid/lfm-2.5-24b-a2b",
+        "name": "LiquidAI: LFM2.5-24B-A2B",
         "provider": "Liquid",
         "family": "lfm"
       },
@@ -712,6 +706,12 @@
         "name": "Meta: Muse Spark 1.3",
         "provider": "Meta",
         "family": "muse-spark"
+      },
+      {
+        "id": "meta/muse-wonder",
+        "name": "Meta: Muse Wonder",
+        "provider": "Meta",
+        "family": "muse-wonder"
       },
       {
         "id": "microsoft/phi-4",
@@ -818,6 +818,12 @@
       {
         "id": "mistralai/mistral-large-2512",
         "name": "Mistral: Mistral Large 3 2512",
+        "provider": "Mistral AI",
+        "family": "mistral-large"
+      },
+      {
+        "id": "mistralai/mistral-large-4-0",
+        "name": "Mistral: Mistral Large 4",
         "provider": "Mistral AI",
         "family": "mistral-large"
       },
@@ -1506,12 +1512,6 @@
         "family": "qwen"
       },
       {
-        "id": "qwen/qwen-plus-2025-07-28",
-        "name": "Qwen: Qwen Plus 0728",
-        "provider": "Qwen",
-        "family": "qwen-plus"
-      },
-      {
         "id": "qwen/qwen-plus",
         "name": "Qwen: Qwen-Plus",
         "provider": "Qwen",
@@ -1532,12 +1532,6 @@
       {
         "id": "qwen/qwen3-14b",
         "name": "Qwen: Qwen3 14B",
-        "provider": "Qwen",
-        "family": "qwen3"
-      },
-      {
-        "id": "qwen/qwen3-235b-a22b",
-        "name": "Qwen: Qwen3 235B A22B",
         "provider": "Qwen",
         "family": "qwen3"
       },
@@ -1566,20 +1560,8 @@
         "family": "qwen3"
       },
       {
-        "id": "qwen/qwen3-30b-a3b-thinking-2507",
-        "name": "Qwen: Qwen3 30B A3B Thinking 2507",
-        "provider": "Qwen",
-        "family": "qwen3"
-      },
-      {
         "id": "qwen/qwen3-32b",
         "name": "Qwen: Qwen3 32B",
-        "provider": "Qwen",
-        "family": "qwen3"
-      },
-      {
-        "id": "qwen/qwen3-8b",
-        "name": "Qwen: Qwen3 8B",
         "provider": "Qwen",
         "family": "qwen3"
       },
@@ -1608,24 +1590,6 @@
         "family": "qwen3-coder-next"
       },
       {
-        "id": "qwen/qwen3-coder-plus",
-        "name": "Qwen: Qwen3 Coder Plus",
-        "provider": "Qwen",
-        "family": "qwen3-coder-plus"
-      },
-      {
-        "id": "qwen/qwen3-max",
-        "name": "Qwen: Qwen3 Max",
-        "provider": "Qwen",
-        "family": "qwen3-max"
-      },
-      {
-        "id": "qwen/qwen3-max-thinking",
-        "name": "Qwen: Qwen3 Max Thinking",
-        "provider": "Qwen",
-        "family": "qwen3-max-thinking"
-      },
-      {
         "id": "qwen/qwen3-next-80b-a3b-instruct",
         "name": "Qwen: Qwen3 Next 80B A3B Instruct",
         "provider": "Qwen",
@@ -1644,12 +1608,6 @@
         "family": "qwen3-vl"
       },
       {
-        "id": "qwen/qwen3-vl-235b-a22b-thinking",
-        "name": "Qwen: Qwen3 VL 235B A22B Thinking",
-        "provider": "Qwen",
-        "family": "qwen3-vl"
-      },
-      {
         "id": "qwen/qwen3-vl-30b-a3b-instruct",
         "name": "Qwen: Qwen3 VL 30B A3B Instruct",
         "provider": "Qwen",
@@ -1662,20 +1620,8 @@
         "family": "qwen3-vl"
       },
       {
-        "id": "qwen/qwen3-vl-32b-instruct",
-        "name": "Qwen: Qwen3 VL 32B Instruct",
-        "provider": "Qwen",
-        "family": "qwen3-vl"
-      },
-      {
         "id": "qwen/qwen3-vl-8b-instruct",
         "name": "Qwen: Qwen3 VL 8B Instruct",
-        "provider": "Qwen",
-        "family": "qwen3-vl"
-      },
-      {
-        "id": "qwen/qwen3-vl-8b-thinking",
-        "name": "Qwen: Qwen3 VL 8B Thinking",
         "provider": "Qwen",
         "family": "qwen3-vl"
       },
@@ -1744,12 +1690,6 @@
         "name": "Qwen: Qwen3.6 Flash",
         "provider": "Qwen",
         "family": "qwen3.6-flash"
-      },
-      {
-        "id": "qwen/qwen3.6-max-preview",
-        "name": "Qwen: Qwen3.6 Max Preview",
-        "provider": "Qwen",
-        "family": "qwen3.6-max"
       },
       {
         "id": "qwen/qwen3.6-plus",
@@ -1878,10 +1818,16 @@
         "family": "l3.3-euryale"
       },
       {
-        "id": "stealth/space-bunny-alpha",
-        "name": "Space Bunny Alpha",
-        "provider": "Stealth",
-        "family": "space-bunny-alpha"
+        "id": "scaledown/extract",
+        "name": "ScaleDown: Extract",
+        "provider": "Scaledown",
+        "family": "extract"
+      },
+      {
+        "id": "scaledown/summarize",
+        "name": "ScaleDown: Summarize",
+        "provider": "Scaledown",
+        "family": "summarize"
       },
       {
         "id": "stepfun/step-3.5-flash",
@@ -1892,6 +1838,12 @@
       {
         "id": "stepfun/step-3.7-flash",
         "name": "StepFun: Step 3.7 Flash",
+        "provider": "Stepfun",
+        "family": "step"
+      },
+      {
+        "id": "stepfun/step-5-preview",
+        "name": "StepFun: Step 5 Preview",
         "provider": "Stepfun",
         "family": "step"
       },
@@ -1974,14 +1926,14 @@
         "family": "jev-router"
       },
       {
-        "id": "unbiased/pareto",
-        "name": "Pareto",
+        "id": "unbiased/pareto-26.10-preview",
+        "name": "Pareto 26.10 Preview",
         "provider": "Unbiased",
         "family": "pareto"
       },
       {
-        "id": "unbiased/pareto-26.10-preview",
-        "name": "Pareto 26.10 Preview",
+        "id": "unbiased/pareto-26.9",
+        "name": "Pareto 26.9",
         "provider": "Unbiased",
         "family": "pareto"
       },

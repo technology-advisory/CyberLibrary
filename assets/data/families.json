@@ -2,13 +2,13 @@
   "metadata": {
     "engine_version": "3.3",
     "source": "openrouter",
-    "generated_at_utc": "2026-10-05T15:04:58Z",
-    "model_count": 361,
-    "provider_count": 57,
-    "family_count": 163,
+    "generated_at_utc": "2026-10-14T15:00:09Z",
+    "model_count": 353,
+    "provider_count": 54,
+    "family_count": 159,
     "catalog_policy": "P14.2A",
-    "source_record_count": 466,
-    "historical_count": 36
+    "source_record_count": 462,
+    "historical_count": 54
   },
   "data": [
     {
@@ -102,9 +102,10 @@
       "provider": "Anthropic",
       "name": "claude-haiku",
       "model_ids": [
-        "anthropic/claude-haiku-4.5"
+        "anthropic/claude-haiku-4.5",
+        "anthropic/claude-haiku-5.5"
       ],
-      "model_count": 1
+      "model_count": 2
     },
     {
       "id": "anthropic:claude-opus",
@@ -135,29 +136,11 @@
       "model_count": 5
     },
     {
-      "id": "apodex:apodex",
-      "provider": "Apodex",
-      "name": "apodex",
-      "model_ids": [
-        "apodex/apodex-1.1-mini"
-      ],
-      "model_count": 1
-    },
-    {
       "id": "arcee-ai:trinity-large-thinking",
       "provider": "Arcee Ai",
       "name": "trinity-large-thinking",
       "model_ids": [
         "arcee-ai/trinity-large-thinking"
-      ],
-      "model_count": 1
-    },
-    {
-      "id": "baidu:ernie",
-      "provider": "Baidu",
-      "name": "ernie",
-      "model_ids": [
-        "baidu/ernie-4.5-vl-424b-a47b"
       ],
       "model_count": 1
     },
@@ -319,9 +302,19 @@
         "google/gemini-3.5-flash-lite",
         "google/gemini-3.6-flash",
         "google/gemini-3.7-flash",
-        "google/gemini-3.8-flash"
+        "google/gemini-3.8-flash",
+        "google/gemini-4-argon"
       ],
-      "model_count": 20
+      "model_count": 21
+    },
+    {
+      "id": "google:gemini-nano-banana",
+      "provider": "Google",
+      "name": "gemini-nano-banana",
+      "model_ids": [
+        "google/gemini-nano-banana-2.1"
+      ],
+      "model_count": 1
     },
     {
       "id": "google:gemma",
@@ -382,12 +375,10 @@
       "name": "ling",
       "model_ids": [
         "inclusionai/ling-3.0-flash",
-        "inclusionai/ling-3.0-flash-fin",
-        "inclusionai/ling-3.0-flash-sante",
         "inclusionai/ling-3.0-flash-vl",
         "inclusionai/ling-3.1-flash"
       ],
-      "model_count": 5
+      "model_count": 3
     },
     {
       "id": "inference-net:schematron",
@@ -400,22 +391,14 @@
       "model_count": 2
     },
     {
-      "id": "kwaipilot:kat-coder-pro",
-      "provider": "Kwaipilot",
-      "name": "kat-coder-pro",
-      "model_ids": [
-        "kwaipilot/kat-coder-pro-v2.5"
-      ],
-      "model_count": 1
-    },
-    {
       "id": "liquid:lfm",
       "provider": "Liquid",
       "name": "lfm",
       "model_ids": [
-        "liquid/lfm-2.5-2.6b"
+        "liquid/lfm-2.5-2.6b",
+        "liquid/lfm-2.5-24b-a2b"
       ],
-      "model_count": 1
+      "model_count": 2
     },
     {
       "id": "mancer:weaver",
@@ -478,6 +461,15 @@
         "meta/muse-spark-1.3"
       ],
       "model_count": 3
+    },
+    {
+      "id": "meta:muse-wonder",
+      "provider": "Meta",
+      "name": "muse-wonder",
+      "model_ids": [
+        "meta/muse-wonder"
+      ],
+      "model_count": 1
     },
     {
       "id": "microsoft:phi",
@@ -605,9 +597,10 @@
       "model_ids": [
         "mistralai/mistral-large",
         "mistralai/mistral-large-2407",
-        "mistralai/mistral-large-2512"
+        "mistralai/mistral-large-2512",
+        "mistralai/mistral-large-4-0"
       ],
-      "model_count": 3
+      "model_count": 4
     },
     {
       "id": "mistral-ai:mistral-medium",
@@ -1105,10 +1098,9 @@
       "provider": "Qwen",
       "name": "qwen-plus",
       "model_ids": [
-        "qwen/qwen-plus",
-        "qwen/qwen-plus-2025-07-28"
+        "qwen/qwen-plus"
       ],
-      "model_count": 2
+      "model_count": 1
     },
     {
       "id": "qwen:qwen2.5-vl",
@@ -1125,16 +1117,13 @@
       "name": "qwen3",
       "model_ids": [
         "qwen/qwen3-14b",
-        "qwen/qwen3-235b-a22b",
         "qwen/qwen3-235b-a22b-2507",
         "qwen/qwen3-235b-a22b-thinking-2507",
         "qwen/qwen3-30b-a3b",
         "qwen/qwen3-30b-a3b-instruct-2507",
-        "qwen/qwen3-30b-a3b-thinking-2507",
-        "qwen/qwen3-32b",
-        "qwen/qwen3-8b"
+        "qwen/qwen3-32b"
       ],
-      "model_count": 9
+      "model_count": 6
     },
     {
       "id": "qwen:qwen3-coder",
@@ -1165,33 +1154,6 @@
       "model_count": 1
     },
     {
-      "id": "qwen:qwen3-coder-plus",
-      "provider": "Qwen",
-      "name": "qwen3-coder-plus",
-      "model_ids": [
-        "qwen/qwen3-coder-plus"
-      ],
-      "model_count": 1
-    },
-    {
-      "id": "qwen:qwen3-max",
-      "provider": "Qwen",
-      "name": "qwen3-max",
-      "model_ids": [
-        "qwen/qwen3-max"
-      ],
-      "model_count": 1
-    },
-    {
-      "id": "qwen:qwen3-max-thinking",
-      "provider": "Qwen",
-      "name": "qwen3-max-thinking",
-      "model_ids": [
-        "qwen/qwen3-max-thinking"
-      ],
-      "model_count": 1
-    },
-    {
       "id": "qwen:qwen3-next",
       "provider": "Qwen",
       "name": "qwen3-next",
@@ -1207,14 +1169,11 @@
       "name": "qwen3-vl",
       "model_ids": [
         "qwen/qwen3-vl-235b-a22b-instruct",
-        "qwen/qwen3-vl-235b-a22b-thinking",
         "qwen/qwen3-vl-30b-a3b-instruct",
         "qwen/qwen3-vl-30b-a3b-thinking",
-        "qwen/qwen3-vl-32b-instruct",
-        "qwen/qwen3-vl-8b-instruct",
-        "qwen/qwen3-vl-8b-thinking"
+        "qwen/qwen3-vl-8b-instruct"
       ],
-      "model_count": 7
+      "model_count": 4
     },
     {
       "id": "qwen:qwen3.5",
@@ -1264,15 +1223,6 @@
       "name": "qwen3.6-flash",
       "model_ids": [
         "qwen/qwen3.6-flash"
-      ],
-      "model_count": 1
-    },
-    {
-      "id": "qwen:qwen3.6-max",
-      "provider": "Qwen",
-      "name": "qwen3.6-max",
-      "model_ids": [
-        "qwen/qwen3.6-max-preview"
       ],
       "model_count": 1
     },
@@ -1450,11 +1400,20 @@
       "model_count": 1
     },
     {
-      "id": "stealth:space-bunny-alpha",
-      "provider": "Stealth",
-      "name": "space-bunny-alpha",
+      "id": "scaledown:extract",
+      "provider": "Scaledown",
+      "name": "extract",
       "model_ids": [
-        "stealth/space-bunny-alpha"
+        "scaledown/extract"
+      ],
+      "model_count": 1
+    },
+    {
+      "id": "scaledown:summarize",
+      "provider": "Scaledown",
+      "name": "summarize",
+      "model_ids": [
+        "scaledown/summarize"
       ],
       "model_count": 1
     },
@@ -1464,9 +1423,10 @@
       "name": "step",
       "model_ids": [
         "stepfun/step-3.5-flash",
-        "stepfun/step-3.7-flash"
+        "stepfun/step-3.7-flash",
+        "stepfun/step-5-preview"
       ],
-      "model_count": 2
+      "model_count": 3
     },
     {
       "id": "tencent:hunyuan-a13b",
@@ -1566,8 +1526,8 @@
       "provider": "Unbiased",
       "name": "pareto",
       "model_ids": [
-        "unbiased/pareto",
-        "unbiased/pareto-26.10-preview"
+        "unbiased/pareto-26.10-preview",
+        "unbiased/pareto-26.9"
       ],
       "model_count": 2
     },
